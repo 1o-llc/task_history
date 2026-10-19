@@ -73,6 +73,12 @@ is wrapped as `{ diff { ... } }`.
 `tests/fixtures/history` is a copy of the real history this format was made
 for: 60 tasks, 122 revisions, 3,492 records, 2,647 of them changes.
 
+## Releasing
+
+Bump `version` in Cargo.toml and give CHANGELOG.md a dated `## <version> (YYYY-MM-DD)` entry, then push to master.
+CI (`.github/workflows/ci.yml`) tests on stable and Rust 1.85, runs clippy, and publishes to crates.io
+through trusted publishing; a version already on crates.io, or an entry still marked `(unreleased)`, publishes nothing.
+
 ## Ownership
 
 Developed and published by James Hunt. The repository is held by the 1o organization
