@@ -73,4 +73,10 @@ is wrapped as `{ diff { ... } }`.
 `tests/fixtures/history` is a copy of the real history this format was made
 for: 60 tasks, 122 revisions, 3,492 records, 2,647 of them changes.
 
+## Ownership
+
+Developed and published by James Hunt. The repository is held by the 1o organization
+(https://github.com/1o-llc). Assignment of the copyright to 1o is pending documentation. The license texts
+(LICENSE-MIT, LICENSE-APACHE) are left as they were found.
+
 License: MIT OR Apache-2.0

@@ -8,7 +8,7 @@ description = "Typed 1o task-history records: a task's revisions (base, fix1, ..
 keywords = ["1o", "history", "task", "diff", "records"]
 categories = ["development-tools"]
 authors = ["James Hunt <james@1o.business>"]
-repository = "https://github.com/jameshuntt/task_history"
+repository = "https://github.com/1o-llc/task_history"
 readme = "README.md"
 include = ["src/**", "schema/**", "Cargo.toml", "LICENSE*", "README*", "CHANGELOG*"]
 

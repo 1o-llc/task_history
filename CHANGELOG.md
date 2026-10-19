@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.0 (2026-10-19)
 
 The task-history loader from the world-modeling tree's
 `world_model_task_history_core`, as a crate of its own, with a writer.
