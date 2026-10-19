@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 3
+  problem "The existing graph correctly separates stable semantic IDs from layout, but its highest-level runtime still uses a local arena and generic edge vectors, leaving the real PTR collections, SmartPin memory prophecy, observable wake runtime, producer-consumer scheduler, and actual immutable_ledger_kit and One_DB storage runtimes disconnected from cognition."
+}

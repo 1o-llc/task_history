@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 25
+  path "history/000024_quantized_route_gadget_11d/base/v1.intent.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "6432fcf79166b3a43d06540bd234843958882b8fc916b460586f053d3689a270"
+}

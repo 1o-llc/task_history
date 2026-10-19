@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 117
+  path "history/000052_chemistry_formula_roles_phase_s2/fix1/v1.solution.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "7520f013886886a30ef0e94c3cd0853e9f7ca53d155e3b1d41b85548de0ba52c"
+}

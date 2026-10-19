@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_graph_construction_phase_b"
+  revision "fix2"
+  sequence 3
+  problem "The shared semantic substrate assigns pronouns the broad ReferenceLike shape, including interrogative pronouns such as what and who. It also assigns TemporalOperator to when. Fix1 treated those shapes as strong prior-context evidence, so an unrelated explicit question could inherit the preceding turn."
+}

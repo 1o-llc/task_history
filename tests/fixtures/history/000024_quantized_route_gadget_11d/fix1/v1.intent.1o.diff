@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "quantized_route_gadget_11d"
+  revision "fix1"
+  sequence 2
+  intent "Make the accepted 11D decomposition guarantee mechanically self-enforcing for every future route gadget: reconstruct callable identity from the canonical functional-thought constructor, compile the candidate before promotion, compare the stored flag with the recomputed property, and reject consistently resealed nested tampering without changing the accepted route or its deterministic behavior."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 5
+  solution "Add a Phase K request-role predicate that resolves each ranked language item back to its accepted DomainSpanHypothesis and permits LanguageToMath/LanguageToChemistry bridge selection only when statement_role=request. Preserve all other K bridge rules. Add the exact held-out false-positive sentence to K negative regressions. Leave the six Phase U tests, 28-case catalog, policy thresholds, report core, T routes, chemistry semantics, and evaluation-only authority byte-identical."
+}

@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "chemistry_charge_inventory_phase_s5"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "abdaa0f7572a4725e8e2138d1074acc9099e10b4c88883930d5ea88fa56d79b7"
+}

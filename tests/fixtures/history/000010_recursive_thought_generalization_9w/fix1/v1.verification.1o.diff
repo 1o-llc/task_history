@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_generalization_9w"
+  revision "fix1"
+  sequence 16
+  check "mac_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-07-29: accepted 9V Fix5 parent gate passed; all 24 focused 9W real-program cross-domain tests passed; terminal typed history passed; the live lab used three distinct real prior source programs (algebra, constructive proof, dependent API), preserved all sources, achieved exact boundary equivalence, rejected all overfit controls, reduced costs 22->6, 16->5, and 41->9, kept condensations non-destructive, restored the 9W checkpoint exactly, claimed no LLM/proof authority, left prior durable state unchanged, and emitted final PASS world_model_recursive_thought_generalization_v1 ok."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix1"
+  sequence 5
+  solution "Move all 31 base 11C change documents directly into the base revision, add Fix1 semantic and terminal change documents directly in fix1, update the history index and affected manifests, and add a no-nested-revision-directory acceptance gate. Dynamic escalation, identity-seeded critic behavior, functional programs, tournaments, scheduler authority, verification, and the 74 focused tests remain unchanged."
+}

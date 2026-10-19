@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_composition_9v"
+  revision "base"
+  sequence 2
+  intent "Represent every reusable thought as a recursively decomposable composition of bounded functional units so a composite such as derive moles can expose smaller semantic sublayers, be locally fine tuned or reconstructed at any depth, and become eligible for proof-preserving condensation without deleting or directly mutating the canonical flat thought."
+}

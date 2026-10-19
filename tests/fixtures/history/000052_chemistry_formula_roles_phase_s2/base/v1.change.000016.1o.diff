@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "base"
+  sequence 116
+  path "tools/ecosystem/world_model_chemistry_formula_roles_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "d3d26d3c92afbba929f8e3eb2500d35acc9fc284bb391468ca1134370af4ea46"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 64
+  path "WORLD_MODEL_IDENTITY_SEED_SELF_STATE_V1_STATIC_VALIDATION.md"
+  operation "remove"
+  before_digest "8b376481658def9ba40db2ce9fe19faf8cbeae371fdbfe95983e6f7be1d851c9"
+  after_digest "none"
+}

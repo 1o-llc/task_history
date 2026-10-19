@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix4"
+  sequence 3
+  problem "The Fix3 prompt required every proposal to contain a non-empty local verification plan, but the integration contract searched for the exact sentence Every proposal must include a local verification plan. The semantic boundary was present, yet the wording mismatch stopped the 40-test Mac acceptance after 39 passing tests."
+}

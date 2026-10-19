@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "integrated_cognitive_campaign_12a"
+  revision "base"
+  sequence 14
+  path "INTEGRATED_COGNITIVE_CAMPAIGN_12A_11F_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "a561e26558584feb8e416880d7676128fbc812881f8938ef7a94b6dee36edfd5"
+}

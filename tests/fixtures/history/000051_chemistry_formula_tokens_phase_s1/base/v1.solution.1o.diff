@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "chemistry_formula_tokens_phase_s1"
+  revision "base"
+  sequence 5
+  solution "Add the isolated world_model_chemistry_formula_tokens_core crate with the 118 canonical element symbols, strict ASCII/capitalization validation, deterministic formula lexemes, SourceSpanId provenance, typed deferred-later-phase errors, immutable deterministic observation state/checkpoint replay, five focused tests, a policy/materials boundary, cumulative runner, manifests, and typed task history. Preserve all accepted A-R behavior and retain selected older chemistry-parser regressions without claiming their semantics as Phase S1 functionality."
+}

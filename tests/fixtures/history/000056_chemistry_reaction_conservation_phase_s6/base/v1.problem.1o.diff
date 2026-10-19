@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 3
+  problem "S4 and S5 can describe each individual formula term, but the current rulebook cannot yet prove whether all supplied reactant and product terms conserve each element and net charge across the reaction boundary."
+}

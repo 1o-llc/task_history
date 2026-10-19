@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "construction_tournament_phase_q"
+  revision "base"
+  sequence 2
+  intent "Rank complete parse/domain/shape/route-plan candidates with inspectable, lineage-deduplicated evidence while allowing only plausible winners to become eligible for later execution and never converting score into proof."
+}

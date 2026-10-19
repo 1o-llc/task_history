@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "self_directed_learning_9q"
+  revision "fix1"
+  sequence 18
+  check "mac_acceptance"
+  outcome "pass"
+  note "2026-07-29 Mac acceptance: 40 passed, 0 failed; task-history terminal-tree regression passed; world round advanced 10 to 11; fragment round advanced 23 to 34; held-out self-directed practice verified; world, fragment, and self-state replay restored exactly; both final PASS markers observed."
+}

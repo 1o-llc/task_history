@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 4
+  diagnosis "Both failures are local Rust interface defects rather than graph-runtime design failures. Trait methods require the defining trait in lexical scope and the crate must declare the dependency directly; thiserror display placeholders require Display on the wrapped stable identifier."
+}

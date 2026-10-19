@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "source_investigation_9t"
+  revision "fix1"
+  sequence 3
+  problem "Mac 9T base compiled and passed 64 of 65 tests, but hard_memory_pressure_blocks_curiosity_commit failed because hard memory pressure blocked every background source-study candidate while Idle remained lease-free and admissible; 9T then committed that Idle winner as a source-investigation intent."
+}

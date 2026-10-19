@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix5"
+  sequence 4
+  diagnosis "The prompt and consent boundary are not sufficient if the transport decoder stops after parsing the complete stdout buffer once. The decoder must enumerate bounded candidate regions across both streams, reconstruct common Ollama wrappers and chunks, recursively unwrap text payloads, retain strict schema validation, and provide one bounded re-emission attempt only when scanning finds no admissible candidate."
+}

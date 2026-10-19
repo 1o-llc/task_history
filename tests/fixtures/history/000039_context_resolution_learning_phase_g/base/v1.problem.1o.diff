@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_resolution_learning_phase_g"
+  revision "base"
+  sequence 3
+  problem "The accepted context pipeline can now construct, reference, rank, clarify, execute, and independently verify an interpretation, but it does not yet retain bounded evidence about which interpretations were verified, explicitly rejected, or associated with execution failure. Without a typed scoped episode ledger, later turns cannot learn from verified/rejected context resolution without risking accidental global promotion or private transcript persistence."
+}

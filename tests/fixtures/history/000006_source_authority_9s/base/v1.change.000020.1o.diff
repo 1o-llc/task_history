@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 25
+  path "tools/ecosystem/world_model_source_authority_core/examples/source_authority_lab.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "b8e4d1314742b49e89e3131e8e85552709865dc6e2a37f9b43d796b232f93dc4"
+}

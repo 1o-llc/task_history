@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "base"
+  sequence 2
+  intent "Preserve constructable functional operators as the primary reasoning substrate while making escalation dynamic: use verified existing functional programs first, invoke the visible 11B KG primitive only for unresolved gaps, request an LLM recipe only after existing and KG routes remain unresolved, and permit a bounded identity-seeded KG critic to inspect confidence, contradictions, prerequisites, close tournaments, and spare-capacity novelty without replacing verification."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 260
+  path "tools/ecosystem/scripts/run_world_model_post_context_i_u_milestone_closeout_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "9522c155b8f877868463a723656b2533289e22de1e054cbe04ceaf55d1d32b37"
+}

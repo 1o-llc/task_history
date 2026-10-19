@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_graph_construction_phase_b"
+  revision "base"
+  sequence 3
+  problem "Phase A proved the immutable lower-authority schema but intentionally created no context from actual language. The next bounded gap is to translate existing token, POS, statement-shape, proposition, unresolved, semantic-domain, and discourse evidence into inspectable context records while preserving ambiguity and authority boundaries."
+}

@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "domain_span_lattice_phase_j"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "4d0883ca82f3e6c511bd1aa5b7642ee14a5966f84444d3854d5f222212cd7247"
+}

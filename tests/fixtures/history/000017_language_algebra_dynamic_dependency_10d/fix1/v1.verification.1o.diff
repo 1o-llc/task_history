@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "fix1"
+  sequence 6
+  check "mac_10d_fix1_end_to_end_acceptance"
+  outcome "pass"
+  note "Mac evidence: accepted 10C parent re-proved 68/68; 10D Fix1 passed 86/86 focused tests including fine-grained tournament-cost resolution; 12/12 training and 12/12 heldout variable-size graphs solved for 4, 5, and 6 variables; all expected vectors matched; every original constraint rechecked; multiple recursive orders observed; 10C and 10B inherited tournaments executed; six schemas accepted and used; checkpoint/restart exact; no authority leakage; final runner PASS."
+}

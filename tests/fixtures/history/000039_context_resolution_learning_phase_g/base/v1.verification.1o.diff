@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_resolution_learning_phase_g"
+  revision "base"
+  sequence 6
+  check "mac_context_resolution_learning_phase_g_focused_acceptance"
+  outcome "fail"
+  note "Mac run 2026-08-08 verified the package SHA, Phase G sole-candidate gate, 1,393-path typed-history preflight, isolated Phase G test dependency compile, accepted/Phase G workspace compile, all accepted Phase A-E regressions, all four specialized raw-question execution regressions, and all eight Phase F tests. The focused Phase G suite then ran 8 tests: 5 passed and 3 failed. raw_private_conversation_text_is_not_persisted and phase_g_has_no_global_promotion_authority_and_preserves_existing_external_references failed while serializing non-empty ContextResolutionLearningState with serde_json error 'key must be a string'; resolution_episode_replay_and_checkpoint_restore_are_exact failed with ContextResolutionLearningError::Serialization('key must be a string'). This isolates the failure to JSON persistence of the typed BTreeMap<ScopedInterpretationKey, ScopedInterpretationWeight>; the five non-serialization learning-policy tests passed. Phase G base is not accepted."
+}

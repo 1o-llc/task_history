@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "conversational_chat_ui_12f"
+  revision "fix6"
+  sequence 18
+  path "tools/ecosystem/scripts/run_world_model_conversational_chat_ui_v1.sh"
+  operation "modify"
+  before_digest "75fffc3fe3c351f710147695855f48fb642900cbf5ca3f763a8a72fb288ee3e0"
+  after_digest "f2645adda908d952b1a0db623432adba8cdc847eedff98055f4a52eb45377c60"
+}

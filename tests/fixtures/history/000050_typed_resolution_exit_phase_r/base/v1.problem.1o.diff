@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "typed_resolution_exit_phase_r"
+  revision "base"
+  sequence 3
+  problem "Phase Q can rank a construction and Phase P can expose route gaps, but the post-context architecture still needs a durable typed boundary that distinguishes missing quantity, missing fact, missing operator, unit conflict, and verifier disagreement and can reconnect a clarification response to the exact original route."
+}

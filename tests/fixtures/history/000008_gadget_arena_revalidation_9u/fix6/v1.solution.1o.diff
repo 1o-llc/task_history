@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix6"
+  sequence 5
+  solution "Add verify_completed_gadget_revalidation to validate durable resume evidence across the latest material change, blast radius, arena journal, and exact verifier receipt coverage; add positive and negative regressions; make the live lab derive pending needs before planning; enter a non-mutating verified-existing-completion path only when that strict evidence succeeds; otherwise run normal scoped maintenance and report explicit admission/active-intent diagnostics if unresolved work cannot be selected."
+}

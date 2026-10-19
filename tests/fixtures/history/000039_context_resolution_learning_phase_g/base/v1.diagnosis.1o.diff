@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_resolution_learning_phase_g"
+  revision "base"
+  sequence 4
+  diagnosis "Phase G should treat Phase F local verification as the only source of positive interpretation credit, explicit user rejection as negative interpretation evidence, and failed/capability-gap execution as a retained zero-credit episode rather than inferred success. Learning keys must include an explicit conversation/task/principal scope plus an opaque interpretation digest; there must be no global scope, durable promotion gate, LLM authority, factual-KG mutation, or raw private text field."
+}

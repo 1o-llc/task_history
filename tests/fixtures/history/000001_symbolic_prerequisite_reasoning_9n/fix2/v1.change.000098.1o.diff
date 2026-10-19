@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 103
+  path "WORLD_MODEL_SOLUTION_STOICHIOMETRY_9G.md"
+  operation "remove"
+  before_digest "4405b9de5a042c8a5a86e5f75bf094ea72cb841d65e031413ede08e8e42d51e6"
+  after_digest "none"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "base"
+  sequence 3
+  problem "9X can safely deploy, monitor, and rollback a verified local rewrite, but a human still implicitly chooses what deserves tuning. The system lacks a proof that real route usage can generate optimization candidates, that budget/backpressure and active work can veto voluntary tuning, that idle can win, and that a target changes when usage evidence changes rather than being named in configuration."
+}

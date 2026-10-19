@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 1
+  title "Phase S6 reaction-side atom and charge conservation"
+  parent_milestone "chemistry_charge_inventory_phase_s5_v1_mac_accepted"
+  status "accepted"
+  tag "reaction_side_atom_conservation"
+  tag "reaction_side_charge_conservation"
+  tag "independent_conservation_results"
+  tag "s4_s5_provenance"
+  tag "balancing_t_closed"
+  tag "focused_tests_only"
+}

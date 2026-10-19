@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix10"
+  sequence 4
+  diagnosis "Provider lifecycle is an explicit user-interface boundary, not reasoning authority. A consented candidate request should probe installation, API readiness, and model inventory; ask before starting an installed stopped provider; never install software or download a model silently; and preserve structured stdout-only parsing. Progressive rendering should expose truthful coarse stages and remain disableable."
+}

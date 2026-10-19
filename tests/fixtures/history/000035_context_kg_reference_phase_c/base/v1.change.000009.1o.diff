@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 16
+  path "CONTEXT_KG_REFERENCE_PHASE_C_IMMUTABLE_PARENT_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "a0a9d08e99ef0b80c46bc100cd4af29d023f8be15d2a66179ee444239e156cca"
+}

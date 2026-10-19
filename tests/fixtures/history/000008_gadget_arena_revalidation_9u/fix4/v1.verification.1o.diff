@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix4"
+  sequence 21
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac Fix4 proved the complete 9U functional contract green at 62/62, then the separate task-history terminal-tree test failed before the live arena because two older failed-revision result records used symbolic failure labels where the immutable 9P result schema permits only a SHA-256 tree digest or pending."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix5"
+  sequence 5
+  solution "Add ANSI, fence, balanced object-and-array, NDJSON, wrapper, stdout, stderr, and combined-stream recovery; continue past malformed JSON regions; expose bounded diagnostics; and perform one JSON-only candidate re-emission call under the original explicit consent. Preserve strict response validation, local candidate assessment, operator and verification-plan requirements, configurable prompt constraints, and immutable accepted reasoning source."
+}

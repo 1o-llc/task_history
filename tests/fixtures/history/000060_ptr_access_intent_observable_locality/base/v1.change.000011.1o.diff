@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 278
+  path "tools/ecosystem/ptr_access_policy_runtime/tests/keyed_access.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "b2fd25307d8823fab8535ef187966e8f9fca6211c517e22e560ea9b0aad406e3"
+}

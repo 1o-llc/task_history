@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_execution_verification_phase_f"
+  revision "base"
+  sequence 6
+  check "mac_context_execution_verification_phase_f_focused_acceptance"
+  outcome "fail"
+  note "Mac run 2026-08-08 verified the package SHA, accepted Phase E gate, sole-candidate gate, and 1,347-path typed-history preflight. Cargo then failed before the Phase F Rust execution/verification suite with: multiple workspace roots found in the same workspace: tools/ecosystem/world_model_raw_question_interface_core and the repository root. This was caused by registering the new Phase F crate in the root workspace while it directly depended on the already-isolated raw-question workspace. No Phase F execution/verification Rust test result or acceptance was established by this run."
+}

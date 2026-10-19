@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "chemistry_atom_inventory_phase_s4"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "283e7981c8fe6cc10a1509ee947a548d683e14e0a8a404e7732bba258a068fd1"
+}

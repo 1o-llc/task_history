@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 3
+  problem "The terminal Phase U Fix1 has a real Mac PASS receipt, but the cumulative archive still records that revision as candidate and lacks one explicit milestone boundary separating proven behavior from unproven future work."
+}

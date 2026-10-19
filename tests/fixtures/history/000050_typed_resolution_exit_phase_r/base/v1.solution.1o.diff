@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "typed_resolution_exit_phase_r"
+  revision "base"
+  sequence 5
+  solution "Add world_model_typed_resolution_exit_core with ResolutionConstructionRef, typed failure signals, ResolutionExitKind/Receipt, clarification binding to Phase E, exact-route resume receipt, deterministic checkpoint replay, focused mappings for MissingFact/MissingOperator/UnitMismatch/VerificationDisagreement, and six acceptance tests including exact task/route resume."
+}

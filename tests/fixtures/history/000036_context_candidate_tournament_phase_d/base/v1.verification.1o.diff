@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 6
+  check "mac_context_candidate_tournament_phase_d_focused_acceptance"
+  outcome "fail"
+  note "Mac run 2026-08-07 verified the package SHA, accepted Phase C gate, sole-candidate gate, and 1,296-path typed-history preflight. All 10 Phase A context tests and the focused ordinary-pronoun analyzer test passed. Compilation then failed in crates.io zune-jpeg 0.5.15 at src/mcu_prog.rs:463 because warn!(RST marker was not found...) occupied a tail-expression position while the no-log macro expansion was statement-only. Phase B, Phase C, and Phase D Rust suites did not execute in this run, so no Phase D tournament test result or acceptance was established."
+}

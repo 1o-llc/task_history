@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix4"
+  sequence 4
+  diagnosis "This is a localized prompt-contract mismatch rather than a failure of editable constraints, receipt context, JSON repair, candidate assessment, consent, concept grounding, or the accepted reasoning parent. The safest repair is to express the verification-plan and operator-chain obligations as two explicit sentences and guard the exact sentence before Cargo runs."
+}

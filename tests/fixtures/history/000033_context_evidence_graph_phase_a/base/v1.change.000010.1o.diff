@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 17
+  path "tools/ecosystem/world_model_context_evidence_graph_core/tests/context_evidence_graph.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "41a3791062b83274ecf26c5eda388b5d64c1ef801f9833a185ba46efeced1740"
+}

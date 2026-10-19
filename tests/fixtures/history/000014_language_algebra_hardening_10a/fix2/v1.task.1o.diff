@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_hardening_10a"
+  revision "fix2"
+  sequence 1
+  title "10A downstream-safe parent history integrity repair"
+  parent_milestone "10a_fix1"
+  status "accepted"
+  tag "history_integrity"
+  tag "parent_gate"
+  tag "downstream_safe"
+  tag "mac_retest"
+}

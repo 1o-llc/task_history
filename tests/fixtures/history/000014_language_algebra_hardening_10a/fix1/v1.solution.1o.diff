@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_hardening_10a"
+  revision "fix1"
+  sequence 5
+  solution "Keep c.family == family as the guard, move formatting of AlgebraStatement::Equation(schema_eq) into the successful arm body, and count an empty formatted equation as a schema failure. Preserve all 10A policy, corpus, proof-kernel, tournament, promotion, fallback, checkpoint, and 53-test behavior unchanged."
+}

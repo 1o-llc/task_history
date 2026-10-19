@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "construction_tournament_phase_q"
+  revision "base"
+  sequence 3
+  problem "Phase P can construct typed routes but cannot compare alternative parses, domain segmentations, shapes and routes using one evidentiary protocol. Without a tournament, duplicated evidence could inflate confidence, assumptions could be hidden, LLM provenance could be mistaken for authority, and score could be confused with verification."
+}

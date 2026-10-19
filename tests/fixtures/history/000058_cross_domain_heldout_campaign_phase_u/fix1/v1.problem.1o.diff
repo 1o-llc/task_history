@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 3
+  problem "Phase K selected language hypotheses by aggregate score alone. In the held-out sentence The water bottle beside the notebook is blue., three low-weight grammatical function words accumulated language score above LANGUAGE_MIN while water supplied strong chemistry evidence, creating a false LanguageToChemistry request-target bridge even though the sentence contained no request intent. This caused Phase U bridge accuracy to miss its unchanged gate."
+}

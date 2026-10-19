@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "chemistry_formula_composition_phase_s3"
+  revision "base"
+  sequence 3
+  problem "S1/S2 can validate flat element syntax and roles but cannot yet represent grouped formulas such as Ca(OH)2 or nested compositions, nor produce one exact canonical structural representation for equivalent accepted spellings."
+}

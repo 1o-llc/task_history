@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_dependency_10c"
+  revision "base"
+  sequence 1
+  title "10C three-variable dependency algebra planning and heldout transfer"
+  parent_milestone "10b_fix1"
+  status "candidate"
+  tag "language_algebra"
+  tag "three_variables"
+  tag "dependency_graph"
+  tag "hierarchical_elimination"
+  tag "heldout_transfer"
+}

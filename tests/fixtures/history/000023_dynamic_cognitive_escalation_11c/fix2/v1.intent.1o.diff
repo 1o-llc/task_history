@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix2"
+  sequence 2
+  intent "Restore the exact Mac-accepted 10F functional-parent manifest closure required by the inherited 10G gate, preserve the canonical direct-only typed-history layout, and leave all 74 dynamic-escalation and identity-seeded KG-critic tests unchanged."
+}

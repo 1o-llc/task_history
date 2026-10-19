@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "source_investigation_9t"
+  revision "fix1"
+  sequence 1
+  title "9T idle fallback commitment guard"
+  parent_milestone "9t_base"
+  status "accepted"
+  tag "curiosity"
+  tag "thought_budget"
+  tag "hard_memory_pressure"
+  tag "fail_closed"
+}

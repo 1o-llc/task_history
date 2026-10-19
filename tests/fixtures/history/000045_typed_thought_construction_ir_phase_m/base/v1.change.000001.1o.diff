@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_thought_construction_ir_phase_m"
+  revision "base"
+  sequence 8
+  path "NODEPLAN_WORLD_MODEL_TYPED_THOUGHT_CONSTRUCTION_IR_PHASE_M.md"
+  operation "add"
+  before_digest "none"
+  after_digest "164bc4e6a87717a1f03ca18e9a8fc4946339c4192aeecba4b22f09014ef23509"
+}

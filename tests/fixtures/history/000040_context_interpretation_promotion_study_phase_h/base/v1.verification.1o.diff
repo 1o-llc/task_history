@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 6
+  check "mac_context_interpretation_promotion_study_phase_h_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-09: package SHA verified; typed-history preflight passed at 1426 tracked paths; Phase H isolated test dependency graph and workspace-boundary compile proofs passed; all accepted Phase A-G regressions remained green, including 10 Phase A, the ordinary-pronoun analyzer proof, 9 Phase B, 8 Phase C, 8 Phase D, 8 Phase E, four specialized arithmetic/rate/unit/chemistry executions, 8 Phase F, and 9 Phase G tests; all 8 of 8 focused Phase H held-out promotion-study tests passed, covering all ten required failure classes, insufficient cross-scope rejection, repeated verified held-out improvement, stale-context and adversarial-LLM traps, verification/recall rejection, negative-evidence cancellation, exact checkpoint roundtrip, raw-private-text exclusion, and no production/global promotion; terminal typed-history Rust test passed; all final Phase H PASS markers printed."
+}

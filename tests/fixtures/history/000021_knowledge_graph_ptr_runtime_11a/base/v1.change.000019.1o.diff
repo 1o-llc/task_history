@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 26
+  path "infra/low_level/paged_storage_runtime/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "197b11134e3b50b689835062c16b8980c48e9d6c1bd638da97141212b0573228"
+}

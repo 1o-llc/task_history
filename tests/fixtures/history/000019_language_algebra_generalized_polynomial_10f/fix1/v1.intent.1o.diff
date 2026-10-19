@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the three malformed Rust assertion diagnostic arguments exposed by the Mac compiler while preserving all 10F polynomial, rational-domain, inherited-proof, promotion, and durability semantics unchanged."
+}

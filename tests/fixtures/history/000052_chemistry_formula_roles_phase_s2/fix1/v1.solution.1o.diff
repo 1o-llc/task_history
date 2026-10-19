@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 5
+  solution "Change only the charge_suffix map closure signature to |parsed| -> Result<ChargeRole, ChemistryFormulaRoleError>. Leave Cargo.toml, the five S2 focused tests, S2 policy, S1 lexer, role grammar, ambiguity rules, and all S3-S6/T and execution authority boundaries unchanged; then rerun the complete S2 acceptance chain."
+}

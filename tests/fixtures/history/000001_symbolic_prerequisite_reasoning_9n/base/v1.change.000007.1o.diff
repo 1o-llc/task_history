@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "base"
+  sequence 10
+  path "materials/symbolic_prerequisite_reasoning_v1/relationship_contract.tsv"
+  operation "add"
+  before_digest "none"
+  after_digest "beee180a4c35c072ddc44cf1f75f9611412706dd1e3cda45617861ed8ba3b396"
+}

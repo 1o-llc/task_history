@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "domain_span_lattice_phase_j"
+  revision "base"
+  sequence 2
+  intent "Use the accepted Phase I immutable span schema to construct a deterministic local lattice of overlapping token, phrase, clause, unit, entity, and formula spans; derive and rank local domain hypotheses from bounded lexical/structural rules without an LLM; and retain unfamiliar spans explicitly unresolved rather than deleting them."
+}

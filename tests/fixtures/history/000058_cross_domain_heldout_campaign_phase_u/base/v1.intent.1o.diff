@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "base"
+  sequence 2
+  intent "Run the roadmap closeout campaign across arithmetic, language variation, chemistry parsing/conservation/stoichiometry, context and prior-turn behavior, multi-step cross-domain routing, irrelevant text, domain shifts, ambiguity, adversarial LLM proposals, and stale-context traps; compute the eleven required metrics from real accepted-component receipts; compare bounded paired-case verified coverage against the pre-post-context raw interface; and add no production, learning, factual, context-mutation, provider, or broad-general-reasoning authority."
+}

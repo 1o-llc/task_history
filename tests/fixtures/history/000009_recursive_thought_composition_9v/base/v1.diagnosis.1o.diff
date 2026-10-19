@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_composition_9v"
+  revision "base"
+  sequence 4
+  diagnosis "The safe next abstraction is not to replace the flat functional-thought IR. It is to add a strict recursive tree whose leaves cover the exact canonical flat units once and in canonical order. Recursive composites then become semantic isolation and tournament boundaries while the already-proven flat program remains the executable fallback."
+}

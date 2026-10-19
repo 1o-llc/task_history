@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "functional_route_planner_phase_p"
+  revision "base"
+  sequence 5
+  solution "Add a local typed OperatorCatalog, deterministic bounded route search, inspectable ExpansionAttempt records, typed step validation through the accepted Phase M operator-contract checker, cycle/dominated-state rejection, BudgetExhausted and explicit MissingOperator planning outcomes, deterministic plan checkpoint/replay, and an adapter that reconstructs the accepted arithmetic evaluation route without executing a new solver."
+}

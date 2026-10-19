@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 4
+  diagnosis "This is a manifest-boundary defect, not a Phase R Rust logic defect. Accepted Phase F and post-context Phase I-Q crates that are invoked through --manifest-path declare their own [workspace] with resolver = 2, preventing Cargo from inheriting the repository root workspace. Phase R accidentally omitted that established boundary."
+}

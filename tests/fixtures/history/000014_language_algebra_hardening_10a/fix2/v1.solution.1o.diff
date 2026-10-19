@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_hardening_10a"
+  revision "fix2"
+  sequence 5
+  solution "Add a snapshot-manifest verifier to the 9Z and 10A checkers that requires exactly one global history-index entry, excludes only that entry from frozen snapshot checksum verification, and leaves every other manifest line strict. Keep the global history index in the snapshot as provenance, but validate its live value through the existing typed-history preflight and terminal-history Rust test. Update the parent/source manifests and lineage without changing 10A reasoning behavior."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_execution_verification_phase_f"
+  revision "base"
+  sequence 3
+  problem "The accepted A-E context chain can construct, enrich, rank, clarify, and resume a candidate, but it intentionally cannot execute or verify that resolved construction. Phase F must cross that boundary without treating selection, KG references, or LLM evidence as answer authority."
+}

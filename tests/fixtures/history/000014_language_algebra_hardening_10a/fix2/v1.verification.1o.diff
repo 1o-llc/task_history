@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_hardening_10a"
+  revision "fix2"
+  sequence 6
+  check "mac_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-07-29: the downstream-safe 9Z parent gate passed; accepted 9Z re-proved 42/42 closed-loop tests and terminal typed history; all 53 focused 10A tests and terminal history passed; live 10A solved all 12 training and 12 heldout problems across six families, promoted six exact lower-cost family schemas, rejected all overfit controls, exercised distribution/variable balancing/coefficient scaling, restored and replayed exactly, preserved prior durable state, claimed no LLM/proof authority, and emitted final PASS world_model_language_algebra_hardening_v1 ok."
+}

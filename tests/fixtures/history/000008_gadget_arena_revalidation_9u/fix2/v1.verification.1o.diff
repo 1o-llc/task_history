@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix2"
+  sequence 20
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac acceptance passed all 59 gadget-arena regressions and terminal task-history verification, then the live lab stopped with 9U requires committed revalidation curiosity because the global voluntary-curiosity winner was not guaranteed to be the required blast-radius maintenance need."
+}

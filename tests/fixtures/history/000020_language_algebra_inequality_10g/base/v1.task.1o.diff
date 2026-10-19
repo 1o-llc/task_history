@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 1
+  title "10G inequality interval and sign-chart transfer"
+  parent_milestone "10f_fix1"
+  status "accepted"
+  tag "inequality"
+  tag "intervals"
+  tag "sign_chart"
+  tag "rational_domain"
+  tag "mac_accepted"
+}

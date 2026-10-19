@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 14
+  path "LANGUAGE_ALGEBRA_GENERALIZED_10F_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "354821fb2b0d2b7645d8cf345e3f665713554fecf1358ef1ea18329b0d54fe46"
+  after_digest "ed385be6b4fb67c672e6fcdadb138eb3fcf561b447a0a881499c1968fa91ca77"
+}

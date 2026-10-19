@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix1"
+  sequence 2
+  intent "Repair only 10E's adapter to the already-existing thought-budget API so nonlinear schema promotion uses the same current admission contract as 10A through 10D, without changing polynomial construction, factorization, root proof, semantic filtering, or parent behavior."
+}

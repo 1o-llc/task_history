@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix1"
+  sequence 6
+  check "mac_11e_fix1_seeded_zero_player_dream_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-30 passed the recursive parent-manifest preflight, complete 10G through 11D Fix1 parent revalidation, and 50 of 51 focused 11E tests. The sole failure was local_policy_work_bound_defers_evolution: the runtime correctly chose DeferredScheduler with reason dream_policy_work_bound and did not evolve, but DreamCycleReceipt::validate incorrectly rejected the truthful predicted work_units because they exceeded the same local bound that caused deferral."
+}

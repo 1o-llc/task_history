@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 6
+  check "structural_ptr_access_intent_observable_locality_v1"
+  outcome "pending"
+  note "Delivered as candidate per repository convention; the accepted state requires the user's Mac acceptance run of check_world_model_ptr_access_intent_observable_locality_v1.sh. Implementing-environment evidence on Apple Silicon (arm64): all 15 frozen parent PTR/observable files byte-identical to the closeout hashes, closeout immutable-parent/source/materials manifests re-verified, 46 focused tests green across policy/keyed/paged/observable/backend-equivalence suites with the AArch64 specialization executed, frozen-parent regressions green (tagged_ptr_core, ptr_collections, ptr_dispatch, observable_wake_runtime, world_model_knowledge_graph_ptr_runtime_core ptr_knowledge_graph), typed-history terminal tree reconstruction green, and release-assembly diagnostic showing pldl1keep/pldl1strm/ldnp/stnp forms in the specialized kernels. No benchmark timing gates the functional result."
+}

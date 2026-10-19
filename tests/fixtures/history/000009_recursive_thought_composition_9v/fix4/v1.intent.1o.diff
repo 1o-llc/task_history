@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_composition_9v"
+  revision "fix4"
+  sequence 2
+  intent "Keep 9V frozen until 9U Fix7 proves its shared intent/activity lifecycle across restart, then execute the existing recursive-thought contract-equivalence repair without bypassing the parent."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 64
+  path "tools/ecosystem/engines/recipe/crates/file_recipe_runtime/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "645374b13004b6615621b2c971f0bc6be85715e37db386dfe1691bc6267ffcd9"
+}

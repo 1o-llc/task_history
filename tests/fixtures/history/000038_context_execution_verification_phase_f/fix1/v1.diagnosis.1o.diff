@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_execution_verification_phase_f"
+  revision "fix1"
+  sequence 4
+  diagnosis "The accepted raw-question and chat crates already establish the correct repository pattern: user-facing/integration crates that cross the raw-question boundary are isolated Cargo workspaces and are invoked by manifest path. The Phase F base violated that existing boundary; its Rust logic did not fail."
+}

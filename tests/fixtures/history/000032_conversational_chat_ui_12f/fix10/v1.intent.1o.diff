@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix10"
+  sequence 2
+  intent "Make the native UI a dependable experimentation surface by detecting Ollama installation, service readiness, and selected-model availability; requesting explicit approval before starting a stopped local provider; and progressively rendering visible stages without changing reasoning semantics."
+}

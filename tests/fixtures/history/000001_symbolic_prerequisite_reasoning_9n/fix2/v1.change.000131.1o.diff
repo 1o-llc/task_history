@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 136
+  path "docs/planning/LINGUISTIC_ARTIFACT_MATRIX_V1.md"
+  operation "remove"
+  before_digest "857b3cacad24396ecb060af0871d0182c83c4e8ac0a61b13996e8536afce5e3d"
+  after_digest "none"
+}

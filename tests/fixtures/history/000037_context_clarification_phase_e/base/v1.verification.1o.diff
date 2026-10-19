@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_clarification_phase_e"
+  revision "base"
+  sequence 6
+  check "mac_context_clarification_phase_e_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-08: package SHA verified; typed-history preflight passed at 1329 tracked paths; the zune-jpeg compatibility compile proof passed; all 10 accepted Phase A tests passed; the ordinary-pronoun analyzer proof passed; all 9 accepted Phase B Fix3 tests passed; all 8 accepted Phase C tests passed; all 8 accepted Phase D Fix1 tests passed; all 8 of 8 focused Phase E clarification/suspension tests passed including minimal separating question, correct slot filling, attachment to the original suspended task, rerunning the same tournament with user-clarification evidence, unmatched free text not silently filling a slot, stale suspension expiry, cancellation without external authority, deterministic roundtrip, and no raw conversation persistence; terminal typed-history Rust test passed; all final Phase E PASS markers printed."
+}

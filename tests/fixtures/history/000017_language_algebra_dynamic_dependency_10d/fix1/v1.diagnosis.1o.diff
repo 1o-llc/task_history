@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "fix1"
+  sequence 4
+  diagnosis "The recursive elimination algebra and estimated costs are correct; the information loss occurs only when 10D maps raw structural cost into the generic tournament score. Scale 10D plan cost by 10 at that adapter boundary so the generic /10 utility penalty preserves unit-level raw cost resolution. Do not change the shared tournament service or the corpus."
+}

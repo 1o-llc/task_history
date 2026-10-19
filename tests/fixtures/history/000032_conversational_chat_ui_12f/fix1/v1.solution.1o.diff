@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix1"
+  sequence 5
+  solution "Pin eframe exactly to 0.33.3 with its glow renderer and default fonts, declare rust-version 1.88 and resolver 2 for the standalone crate, convert the application entry point to App::update and Context-based panel rendering, and add static compatibility guards while preserving all 16 chat/consent tests and the release-binary self-test."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_composition_9v"
+  revision "fix1"
+  sequence 2
+  intent "Repair the Rust ownership lifetime in the recursive subtree tournament without changing recursive thought decomposition, tournament scoring, held-out equivalence, condensation eligibility, canonical flat fallback, or any durable cognition state semantics."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 5
+  solution "Add isolated world_model_context_domain_bridge_core over accepted context construction and Phase I-K types. Derive bounded prior-domain hints only when an active prior-turn reference matches a persisted prior lattice; accept typed support/contradiction hints bound to active context nodes; maintain local_score separately from context_delta; deduplicate by root lineage per hypothesis; clone rather than mutate the source context graph; emit Phase-L DomainHypothesis context nodes and Supports/Contradicts edges with phase-l provenance; reject stale nodes and all phase-l feedback as independent re-entry; persist only digests, exact spans, scores, lineages and graph receipts; add exact checkpoint replay. Re-run accepted A-K regressions before acceptance."
+}

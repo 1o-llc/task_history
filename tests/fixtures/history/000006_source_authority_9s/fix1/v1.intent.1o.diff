@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "source_authority_9s"
+  revision "fix1"
+  sequence 2
+  intent "Preserve terminal temporal epistemic states after retraction or expiry so claim-type admission fallback logic cannot revive inactive assertions as ordinary candidates."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_clarification_phase_e"
+  revision "base"
+  sequence 4
+  diagnosis "The accepted Phase A schema already contains ClarificationQuestion, ClarificationAnswer, SuspendedTask, RequiresSlot, FillsSlot, SelectedBy, and Resumes primitives; Phase B already materializes missing-slot provenance and candidate membership; Phase D already supplies deterministic ranks and abstention. Phase E therefore needs a small lower-authority orchestration layer rather than new parsing, factual knowledge, or execution machinery."
+}

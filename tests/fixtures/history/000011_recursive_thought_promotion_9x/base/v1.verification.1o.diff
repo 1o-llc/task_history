@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_promotion_9x"
+  revision "base"
+  sequence 26
+  check "mac_acceptance"
+  outcome "pending"
+  note "Expected acceptance: validate accepted 9W Fix1 static contract and its existing live durable checkpoint before any 9X test; pass exactly 32 focused lifecycle/promotion/active-route/monitoring/rollback tests and terminal typed history; live promotion must activate all three real 9W winners, actually use optimized routes on repeated unseen cases with exact canonical equivalence and preserved cost reductions, retain canonical fallbacks, deliberately activate a regression probe that passed original trials, detect its failure on later evidence, transition active->suspended->rolled_back, restore canonical execution exactly, retain regression history, restore the 9X checkpoint exactly with accepted promotions and rollback preserved across restart, claim no LLM/proof authority, leave all prior durable state unchanged, and emit final PASS world_model_recursive_thought_promotion_v1 ok."
+}

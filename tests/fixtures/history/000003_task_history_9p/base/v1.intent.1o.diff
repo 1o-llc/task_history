@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 2
+  intent "Replace delivery-ZIP archaeology and ceremonial prose with coherent task/revision history made of typed sandwiched v1.<identity>.1o.diff entries."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_composition_9v"
+  revision "fix2"
+  sequence 5
+  solution "Compare recursive leaf contracts to canonical 9U gadget contracts field-by-field across input roles, output roles, semantic contract, unit contract, and proof contract while retaining the existing negative drift tests. Reorder the runner so exact 9U focused tests, task-history terminal verification, and live lab run before 9V; emit a hash-bound runtime parent acceptance receipt tied to the frozen 9U functional tree and produced checkpoint; and make the 9V checker refuse to run without that receipt."
+}

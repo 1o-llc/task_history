@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 3
+  problem "Phase G has proven scoped positive/negative learning, but that alone does not prove generalization. Promotion would be unsafe without held-out isolation, explicit coverage of stale-context and adversarial ambiguity traps, required metrics, cross-scope evidence thresholds, rejection on verification failures, and a gate that cannot silently install learned behavior."
+}

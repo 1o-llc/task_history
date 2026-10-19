@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 1
+  title "Phase U Fix1 held-out-discovered request-intent bridge remediation"
+  parent_milestone "cross_domain_heldout_campaign_phase_u_base_failed_test"
+  status "accepted"
+  tag "heldout_remediation"
+  tag "phase_k_request_intent_guard"
+  tag "u_tests_unchanged"
+  tag "u_policy_unchanged"
+  tag "u_catalog_unchanged"
+  tag "no_threshold_relaxation"
+}

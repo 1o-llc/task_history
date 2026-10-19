@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_graph_construction_phase_b"
+  revision "base"
+  sequence 20
+  path "CONTEXT_GRAPH_CONSTRUCTION_PHASE_B_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "9d4b33af1cec0e968c4e3ec88975a61f054c0b4df965de4eb205dc14e75520c9"
+}

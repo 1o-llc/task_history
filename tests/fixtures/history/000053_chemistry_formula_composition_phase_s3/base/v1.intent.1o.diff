@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "chemistry_formula_composition_phase_s3"
+  revision "base"
+  sequence 2
+  intent "Compose accepted S1 element tokens and S2 coefficient/subscript/charge roles into a deterministic hierarchical formula tree with exact structure-preserving canonical ASCII while keeping atom/charge inventories, conservation, stoichiometry, and execution closed."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_graph_construction_phase_b"
+  revision "fix3"
+  sequence 2
+  intent "Preserve the analyzer's broad competing intention evidence as context evidence while preventing those hypotheses alone from creating a hard prior-turn edge for an explicit question. Add generic ordinary-pronoun POS evidence so contextual questions such as a pronoun-bearing follow-up can still construct a prior reference without a phrase handler."
+}

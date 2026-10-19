@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 6
+  check "mac_context_evidence_graph_phase_a_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance passed on the supplied cumulative ZIP: checksum and typed-history preflight passed; 10 focused context tests and 1 terminal-history test passed with zero failures; deterministic IDs, stable external references, immutable factual-KG authority, unverified-by-default LLM candidates, forged-authority rejection, exact scope serialization, exact event replay/checkpoint restoration, and stale fact/relation/operator detection all passed; every required Phase A PASS marker printed."
+}

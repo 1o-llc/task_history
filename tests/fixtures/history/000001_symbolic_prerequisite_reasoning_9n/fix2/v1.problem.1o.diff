@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 3
+  problem "Historical milestone replay forced obsolete document inheritance and made every acceptance run rebuild prior milestones."
+}

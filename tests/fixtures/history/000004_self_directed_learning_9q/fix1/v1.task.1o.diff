@@ -1,0 +1,13 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "self_directed_learning_9q"
+  revision "fix1"
+  sequence 1
+  title "9Q active lookup ownership compile repair"
+  parent_milestone "9q_base"
+  status "accepted"
+  tag "rust_ownership"
+  tag "fragment_archive"
+  tag "self_directed_learning"
+}

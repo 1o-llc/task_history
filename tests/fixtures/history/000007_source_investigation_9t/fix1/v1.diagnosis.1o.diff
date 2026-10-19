@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "source_investigation_9t"
+  revision "fix1"
+  sequence 4
+  diagnosis "The shared curiosity engine is behaving correctly: Idle is a safe fallback that requires no background lease. The 9T adapter was wrong because commitment eligibility was checked without also requiring the tournament winner to map to an actual projected SourceInvestigationNeed."
+}

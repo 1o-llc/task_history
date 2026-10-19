@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix10"
+  sequence 3
+  problem "The structured Ollama API transport improved candidate reliability but required a separately started service. The UI did not distinguish missing installation, stopped service, or missing model, and completed messages appeared as static blocks rather than exposing observable processing stages."
+}

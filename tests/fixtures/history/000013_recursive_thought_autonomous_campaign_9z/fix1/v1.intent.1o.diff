@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "fix1"
+  sequence 2
+  intent "Record the actual Mac-green 9Z bounded autonomous campaign as accepted and make its parent checker tolerate only the explicitly additive 10A workspace member without weakening any 9Z runtime or history gate."
+}

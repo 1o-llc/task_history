@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "source_authority_9s"
+  revision "fix1"
+  sequence 5
+  solution "Exclude Stale and Superseded from both empirical and mathematical Candidate fallback rewrites. Add regressions for retracted mathematical claims and expired empirical claims so temporal terminal states remain authoritative regardless of claim mode."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_graph_construction_phase_b"
+  revision "base"
+  sequence 5
+  solution "Add world_model_context_graph_construction_core as a transactional deterministic projection over analyze_linguistic_problem and ContextEvidenceGraph; retain typed sidecar payloads keyed by context node IDs; construct competing unverified structural candidates and missing-slot evidence; attach candidate prior-turn references; expire prior turn scopes through replayable graph events; and add eight focused tests plus the ten accepted Phase A regressions."
+}

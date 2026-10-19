@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 6
+  check "mac_10g_end_to_end_acceptance"
+  outcome "pass"
+  note "Mac run 2026-07-30 re-proved accepted 10F Fix1, passed all 81 focused 10G tests plus terminal typed-history verification, solved all 12 training and 12 heldout inequality problems exactly, exercised negative-division reversal, compound intersections, quadratic cubic and rational sign charts, denominator exclusions, inherited 10F factorization and algebra boundary proofs, promoted all six schemas exactly, restored checkpoint exactly, restarted exactly, and printed final PASS."
+}

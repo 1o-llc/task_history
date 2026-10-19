@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_composition_9v"
+  revision "base"
+  sequence 27
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac compile stopped before the 50 focused regressions with Rust E0505: run_recursive_subtree_tournament borrowed evaluations through winner_eval and then attempted to move evaluations into RecursiveSubtreeTournament while that borrow was still used in the same struct literal."
+}

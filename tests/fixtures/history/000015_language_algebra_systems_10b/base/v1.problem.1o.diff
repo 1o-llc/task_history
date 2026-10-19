@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_systems_10b"
+  revision "base"
+  sequence 3
+  problem "10A proves reusable language-to-single-equation construction, but it does not yet prove that the system can compose multiple linguistic constraints over multiple unknowns, select a symbolic elimination strategy, preserve mechanical proof authority, and transfer that coupled reasoning to unseen word problems."
+}

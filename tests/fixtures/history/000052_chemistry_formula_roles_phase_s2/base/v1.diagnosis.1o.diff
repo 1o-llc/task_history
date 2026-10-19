@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "base"
+  sequence 4
+  diagnosis "S2 should consume the accepted S1 token stream, assign leading positive integers as coefficients and post-element digit runs as subscripts, parse terminal signed charge notation with explicit magnitude support, preserve exact byte ranges and SourceSpanId lineage, and reject ambiguous bare single-element digit-plus-sign forms instead of guessing. Grouping/composition must remain deferred to S3."
+}

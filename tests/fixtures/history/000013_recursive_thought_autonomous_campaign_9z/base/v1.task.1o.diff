@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "base"
+  sequence 1
+  title "9Z bounded autonomous closed-loop self-improvement campaign"
+  parent_milestone "9y_fix1"
+  status "candidate"
+  tag "autonomy"
+  tag "closed_loop"
+  tag "bounded"
+  tag "rollback"
+}

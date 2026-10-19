@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "base"
+  sequence 4
+  diagnosis "The correct integration is a staged functional runtime rather than a second opaque reasoner. Existing/KG/critic programs remain ordinary FunctionalThoughtProgram candidates; verification evidence and thought-budget admission determine eligibility. Mandatory critic triggers are semantic control signals, while optional probes use a deterministic ticket derived from the immutable identity-seed digest, self-state digest, epoch, event count, and problem signature. The LLM boundary creates a non-authoritative recipe request only."
+}

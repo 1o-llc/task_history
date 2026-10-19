@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "construction_tournament_phase_q"
+  revision "base"
+  sequence 24
+  path "tools/ecosystem/world_model_construction_tournament_core/materials/construction_tournament_policy_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "afd1e868a796e63521e50ec227b0e7e6a1514c98aa15941fe00386bb0645c1d4"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "chemistry_formula_composition_phase_s3"
+  revision "base"
+  sequence 4
+  diagnosis "Formula composition should be a bounded tree of ordered element and group nodes. Leaf segments must be validated by accepted S2 roles, group multipliers remain structural, and canonicalization must normalize notation without flattening into S4 atom counts."
+}

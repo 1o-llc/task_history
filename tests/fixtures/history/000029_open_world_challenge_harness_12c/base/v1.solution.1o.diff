@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 5
+  solution "Add a standalone 12C crate and one-command runner that formally closes 12B from its Mac checkpoint, deterministically generates 256 compact typed challenges, isolates 64 heldout cases from all learner state and candidate evidence, evaluates the accepted three-family baseline, learns four additional route families only through exact typed chains and four internal probes, records invalid analogies and contradictions as bounded negative knowledge, measures KG and advisor necessity, proves zero false positives and a controlled heldout improvement from 24 of 64 to 56 of 64, and verifies deterministic generation, replay, serialized half-run continuation, durable checkpoint restoration, and the exact next challenge seed."
+}

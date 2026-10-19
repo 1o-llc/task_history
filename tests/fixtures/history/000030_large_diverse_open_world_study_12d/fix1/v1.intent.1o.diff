@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the Mac-discovered E0282 aggregate-counter inference failure while preserving the complete 12D study design, policy, challenge generation, heldout boundaries, authority constraints, deterministic continuation, and 148 focused behavioral tests unchanged."
+}

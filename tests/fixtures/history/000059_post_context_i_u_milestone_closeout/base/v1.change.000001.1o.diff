@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 253
+  path "history/000058_cross_domain_heldout_campaign_phase_u/fix1/v1.task.1o.diff"
+  operation "modify"
+  before_digest "e971d24a526bbffc4dd95c167a59168c5738f0c5f44add217013aad01a5cb507"
+  after_digest "30031c37c96c2a434f93966d1426698b711b5b88ba628cc2207e38320568b3dd"
+}

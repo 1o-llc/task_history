@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 24
+  path "tools/ecosystem/world_model_context_domain_bridge_core/materials/context_domain_bridge_policy_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "d3ad0607837cf19d7d753e12d800014d52c82e7fae02463d4fc924b10106e2a4"
+}

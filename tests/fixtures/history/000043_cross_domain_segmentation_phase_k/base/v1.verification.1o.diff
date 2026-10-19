@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 6
+  check "mac_cross_domain_segmentation_phase_k_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-09: package SHA verified; Phase K manifests passed; typed-history preflight passed at 1475 tracked paths; isolated Phase K test dependency graph and accepted/Phase K workspace-boundary compile proofs passed; all accepted Context Phase A-H regressions remained green; all four specialized arithmetic/rate/unit/chemistry executions, 8 Phase F, 9 Phase G, 8 Phase H, 5 Phase I, and 5 Phase J tests remained green; all 6 of 6 focused Phase K tests passed for language+math, language+chemistry, chemistry+math+units, procedure+chemistry+math, local context-reference+chemistry, and false-split threshold plus exact replay; terminal typed-history Rust test passed; all final Phase K PASS markers printed including no Phase L feedback."
+}

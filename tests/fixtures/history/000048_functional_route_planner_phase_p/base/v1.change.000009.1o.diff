@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "functional_route_planner_phase_p"
+  revision "base"
+  sequence 16
+  path "history/000048_functional_route_planner_phase_p/base/v1.result.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "7b84f02d581be0abaf88ed5132de06bc336bbed87c5cd23be13e9837d24b70d2"
+}

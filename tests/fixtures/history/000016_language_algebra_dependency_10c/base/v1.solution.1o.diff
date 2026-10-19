@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_dependency_10c"
+  revision "base"
+  sequence 5
+  solution "Add six three-variable language families with 24 training/heldout problems, exact typed 3-variable constraints, a three-way first-elimination tournament, hierarchical reduction through the accepted 10B two-variable substrate and existing algebra proof kernel, family-schema heldout tournaments and 9X lifecycle promotion, non-destructive fallback retention, durable exact replay, and authority/history invariants."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 3
+  problem "9S can identify that source evidence is insufficient, but the learner still needs a capability-bounded mechanism to choose a research obligation, search authorized sources, distinguish independent corroboration from mirrors, prefer temporal successors, and hand any material change back into blast-radius revalidation."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "recursive_thought_promotion_9x"
+  revision "base"
+  sequence 15
+  path "tools/ecosystem/world_model_recursive_thought_promotion_core/tests/recursive_thought_promotion.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "fe29024b90f1c52be34000d22119d40e9ca571cb3998e834c8aa80932f77098e"
+}

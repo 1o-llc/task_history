@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 17
+  path "history/000025_seeded_zero_player_dream_11e/fix3/v1.task.1o.diff"
+  operation "modify"
+  before_digest "fbde4536e881af6735f131db7d5bd3fabdf4fd4f91aa7633cf2c599ef21cef5d"
+  after_digest "45e2f579738269d94c774dc67e8dd00be4fcb2bf9b70baabca76929a7abdfd94"
+}

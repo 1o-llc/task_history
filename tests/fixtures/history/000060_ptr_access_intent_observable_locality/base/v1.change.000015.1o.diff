@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 282
+  path "tools/ecosystem/ptr_access_policy_runtime/benches/access_bench.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "0e501e4435951e8aab49680bbf0683f12c85e0fdf683efedd5b009fb59301640"
+}

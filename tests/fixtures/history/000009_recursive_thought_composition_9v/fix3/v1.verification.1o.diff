@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_composition_9v"
+  revision "fix3"
+  sequence 21
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-29 correctly stopped before any 9V test because parent 9U Fix6 still had one unresolved revalidation need blocked by its own surviving active intent. Child execution remained fail-closed."
+}

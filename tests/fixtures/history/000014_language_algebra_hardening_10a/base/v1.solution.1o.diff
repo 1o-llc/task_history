@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 5
+  solution "Add an additive 10A hard-language algebra crate with 24 train/heldout problems across six families, typed constraint extraction, compositional equation compilation, the existing 8L algebra proof kernel, heldout schema tournaments, thought-budget admission, the inherited 9X promotion lifecycle, overfit controls, canonical fallback retention, durable idempotent checkpointing, and a strict accepted-9Z parent gate."
+}

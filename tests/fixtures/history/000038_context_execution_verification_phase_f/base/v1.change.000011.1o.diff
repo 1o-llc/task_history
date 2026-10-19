@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_execution_verification_phase_f"
+  revision "base"
+  sequence 18
+  path "CONTEXT_EXECUTION_VERIFICATION_PHASE_F_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "0ef1144a40bf1a0b8fddab7bedddbe617b44234dc306bf3841316c7ac5f82446"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "chemistry_atom_inventory_phase_s4"
+  revision "base"
+  sequence 4
+  diagnosis "Atom inventory should be a checked recursive fold over the accepted S3 tree. Formula-body counts and leading-coefficient-scaled counts must remain distinct so molecular composition is not confused with reaction multiplicity, and deterministic ordered maps should make replay exact."
+}

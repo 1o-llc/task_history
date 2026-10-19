@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_composition_9v"
+  revision "fix5"
+  sequence 5
+  solution "Change only the live example tournament input from bad to bad.clone(), preserving the exact candidate and all algorithm semantics while retaining bad for the later rejection diagnostic. Close 9U Fix7 as accepted from the observed Mac evidence, close 9V Fix4 as failed_compile, keep the 9U runtime parent gate mandatory, and require the same 50 9V tests before the repaired live lab."
+}

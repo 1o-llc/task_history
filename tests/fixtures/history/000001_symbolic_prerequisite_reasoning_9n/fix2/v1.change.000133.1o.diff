@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 138
+  path "docs/planning/LINGUISTIC_SEED_VOCABULARY_V1.toml"
+  operation "remove"
+  before_digest "bc6279890a3aca777043d0d52481d20031c1803bfa2444291f954a13c21b70b5"
+  after_digest "none"
+}

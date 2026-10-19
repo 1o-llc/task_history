@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix1"
+  sequence 1
+  title "11E Fix1 recursive parent-manifest closure repair"
+  parent_milestone "11e_base"
+  status "failed_test"
+  tag "identity_seed"
+  tag "zero_player_automaton"
+  tag "parent_manifest"
+  tag "typed_history"
+}

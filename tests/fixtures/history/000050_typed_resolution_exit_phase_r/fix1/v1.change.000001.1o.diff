@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 8
+  path "tools/ecosystem/world_model_typed_resolution_exit_core/Cargo.toml"
+  operation "modify"
+  before_digest "cb28d1678ae80f6ee7bfbcee8dcc43992e773feba2d80c458606d2b7d57e59a9"
+  after_digest "f8ea30e56c0d8135440ffe4354ab2c198ff8f8ccd6a46bcf22039fc27b64c959"
+}

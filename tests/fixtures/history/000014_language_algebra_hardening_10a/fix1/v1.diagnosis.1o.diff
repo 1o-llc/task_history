@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_hardening_10a"
+  revision "fix1"
+  sequence 4
+  diagnosis "This is a local Rust ownership defect, not a failure of the hard-language construction or algebra reasoning design. The family equality may remain in the guard, but schema_eq must only be consumed after the guard succeeds, inside the match arm body."
+}

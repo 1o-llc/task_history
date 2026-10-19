@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 10
+  path "DOMAIN_SPAN_SCHEMA_PHASE_I_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "b381c6b5074dd143fd69c269433407a7eda794f25827959d08f664b8b3f94b10"
+}

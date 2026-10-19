@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "8a077238cbe10182b99d9ff9e9b89888b4c8095804af2925f87dd23f5de909e0"
+}

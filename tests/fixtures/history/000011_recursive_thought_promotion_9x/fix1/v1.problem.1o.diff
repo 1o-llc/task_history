@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_promotion_9x"
+  revision "fix1"
+  sequence 3
+  problem "The 9X base was still typed as candidate even after the Mac run proved 32/32 tests, live optimized routing, later-regression detection, exact canonical rollback, exact restart behavior, and final PASS; a downstream 9Y milestone must not treat that evidence as merely pending."
+}

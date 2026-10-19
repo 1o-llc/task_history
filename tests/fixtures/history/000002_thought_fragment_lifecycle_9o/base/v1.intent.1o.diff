@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "thought_fragment_lifecycle_9o"
+  revision "base"
+  sequence 2
+  intent "Keep linguistic and exact reasoning fragments searchable in historical indexes while excluding them from real active thought unless generalized."
+}

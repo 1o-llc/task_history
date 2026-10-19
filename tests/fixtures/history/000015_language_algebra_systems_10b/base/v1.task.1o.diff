@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_systems_10b"
+  revision "base"
+  sequence 1
+  title "10B coupled language algebra systems transfer"
+  parent_milestone "10a_fix2"
+  status "candidate"
+  tag "language"
+  tag "algebra"
+  tag "systems"
+  tag "heldout_transfer"
+}

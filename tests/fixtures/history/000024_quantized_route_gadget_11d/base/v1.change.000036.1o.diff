@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 36
+  path "tools/ecosystem/scripts/check_world_model_text_kg_functional_bridge_v1.sh"
+  operation "modify"
+  before_digest "985a169646894798ae4ffd5a62985bb6f9eabc79607ad7b7d0e9eab86598a012"
+  after_digest "c70a001969819eabe60061a9e3bf60eb44d54ba57edff482e0930bd8e73dd95e"
+}

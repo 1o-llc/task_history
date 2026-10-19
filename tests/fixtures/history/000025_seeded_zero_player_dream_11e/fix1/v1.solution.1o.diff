@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix1"
+  sequence 5
+  solution "Recompute the four stale functional-tree manifests from the current cumulative tree, propagate their new digests through the dependent source manifests in topological order, record the base run as failed_parent_gate, expose only 11E Fix1 as candidate, and leave the zero-player runtime, policy, examples, and 51 focused tests functionally unchanged."
+}

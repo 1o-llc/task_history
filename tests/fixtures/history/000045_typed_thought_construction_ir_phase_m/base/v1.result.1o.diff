@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "typed_thought_construction_ir_phase_m"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "5c9fee759cd3b64ae347442541e76c79fec74eb4610e89f08a5aa1bf76e1a582"
+}

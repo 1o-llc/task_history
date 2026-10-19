@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "gadget_arena_revalidation_9u"
+  revision "base"
+  sequence 8
+  path "GADGET_ARENA_9U_9T_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "f28f9cc40af79ec9b344e93b59de44feaffb0635f22abe7b9329cae2eb1f83f9"
+}

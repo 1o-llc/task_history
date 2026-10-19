@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "base"
+  sequence 6
+  check "mac_stoichiometric_construction_routes_phase_t_focused_acceptance"
+  outcome "fail"
+  note "Mac run 2026-08-10 verified package SHA-256 8ea6bf06aa73512e6970423fb3fb17174402562620f2942b81f2ca0b55e38bca, T manifests, sole-candidate gate, 1,713-path typed-history preflight, isolated T dependency compile, cumulative workspace boundaries, A-S6 regressions, and four selected chemistry parser regressions. In the six focused T tests, 4 passed and 2 failed: conserved_reaction_coefficient_ratio_transfers_moles_without_rebalancing returned ReactionSpecies(\"H2O\"), and bounded_limiting_reagent_route_selects_unique_minimum_reaction_extent returned ReactionSpecies(\"H2\"). The shared cause is that accepted S6 reaction terms retain full canonical notation including leading stoichiometric coefficients (for example 2H2 and 2H2O), while T looked them up by coefficient-free species identity (H2 and H2O)."
+}

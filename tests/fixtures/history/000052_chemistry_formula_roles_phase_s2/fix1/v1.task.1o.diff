@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 1
+  title "Phase S2 Fix1 explicit Result type annotation repair"
+  parent_milestone "chemistry_formula_roles_phase_s2_base_failed_compile"
+  status "accepted"
+  tag "rust_type_inference_repair"
+  tag "charge_semantics_unchanged"
+  tag "tests_unchanged"
+  tag "policy_unchanged"
+  tag "s3_s6_t_closed"
+  tag "mac_accepted"
+}

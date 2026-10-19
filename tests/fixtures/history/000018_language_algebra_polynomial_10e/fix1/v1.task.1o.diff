@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix1"
+  sequence 1
+  title "10E current thought-budget API compatibility repair"
+  parent_milestone "10e_base"
+  status "failed_test"
+  tag "quadratic_reasoning"
+  tag "thought_budget_api"
+  tag "compile_repair"
+  tag "mac_retest"
+}

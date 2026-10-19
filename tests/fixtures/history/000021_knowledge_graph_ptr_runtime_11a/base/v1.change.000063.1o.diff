@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 70
+  path "tools/ecosystem/scripts/run_world_model_knowledge_graph_ptr_runtime_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "49e390016400892a90cfe28b8b3cd774694afe0aebc2c6118a8cd71458d354a3"
+}

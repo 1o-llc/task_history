@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 2
+  intent "Close the completed I-U post-context roadmap after Mac-accepted Phase U Fix1 without introducing another reasoning phase or changing accepted behavior."
+}

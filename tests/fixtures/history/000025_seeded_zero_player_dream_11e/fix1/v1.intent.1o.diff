@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the cumulative parent-manifest closure required by the additive 11E workspace member, preserve the complete 11E implementation and all 51 focused tests, and ensure every inherited parent gate validates before 11E execution."
+}

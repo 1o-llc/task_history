@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "raw_question_interface_12e"
+  revision "fix3"
+  sequence 4
+  diagnosis "Both errors are Rust representation boundaries rather than cognitive or semantic failures. Explicit f64 annotations resolve numeric method dispatch. A named JSON digest object serializes every receipt component without relying on tuple arity implementations."
+}

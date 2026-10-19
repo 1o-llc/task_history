@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 7
+  path "CODEC_RECIPE_MEDIA_8K.md"
+  operation "remove"
+  before_digest "0dd68b761169cad096ac41251d3e64905c20eb5d95799dee4a7f1180a4a6dd48"
+  after_digest "none"
+}

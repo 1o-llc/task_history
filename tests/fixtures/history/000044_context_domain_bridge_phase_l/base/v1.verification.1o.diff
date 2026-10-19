@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 6
+  check "mac_context_domain_bridge_phase_l_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-09: package SHA verified; Phase L manifests passed; typed-history preflight passed at 1490 tracked paths; isolated Phase L test dependency graph and accepted/Phase L workspace-boundary compile proofs passed; all accepted Context Phase A-H regressions remained green; all four specialized arithmetic/rate/unit/chemistry executions plus 8 Phase F, 9 Phase G, 8 Phase H, 5 Phase I, 5 Phase J, and 6 Phase K tests remained green; all 5 of 5 focused Phase L tests passed for prior chemistry attachment, context ranking without factual-truth mutation, lineage deduplication, same-cycle echo rejection, stale-context rejection, negative clarification lowering, and exact replay; terminal typed-history Rust test passed; all final Phase L PASS markers printed including no Phase M/N/P authority."
+}

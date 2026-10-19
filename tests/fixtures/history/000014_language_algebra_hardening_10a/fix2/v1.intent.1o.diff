@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_hardening_10a"
+  revision "fix2"
+  sequence 2
+  intent "Repair the accepted-parent integrity boundary so downstream task-history growth cannot invalidate a frozen parent, while preserving every frozen 9Z file, the 10A ownership repair, all 53 focused tests, and the live hard-language algebra acceptance semantics."
+}

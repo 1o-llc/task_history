@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "self_directed_learning_9q"
+  revision "fix1"
+  sequence 5
+  solution "Compare active_before directly with fragments.active_lookup, preserving the intended proof that curiosity planning does not mutate the active fragment lookup."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_hardening_10a"
+  revision "fix2"
+  sequence 3
+  problem "The 9Z source snapshot included the global history/v1.history_index.1o.diff. That index is intentionally updated by every downstream revision, so 10A Fix1 legitimately changed it and then the frozen 9Z source check rejected the child before any 10A Rust test could run."
+}

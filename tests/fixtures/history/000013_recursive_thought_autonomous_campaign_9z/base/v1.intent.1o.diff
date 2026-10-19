@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "base"
+  sequence 2
+  intent "Close the 9Y work-order gap by letting observed usage autonomously drive a finite campaign through recursive localization, local rewrite tournament, verified promotion/use, monitoring, regression rollback, continuation, and explicit stop conditions without naming an optimization target."
+}

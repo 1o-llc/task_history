@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "text_kg_functional_bridge_11b"
+  revision "fix1"
+  sequence 3
+  problem "The first 11B Mac build stopped before focused tests because a convenience fixture derive imposed Debug on PtrKnowledgeGraphRuntime, and BridgeValueType::accepts was unnecessarily const even though its derived PartialEq operations are not const-callable on the stable toolchain."
+}

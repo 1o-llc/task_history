@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 137
+  path "docs/planning/LINGUISTIC_PIPELINE_CRATE_MAP_V1.md"
+  operation "remove"
+  before_digest "1397cea115f023fc2c840a8fc5df43cb9950c95f5fc432eb29d70530f191fe90"
+  after_digest "none"
+}

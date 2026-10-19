@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 21
+  path "tools/ecosystem/world_model_large_diverse_open_world_study_core/materials/large_diverse_open_world_policy_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "7fdcd20c761ce3f6862470be1b28198758284f9d70898666b43ce13630b34be3"
+}

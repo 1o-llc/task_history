@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix2"
+  sequence 4
+  diagnosis "The execution invariant and the receipt-evidence invariant were conflated. Executed cycles must remain within all local bounds. Deferred cycles must remain state-preserving and non-admitted, while the recorded over-bound estimate is valid only when its disposition and canonical reason identify the exact local memory or work bound that rejected it."
+}

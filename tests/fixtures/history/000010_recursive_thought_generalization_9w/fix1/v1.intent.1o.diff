@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_generalization_9w"
+  revision "fix1"
+  sequence 2
+  intent "Close the Mac-proven 9W generalization milestone as accepted without changing its functional behavior, and make its checker safe for a gated downstream 9X child."
+}

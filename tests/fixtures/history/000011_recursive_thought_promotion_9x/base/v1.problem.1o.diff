@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_promotion_9x"
+  revision "base"
+  sequence 3
+  problem "9W proved cross-domain optimizations are exact and cheaper but deliberately left no_active_mutation=true; the system still lacked evidence that a verified winner can become the live route, remain correct after restart, and automatically recover when later evidence exposes a regression."
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "base"
+  sequence 6
+  check "mac_cross_domain_heldout_campaign_phase_u_focused_acceptance"
+  outcome "fail"
+  note "Mac run 2026-08-10 verified package SHA-256 6e64d92f8363b6602983444ae57f321d78d7dc7207e0c15aa56a6977dfa0c405, manifests, sole U base candidate, typed-history preflight paths=1743, isolated U dependency compile, cumulative workspace boundaries, and accepted A-T regressions. Focused U campaign ran 6 tests: 4 passed and 2 failed. Both failures returned GateFailed(required Phase U thresholds not met). Investigation identified the held-out irrelevant-text case The water bottle beside the notebook is blue. as a real Phase K false LanguageToChemistry bridge: low-weight grammatical language evidence accumulated above LANGUAGE_MIN without request intent. Phase U base is failed_test and not accepted."
+}

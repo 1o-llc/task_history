@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_hardening_10a"
+  revision "fix1"
+  sequence 1
+  title "10A match-guard ownership repair"
+  parent_milestone "10a_base"
+  status "failed_test"
+  tag "language_algebra"
+  tag "rust_ownership"
+  tag "heldout_transfer"
+  tag "mac_retest"
+}

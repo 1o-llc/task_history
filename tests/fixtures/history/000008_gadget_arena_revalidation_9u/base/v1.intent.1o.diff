@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "gadget_arena_revalidation_9u"
+  revision "base"
+  sequence 2
+  intent "Treat every thought admitted to this layer as a composition of small functional units. When provenance changes, isolate the smallest affected gadget frontier into a sealed local arena, compare old/new/candidate behavior, propagate dirtiness only when observable boundaries change, and allow progressively smaller condensation/pruning candidates only after exact behavioral and proof preservation."
+}

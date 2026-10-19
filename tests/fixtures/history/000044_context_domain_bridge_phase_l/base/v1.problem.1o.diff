@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 3
+  problem "Phase K can detect cooperating domains only from the current utterance. It cannot yet use a prior-task reference such as 'I mean one mole' to supplement a chemistry span, cannot lower a rejected domain route from explicit clarification evidence, and has no typed path for domain-span analysis to become inspectable context evidence."
+}

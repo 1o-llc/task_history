@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "raw_question_interface_12e"
+  revision "fix1"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "b60133f97c4577702ff7626b8d78c8da185a65831ac86787896f37c55e82792f"
+}

@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 7
+  status "failed_compile"
+  resulting_tree_digest "fd0c2e665f4f6a1a13c0a1d349d3c721a7945ea297371bccde30889e52d74ed1"
+}

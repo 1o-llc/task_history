@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 4
+  diagnosis "This is a local compile-time type-annotation omission, not a challenge-generation, learning, heldout-isolation, KG, verification, authority, or checkpoint design defect. Explicit usize bindings exactly match the existing counter schema and do not alter runtime values or serialization."
+}

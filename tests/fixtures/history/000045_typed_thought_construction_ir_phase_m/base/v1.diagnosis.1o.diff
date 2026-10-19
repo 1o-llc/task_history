@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "typed_thought_construction_ir_phase_m"
+  revision "base"
+  sequence 4
+  diagnosis "Phase M must be additive. It should consume accepted typed constructions rather than parse raw language independently; use domain-refined ThoughtType plus shared primitive/node kinds; lower and raise the existing algebra Expr exactly; project accepted PropositionCandidate geometry into IR with exact SourceSpanId boundaries; validate operator input/output adjacency; and preserve all later authorities for Phases N-P and S-T."
+}

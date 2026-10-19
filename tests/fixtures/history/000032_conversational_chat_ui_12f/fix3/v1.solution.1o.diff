@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix3"
+  sequence 5
+  solution "Add a schema-validated AdvisorPromptConstraints object, a persistent native prompt workbench, default reusable thought shapes, operator and capability inventories, verification and prohibition sections, evidence inclusion controls, and configurable proposal bounds; construct the prompt from the full bounded local receipt; pass an immutable constraint snapshot to the advisor worker; and use configured operators only for tournament staging while retaining no-answer, no-execution, and no-learning authority boundaries."
+}

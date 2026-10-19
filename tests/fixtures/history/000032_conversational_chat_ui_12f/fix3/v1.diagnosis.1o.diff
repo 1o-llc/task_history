@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix3"
+  sequence 4
+  diagnosis "The advisor boundary was safe but informationally starved. A recipe model needs an explicit construction mission, reusable thought-shape grammar, declared local operators and capabilities, proof obligations, prohibited behavior, and a complete bounded analysis receipt. These inputs must be editable and persisted without converting LLM suggestions into authority."
+}

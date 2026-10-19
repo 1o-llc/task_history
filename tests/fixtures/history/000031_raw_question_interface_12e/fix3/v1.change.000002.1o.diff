@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "fix3"
+  sequence 9
+  path "RAW_QUESTION_INTERFACE_12E_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "fd0c2e665f4f6a1a13c0a1d349d3c721a7945ea297371bccde30889e52d74ed1"
+  after_digest "58cdfed7a6b1a54f770ba5b77045013cae934ca0408a8bf9cd3519e2eec43cdc"
+}

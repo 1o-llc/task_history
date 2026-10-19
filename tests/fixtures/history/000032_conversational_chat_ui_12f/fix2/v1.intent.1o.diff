@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix2"
+  sequence 2
+  intent "Make factual definition requests such as what is oxygen resolve through an inspectable local typed concept source, and make consented Ollama candidate output resilient to common formatting defects while retaining strict no-answer-authority and no-automatic-admission boundaries."
+}

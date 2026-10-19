@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "ba0ad7f10e8c4ae80527f1cf736f1ea846786b5d895ab1b71b7ff643be252cd6"
+}

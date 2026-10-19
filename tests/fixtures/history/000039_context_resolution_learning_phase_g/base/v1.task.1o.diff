@@ -1,0 +1,19 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_resolution_learning_phase_g"
+  revision "base"
+  sequence 1
+  title "Phase G resolution episodes and bounded interpretation learning"
+  parent_milestone "context_execution_verification_phase_f_v1_fix2_accepted"
+  status "failed_test"
+  tag "positive_verified_resolution_episode"
+  tag "negative_user_rejection_episode"
+  tag "failed_execution_zero_positive_credit"
+  tag "scoped_interpretation_weights"
+  tag "conversation_scope_isolation"
+  tag "exact_episode_replay"
+  tag "no_raw_private_text_persistence"
+  tag "no_global_promotion"
+  tag "focused_tests_only"
+}

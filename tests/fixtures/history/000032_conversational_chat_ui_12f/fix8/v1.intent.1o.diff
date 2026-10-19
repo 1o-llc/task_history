@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix8"
+  sequence 2
+  intent "Make consented Ollama candidate generation deterministic and machine-readable by using the local structured-output API, isolating provider diagnostics from candidate data, and preventing malformed output from flooding the conversation."
+}

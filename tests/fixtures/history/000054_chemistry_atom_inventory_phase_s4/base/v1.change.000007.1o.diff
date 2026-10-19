@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_atom_inventory_phase_s4"
+  revision "base"
+  sequence 126
+  path "history/000054_chemistry_atom_inventory_phase_s4/base/v1.intent.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "0aba7fabc222b9400e3c128b1ed32f9b2c74b88223661c26988b173ecbd789a2"
+}

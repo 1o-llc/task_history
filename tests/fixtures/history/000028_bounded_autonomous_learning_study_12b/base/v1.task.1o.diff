@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 1
+  title "12B long-running bounded autonomous learning and state-growth study"
+  parent_milestone "12a"
+  status "accepted"
+  tag "bounded_autonomy"
+  tag "state_growth"
+  tag "scheduler_fairness"
+  tag "history_compaction"
+  tag "deterministic_replay"
+  tag "exact_restart"
+}

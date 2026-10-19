@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 152
+  path "docs/planning/RESOLUTION_FULFILLMENT_V1_ACCEPTANCE_EXPECTATIONS.md"
+  operation "remove"
+  before_digest "7d2a0d4d4ca003469286d9a40e89bee709e5529c125813a532eab59b6b722770"
+  after_digest "none"
+}

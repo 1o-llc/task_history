@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 6
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac acceptance 2026-07-29 re-proved the Mac-accepted 9Z Fix1 parent with 42/42 closed-loop tests and terminal typed history, then 10A failed to compile before any focused 10A test executed: Rust E0507 at src/lib.rs moved schema_eq, an Equation that is not Copy, from inside a match pattern guard while formatting the schema equation."
+}

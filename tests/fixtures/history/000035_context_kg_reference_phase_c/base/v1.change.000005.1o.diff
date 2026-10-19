@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 12
+  path "tools/ecosystem/scripts/check_world_model_context_kg_reference_phase_c_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "2d7a2cead3aa7049e01638557d0f0f94ce276bffe4f22534129ef24b616491eb"
+}

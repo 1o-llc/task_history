@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 4
+  diagnosis "Treating authority as a single global trust number would be epistemically wrong and would hide dependency risk. Source authority must be contextual and evidence-updated, while source changes must behave like changes to shared code: enumerate affected downstream artifacts, require invariant tests, preserve historical versions, and fail closed until revalidation receipts exist."
+}

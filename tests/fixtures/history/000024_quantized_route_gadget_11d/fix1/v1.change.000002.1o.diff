@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "fix1"
+  sequence 9
+  path "KNOWLEDGE_GRAPH_PTR_RUNTIME_11A_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "f335da5206cb55196cc2277d8ff031ea1fcee33f8dd9665e4086bb44f78da7e1"
+  after_digest "ae30f341431c0cfaf7c5099d229bad31e20ca290612f2387193ba93f75022c82"
+}

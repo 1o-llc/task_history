@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix2"
+  sequence 8
+  path "tools/ecosystem/scripts/check_world_model_language_algebra_dynamic_dependency_v1.sh"
+  operation "modify"
+  before_digest "f7e13c27cb570f1c00f1206dc0e243f703e9086e903aca217691467db4e28476"
+  after_digest "8b1aa290af15f8a4d50fbfd4c0555b00b2a54b7528d037e78d6b6438ccadab7c"
+}

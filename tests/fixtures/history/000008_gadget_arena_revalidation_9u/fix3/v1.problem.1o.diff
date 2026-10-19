@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix3"
+  sequence 3
+  problem "The Mac Fix2 run passed all 59 gadget-arena tests and the repaired task-history check, but the live lab failed before opening the arena because 9U required its dirty-gadget maintenance need to win the global voluntary-curiosity tournament; accumulated 9Q-9T self-state can legitimately make another curiosity activity win."
+}

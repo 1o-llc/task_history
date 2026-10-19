@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "chemistry_atom_inventory_phase_s4"
+  revision "base"
+  sequence 5
+  solution "Add an isolated S4 atom-inventory crate that consumes validated S3 compositions, recursively multiplies nested groups/subscripts with checked u64 arithmetic, emits BTreeMap formula-unit and coefficient-scaled counts with exact composition/source provenance, rejects overflow, supports deterministic state/checkpoint replay, and explicitly leaves S5/S6/T authority closed."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix2"
+  sequence 4
+  diagnosis "The accepted 10F parent boundary is immutable after Mac acceptance. LANGUAGE_ALGEBRA_INEQUALITY_10G_10F_FUNCTIONAL_TREE_SHA256.txt must retain SHA-256 4b982af787b520c37f38bbe75b34eba448cc9f5b05c9d8ec64223723504003dc; only downstream 10G/11A/11B/11C manifests may be regenerated for additive children."
+}

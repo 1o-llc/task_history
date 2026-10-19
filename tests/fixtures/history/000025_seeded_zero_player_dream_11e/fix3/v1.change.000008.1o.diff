@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix3"
+  sequence 15
+  path "history/000025_seeded_zero_player_dream_11e/fix3/v1.problem.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "dd0a403939d2fdb6e77fdd2d05d6a4facb82650dd58966fd97e07571a34d1317"
+}

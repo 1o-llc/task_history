@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_composition_9v"
+  revision "fix2"
+  sequence 4
+  diagnosis "The contract payloads are identical, but 9U hashes them with the '9u-contract|' domain and 9V hashes them with '9v-contract|', so digest equality is impossible by construction. Those hashes are layer-specific evidence identities, not a shared semantic equality key. The parent-order defect is independent: a child task may be drafted, but execution must fail closed until its cross-task parent has produced fresh acceptance evidence."
+}

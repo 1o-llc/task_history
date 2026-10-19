@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 6
+  check "mac_context_kg_reference_phase_c_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-07: package SHA verified; typed-history preflight passed at 1278 tracked paths; all 10 accepted Phase A context tests passed; the focused ordinary-pronoun analyzer test passed; all 9 accepted Phase B Fix3 tests passed; all 8 of 8 focused Phase C tests passed including valid stable fact/operator resolution, stale fact rejection, disconnected unrelated KG exclusion, multiple fact paths, immutable factual-KG digest, bounded fanout, stale operator rejection, and deterministic roundtrip; terminal typed-history Rust test passed; final PASS markers included valid_references_resolve, stale_references_rejected, unrelated_kg_nodes_excluded, multiple_fact_paths, factual_kg_digest_immutable, bounded_reference_fanout, operator_digest_authority, deterministic_roundtrip, no_copied_fact_payloads, no_later_phase_behavior, and world_model_context_kg_reference_phase_c_v1."
+}

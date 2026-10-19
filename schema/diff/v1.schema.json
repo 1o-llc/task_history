@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "1o diff record v1 (nodeplan.1o.diff.v1)",
+  "description": "One task-history record: a task, its intent, a problem, a diagnosis, a solution, a change, a verification, a result, or a history's index. Each carries schema, record_kind, task_id, revision and sequence. Which other keys a kind needs is the loader's to check (task_history::DiffRecordKind::required): this schema cannot say it per kind.",
+  "type": "object",
+  "required": [
+    "diff"
+  ],
+  "properties": {
+    "diff": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "schema",
+        "record_kind",
+        "task_id",
+        "revision",
+        "sequence"
+      ],
+      "properties": {
+        "schema": {
+          "type": "string",
+          "enum": [
+            "nodeplan.1o.diff.v1"
+          ],
+          "description": "Always nodeplan.1o.diff.v1."
+        },
+        "record_kind": {
+          "type": "string",
+          "enum": [
+            "task",
+            "intent",
+            "problem",
+            "diagnosis",
+            "solution",
+            "change",
+            "verification",
+            "result",
+            "index"
+          ],
+          "description": "What the record is."
+        },
+        "task_id": {
+          "type": "string",
+          "description": "The task's id."
+        },
+        "revision": {
+          "type": "string",
+          "description": "base, or fixN: the revision folder the record sits in."
+        },
+        "sequence": {
+          "type": "integer",
+          "description": "The record's place in its revision, unique there."
+        },
+        "title": {
+          "type": "string",
+          "description": "task: the task's title."
+        },
+        "status": {
+          "type": "string",
+          "description": "task and result: accepted, candidate, failed_test, failed_compile, superseded, ..."
+        },
+        "tag": {
+          "type": "string",
+          "description": "task: a tag. Repeats: one value per line."
+        },
+        "parent_milestone": {
+          "type": "string",
+          "description": "task: the milestone it belongs to."
+        },
+        "intent": {
+          "type": "string",
+          "description": "intent: what the task means to do."
+        },
+        "problem": {
+          "type": "string",
+          "description": "problem: what was wrong."
+        },
+        "diagnosis": {
+          "type": "string",
+          "description": "diagnosis: why."
+        },
+        "solution": {
+          "type": "string",
+          "description": "solution: what was done."
+        },
+        "path": {
+          "type": "string",
+          "description": "change: the path, relative to the tree root."
+        },
+        "operation": {
+          "type": "string",
+          "enum": [
+            "add",
+            "modify",
+            "remove",
+            "rename"
+          ],
+          "description": "change: what happened to the path."
+        },
+        "before_digest": {
+          "type": "string",
+          "description": "change: sha256 of the bytes before, or none."
+        },
+        "after_digest": {
+          "type": "string",
+          "description": "change: sha256 of the bytes after, or none."
+        },
+        "check": {
+          "type": "string",
+          "description": "verification: what was checked."
+        },
+        "outcome": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "pending",
+            "superseded"
+          ],
+          "description": "verification: how it came out."
+        },
+        "note": {
+          "type": "string",
+          "description": "verification and result: a note."
+        },
+        "resulting_tree_digest": {
+          "type": "string",
+          "description": "result: sha256 of the tree the revision leaves, or pending."
+        },
+        "task_count": {
+          "type": "integer",
+          "description": "index: tasks in the history."
+        },
+        "revision_count": {
+          "type": "integer",
+          "description": "index: revisions in the history."
+        }
+      }
+    }
+  }
+}

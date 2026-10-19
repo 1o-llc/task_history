@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix5"
+  sequence 6
+  path "GADGET_ARENA_9U_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "2ca523617c9d04756548eb1fbbc7ea38f9f4998b3e5d4a49e119a345acbadca1"
+  after_digest "73af6a8740b6765680c2ae282c2a162c7a4369d318855a600a9240b71fe7860d"
+}

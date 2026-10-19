@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 1
+  title "Post-context I through U milestone closeout"
+  parent_milestone "cross_domain_heldout_campaign_phase_u_v1_fix1_mac_accepted"
+  status "accepted"
+  tag "documentation_only_closeout"
+  tag "no_new_reasoning_behavior"
+  tag "no_live_candidate"
+  tag "phase_u_mac_receipt_inherited"
+  tag "broad_reasoning_claim_forbidden"
+}

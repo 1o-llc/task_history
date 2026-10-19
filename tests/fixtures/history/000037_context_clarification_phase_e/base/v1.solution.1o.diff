@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_clarification_phase_e"
+  revision "base"
+  sequence 5
+  solution "Add world_model_context_clarification_core. Deterministically select one active missing slot that separates at least two ranked candidates, create one ClarificationQuestion and SuspendedTask, persist typed/digested option metadata, leave unmatched free text pending, expire stale or cancelled suspensions, attach an explicit option reply using FillsSlot/Resumes/SelectedBy/Supports with UserClarification evidence, and rerun the unchanged Phase D tournament. Add no SelectedConstruction, execution, local verification, LLM provider, interpretation learning, or new chat behavior."
+}

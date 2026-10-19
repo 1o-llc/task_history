@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "cfb3b46acbfb97fb6ddaad2b3c7553bf33102269cb261e475505e401c7445eb4"
+}

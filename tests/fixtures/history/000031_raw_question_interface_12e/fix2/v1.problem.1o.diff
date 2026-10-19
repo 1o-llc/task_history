@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 3
+  problem "12E Fix1 printed linguistic, POS, and domain evidence but selected meaning primarily through narrow family detectors. Consequently the ordinary literal question what is four plus 2 reached family unsupported and safely abstained. The accepted linguistic framework existed, but the bridge did not use lexical senses and thought shapes to assemble and prove a general proposition."
+}

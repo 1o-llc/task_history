@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 200
+  path "NODEPLAN_WORLD_MODEL_STOICHIOMETRIC_CONSTRUCTION_ROUTES_PHASE_T_FIX1.md"
+  operation "add"
+  before_digest "none"
+  after_digest "637f81ca58792d3bbb79fe6dee84e16d8dd1d62cc7a49e4af3dcafb37e44eefa"
+}

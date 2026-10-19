@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "base"
+  sequence 17
+  path "AUTONOMOUS_CAMPAIGN_9Z_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "8dd7f090ea2e861c7803175ba3d008210c18ae208c2a95eceef89ef4d06f76a3"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 5
+  solution "Add a canonical SolutionSet of exact intervals; construct six inequality language families; use the inherited algebra kernel to prove every finite boundary; use accepted 10F factorization for expanded quadratic/cubic boundaries; run exact sign charts over polynomial and rational critical points; retain denominator holes; tournament four plan kinds plus an overfit control; promote heldout family schemas only after exact transfer."
+}

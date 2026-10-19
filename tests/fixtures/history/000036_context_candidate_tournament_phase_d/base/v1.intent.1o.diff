@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 2
+  intent "Combine the accepted Phase A-C evidence sources into deterministic candidate score breakdowns, reuse the existing reversible tournament lifecycle for ranking receipts, and select a context candidate only when a separate local dominance policy proves sufficient score and margin; otherwise abstain."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 4
+  diagnosis "The accepted Phase A schema already supplies typed ReferencesFact/ReferencesOperator edges, stable external reference records, expected-digest validation, stale detection, and read-only KnowledgeGraph authority. Phase C therefore only needs a bounded relevance adapter from Phase B records plus a read-only functional-program operator authority; it does not need a parallel fact store or graph engine."
+}

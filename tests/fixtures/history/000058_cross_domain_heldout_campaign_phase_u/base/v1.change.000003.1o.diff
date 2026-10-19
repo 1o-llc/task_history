@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "base"
+  sequence 218
+  path "history/000057_stoichiometric_construction_routes_phase_t/fix1/v1.result.1o.diff"
+  operation "modify"
+  before_digest "ee599230f6f68170c5c366f2f160c6428c79d998ef903ea3897bd80207dc1ee9"
+  after_digest "8a2b2d30d0b92792b861e5f9917eefe5c71bc7fd18fbd100cf588bca532ab042"
+}

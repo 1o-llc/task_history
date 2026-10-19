@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "base"
+  sequence 4
+  diagnosis "Stoichiometry should be added as bounded typed route families rather than a standalone calculator: each route must retain exact Phase M typed construction, O identity, P plan, Q eligibility, R construction reference, unit algebra, fact or S6 conservation provenance, and a separate exact numeric equation check."
+}

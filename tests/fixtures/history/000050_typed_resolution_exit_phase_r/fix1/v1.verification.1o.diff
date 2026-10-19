@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 6
+  check "mac_typed_resolution_exit_phase_r_fix1_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance received for package SHA-256 45e77a56797cd5ddd3c77d87b189e8cc83bf6a8e021aacc65f80f9feecaf54a8: the isolated Phase R focused-test target compiled after the workspace-boundary repair; accepted workspace boundaries compiled; Context A-H and Phase I-Q regressions remained green; all 6/6 focused Phase R typed-exit and clarification-resume tests passed (missing quantity to ClarificationRequired through Phase E, MissingFact, actual Phase P MissingOperator gap, UnitMismatch, VerificationDisagreement, and exact task/candidate/route resume with deterministic replay); terminal typed-history Rust test passed; no Phase S chemistry rulebook, route/answer execution, provider, learning, factual-KG mutation, or context-graph mutation authority was introduced; and final PASS world_model_typed_resolution_exit_phase_r_v1_fix1 printed."
+}

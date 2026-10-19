@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 2
+  intent "Add only the bounded lower-authority context node, edge, scope, provenance, evidence, lifecycle, and stable fact/operator reference schema; prove deterministic serialization, replay, checkpointing, stale-reference detection, and the factual-authority boundary without changing chat behavior."
+}

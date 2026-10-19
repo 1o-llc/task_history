@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 3
+  problem "12A proved one integrated campaign, but it did not yet prove that repeated autonomous cycles remain bounded over time. Candidate history, route observations, negative knowledge, scheduler service, checkpoint size, cycle progress, replay determinism, and pause/restart continuation must be measured across many cycles without allowing duplicated learning, state explosion, starvation, behavior regression, raw-source persistence, or authority bypass."
+}

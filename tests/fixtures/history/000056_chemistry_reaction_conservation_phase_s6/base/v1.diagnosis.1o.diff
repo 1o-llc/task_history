@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 4
+  diagnosis "Reaction verification should aggregate only already coefficient-scaled S4/S5 term contributions whose S3/S4/S5 provenance chain validates exactly, then compare deterministic reactant/product totals. Atom and charge mismatches must remain independently inspectable and must not trigger automatic balancing."
+}

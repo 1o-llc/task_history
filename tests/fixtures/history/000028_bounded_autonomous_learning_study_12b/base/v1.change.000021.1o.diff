@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 28
+  path "history/000028_bounded_autonomous_learning_study_12b/base/v1.problem.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "47b2f1e76f2cfe0aa198df1a165acbeb26af7f3fa119beba502506610b0ac771"
+}

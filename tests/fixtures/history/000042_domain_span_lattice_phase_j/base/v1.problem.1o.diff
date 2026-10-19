@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "domain_span_lattice_phase_j"
+  revision "base"
+  sequence 3
+  problem "Phase I can represent exact spans and hypotheses but intentionally performs no construction. The post-context architecture now needs a local, inspectable way to generate overlapping span candidates and domain hypotheses from the utterance while avoiding one-label classification, phrase-specific final-answer handlers, LLM authority, premature cross-domain bridge selection, and silent deletion of unknown text."
+}

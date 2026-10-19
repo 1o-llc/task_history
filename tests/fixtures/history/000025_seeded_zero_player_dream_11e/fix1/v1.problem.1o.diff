@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix1"
+  sequence 3
+  problem "The 11E base package correctly refreshed the ancestor source manifests and checker scripts for the additive 11E Cargo member, but did not refresh four nested functional-tree manifests that directly authenticate those changed scripts and source manifests. The inherited chain therefore failed at 11A integrity before the 11E crate compiled."
+}

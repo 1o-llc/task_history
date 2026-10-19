@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "base"
+  sequence 6
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac acceptance 2026-07-29 re-proved the accepted 9X Fix1 parent with 32/32 promotion tests and terminal typed history, then the 9Y crate failed to compile before any 9Y test executed: UsageObservation.recent_regressions is u64 while PromotionRecord.regression_count is usize, producing Rust E0308 at src/lib.rs when assigning record.regression_count directly."
+}

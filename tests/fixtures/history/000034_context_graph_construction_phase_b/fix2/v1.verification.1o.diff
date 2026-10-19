@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_graph_construction_phase_b"
+  revision "fix2"
+  sequence 6
+  check "mac_context_graph_construction_phase_b_fix2_focused_acceptance"
+  outcome "fail"
+  note "The user's 2026-08-07 Mac receipt proved the checksum, extraction, one-candidate gate, 1244-path terminal-tree preflight, all 10 accepted Phase A tests, and 7 of 8 Phase B tests. required_followup_examples_attach_candidate_prior_turn_references passed, but a_new_explicit_question_does_not_force_a_prior_turn_reference failed on standalone interrogative case thing. No Phase B acceptance occurred."
+}

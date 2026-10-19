@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 4
+  diagnosis "The useful learned object is a reversible route compiler artifact, not an opaque answer. Normalize away problem-specific values and visible retrieval scaffolding; retain ordered Apply callables, input/intermediate/output types, required knowledge IDs, conditions, exclusions, proof contracts, verification keys, cost, memory, source receipt digests, and classified failures. Reuse the 9X promotion phase vocabulary and require training plus heldout evidence, exact decomposition, cost improvement, canonical fallback, monitoring, and rollback."
+}

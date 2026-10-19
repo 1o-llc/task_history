@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_execution_verification_phase_f"
+  revision "fix2"
+  sequence 3
+  problem "Phase F Fix1 successfully repaired the nested-workspace conflict and passed both workspace compile checks, all accepted Phase A-E regressions, and four specialized raw-question execution regressions. The Phase F test target itself then failed to compile with E0432 because it directly imports world_model_context_graph_construction_core::ContextConstructionSession while the isolated Phase F Cargo.toml did not directly declare world_model_context_graph_construction_core."
+}

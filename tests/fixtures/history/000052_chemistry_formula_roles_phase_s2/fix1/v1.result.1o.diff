@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "3b07e88ded108267f0933470db4b3379168517b74a679f2e62e33319feabba51"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "fix1"
+  sequence 10
+  path "tools/ecosystem/scripts/check_world_model_recursive_thought_promotion_v1.sh"
+  operation "modify"
+  before_digest "ab6e4b1d7ef2c93b584509a4c29c88ebd5a4c8eca1b402c04d16e88144a1a191"
+  after_digest "742568217a0151f86f56cbabf900b9ea4c5cce57a0e5273454c6cbb7ecfc79ea"
+}

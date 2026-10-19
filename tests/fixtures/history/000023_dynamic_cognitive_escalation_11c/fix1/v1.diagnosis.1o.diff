@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix1"
+  sequence 4
+  diagnosis "The defect is packaging/history layout only. The 11C Rust implementation was never compiled or tested on Mac. Flatten the existing base receipts into direct revision files, mark base as failed_history_gate, add a direct Fix1 lineage, and reject nested directories during the exact 11C checker preflight."
+}

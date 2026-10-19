@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 1
+  title "9T autonomous source investigation"
+  parent_milestone "9s_fix1"
+  status "failed_test"
+  tag "source_investigation"
+  tag "curiosity"
+  tag "provenance"
+  tag "capability_bounded"
+}

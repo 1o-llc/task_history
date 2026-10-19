@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "chemistry_charge_inventory_phase_s5"
+  revision "base"
+  sequence 1
+  title "Phase S5 deterministic charge inventory"
+  parent_milestone "chemistry_atom_inventory_phase_s4_v1_mac_accepted"
+  status "accepted"
+  tag "formula_unit_charge_inventory"
+  tag "coefficient_scaled_charge_inventory"
+  tag "neutrality_explicit_zero"
+  tag "s3_s4_provenance"
+  tag "s6_t_closed"
+  tag "focused_tests_only"
+}

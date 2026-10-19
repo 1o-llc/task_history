@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 23
+  path "tools/ecosystem/world_model_language_algebra_inequality_core/materials/inequality_policy_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "698f79abfee62d578ef7077db34978b5606e96f8d999d97873758b9f49df2fc9"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 15
+  check "mac_acceptance"
+  outcome "pass"
+  note "2026-07-29 Mac acceptance: 50 passed, 0 failed; terminal_tree_changes_verified=189; both final PASS markers observed."
+}

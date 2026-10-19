@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "construction_tournament_phase_q"
+  revision "base"
+  sequence 5
+  solution "Add a deterministic evidentiary construction tournament over exact Phase N/O/P references, per-lineage evidence deduplication with contribution logs, category score breakdowns, explicit assumption/clarification/plausibility penalties, LLM-origin neutrality, minimum score and margin gates, eligibility-only execution disposition, hard-false score-to-answer authority fields, and exact checkpoint/replay."
+}

@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_systems_10b"
+  revision "fix1"
+  sequence 1
+  title "10B Mac acceptance closeout for coupled language algebra"
+  parent_milestone "10b_base"
+  status "accepted"
+  tag "mac_acceptance"
+  tag "coupled_constraints"
+  tag "elimination_transfer"
+  tag "downstream_safe"
+}

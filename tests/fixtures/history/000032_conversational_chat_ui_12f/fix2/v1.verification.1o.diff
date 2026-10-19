@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix2"
+  sequence 6
+  check "mac_12f_fix2_concept_and_advisor_acceptance"
+  outcome "superseded"
+  note "Superseded before acceptance by Fix3 after the operator reported that the advisor prompt lacked enough constraints, thought shapes, operator/capability inventory, and local receipt evidence. Original pending target: accepted Fix1 native-binary parent gate; 30 focused concept, JSON-repair, local-assessment, chat, and consent tests; release binary self-test; visible what is oxygen local definition with provenance and no LLM invocation; and a consented malformed-Qwen candidate response parsed, locally assessed, displayed, and not admitted to knowledge."
+}

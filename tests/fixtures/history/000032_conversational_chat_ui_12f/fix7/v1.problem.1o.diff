@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix7"
+  sequence 3
+  problem "The live Fix6 native window recovered and displayed Ollama candidates, but the right-side evidence panel used tiny collapsing disclosure affordances that could not be reliably opened in the narrow scroll area, hiding the candidate operator chain, assumptions, missing capabilities, and verification plan."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 2
+  intent "Use the accepted Phase B context construction to derive a bounded relevance query, attach stable read-only references to relevant factual-KG nodes/relations and available functional operators, and preserve factual authority by storing only IDs and expected digests in context."
+}

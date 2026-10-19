@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_graph_construction_phase_b"
+  revision "fix3"
+  sequence 18
+  path "CONTEXT_GRAPH_CONSTRUCTION_PHASE_B_FIX3_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "f65d69554689a98c3ec3d2ad058545ef4b55fd3ec8bb4f8d47b8ec9216699d4e"
+}

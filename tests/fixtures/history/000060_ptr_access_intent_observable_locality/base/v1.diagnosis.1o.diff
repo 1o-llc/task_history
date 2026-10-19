@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 4
+  diagnosis "Because the closeout immutable-parent manifest freezes every existing PTR and observable source file, the correct shape is one standalone nested-workspace crate that wraps KeyedArena and PagedKeyedArena around an owned value-plus-intent cell, resolves the legacy prophecy hot bit additively (explicit wins, Auto plus hot resolves Hot, hot=false never becomes Cold), keeps observation mode as a separate composed dimension, selects hot/stream/cold/generic page kernels once per validated page capability in the frozen dense-dispatch style, and confines ARM64 PRFM/LDNP/STNP hints to one unsafe-audited backend module with a portable reference twin proving byte-identical results."
+}

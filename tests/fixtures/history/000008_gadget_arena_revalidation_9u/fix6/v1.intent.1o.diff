@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix6"
+  sequence 2
+  intent "Make the 9U live acceptance adapter restart-safe without treating absence of work as proof: distinguish a genuinely unresolved but blocked maintenance obligation from an already-completed durable 9U revalidation, and accept the latter only through exact journal-plus-authority-receipt evidence."
+}

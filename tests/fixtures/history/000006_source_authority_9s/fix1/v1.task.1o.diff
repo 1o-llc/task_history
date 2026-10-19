@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "source_authority_9s"
+  revision "fix1"
+  sequence 1
+  title "9S temporal status precedence repair"
+  parent_milestone "9s_base"
+  status "accepted"
+  tag "retraction"
+  tag "temporal_precedence"
+  tag "claim_admission"
+  tag "fail_closed"
+}

@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix7"
+  sequence 1
+  title "9U shared lifecycle resume and restart reconciliation"
+  parent_milestone "9u_fix6"
+  status "accepted"
+  tag "lifecycle"
+  tag "resume"
+  tag "restart"
+  tag "fail_closed"
+}

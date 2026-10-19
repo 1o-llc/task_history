@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "construction_tournament_phase_q"
+  revision "base"
+  sequence 4
+  diagnosis "Construction candidates need deterministic identities and complete score breakdowns spanning lexical/POS, structural, domain, context, KG, operator, type, unit, domain-rule and route evidence. Each originating lineage must count once, while explicit assumption/clarification/plausibility penalties keep ranking inspectable and bounded."
+}

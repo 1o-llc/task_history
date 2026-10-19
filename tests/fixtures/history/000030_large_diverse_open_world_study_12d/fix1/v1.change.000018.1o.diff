@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 25
+  path "tools/ecosystem/world_model_large_diverse_open_world_study_core/src/lib.rs"
+  operation "modify"
+  before_digest "ee1e08e8c2ca41da8da66cf666a2abd2c5403dfe292cf372d9256ccb0079c6c8"
+  after_digest "3205beaea63fd4388ee363ddf15c4c3cfb44ff9d5efe9aae1d9fba5a5b2a3af0"
+}

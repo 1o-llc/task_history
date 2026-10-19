@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 1
+  title "Phase T Fix1 reaction species identity adapter repair"
+  parent_milestone "stoichiometric_construction_routes_phase_t_base_failed_test"
+  status "accepted"
+  tag "reaction_species_identity"
+  tag "s6_coefficient_notation_adapter"
+  tag "tests_unchanged"
+  tag "policy_unchanged"
+  tag "proof_stack_unchanged"
+  tag "phase_u_closed"
+}

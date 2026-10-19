@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "base"
+  sequence 31
+  path "tools/ecosystem/scripts/check_world_model_language_algebra_inequality_v1.sh"
+  operation "modify"
+  before_digest "3d09c309e976e943c2e1bcecae1e219729bec6038b95142ce4a890db16a4892d"
+  after_digest "9391492a3f42f597d760a21b842253b0ae5c6de0f9541aafe0334dfe6dd77240"
+}

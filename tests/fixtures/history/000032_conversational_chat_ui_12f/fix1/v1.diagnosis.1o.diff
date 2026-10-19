@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix1"
+  sequence 4
+  diagnosis "eframe 0.33.3 declares Rust 1.88 compatibility and remains suitable for the Mac toolchain. Its App trait requires update(Context, Frame) rather than the 0.35 ui(Ui, Frame) entry point, so dependency pinning and a localized UI lifecycle adaptation are both required."
+}

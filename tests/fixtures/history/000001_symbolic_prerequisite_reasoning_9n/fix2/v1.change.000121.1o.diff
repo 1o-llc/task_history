@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 126
+  path "docs/planning/FUNCTIONAL_THOUGHT_ANTI_UNIFICATION_V1_ACCEPTANCE_EXPECTATIONS.md"
+  operation "remove"
+  before_digest "4835973789c34f1802ba83591b7e5cce67bf6139d82a0f5232da5f9af9eb777d"
+  after_digest "none"
+}

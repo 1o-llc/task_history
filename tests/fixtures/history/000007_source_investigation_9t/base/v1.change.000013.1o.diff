@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 18
+  path "tools/ecosystem/world_model_source_investigation_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "c6f03e6bbe43bcb4b5798d938bc00088755c79d7045b1c9557da8e5b8edf19b0"
+}

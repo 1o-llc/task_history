@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "conversational_chat_ui_12f"
+  revision "fix7"
+  sequence 11
+  path "CONVERSATIONAL_CHAT_UI_12F_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "035b4af0f095d04bf6871e7b86c5b20fbe9a4bab0adaebf3f16e93b208493c93"
+  after_digest "97308a2b2cfae0988e0dbda9deca18048c7682d491d2dd49cd8aac149438f261"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 8
+  path "Cargo.toml"
+  operation "modify"
+  before_digest "833460d4e45109ecc6d2d3187911fb0a70096ad9fef76f22168ef50b4837c641"
+  after_digest "0f3a87537e9dcf6443c4367c9b23e83502e3d12edcc519d9eebad40cc9cd2081"
+}

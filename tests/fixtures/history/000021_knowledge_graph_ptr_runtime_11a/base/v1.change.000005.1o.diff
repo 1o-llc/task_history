@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 12
+  path "KNOWLEDGE_GRAPH_PTR_RUNTIME_11A_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "fdb9ca2b233e30f655001b5f7c62b1c55ee72aa711fe85ea524c614f5ed795f2"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_formula_tokens_phase_s1"
+  revision "base"
+  sequence 114
+  path "tools/ecosystem/scripts/check_world_model_chemistry_formula_tokens_phase_s1_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "1f5901565f297d7db063706e5d7c448e2e60ac8778e2a1c80047d6bbfa24a6ac"
+}

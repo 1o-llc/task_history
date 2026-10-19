@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix5"
+  sequence 5
+  solution "Replace the two invalid failed-revision resulting_tree_digest labels with pending while retaining their detailed failure causes in typed problem/diagnosis records, close Fix4 as failed_test with its 62/62 functional evidence preserved, keep all 9U Rust learning/gadget code byte-identical to Fix4, and add a Rustless typed-history preflight that checks required fields, digest forms, verification outcomes, revision-folder agreement, and contiguous base/fix lineage before Cargo is invoked."
+}

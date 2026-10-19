@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix2"
+  sequence 5
+  solution "Normalize the failed Fix1 intent record to the required intent field, mark Fix1 as failed_test with its real Mac evidence, append Fix2 as the candidate repair, update the history index/checker/source manifest, and preserve the exact 59-test gadget-arena implementation unchanged."
+}

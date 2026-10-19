@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "base"
+  sequence 2
+  intent "Generalize accepted quadratic reasoning to exact cubic/quartic factorization and rational expressions with denominator exclusions, while recursively reusing 10E and the existing algebra proof kernel rather than introducing unverified root authority."
+}

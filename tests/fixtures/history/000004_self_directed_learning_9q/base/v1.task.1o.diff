@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "self_directed_learning_9q"
+  revision "base"
+  sequence 1
+  title "9Q self-directed weakness practice loop"
+  parent_milestone "9p"
+  status "failed_compile"
+  tag "self_state"
+  tag "curiosity"
+  tag "activity_runtime"
+  tag "fragment_archive"
+}

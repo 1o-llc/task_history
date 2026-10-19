@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "ef7a1b0de5cb9d6dbfe38bb14501ce539b149d85f03ee20ba390dc413b74a0f0"
+}

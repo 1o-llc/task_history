@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "base"
+  sequence 5
+  solution "Add an isolated Phase T route crate with exact rational arithmetic; Avogadro, formula-bound molar-mass, and density fact references; conserved-reaction coefficient and limiting-reagent routes; actual Phase M TypedThoughtProgram construction; Phase O/P/Q/R route-stack receipts; deterministic unit and chemistry proofs; independent numeric equations; and exact checkpoint replay while keeping balancing, coefficient rewriting, final-answer authority, providers, learning, and Phase U closed."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "raw_question_interface_12e"
+  revision "fix1"
+  sequence 4
+  diagnosis "The compiler errors are confined to test expectations at raw_question_interface.rs lines 279 through 336. The library crate reached test-target compilation, the accepted 12D Fix1 parent gate passed, and no error identified the parser, solver, KG bridge, or runtime interface. The correct compile-only repair is to express the thirteen exact expected values as f64 literals."
+}

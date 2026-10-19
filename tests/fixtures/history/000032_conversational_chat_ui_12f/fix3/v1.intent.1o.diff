@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix3"
+  sequence 2
+  intent "Give the operator direct control over the advisor's constraints and helpful thought shapes, and provide the LLM enough exact local evidence, operator/capability context, and proof requirements to propose reusable candidate constructions rather than shallow generic recipes."
+}

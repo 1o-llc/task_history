@@ -1,0 +1,18 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 1
+  title "Phase N Query Classes and Opportunity Buckets"
+  parent_milestone "typed_thought_construction_ir_phase_m_v1_accepted"
+  status "accepted"
+  tag "small_general_query_classes"
+  tag "reusable_opportunity_buckets"
+  tag "classification_is_not_answer"
+  tag "multiple_shapes_per_arena"
+  tag "no_phrase_specific_buckets"
+  tag "wrong_arena_rejectable"
+  tag "no_stored_final_answer"
+  tag "focused_tests_only"
+}

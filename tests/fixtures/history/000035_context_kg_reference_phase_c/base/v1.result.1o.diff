@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "d7cdea26244443458bc44d4860279bb3855131caff0e0804e78f132a0b2dddde"
+}

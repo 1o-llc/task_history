@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 131
+  path "docs/planning/FUTURE_SELF_STATE_OSCILLATOR_IDENTITY_SEAM_V1.md"
+  operation "remove"
+  before_digest "42f1ef4e35a4b1c2d17eec340cbb28237b27b5460fd45bf0a11891b4169aa54e"
+  after_digest "none"
+}

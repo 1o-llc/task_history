@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 23
+  path "tools/ecosystem/world_model_raw_question_interface_core/src/semantic_language.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "4a835006b51c56898e169554d8dcf38eb2b67f530ab2b347850143c81c6198a6"
+}

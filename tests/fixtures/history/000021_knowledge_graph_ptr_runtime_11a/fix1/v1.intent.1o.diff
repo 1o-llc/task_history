@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the two Mac-discovered 11A compile interfaces while preserving the PTR knowledge-graph, SmartPin, observable, immutable-ledger, One_DB, producer-consumer, and authority-boundary design unchanged."
+}

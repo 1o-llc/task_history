@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 4
+  diagnosis "A separate graph answer engine would weaken the architecture. The correct bridge is a visible thought primitive: text and existing signatures produce non-authoritative domain/input/output evidence; a bounded capability query locates function-bank-compatible graph nodes and their shared prerequisites; the result compiles back into the existing FunctionalThoughtProgram as DetectGap, QueryKnowledgeGraph, ImportKnowledgeReferences, discrete Apply nodes, and Verify. The unchanged legacy functional program must remain a byte-exact tournament candidate."
+}

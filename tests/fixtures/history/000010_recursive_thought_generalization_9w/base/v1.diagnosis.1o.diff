@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_generalization_9w"
+  revision "base"
+  sequence 4
+  diagnosis "The reusable boundary already exists: algebra learning, proof-thought learning, and dependent API workflow each compile learned structure into FunctionalThoughtProgram. 9W therefore does not need another reasoning architecture. It needs a deterministic adapter that projects each real source node into one 9U-compatible leaf while separately retaining the source callable, operator selector, effect class, arity, dependency indexes, proof contract, and node fingerprint. The 9V recursive compiler can then enforce exact one-to-one leaf coverage and local subtree reconstruction over that projection."
+}

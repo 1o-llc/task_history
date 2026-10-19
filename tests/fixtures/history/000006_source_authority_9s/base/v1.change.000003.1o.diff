@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 8
+  path "SOURCE_AUTHORITY_9S_9R_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "7eae1af11b5075bbbce382e261ee3462e872d0182fbde87cfdc71ed40cffacf7"
+}

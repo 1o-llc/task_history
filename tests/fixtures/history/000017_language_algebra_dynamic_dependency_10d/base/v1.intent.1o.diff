@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "base"
+  sequence 2
+  intent "Generalize the accepted 10C three-variable dependency planner to 4-6 unknown square linear graphs using recursive elimination tournaments, exact reverse reconstruction, inherited 10C/10B/algebra proof authority, and heldout family-schema promotion."
+}

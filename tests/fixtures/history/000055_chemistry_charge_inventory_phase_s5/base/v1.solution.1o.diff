@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "chemistry_charge_inventory_phase_s5"
+  revision "base"
+  sequence 5
+  solution "Add an isolated S5 charge-inventory crate that consumes validated S3 composition plus matching S4 atom inventory, derives signed formula-unit and coefficient-scaled net charge with checked i64 arithmetic, retains exact source/composition/atom-inventory provenance and charge source range, rejects cross-formula S4 provenance, supports deterministic state/checkpoint replay, and explicitly leaves S6/T and execution closed."
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "base"
+  sequence 6
+  check "mac_11c_dynamic_escalation_and_seeded_kg_critic_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-30 revalidated 10G at 81/81 tests, then failed in the inherited terminal-history test before 11A, 11B, or any 11C test could execute. The 11C change receipts had been placed under base/changes/. The Python package validator recursively counted them, but the canonical Rust history loader reads only direct .1o.diff files inside a revision, so it ignored every 11C receipt and retained the pre-11C Cargo.toml digest as terminal."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix7"
+  sequence 5
+  solution "Replace default collapsing rows with full-width button headers backed by stable message/candidate/section keys in persistent application state; default-open operator, capability, and verification evidence; add Expand All and Collapse All; give the reasoning scroll area stable identity and full width; show explicit empty states; and harden delimiter assessment for single-quoted operator arguments."
+}

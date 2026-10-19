@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "raw_question_interface_12e"
+  revision "fix3"
+  sequence 5
+  solution "Type the numeric phrase total and group accumulators as f64 and replace the oversized digest tuple with a stable named JSON object containing the same semantic fields. Preserve all 200 focused tests and every public smoke path."
+}

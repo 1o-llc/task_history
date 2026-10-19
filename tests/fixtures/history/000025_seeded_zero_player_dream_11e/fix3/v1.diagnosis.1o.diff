@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix3"
+  sequence 4
+  diagnosis "Milestone-owned source and history records are immutable, but history/v1.history_index.1o.diff is a mutable aggregate. Parent snapshot verification must require the index entry to exist while excluding that one aggregate from inherited byte equality. The current child still verifies its current index and complete source exactly."
+}

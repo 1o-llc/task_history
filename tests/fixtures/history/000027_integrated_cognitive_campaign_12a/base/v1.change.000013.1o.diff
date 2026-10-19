@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "integrated_cognitive_campaign_12a"
+  revision "base"
+  sequence 20
+  path "tools/ecosystem/scripts/run_world_model_integrated_cognitive_campaign_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "871c501a9b1da2309df8bb19e2773dd04463203f2aa4926f7731edb2a3b8fd8a"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "relationship_acquisition_9r"
+  revision "base"
+  sequence 4
+  check "mac_acceptance"
+  outcome "pass"
+  note "2026-07-29 Mac acceptance: 60 passed, 0 failed; task-history terminal-tree regression passed; sourced ideal-gas relationship admitted and recovered; held-out pressure=100000 Pa; curiosity practice completed; world round 11->12; exact restore; both final PASS markers observed."
+}

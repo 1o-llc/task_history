@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 15
+  path "QUANTIZED_ROUTE_GADGET_11D_11C_CARGO_NORMALIZED_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "b305f805614d1466330de925ab46da816801207321222992fa8950c8f99c1723"
+}

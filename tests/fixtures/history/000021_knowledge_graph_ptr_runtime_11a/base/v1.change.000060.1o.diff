@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 67
+  path "tools/ecosystem/ledger/immutable_ledger_kit/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "e3aea9395a402d9ac28b6218650f4358bdd857e6d6d1892d5fc0ce8a5bd5a11e"
+}

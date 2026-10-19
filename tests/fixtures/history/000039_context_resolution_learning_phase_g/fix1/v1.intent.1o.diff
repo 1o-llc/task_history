@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_resolution_learning_phase_g"
+  revision "fix1"
+  sequence 2
+  intent "Repair Phase G JSON/checkpoint persistence without flattening or weakening the typed InterpretationLearningScope/ScopedInterpretationKey model and without changing positive, negative, neutral, scope-isolation, or promotion authority semantics."
+}

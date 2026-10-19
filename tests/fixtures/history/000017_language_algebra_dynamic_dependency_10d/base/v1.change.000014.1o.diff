@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "base"
+  sequence 21
+  path "tools/ecosystem/world_model_language_algebra_dynamic_dependency_core/tests/dynamic_dependency.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "e1d8340c26f006b3f51ee2f0fc04dba9fed34c8e320d7822a910e85e6694fc26"
+}

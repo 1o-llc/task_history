@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix1"
+  sequence 2
+  intent "Preserve stale temporal semantics while recovering the exact retained historical value needed for old-vs-new sealed gadget simulation."
+}

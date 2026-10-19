@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 5
+  solution "Add a fixed general query-class catalog, reusable OpportunityBucket schema, deterministic evidence scoring with threshold/margin abstention, typed constraints/shapes/operator-family/verification/clarification/exit references, and no executable route or answer authority."
+}

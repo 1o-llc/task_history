@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "base"
+  sequence 3
+  problem "Phases I-T add inspectable typed structures, domain rules, route construction, chemistry validation, and bounded stoichiometric execution, but fixture-local success alone does not establish that the combined architecture improves capability or remains safe under cross-domain ambiguity, stale context, irrelevant text, adversarial proposals, and rejection cases. A held-out evaluation layer is required before broader project claims."
+}

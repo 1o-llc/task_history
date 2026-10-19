@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_candidate_tournament_phase_d"
+  revision "fix1"
+  sequence 4
+  diagnosis "This is a dependency feature-resolution blocker, not evidence that the Phase D tournament logic failed. zune-jpeg exposes a log feature that forwards to zune-core/log. Cargo feature unification can enable that path from the existing real-media crate while preserving the upstream crate source and the current image/jpeg capability."
+}

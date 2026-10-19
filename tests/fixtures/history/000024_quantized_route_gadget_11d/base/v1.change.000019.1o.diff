@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 19
+  path "TEXT_KG_FUNCTIONAL_BRIDGE_11B_11A_FUNCTIONAL_TREE_SHA256.txt"
+  operation "modify"
+  before_digest "008273cae2dad9bac78faeaa80ef0df49af1f5f875ba768fd933c59a9703bdd2"
+  after_digest "2026f8141bf19f0dc46a3e65a059349e26063dca33afb85f6f33a4fc2cc55939"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 6
+  check "mac_12e_literal_raw_question_interface_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-30 passed the one-ZIP integrity preflight, 1,043-path typed-history preflight, frozen 12D Fix1 parent receipt materialization, and exact parent runtime gate. Compilation then stopped before any focused test executed with 13 Rust E0308 mismatches in unit-conversion test expectations: assert_numeric requires expected: f64, but those test calls used integer literals."
+}

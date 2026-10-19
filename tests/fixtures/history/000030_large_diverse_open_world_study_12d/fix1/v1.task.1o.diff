@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 1
+  title "12D Fix1 explicit aggregate counter type repair"
+  parent_milestone "12d_base"
+  status "accepted"
+  tag "large_diverse_study"
+  tag "compile_repair"
+  tag "stable_rust"
+  tag "aggregate_counters"
+  tag "architecture_preserved"
+}

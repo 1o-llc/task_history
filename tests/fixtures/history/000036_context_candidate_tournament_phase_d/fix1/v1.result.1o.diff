@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "context_candidate_tournament_phase_d"
+  revision "fix1"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "42086a4b59080f9fd33e917787c5232e70e78e3debddf6c0cd4c33298cfff37f"
+}

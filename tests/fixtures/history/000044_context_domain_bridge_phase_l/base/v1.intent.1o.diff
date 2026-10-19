@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 2
+  intent "Connect the accepted context graph to accepted Phase J/K domain-span evidence in both directions: active context may support or contradict domain hypotheses, and span analysis may emit typed context evidence, while explicit reasoning epochs and root-lineage deduplication prevent circular confidence inflation."
+}

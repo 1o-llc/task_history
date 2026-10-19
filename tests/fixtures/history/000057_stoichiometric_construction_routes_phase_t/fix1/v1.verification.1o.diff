@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 6
+  check "mac_stoichiometric_construction_routes_phase_t_fix1_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-10 passed package SHA-256 ba0ad7f10e8c4ae80527f1cf736f1ea846786b5d895ab1b71b7ff643be252cd6, Fix1 manifests, preserved base 4/6 failed-test history, sole T Fix1 candidate, typed-history preflight paths=1727, isolated T dependency compile, cumulative workspace boundaries, accepted A-S6 regressions, selected chemistry parser regressions, all 6/6 unchanged Phase T focused tests including repaired coefficient-ratio and limiting-reagent routes, terminal task history, and final PASS world_model_stoichiometric_construction_routes_phase_t_v1_fix1."
+}

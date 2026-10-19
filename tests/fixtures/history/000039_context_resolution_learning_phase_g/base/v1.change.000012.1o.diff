@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_resolution_learning_phase_g"
+  revision "base"
+  sequence 19
+  path "CONTEXT_RESOLUTION_LEARNING_PHASE_G_IMMUTABLE_PARENT_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "0724f1c0dbe1a32e6ef6682ad7f0b75ee4fb6e27166ecf5ae0d1d3fd1ce16a87"
+}

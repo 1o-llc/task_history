@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 5
+  solution "Freeze the Mac-accepted 12C source and checkpoint; execute four distinct 256-case cohorts totaling 768 learning/frontier and 256 heldout challenges; require 56-of-64 heldout success and zero false positives in every cohort; prove 1,024 unique IDs and compact source signatures, bounded escalation, preserved behavior and authority, deterministic replay, exact two-cohort pause/restart continuation, and exact durable checkpoint restoration."
+}

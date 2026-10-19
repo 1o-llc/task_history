@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 2
+  intent "Derive stable versioned identities for canonical typed construction shapes and routes so exact prior failures, verification plans, and external references remain attached to the semantics that produced them."
+}

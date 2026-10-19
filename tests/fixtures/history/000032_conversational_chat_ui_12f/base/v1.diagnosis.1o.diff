@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "base"
+  sequence 4
+  diagnosis "The accepted reasoning crate already emits the receipts needed by a chat surface. The missing layer is a responsive worker-owned checkpoint runtime, a transcript and evidence inspector, a retained release binary, and a hard consent gate that treats LLM output as strict bounded candidate JSON without answer or memory authority."
+}

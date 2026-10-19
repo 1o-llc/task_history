@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 10
+  path "history/000046_query_classes_opportunity_buckets_phase_n/base/v1.result.1o.diff"
+  operation "modify"
+  before_digest "3e46b9d48d00b54686b7396a9235e9a7819889c861306ab225e55f83b522ef8a"
+  after_digest "151d36bd91e4859828d7813e61a54706fe080a72b686227e5a9bcae3d209c241"
+}

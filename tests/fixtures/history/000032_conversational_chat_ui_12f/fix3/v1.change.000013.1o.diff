@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "conversational_chat_ui_12f"
+  revision "fix3"
+  sequence 20
+  path "history/000032_conversational_chat_ui_12f/fix3/v1.problem.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "2b3d0365646667c8bb6008792f4d179519ce8dd57a9fbcfa215d3a811096ec19"
+}

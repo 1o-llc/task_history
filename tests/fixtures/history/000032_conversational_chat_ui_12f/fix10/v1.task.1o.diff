@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "conversational_chat_ui_12f"
+  revision "fix10"
+  sequence 1
+  title "12F Fix10 provider lifecycle and progressive observability"
+  parent_milestone "12f_fix9_accepted"
+  status "accepted"
+  tag "ollama_runtime_detection"
+  tag "explicit_start_consent"
+  tag "selected_model_status"
+  tag "progressive_chat_rendering"
+  tag "user_observed_runtime_acceptance"
+  tag "llm_structurally_complete_runtime"
+}

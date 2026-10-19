@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 19
+  path "CONTEXT_CANDIDATE_TOURNAMENT_PHASE_D_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "65ea73c6d2156837bdf08631837fe537dba7e82455199da6994d7c19465b8805"
+}

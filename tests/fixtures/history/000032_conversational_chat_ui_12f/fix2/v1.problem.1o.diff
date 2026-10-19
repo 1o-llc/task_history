@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix2"
+  sequence 3
+  problem "The accepted Fix1 native UI had no local factual-definition route, so what is oxygen safely abstained, and the consented Qwen response could not be parsed because its JSON contained raw control characters. Candidate responses also lacked an explicit local structural assessment receipt before display."
+}

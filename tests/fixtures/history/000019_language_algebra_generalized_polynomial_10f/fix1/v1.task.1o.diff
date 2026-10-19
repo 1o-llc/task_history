@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "fix1"
+  sequence 1
+  title "10F Rust assertion diagnostic format repair"
+  parent_milestone "10f_base"
+  status "accepted"
+  tag "higher_degree_polynomial"
+  tag "compile_repair"
+  tag "rational_domain"
+  tag "mac_accepted"
+}

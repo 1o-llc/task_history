@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "chemistry_formula_composition_phase_s3"
+  revision "base"
+  sequence 1
+  title "Phase S3 hierarchical formula composition and canonicalization"
+  parent_milestone "chemistry_formula_roles_phase_s2_v1_fix1_mac_accepted"
+  status "accepted"
+  tag "hierarchical_formula_composition"
+  tag "structure_preserving_canonicalization"
+  tag "s1_s2_reused"
+  tag "atom_inventory_closed"
+  tag "s4_s6_t_closed"
+  tag "focused_tests_only"
+}

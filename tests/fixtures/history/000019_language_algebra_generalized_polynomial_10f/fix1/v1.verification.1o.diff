@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "fix1"
+  sequence 6
+  check "mac_10f_fix1_end_to_end_acceptance"
+  outcome "pass"
+  note "Mac run 2026-07-30 re-proved accepted 10E Fix2, passed all 77 focused 10F tests plus terminal typed-history verification, solved all 12 training and 12 heldout generalized problems across degrees 2 3 4, exercised synthetic division and all three plan kinds, enforced rational denominator exclusions, reused the 10E quadratic factorizer and existing algebra proof kernel, promoted all six schemas exactly, restored checkpoint exactly, restarted exactly, and printed final PASS."
+}

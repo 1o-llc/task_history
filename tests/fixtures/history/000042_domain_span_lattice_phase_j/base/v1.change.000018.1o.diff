@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "domain_span_lattice_phase_j"
+  revision "base"
+  sequence 25
+  path "tools/ecosystem/world_model_domain_span_lattice_core/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "04a7e846278742102295ecfd3fbe4a8a95ea797bcb71851246fe062f23f5d6d6"
+}

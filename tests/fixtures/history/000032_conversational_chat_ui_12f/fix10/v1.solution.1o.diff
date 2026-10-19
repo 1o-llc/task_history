@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix10"
+  sequence 5
+  solution "Add a background Ollama lifecycle probe using the command/application boundary and /api/tags; add visible Ready, Stopped, Setup required, Model missing, and Custom provider states; gate startup behind a Start Ollama and continue button; launch the macOS application then fall back to ollama serve with a bounded readiness wait; and add live stage labels plus optional Unicode-safe typewriter rendering."
+}

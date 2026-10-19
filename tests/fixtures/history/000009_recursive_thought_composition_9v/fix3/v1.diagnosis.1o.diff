@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_composition_9v"
+  revision "fix3"
+  sequence 4
+  diagnosis "The gate itself behaved correctly: 62 functional tests and typed history passed, the live parent failed, and no 9V tests ran. The correct continuation is therefore to record Fix5/Fix2 as failed, introduce 9U Fix6 for durable-resume proof, freeze that exact updated 9U functional tree, and bind the child receipt to milestone 9u_fix6 rather than relabeling Fix5 as accepted."
+}

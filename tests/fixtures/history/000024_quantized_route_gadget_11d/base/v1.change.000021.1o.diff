@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 21
+  path "history/000023_dynamic_cognitive_escalation_11c/fix2/v1.result.1o.diff"
+  operation "modify"
+  before_digest "c4beaa06956a361da8b181590f1f475ea616c6bfb45a4af3a26feff1a1244f40"
+  after_digest "fd17a09b3a152648d924353ddafdbecaf385d5333997a81ce36317b3c256afec"
+}

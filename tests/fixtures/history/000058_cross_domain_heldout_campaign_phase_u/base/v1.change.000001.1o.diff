@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "base"
+  sequence 216
+  path "NODEPLAN_WORLD_MODEL_CROSS_DOMAIN_HELDOUT_CAMPAIGN_PHASE_U.md"
+  operation "add"
+  before_digest "none"
+  after_digest "dc066aedb7a7283703e8d5d9d48feaefbbd97a1363ebc345505294a7544db680"
+}

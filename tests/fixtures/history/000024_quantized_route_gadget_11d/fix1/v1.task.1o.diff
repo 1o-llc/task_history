@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "quantized_route_gadget_11d"
+  revision "fix1"
+  sequence 1
+  title "11D Fix1 mechanically enforced decomposition promotion"
+  parent_milestone "11d_base"
+  status "accepted"
+  tag "functional_thought"
+  tag "route_gadget"
+  tag "mechanical_decomposition"
+  tag "callable_identity"
+  tag "checkpoint_tamper"
+}

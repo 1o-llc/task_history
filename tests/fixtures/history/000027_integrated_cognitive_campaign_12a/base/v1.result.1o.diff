@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "integrated_cognitive_campaign_12a"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "5ae6c542007205e2ae0bc2deaf58bb68577538eeb3c18d45047bbc3b9e227b84"
+}

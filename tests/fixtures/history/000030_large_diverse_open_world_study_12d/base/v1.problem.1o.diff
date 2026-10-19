@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 3
+  problem "A single 256-case campaign proves the harness but does not establish that heldout improvement survives distinct seeds, broader variation profiles, larger challenge volume, or cross-cohort identity isolation."
+}

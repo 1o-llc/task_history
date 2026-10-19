@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_graph_construction_phase_b"
+  revision "fix2"
+  sequence 2
+  intent "Repair the Fix1 standalone-question false positive without regressing the three required follow-up prior-turn references or crossing the Phase B construction-only boundary."
+}

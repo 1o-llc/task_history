@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix1"
+  sequence 3
+  problem "The base 12F crate depended on eframe 0.35.0, whose declared minimum Rust version is 1.92. Cargo therefore rejected the dependency graph on rustc 1.91.1 before any chat tests or release build could execute."
+}

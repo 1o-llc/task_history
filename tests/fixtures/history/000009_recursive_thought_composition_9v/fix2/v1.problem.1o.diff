@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_composition_9v"
+  revision "fix2"
+  sequence 3
+  problem "Fix1 compiled on Mac but 44 of 50 tests collapsed at the hierarchy loader because 9V compared its domain-separated recursive contract digest against the 9U gadget contract digest. In parallel, 9V had been authored while 9U Fix5 was still candidate/pending, and the runner attempted 9V static tests before establishing the pending 9U live checkpoint."
+}

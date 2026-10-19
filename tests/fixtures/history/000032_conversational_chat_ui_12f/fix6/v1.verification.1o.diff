@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix6"
+  sequence 6
+  check "mac_12f_fix6_strict_envelope_acceptance"
+  outcome "pass"
+  note "Mac native runtime observed: Fix6 recovered two bounded Ollama candidate constructions for an unresolved oxygen-mass question, displayed both as unverified locally assessed candidates, preserved candidate-only authority, and kept rejected candidates out of local knowledge. The live window exposed a remaining usability defect: narrow disclosure controls in the right-side evidence panel were not reliably interactive."
+}

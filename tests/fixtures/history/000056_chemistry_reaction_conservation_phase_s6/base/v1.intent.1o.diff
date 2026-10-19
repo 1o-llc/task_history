@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 2
+  intent "Verify supplied reaction sides by summing accepted S4 coefficient-scaled atom inventories and matching S5 coefficient-scaled signed charge inventories, reporting atom and charge conservation independently without rewriting coefficients or performing stoichiometry."
+}

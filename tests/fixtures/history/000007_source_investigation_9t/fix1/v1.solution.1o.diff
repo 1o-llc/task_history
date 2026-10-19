@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "source_investigation_9t"
+  revision "fix1"
+  sequence 5
+  solution "Require selected_need.is_some() before committing a source-investigation curiosity decision. Preserve Idle as a non-committing no-work fallback under resource pressure, and strengthen the hard-memory regression to prove the selected need is absent and the winner is Idle."
+}

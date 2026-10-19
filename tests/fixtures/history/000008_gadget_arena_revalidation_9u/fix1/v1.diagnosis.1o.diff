@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix1"
+  sequence 4
+  diagnosis "A stale assessment can have winning_value_digest=None while the superseded assertion is still durably retained. registry_v2 explicitly supersedes registry_v1, so the historical old boundary is recoverable from provenance lineage without reviving registry_v1 as current authority."
+}

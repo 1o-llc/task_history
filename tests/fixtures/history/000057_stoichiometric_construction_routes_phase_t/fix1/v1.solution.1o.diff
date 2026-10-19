@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 5
+  solution "In reaction_coefficient, validate the S6 receipt as before, derive each term species key by stripping the exact canonical coefficient prefix only when term.coefficient() > 1, reject an impossible coefficient/canonical mismatch, compare that coefficient-free key to the requested species, and return the unchanged typed S6 coefficient. Do not modify S6, the six T tests, T policy, Cargo.toml, exact-rational arithmetic, route proofs, balancing flags, or Phase U boundary."
+}

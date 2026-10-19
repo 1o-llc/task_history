@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 173
+  path "tools/ecosystem/world_model_chemistry_reaction_conservation_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "391ee8c7abab1f7ee5ee6a9e8ad1e8889ee243a31168818db13bdd57ff8570d3"
+}

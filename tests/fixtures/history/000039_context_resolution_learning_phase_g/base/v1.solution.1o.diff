@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_resolution_learning_phase_g"
+  revision "base"
+  sequence 5
+  solution "Add an isolated world_model_context_resolution_learning_core with typed resolution episodes, deterministic event replay, scope-keyed interpretation weights, positive evidence only from validated Phase F Verified receipts, negative evidence from digest-backed user rejection, zero positive credit for failed execution, ResolutionEpisode context nodes/edges, bounded weight accounting, privacy flags fixed false, exact checkpoint restoration, and no global promotion API. Add eight focused tests plus all accepted A-F and specialized execution regressions."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "text_kg_functional_bridge_11b"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the two Mac-discovered Rust compile surfaces while preserving the visible KG thought primitive, discrete functional operators, additive legacy candidate, SmartPin context, tournament, construction receipt, and advisor fallback architecture unchanged."
+}

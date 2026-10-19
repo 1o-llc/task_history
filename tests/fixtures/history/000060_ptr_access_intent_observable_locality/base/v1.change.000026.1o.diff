@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 293
+  path "history/000060_ptr_access_intent_observable_locality/base/v1.solution.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "fe65a61ed66b4a83beb14fa8bc71aa7b38e1849f17411700eea64b374e4d6212"
+}

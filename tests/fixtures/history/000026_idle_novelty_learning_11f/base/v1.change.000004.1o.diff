@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 11
+  path "IDLE_NOVELTY_LEARNING_11F_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "5795adee241a64064770f924535ff1c92f1aefe2a181a3346a027b2a0f2005d4"
+}

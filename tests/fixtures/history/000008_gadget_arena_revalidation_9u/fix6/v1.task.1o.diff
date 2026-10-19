@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix6"
+  sequence 1
+  title "9U verifier-backed durable resume acceptance"
+  parent_milestone "9u_fix5"
+  status "failed_test"
+  tag "gadget_arena"
+  tag "durable_resume"
+  tag "verifier_receipts"
+  tag "fail_closed"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 29
+  check "mac_acceptance"
+  outcome "fail"
+  note "2026-07-29 Mac acceptance reached the 9T Rust suite: 64 passed and 1 failed. hard_memory_pressure_blocks_curiosity_commit showed that all background research candidates were correctly rejected under hard memory pressure, but the shared curiosity tournament fell back to Idle and 9T incorrectly persisted that Idle winner as a committed source-investigation intent."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix1"
+  sequence 39
+  path "SOURCE_INVESTIGATION_9T_9S_FUNCTIONAL_TREE_SHA256.txt"
+  operation "modify"
+  before_digest "4c89083954a0e8fcd1e3d0963ba2b93d1b1d5649230da04d9aa5a63508c1f53e"
+  after_digest "6deb9218b9065dfbfdd1cc275bd36f7ee30e3c0696ba64d0c42d56ce70599465"
+}

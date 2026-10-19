@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 8
+  path "Cargo.toml"
+  operation "modify"
+  before_digest "f2528143e90d7f57002166aabcfa85cde7503863be901f65078c79e71dbb9412"
+  after_digest "c745d6d26b199121a2f7d788e0a37f70730a5c9bceac9ca92932ee5efdf1473b"
+}

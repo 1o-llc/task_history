@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_graph_construction_phase_b"
+  revision "fix2"
+  sequence 1
+  title "Phase B Fix2 interrogative-versus-anaphoric evidence repair"
+  parent_milestone "context_graph_construction_phase_b_fix1_failed_test"
+  status "failed_test"
+  tag "local_analysis_only"
+  tag "interrogative_facet_boundary"
+  tag "anaphoric_reference_evidence"
+  tag "required_followups_preserved"
+  tag "no_phrase_handlers"
+  tag "focused_tests_only"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "source_authority_9s"
+  revision "fix1"
+  sequence 19
+  check "mac_acceptance"
+  outcome "pass"
+  note "2026-07-29 Mac acceptance: 79 passed, 0 failed; task-history terminal-tree regression passed; IUPAC relationship authority admissible but not proof; NIST constant admitted with published=2022 learned=2026; temporal fixture selected v1 in past and v2 current; blast radius blocked active reuse/pruning until all four downstream receipts repassed; authority round 0->23; exact authority/world restore; both final PASS markers observed."
+}

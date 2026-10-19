@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix6"
+  sequence 5
+  solution "Detect strict advisor-envelope objects before recursive unwrapping, deserialize them directly with deny_unknown_fields, and return a fatal strict-envelope rejection when validation fails. Continue scanning only for non-envelope noise, preserving wrappers, fences, NDJSON, proposal-array envelopes, diagnostics, bounded retry, and local candidate assessment."
+}

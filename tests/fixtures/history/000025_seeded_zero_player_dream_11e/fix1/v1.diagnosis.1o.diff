@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix1"
+  sequence 4
+  diagnosis "The stale closure consists of KNOWLEDGE_GRAPH_PTR_RUNTIME_11A_10G_FUNCTIONAL_TREE_SHA256.txt, TEXT_KG_FUNCTIONAL_BRIDGE_11B_11A_FUNCTIONAL_TREE_SHA256.txt, DYNAMIC_COGNITIVE_ESCALATION_11C_11B_FUNCTIONAL_TREE_SHA256.txt, and QUANTIZED_ROUTE_GADGET_11D_11C_FUNCTIONAL_TREE_SHA256.txt. Each must be regenerated in dependency order, followed by the 11A, 11B, 11C, 11D, and 11E source manifests that reference them."
+}

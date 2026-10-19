@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_candidate_tournament_phase_d"
+  revision "fix1"
+  sequence 2
+  intent "Repair the transitive zune-jpeg 0.5.15 compile blocker at the narrow dependency-feature boundary, without editing registry source, weakening media support, changing accepted Phase A-C behavior, or modifying the Phase D tournament implementation."
+}

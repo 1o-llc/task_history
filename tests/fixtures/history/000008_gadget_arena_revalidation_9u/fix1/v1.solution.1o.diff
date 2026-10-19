@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix1"
+  sequence 5
+  solution "Add an explicit claim-boundary resolver. Prefer direct assessment digests when present; for a missing stale pre-change digest, recover only through an unambiguous retained supersession predecessor of the new assertion. Reject missing lineage, cross-claim lineage, ambiguous predecessors, or a missing new boundary. Rebuild the sealed boundary snapshot from the resolved digest while retaining the original Stale status."
+}

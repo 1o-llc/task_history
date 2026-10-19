@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "quantized_route_gadget_11d"
+  revision "fix1"
+  sequence 5
+  solution "Add expected_callable_id and callable_identity_matches to QuantizedOperatorStep; enforce them in observation and gadget validation; strengthen compiled_program_exactly_decomposes to compare every Apply node, arity, and dependency plus the terminal Verify; construct the candidate before promotion and derive exact_decomposition mechanically; add six regressions for identity reconstruction, malformed observation and campaign rejection, forged and false flags after resealing, and fully resealed nested checkpoint tampering; retain the original 83 tests for a total of 89."
+}

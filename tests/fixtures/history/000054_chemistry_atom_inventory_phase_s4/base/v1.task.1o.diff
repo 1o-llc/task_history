@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "chemistry_atom_inventory_phase_s4"
+  revision "base"
+  sequence 1
+  title "Phase S4 deterministic atom inventory"
+  parent_milestone "chemistry_formula_composition_phase_s3_v1_mac_accepted"
+  status "accepted"
+  tag "formula_unit_atom_inventory"
+  tag "coefficient_scaled_atom_inventory"
+  tag "nested_group_multiplication"
+  tag "checked_arithmetic"
+  tag "s5_s6_t_closed"
+  tag "focused_tests_only"
+}

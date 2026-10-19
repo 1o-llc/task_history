@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix1"
+  sequence 2
+  intent "Repair prerequisite proof without allowing acceptance replay to mutate the real durable knowledge store."
+}

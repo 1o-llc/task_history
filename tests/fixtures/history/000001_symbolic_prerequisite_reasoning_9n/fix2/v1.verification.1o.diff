@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 166
+  check "mac_acceptance"
+  outcome "pass"
+  note "52/52 tests passed; knowledge round advanced 8 to 9; checkpoint restored exactly; final PASS emitted twice."
+}

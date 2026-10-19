@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix7"
+  sequence 2
+  intent "Make every advisor candidate's operator chain, assumptions, missing capabilities, required local verification, local assessment checks, and exact prompt directly inspectable through reliable full-width controls without changing candidate authority."
+}

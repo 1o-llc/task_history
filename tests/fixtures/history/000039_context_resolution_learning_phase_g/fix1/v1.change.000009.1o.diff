@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_resolution_learning_phase_g"
+  revision "fix1"
+  sequence 16
+  path "CONTEXT_RESOLUTION_LEARNING_PHASE_G_FIX1_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "a2f54195c566754bab71f990df79176ac5f28b5c6734d7f152edb2c72a9ecfe7"
+}

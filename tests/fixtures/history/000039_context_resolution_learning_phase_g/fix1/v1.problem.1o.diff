@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_resolution_learning_phase_g"
+  revision "fix1"
+  sequence 3
+  problem "The Phase G state stores scoped interpretation weights in BTreeMap<ScopedInterpretationKey, ScopedInterpretationWeight>. serde_json encodes maps as JSON objects whose keys must be strings, so serializing any non-empty weight map fails with 'key must be a string'. Three of eight Phase G tests therefore failed even though five learning-policy tests passed."
+}

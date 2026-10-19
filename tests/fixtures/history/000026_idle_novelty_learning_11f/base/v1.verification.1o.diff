@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 6
+  check "mac_11f_idle_novelty_learning_acceptance"
+  outcome "pass"
+  note "Mac acceptance on 2026-07-30: the single-artifact integrity and 926-path typed-history preflights passed; the immutable 11E Fix3 receipt and durable checkpoint gate passed; all 67 focused novelty, deduplication, visible KG-reference, tournament, heldout, negative-knowledge, authority, behavior-preservation, and restart tests passed; the live campaign produced two verified route candidates, one negative-knowledge record, two heldout improvements, no direct gadget installation, exact checkpoint and discovery-history restoration, exact next-campaign-seed restoration, and final 11F PASS markers."
+}

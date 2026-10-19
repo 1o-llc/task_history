@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 5
+  solution "Add only an isolated [workspace] table with resolver = 2 to world_model_typed_resolution_exit_core/Cargo.toml. Leave the repository root Cargo.toml, Phase R src/lib.rs, all six Phase R focused test bodies, policy, and accepted A-Q implementation sources unchanged. Add an early focused --no-run compile proof and rerun the complete Phase R acceptance chain."
+}

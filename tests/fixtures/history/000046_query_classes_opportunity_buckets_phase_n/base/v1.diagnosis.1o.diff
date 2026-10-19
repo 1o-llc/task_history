@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 4
+  diagnosis "A query class should narrow legal construction opportunities from typed IR plus semantic/domain signals; it must remain evidentiary, abstain when support is insufficient, and never contain a stored final answer."
+}

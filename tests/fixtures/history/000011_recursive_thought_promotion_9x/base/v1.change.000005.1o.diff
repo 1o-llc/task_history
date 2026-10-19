@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "recursive_thought_promotion_9x"
+  revision "base"
+  sequence 10
+  path "RECURSIVE_PROMOTION_9X_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "3c233271f3650d7c7b0878f89843e3716195a11be7035134430e79b8d8db88a3"
+}

@@ -1,0 +1,18 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 1
+  title "Phase C bounded factual-KG and operator references"
+  parent_milestone "context_graph_construction_phase_b_fix3_accepted"
+  status "accepted"
+  tag "bounded_factual_neighborhood"
+  tag "stable_fact_references"
+  tag "stable_operator_references"
+  tag "read_only_authority"
+  tag "no_fact_payload_copy"
+  tag "no_candidate_selection"
+  tag "no_clarification"
+  tag "focused_tests_only"
+}

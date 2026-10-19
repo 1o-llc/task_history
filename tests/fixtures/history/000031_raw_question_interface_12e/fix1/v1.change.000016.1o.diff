@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "fix1"
+  sequence 23
+  path "history/v1.history_index.1o.diff"
+  operation "modify"
+  before_digest "ec60e47ece88fa9ad8ed651e79f59e248997027dc92a9c413acf61dcc77a6a4f"
+  after_digest "60638a957d8d23ed27105e8b5789d18dee77cf4704e5b00882a1314e6cfd792c"
+}

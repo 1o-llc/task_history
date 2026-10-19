@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 10
+  path "tools/ecosystem/world_model_context_kg_reference_core/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "e84d3c7cd788c6769a223be8d28bc6b85a471eee336b79bfc9eed18f28b284a5"
+}

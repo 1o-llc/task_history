@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "base"
+  sequence 6
+  check "mac_10f_base_end_to_end_acceptance"
+  outcome "fail"
+  note "Mac base run 2026-07-29 re-proved accepted 10E Fix2 with 76/76 and passed every 10F integrity/parent/history gate, then test compilation failed before any 10F test executed because three assert!/assert_eq! calls passed p.problem_id directly as the diagnostic argument instead of using a string-literal format such as "{}", p.problem_id."
+}

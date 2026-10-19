@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_composition_9v"
+  revision "fix5"
+  sequence 27
+  check "mac_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-07-29: 9U Fix7 completed with unresolved_after=0, active_use_blocked_after=false, pruning_blocked_after=false, exact self-state replay, and PASS; the hash-bound 9u_fix7 parent gate passed; all 50 focused 9V recursive tests passed; terminal typed history passed; the live recursive lab compiled and executed, proved exact root reconstruction and flat coverage, selected an exact-equivalent lower-cost derive-moles rewrite while rejecting the overfit candidate, retained the original subtree without active mutation, restored the recursive checkpoint exactly, claimed no LLM/proof authority, and the full runner emitted PASS world_model_recursive_thought_composition_v1 ok."
+}

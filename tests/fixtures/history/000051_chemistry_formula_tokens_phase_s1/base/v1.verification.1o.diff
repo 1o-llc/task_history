@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "chemistry_formula_tokens_phase_s1"
+  revision "base"
+  sequence 6
+  check "mac_chemistry_formula_tokens_phase_s1_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance receipt: package SHA verified; S1 manifests passed; single-live-candidate and 1609-path typed-history preflight passed; isolated S1 dependency target compiled; workspace boundary checks passed; accepted A-R regressions passed; four selected older chemistry parser regressions passed; all 5 focused S1 tests passed including all 118 canonical element symbols, exact formula lexemes/source span, malformed and capitalization rejection, later syntax deferral, and checkpoint replay; terminal history passed; final PASS world_model_chemistry_formula_tokens_phase_s1_v1 printed."
+}

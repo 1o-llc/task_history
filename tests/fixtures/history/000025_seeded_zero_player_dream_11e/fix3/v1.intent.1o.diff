@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix3"
+  sequence 2
+  intent "Make one downloaded ZIP sufficient: extraction supplies one executable entry point, and the runner automatically validates the current child package plus snapshot-aware inherited parents before spending time compiling or testing."
+}

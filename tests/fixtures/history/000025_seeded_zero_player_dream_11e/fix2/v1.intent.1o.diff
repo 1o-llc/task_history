@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix2"
+  sequence 2
+  intent "Preserve strict execution resource bounds while allowing a non-executed deferral receipt to truthfully record the predicted memory or work demand that triggered the local policy rejection."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 286
+  path "tools/ecosystem/scripts/run_world_model_ptr_access_intent_observable_locality_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "8e6913cfadb92e3ec33a399a995774d6ea2d69c3d4039f3d25773eb0713bc69e"
+}

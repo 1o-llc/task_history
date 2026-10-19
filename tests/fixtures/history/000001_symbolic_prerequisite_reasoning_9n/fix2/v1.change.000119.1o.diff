@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 124
+  path "docs/planning/FILE_RECIPE_SEMANTIC_PROVIDER_LAYOUT_SEAM_V1.md"
+  operation "remove"
+  before_digest "4cbe070babfe12831ff69de891a597b6cd645f27a3e19948191466013c23dec3"
+  after_digest "none"
+}

@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_graph_construction_phase_b"
+  revision "fix1"
+  sequence 1
+  title "Phase B Fix1 prior-turn structural evidence repair"
+  parent_milestone "context_graph_construction_phase_b_base_failed_test"
+  status "failed_test"
+  tag "local_analysis_only"
+  tag "prior_turn_reference_candidates"
+  tag "explicit_question_boundary"
+  tag "strong_context_evidence"
+  tag "no_phrase_handlers"
+  tag "focused_tests_only"
+}

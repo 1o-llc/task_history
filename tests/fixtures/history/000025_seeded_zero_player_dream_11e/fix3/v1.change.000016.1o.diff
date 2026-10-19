@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix3"
+  sequence 23
+  path "tools/ecosystem/scripts/check_world_model_dynamic_cognitive_escalation_v1.sh"
+  operation "modify"
+  before_digest "a36b0b66dadd25f7c988c089d73b0448b53a2b1dd565fdd648c32572f807b456"
+  after_digest "60d6b17ad04573d6c87d2dd58ff83d4374a624727adebb4342b934dcc6aae1a2"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 14
+  path "tools/ecosystem/runtime_reuse/one_o_reference/schema_definitions.rs"
+  operation "modify"
+  before_digest "fffe3e0a3cb2d779481a80a8f7d9a9b554b88e78d0cbf457bf8e6442b4db152d"
+  after_digest "0b4075c656446051f1e540470ecbf74434f9b79d3443c0723c0a4f9918e9a220"
+}

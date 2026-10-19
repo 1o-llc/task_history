@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix7"
+  sequence 4
+  diagnosis "A pending need deterministically maps to its synthetic thought intent. If the active intent maps to that same pending need, the scheduler must continue only that need; if the matching intent is backlogged and no foreign intent is active, it must emit ResumeIntent; only an unrelated active intent may block maintenance. A nonterminal activity for the same sealed resource must be restart-reconciled through the existing suspend/resume lifecycle rather than duplicated or abandoned; this must be implemented inside additive 9U so the exact 9T parent remains frozen."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix1"
+  sequence 2
+  intent "Preserve the complete 11C dynamic escalation and seeded KG critic implementation while making every 11C tree-change receipt visible to the canonical Rust typed-history loader."
+}

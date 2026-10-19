@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 5
+  solution "Add world_model_quantized_route_gadget_core with verified-route observation extraction from 11C, normalized operator-step identities, compact negative-knowledge classifications, deterministic route grouping, two-training/two-heldout promotion gates, exact Apply -> Apply -> Verify recompilation, 9X PromotionPhase reuse, typed/domain registry lookup, runtime regression rollback, compact durable checkpoints, a four-case chemistry campaign, and 83 focused regressions."
+}

@@ -1,0 +1,18 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 1
+  title "Phase L bidirectional context-domain bridge"
+  parent_milestone "cross_domain_segmentation_phase_k_v1_accepted"
+  status "accepted"
+  tag "context_support_and_contradiction"
+  tag "span_to_context_evidence"
+  tag "epoch_separation"
+  tag "lineage_deduplication"
+  tag "stale_context_rejection"
+  tag "no_factual_truth_mutation"
+  tag "no_llm_provider"
+  tag "focused_tests_only"
+}

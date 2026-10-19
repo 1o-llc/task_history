@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "text_kg_functional_bridge_11b"
+  revision "fix1"
+  sequence 6
+  check "mac_11b_fix1_visible_kg_functional_primitive_acceptance"
+  outcome "pass"
+  note "Mac run 2026-07-30 revalidated the accepted 10G parent at 81/81 tests and accepted 11A Fix1 at 86/86 tests plus the live PTR graph laboratory; then all 66 repaired 11B tests passed. The live bridge proved a visible DetectGap -> QueryKG -> ImportRefs trace, two discrete Apply operators, exact retention of the old functional program, additive-only KG routing, bounded SmartPin context, scheduler-admitted work, tournament execution, advisor fallback retention, no graph answer authority, no word-list semantic authority, no raw-text KG persistence, exact checkpoint restart, and final PASS."
+}

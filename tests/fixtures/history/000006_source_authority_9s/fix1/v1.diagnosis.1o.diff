@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "source_authority_9s"
+  revision "fix1"
+  sequence 4
+  diagnosis "Temporal lifecycle classification must have precedence over claim-type admission fallback. Candidate is a live-but-under-supported status; Stale and Superseded describe assertions that are no longer current and must not be downgraded back into the live candidate pool."
+}

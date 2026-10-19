@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_generalization_9w"
+  revision "base"
+  sequence 1
+  title "9W real-program cross-domain recursive generalization"
+  parent_milestone "9v_fix5"
+  status "candidate"
+  tag "recursive_thought"
+  tag "cross_domain"
+  tag "functional_program_lift"
+  tag "local_optimization"
+  tag "heldout_equivalence"
+}

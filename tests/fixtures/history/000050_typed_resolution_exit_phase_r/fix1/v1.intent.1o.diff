@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the Phase R Cargo workspace boundary so its existing typed-exit implementation and six focused tests can compile through --manifest-path, without changing route/answer authority, Phase E clarification semantics, Phase P/Q provenance, or any accepted reasoning behavior."
+}

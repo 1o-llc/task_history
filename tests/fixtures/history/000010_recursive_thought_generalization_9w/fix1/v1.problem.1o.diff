@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_generalization_9w"
+  revision "fix1"
+  sequence 3
+  problem "The 9W base history remained candidate after the real Mac run passed 24/24 tests, terminal history, live three-domain generalization, exact durable restore, and final PASS; its checker also assumed no downstream child existed."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "fix1"
+  sequence 3
+  problem "The delivered 9Z tree still described the milestone as a candidate even though the user Mac run proved 42/42 focused tests, terminal history, a four-round live autonomous campaign, exact rollback, continuation after rollback, finite idle stop, checkpoint restore, restart replay, and final PASS. A downstream 10A member would also otherwise contaminate the frozen-parent Cargo reconstruction."
+}

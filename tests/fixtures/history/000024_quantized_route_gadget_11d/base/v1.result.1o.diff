@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "e79fc4e8ecdc91c9ab56dd19f97c38f5c798f3a7c14175b4d38c1a7b4606f064"
+}

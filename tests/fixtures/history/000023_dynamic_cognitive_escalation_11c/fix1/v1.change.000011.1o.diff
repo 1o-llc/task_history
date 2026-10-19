@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix1"
+  sequence 18
+  path "LANGUAGE_ALGEBRA_DYNAMIC_DEPENDENCY_10D_10C_FUNCTIONAL_TREE_SHA256.txt"
+  operation "modify"
+  before_digest "87c4fd5c78c1be59b024402aab13acfb83a32087e2ac73955d95f05550c990ee"
+  after_digest "3912a0b38a1a1076aae7056bec8c7471a6d6b78478ef3c4264f089ab849a11e8"
+}

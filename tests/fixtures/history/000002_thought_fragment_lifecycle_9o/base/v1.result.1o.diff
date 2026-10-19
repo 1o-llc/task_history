@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "thought_fragment_lifecycle_9o"
+  revision "base"
+  sequence 17
+  status "accepted"
+  resulting_tree_digest "aac76b70a39db656695a4d79b8705b3021332023b0891fb3c4f63c0b2aa2db85"
+}

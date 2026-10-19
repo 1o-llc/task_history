@@ -1,0 +1,13 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "fix1"
+  sequence 1
+  title "9Z Mac acceptance closeout and downstream-safe parent gate"
+  parent_milestone "9z_base"
+  status "accepted"
+  tag "acceptance"
+  tag "closed_loop"
+  tag "downstream_gate"
+}

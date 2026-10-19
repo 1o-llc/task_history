@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 8
+  path "Cargo.toml"
+  operation "modify"
+  before_digest "2acc167c509fb0c87ea863b49155efbf967c439f87111035a7dc82cc664e83db"
+  after_digest "4171780437cd2244d38753948a19b239599a4c2eb5c0f6d589226119be57f42d"
+}

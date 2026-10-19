@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix10"
+  sequence 6
+  check "user_observed_12f_fix10_runtime_ui_and_llm_interaction_acceptance"
+  outcome "pass"
+  note "2026-07-31 user acceptance: Fix10 was visibly exercised and its progressive UI, provider lifecycle display, successful local-LLM interaction, structured candidate generation, and candidate-only authority worked. This closes Fix10 as the cumulative runtime parent. No complete 60-test Mac log was supplied, so this receipt does not assert unseen focused Rust test results; 12F Fix9r1 remains the last fully pasted focused Mac acceptance."
+}

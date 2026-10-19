@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 6
+  check "mac_11d_quantized_route_gadget_acceptance"
+  outcome "pass"
+  note "Mac run 2026-07-30 revalidated 10G at 81/81 tests, 11A Fix1 at 86/86 tests plus the live PTR graph, 11B Fix1 at 66/66 tests plus the live visible-KG bridge, and 11C Fix2 at 74/74 tests plus exact dynamic-escalation checkpoint restoration; then all 83 focused 11D tests passed. The live laboratory observed four verified routes, consolidated one route group, promoted one gadget after two training and two heldout passes with zero failures, reduced modeled cost from 27 to 9 units, exactly decomposed to two Apply nodes plus Verify, retained shared knowledge references and canonical atomic fallback, persisted no raw source or tournament transcript, claimed no answer authority, restored its checkpoint exactly, and printed the final PASS marker."
+}

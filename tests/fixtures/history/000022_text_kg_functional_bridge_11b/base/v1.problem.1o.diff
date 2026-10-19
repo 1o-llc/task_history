@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 3
+  problem "The accepted system could recognize known thought shapes and use an advisor fallback, but it did not yet have an end-to-end path from text-derived domain/type needs into bounded PTR knowledge-graph retrieval, explicit functional operator-chain candidates, additive tournaments, and compact receipts explaining how retrieved knowledge shaped the thought."
+}

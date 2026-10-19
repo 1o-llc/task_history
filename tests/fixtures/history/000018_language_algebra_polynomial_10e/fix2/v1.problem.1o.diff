@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix2"
+  sequence 3
+  problem "The Mac Fix1 rerun re-entered the accepted 10D parent gate but stopped at a child-status assertion: check_world_model_language_algebra_dynamic_dependency_v1.sh required 10E base to remain candidate whenever the 10E history directory existed. After the real base compile failure, the correct lineage is base=failed_compile and Fix1=failed_test/current repair, so the accepted parent was incorrectly policing downstream revision state."
+}

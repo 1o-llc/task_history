@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "quantized_route_gadget_11d"
+  revision "fix1"
+  sequence 3
+  problem "The Mac-accepted route truly decomposed, but build_gadget initialized exact_decomposition from the weaker condition that the step list was nonempty. The later mechanical method caught callable-ID disagreement when called, yet promotion and validation trusted the stored Boolean rather than requiring the Boolean to equal a fresh reconstruction."
+}

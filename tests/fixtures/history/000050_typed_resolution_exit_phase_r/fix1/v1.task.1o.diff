@@ -1,0 +1,17 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 1
+  title "Phase R Fix1 isolated-workspace manifest repair"
+  parent_milestone "typed_resolution_exit_phase_r_base_failed_compile"
+  status "accepted"
+  tag "isolated_workspace_marker"
+  tag "phase_r_logic_unchanged"
+  tag "phase_r_tests_unchanged"
+  tag "root_workspace_unchanged"
+  tag "manifest_path_execution"
+  tag "test_target_compile_preflight"
+  tag "focused_tests_only"
+}

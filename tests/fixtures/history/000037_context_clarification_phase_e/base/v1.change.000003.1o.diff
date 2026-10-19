@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_clarification_phase_e"
+  revision "base"
+  sequence 10
+  path "tools/ecosystem/world_model_context_clarification_core/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "32be51c6c9a15751b90dd5d1157819291cc15ea4f9019e397510ad58e271b47f"
+}

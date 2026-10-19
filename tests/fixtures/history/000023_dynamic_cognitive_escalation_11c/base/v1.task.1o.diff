@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "base"
+  sequence 1
+  title "11C dynamic cognitive escalation and identity-seeded KG critic"
+  parent_milestone "11b_fix1"
+  status "failed_history_gate"
+  tag "functional_thought"
+  tag "knowledge_graph"
+  tag "critic"
+  tag "identity_seed"
+  tag "tournament"
+  tag "advisor_fallback"
+}

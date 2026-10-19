@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "fix1"
+  sequence 4
+  diagnosis "The failure is test-harness syntax only. Rust assertion macros require a literal diagnostic format string before additional formatting values. The generalized solver library did not emit a compile error, and no reasoning test executed, so no algorithmic change is justified."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_graph_construction_phase_b"
+  revision "fix1"
+  sequence 5
+  solution "Replace the broad early return with explicit-question evidence-strength handling: retain reference shapes, lexical context facets, and continuation/correction intents as strong signals; permit pronoun and incomplete-construction evidence for non-question ellipsis; make RequestAction contextual only when another strong signal exists; and retain the unrelated explicit-question negative control."
+}

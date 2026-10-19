@@ -1,0 +1,20 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 1
+  title "PTR access intent and observable locality infrastructure layer"
+  parent_milestone "post_context_i_u_milestone_closeout_v1_accepted"
+  status "candidate"
+  tag "additive_infrastructure_only"
+  tag "parent_reasoning_behavior_unchanged"
+  tag "low_tags_not_repurposed"
+  tag "prophecy_v1_encoding_unchanged"
+  tag "encoded_handle_v1_unchanged"
+  tag "pointer_provenance_intact"
+  tag "access_intent_hint_not_authority"
+  tag "observability_memory_locality_orthogonal"
+  tag "arm64_hints_best_effort_correctness_independent"
+  tag "no_never_cached_claim"
+}

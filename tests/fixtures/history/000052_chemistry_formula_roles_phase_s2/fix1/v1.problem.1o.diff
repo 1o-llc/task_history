@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 3
+  problem "The base S2 implementation used charge_suffix.map(|parsed| { Ok(ChargeRole { ... }) }).transpose()?; the closure contains a fallible RelativeByteRange::new call but did not state its Result error type. Rust therefore could not infer E for Ok because multiple From implementations can satisfy the later question-mark conversion."
+}

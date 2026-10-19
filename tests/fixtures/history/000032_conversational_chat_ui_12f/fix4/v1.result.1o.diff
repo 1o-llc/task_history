@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "conversational_chat_ui_12f"
+  revision "fix4"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "b35c0c06d5f895a20211ee64b553d90228464cdf1f933650a6fd79b2bcb20288"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix2"
+  sequence 6
+  check "mac_11c_fix2_dynamic_escalation_and_seeded_kg_critic_acceptance"
+  outcome "pass"
+  note "Mac run 2026-07-30 revalidated the frozen 10F parent, 10G at 81/81 tests, 11A Fix1 at 86/86 tests plus live PTR graph, and 11B Fix1 at 66/66 tests plus live visible-KG bridge; then all 74 11C tests passed. The live laboratory proved ExistingFunctionalUnits -> KnowledgeGraphSupplementation -> KnowledgeGraphCritic -> LlmAdvisor ordering, scheduler-admitted KG and critic work, deterministic identity-seeded critic triggers, verified KG selection, no advisor invocation, recipe-only fallback, exact preservation of existing functional programs, KG-before-LLM, verification authority, no critic replacement, no scheduler bypass, no raw source or raw tournament transcript persistence, exact checkpoint restore, and final PASS."
+}

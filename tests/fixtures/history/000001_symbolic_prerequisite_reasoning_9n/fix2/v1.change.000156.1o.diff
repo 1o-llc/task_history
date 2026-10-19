@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 161
+  path "docs/planning/WORKSPACE_NAMING_POLICY_V1.md"
+  operation "remove"
+  before_digest "77d5cdc53e9d6ad0f1969942df3d12ee1f073b88e333dc012da57a212596c24c"
+  after_digest "none"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 17
+  path "history/000020_language_algebra_inequality_10g/base/v1.verification.1o.diff"
+  operation "modify"
+  before_digest "c7fe6d618d6e2d4399765c09e522c51163cbf869a0667b6f2c9603573b81fe6a"
+  after_digest "08dfc7495dfbdb278f069f03d6032ccaab4a272f5d747bebc0df046d3a9dcf67"
+}

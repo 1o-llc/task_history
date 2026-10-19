@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 279
+  path "tools/ecosystem/ptr_access_policy_runtime/tests/paged_access.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "3354b4194c7cc8b480bcb3a7f000d899e3ed43b22d2c529cfbec12552c2ca5a1"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_promotion_9x"
+  revision "base"
+  sequence 2
+  intent "Turn 9W pruning-eligible local rewrites into safely activatable runtime routes with lifecycle-governed trial, real optimized execution, monitoring on new evidence, exact rollback, durable restart, and preserved canonical fallback."
+}

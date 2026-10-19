@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 10
+  path "LARGE_DIVERSE_OPEN_WORLD_STUDY_12D_12C_FUNCTIONAL_TREE_SHA256.txt"
+  operation "modify"
+  before_digest "7a8d887d398884e4602d66ba1db42ed4373f34014f530f36474d4f5562ab9685"
+  after_digest "b6112a3541634fab56feb3a8fd86902670402d53ef83f2eb473a2339970e1678"
+}

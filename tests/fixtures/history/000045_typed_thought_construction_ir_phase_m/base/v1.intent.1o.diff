@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "typed_thought_construction_ir_phase_m"
+  revision "base"
+  sequence 2
+  intent "Add the shared compiler-like Typed Thought Construction IR required by the post-context roadmap, lower accepted arithmetic and proposition constructions into it without replacing their parsers or execution semantics, retain exact Phase-I source-span provenance, and reject type-invalid operator adjacency before later route planning."
+}

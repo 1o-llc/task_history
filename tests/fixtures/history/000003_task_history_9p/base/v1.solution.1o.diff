@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 3
+  solution "Add the diff modifier schema to the 1o reference, strict filename/document parsing, base/fixN lineage validation, exact before/after file digests, seeded real 9N/9O history, terminal-tree verification, and query APIs."
+}

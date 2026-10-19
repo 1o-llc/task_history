@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_candidate_tournament_phase_d"
+  revision "fix1"
+  sequence 6
+  check "mac_context_candidate_tournament_phase_d_fix1_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-07: package SHA verified; typed-history preflight passed at 1311 tracked paths; the zune-jpeg 0.5.15 compatibility compile proof passed through world_model_real_media_perception_core; all 10 accepted Phase A tests passed; the ordinary-pronoun analyzer proof passed; all 9 accepted Phase B Fix3 tests passed; all 8 accepted Phase C tests passed; all 8 of 8 unchanged Phase D tournament tests passed including positive/negative ranking, weak POS being outweighed by stronger lexical/context evidence, no LLM intrinsic winner authority, KG/route score breakdown, safe abstention on insufficient margin, deterministic replay, zero false-positive adversarial ambiguity selections, and accepted Phase C input integration; terminal typed-history Rust test passed; all final Phase D Fix1 PASS markers printed."
+}

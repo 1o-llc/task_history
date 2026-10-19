@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_systems_10b"
+  revision "fix1"
+  sequence 2
+  intent "Close the Mac-green 10B coupled-language algebra milestone as accepted and make its checker safe for an additive 10C child without changing the accepted 10B reasoning semantics."
+}

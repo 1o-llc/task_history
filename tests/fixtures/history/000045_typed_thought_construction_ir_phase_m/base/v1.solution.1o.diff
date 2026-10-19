@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "typed_thought_construction_ir_phase_m"
+  revision "base"
+  sequence 5
+  solution "Add isolated world_model_typed_thought_construction_ir_core with ThoughtDomain, ThoughtPrimitiveKind, ThoughtType, ThoughtValue, ThoughtNodeKind, ThoughtNode and TypedThoughtProgram; implement deterministic checkpoint validation; lower/raise accepted world_model_algebra_learning_core::Expr through the existing AlgebraFormulaF projection; lower accepted PropositionCandidate geometry to language-domain IR nodes carrying exact Phase-I SourceSpanId provenance and raise its canonical structural projection; add explicit TypedOperatorContract adjacency validation; prove existing PEMDAS structure, proposition geometry, type rejection, source traceability and accepted compositional arithmetic output remain exact; rerun accepted A-L plus focused arithmetic/proposition regressions."
+}

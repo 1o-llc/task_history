@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_graph_construction_phase_b"
+  revision "fix2"
+  sequence 11
+  path "tools/ecosystem/scripts/run_world_model_context_graph_construction_phase_b_v1_fix2.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "d78ec2d09af175a46704861ccd97ee74061425721d676e360f47f38c5c1341c8"
+}

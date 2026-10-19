@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_hardening_10a"
+  revision "fix1"
+  sequence 2
+  intent "Repair the E0507 ownership defect without changing the 10A language-to-equation semantics, schema tournament, algebra proof authority, 53-test scope, or durable acceptance boundary."
+}

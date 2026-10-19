@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "thought_fragment_lifecycle_9o"
+  revision "base"
+  sequence 12
+  path "tools/ecosystem/world_model_thought_fragment_lifecycle_core/examples/thought_fragment_lifecycle_lab.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "afb7a757558e2e7f679d274465626f67814a3d06a467a5066adcdc608ee95c56"
+}

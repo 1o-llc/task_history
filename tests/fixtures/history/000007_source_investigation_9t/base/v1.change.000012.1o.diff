@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 17
+  path "tools/ecosystem/scripts/run_world_model_source_investigation_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "9d0ea091cddd5979f03a12c43e3a4deb4db5208d8a53a24678be87b3b35903c7"
+}

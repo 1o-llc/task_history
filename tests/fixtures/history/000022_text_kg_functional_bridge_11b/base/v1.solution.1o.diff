@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 5
+  solution "Add world_model_text_kg_functional_bridge_core. Reuse the existing linguistic problem model, ProblemSignature, FunctionalThoughtProgram, real 11A PTR graph, function-bank scaffolds, SmartPin neighborhood materialization, producer/consumer work path, tournament service, and advisor boundary. Implement weighted overlapping domain/type evidence; bounded typed route search; visible KG primitive nodes; shared fact/constant references; additive existing-versus-KG candidate tournaments; compact construction receipts; exact durable checkpoint/restart; and 64 focused regression tests."
+}

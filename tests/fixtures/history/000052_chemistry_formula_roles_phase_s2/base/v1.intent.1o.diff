@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "base"
+  sequence 2
+  intent "Assign strict typed roles to the digit and charge syntax preserved by accepted Phase S1: element subscripts, leading coefficients, and signed charge magnitudes, while preserving source provenance and keeping formula composition/canonicalization, atom and charge inventories, conservation, stoichiometry, execution, and answer authority closed."
+}

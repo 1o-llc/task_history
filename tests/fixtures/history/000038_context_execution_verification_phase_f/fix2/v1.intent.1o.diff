@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_execution_verification_phase_f"
+  revision "fix2"
+  sequence 2
+  intent "Repair only the isolated Phase F test manifest boundary by declaring the crate directly imported by the focused test. Preserve the Phase F execution/verification implementation, all eight focused test bodies, the accepted raw-question kernel, and every Phase A-E behavior."
+}

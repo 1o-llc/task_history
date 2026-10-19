@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_graph_construction_phase_b"
+  revision "fix3"
+  sequence 4
+  diagnosis "The architectural boundary is evidence versus commitment: analyzer intention alternatives should remain attached and inspectable, but an explicit question needs a direct non-interrogative token/context cue before RefersToPrior is constructed. Ordinary pronouns should be recognized by the analyzer itself, not by context-graph surface matching."
+}

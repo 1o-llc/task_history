@@ -1,0 +1,18 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 1
+  title "Phase I domain-span schema and immutable observations"
+  parent_milestone "context_interpretation_promotion_study_phase_h_v1_accepted"
+  status "accepted"
+  tag "exact_source_span_identity"
+  tag "domain_hypothesis_schema"
+  tag "evidence_lineage_deduplication"
+  tag "cross_domain_bridge_types"
+  tag "read_only_context_and_kg_references"
+  tag "deterministic_checkpoint"
+  tag "no_reasoning_behavior_change"
+  tag "focused_tests_only"
+}

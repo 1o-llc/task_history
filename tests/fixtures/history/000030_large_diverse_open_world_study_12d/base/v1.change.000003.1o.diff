@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 10
+  path "LARGE_DIVERSE_OPEN_WORLD_STUDY_12D_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "7a0e78b93603859080f4bd3a1144d2d7c012151e41d7011507b5753a950c1db3"
+}

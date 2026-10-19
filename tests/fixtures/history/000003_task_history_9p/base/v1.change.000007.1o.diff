@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 10
+  path "tools/ecosystem/world_model_task_history_core/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "c9692db45641d26f59e4cf6a896a207e172792e2ed4d4737ce6a74d687cec9ce"
+}

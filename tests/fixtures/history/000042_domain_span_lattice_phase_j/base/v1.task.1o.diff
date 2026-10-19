@@ -1,0 +1,18 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "domain_span_lattice_phase_j"
+  revision "base"
+  sequence 1
+  title "Phase J local domain-span lattice"
+  parent_milestone "domain_span_schema_phase_i_v1_accepted"
+  status "accepted"
+  tag "overlapping_local_span_lattice"
+  tag "token_phrase_clause_unit_entity_formula"
+  tag "ranked_domain_hypotheses"
+  tag "unfamiliar_spans_preserved"
+  tag "heldout_novel_wording"
+  tag "no_llm_provider"
+  tag "no_cross_domain_bridge_detection"
+  tag "focused_tests_only"
+}

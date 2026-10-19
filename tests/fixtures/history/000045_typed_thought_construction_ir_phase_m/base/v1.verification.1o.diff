@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "typed_thought_construction_ir_phase_m"
+  revision "base"
+  sequence 6
+  check "mac_typed_thought_construction_ir_phase_m_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance received for package SHA-256 5c9fee759cd3b64ae347442541e76c79fec74eb4610e89f08a5aa1bf76e1a582: isolated Phase M test target compiled; accepted workspace boundaries compiled; Context A-H regressions passed; all 16 proposition-structure tests and the algebra implicit-multiplication parser regression passed; four specialized raw execution regressions passed; Phase F 8/8, Phase G 9/9, Phase H 8/8, Phase I 5/5, Phase J 5/5, Phase K 6/6 and Phase L 5/5 remained green; all 5/5 focused Phase M tests passed (PEMDAS IR roundtrip, proposition roundtrip, invalid operator-chain rejection, source-span traceability, exact accepted arithmetic output preservation); terminal typed-history Rust test passed; and final PASS world_model_typed_thought_construction_ir_phase_m_v1 printed."
+}

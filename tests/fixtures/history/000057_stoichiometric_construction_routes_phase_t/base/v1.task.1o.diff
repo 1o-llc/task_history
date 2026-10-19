@@ -1,0 +1,18 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "base"
+  sequence 1
+  title "Phase T typed stoichiometric construction routes"
+  parent_milestone "chemistry_reaction_conservation_phase_s6_v1_mac_accepted"
+  status "failed_test"
+  tag "moles_particles"
+  tag "moles_mass"
+  tag "coefficient_ratio"
+  tag "limiting_reagent"
+  tag "volume_density_mass"
+  tag "m_r_proof_stack"
+  tag "independent_numeric_verification"
+  tag "phase_u_closed"
+}

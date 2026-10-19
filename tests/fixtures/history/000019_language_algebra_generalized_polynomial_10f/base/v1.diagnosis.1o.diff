@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "base"
+  sequence 4
+  diagnosis "A useful next layer needs a degree-generic dense polynomial representation, exact synthetic division until a quadratic residual reaches 10E, preserved denominator exclusions, explicit original-statement rechecking, and heldout schema promotion through existing budget/tournament/lifecycle machinery."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix2"
+  sequence 3
+  problem "DreamCycleReceipt::validate unconditionally rejected predicted_memory_bytes or work_units above the local policy maximum. A local-bound deferral necessarily records an estimate above that maximum, so the runtime constructed a correct DeferredScheduler receipt and then rejected its own evidence before returning it."
+}

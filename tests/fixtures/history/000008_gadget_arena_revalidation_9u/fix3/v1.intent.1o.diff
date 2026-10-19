@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix3"
+  sequence 2
+  intent "Keep global curiosity free to choose voluntary work while scheduling already-required blast-radius revalidation in a separate bounded tournament over only dirty gadget needs, with the same memory/work budget, active-intent guard, sealed arena capability, and fail-closed Idle fallback."
+}

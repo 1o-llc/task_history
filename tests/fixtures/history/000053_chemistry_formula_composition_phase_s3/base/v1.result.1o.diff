@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "chemistry_formula_composition_phase_s3"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "36e144908d3574873aedf06624888b2f717f43a335c4ae4a383e6621b769a1b8"
+}

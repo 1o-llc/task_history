@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 4
+  diagnosis "Old checkers treated narrative milestone documents as frozen functional state even though current code and machine manifests were the real acceptance boundary."
+}

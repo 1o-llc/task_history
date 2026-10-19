@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "typed_resolution_exit_phase_r"
+  revision "base"
+  sequence 4
+  diagnosis "Use additive typed exit receipts over accepted Q/P/F/E outputs. Preserve task/candidate/route IDs and source receipt digests. For ClarificationRequired, bind to an actual Phase E ContextClarificationPlan and require a Phase E RerunCompleted receipt before emitting ReadyToRerunExactRoute. Never execute in Phase R."
+}

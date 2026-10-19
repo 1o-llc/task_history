@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "cfb3b46acbfb97fb6ddaad2b3c7553bf33102269cb261e475505e401c7445eb4"
+  note "Terminal accepted behavior is the SHA-verified Phase U Fix1 tree; this closeout adds documentation and history closure only."
+}

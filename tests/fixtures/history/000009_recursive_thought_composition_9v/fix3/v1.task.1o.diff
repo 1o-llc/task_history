@@ -1,0 +1,13 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_composition_9v"
+  revision "fix3"
+  sequence 1
+  title "9V gated on verifier-backed 9U Fix6 durable completion"
+  parent_milestone "9u_fix6"
+  status "failed_test"
+  tag "recursive_thought"
+  tag "parent_gate"
+  tag "durable_resume"
+}

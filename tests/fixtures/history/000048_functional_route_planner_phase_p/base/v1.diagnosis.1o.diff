@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "functional_route_planner_phase_p"
+  revision "base"
+  sequence 4
+  diagnosis "A deterministic breadth-first search over ThoughtType transitions can expand A to X to Y to B if operator families and adjacent contracts are legal. Search must account for every attempted operator, reject path cycles and dominated states, stop on explicit budgets, and return a typed MissingOperator gap when no path exists."
+}

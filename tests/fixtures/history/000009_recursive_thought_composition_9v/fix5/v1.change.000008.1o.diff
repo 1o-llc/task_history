@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "recursive_thought_composition_9v"
+  revision "fix5"
+  sequence 13
+  path "history/000009_recursive_thought_composition_9v/fix4/v1.task.1o.diff"
+  operation "modify"
+  before_digest "b10cb841f02abe3cb31f6b62508abcc432c3f4f8a33ef0e011b0cb37a9363142"
+  after_digest "95cb50c876d0c5c3e1a6e2ed4cb51785961dfbb246a035fbb0f70853564f3ca9"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 268
+  path "tools/ecosystem/ptr_access_policy_runtime/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "9e802380c2eae0beef961a7434deee06c236fc2f8ff1104fa01460859dca747b"
+}

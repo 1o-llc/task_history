@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "recursive_thought_promotion_9x"
+  revision "base"
+  sequence 6
+  path "Cargo.toml"
+  operation "modify"
+  before_digest "bdd41f243cad5dc0dc3f727d2dcf1a36a5a522b16200ee8f16e5d70075e2529e"
+  after_digest "c0ff74561d261755d022b8e7c86b56a7d6e4b520e09fb89437ad55d09a52b3ee"
+}

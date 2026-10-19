@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "raw_question_interface_12e"
+  revision "fix1"
+  sequence 2
+  intent "Repair the Mac-observed E0308 test compilation failure without changing the raw-question parser, linguistic evidence, symbolic construction, KG route behavior, verification logic, ASK interface, checkpoint schema, or accepted parent architecture."
+}

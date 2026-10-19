@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 4
+  diagnosis "Phase A must be additive and lower-authority. Context owns only context records, references factual NodeId and EdgeId plus functional program/callable/operator identities, resolves them through read-only authority traits, admits every new node as unverified, and reconstructs state from deterministic typed events. No parser, clarification, tournament, learning, or UI path belongs in this revision."
+}

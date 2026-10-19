@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 11
+  path "TEXT_KG_FUNCTIONAL_BRIDGE_11B_11A_CARGO_NORMALIZED_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "e6e1171772c2eda908b63447a48db15df4c179804409bb5b9b817d086bd6125d"
+}

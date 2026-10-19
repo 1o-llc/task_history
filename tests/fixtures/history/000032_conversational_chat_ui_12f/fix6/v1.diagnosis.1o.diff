@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix6"
+  sequence 4
+  diagnosis "The transport scanner must distinguish unrelated noisy JSON from JSON that claims to be an advisor response. Irrelevant regions may be skipped, but a claimed envelope must be accepted or rejected as a whole; its children are not independent recovery candidates after a schema or authority failure."
+}

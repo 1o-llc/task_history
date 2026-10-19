@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_candidate_tournament_phase_d"
+  revision "fix1"
+  sequence 5
+  solution "Add an exact zune-jpeg =0.5.15 dependency with feature log to world_model_real_media_perception_core so its already-required zune-jpeg instance is feature-unified with zune-core logging enabled. Add a focused media cargo check before rerunning all accepted Phase A-C regressions and the unchanged eight-test Phase D tournament suite."
+}

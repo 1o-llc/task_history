@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "integrated_cognitive_campaign_12a"
+  revision "base"
+  sequence 6
+  check "mac_12a_integrated_cognitive_campaign_acceptance"
+  outcome "pass"
+  note "Mac acceptance on 2026-07-30: the single-artifact integrity and 947-path typed-history preflights passed; the immutable 11F receipt and exact durable checkpoint gate passed; all 82 focused integration, authority, algebra, chemistry, KG, workflow, route-gadget, dream, novelty, negative-knowledge, behavior-preservation, determinism, and checkpoint tests passed; the live campaign solved seven problems, passed eight of eight workflow heldouts, reused one accepted gadget, executed bounded KG supplementation, emitted four dream stimuli, verified four novelty routes, retained one negative-knowledge class, suppressed repeated attempts, preserved accepted behavior, restored the exact checkpoint and next cognitive action, and printed the final 12A PASS markers."
+}

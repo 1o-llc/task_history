@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 16
+  path "BOUNDED_AUTONOMOUS_LEARNING_STUDY_12B_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "5efb114e1eef78e228e8f8f39e954599ec81aec42cb2c7ccbfd06c093a9090ba"
+}

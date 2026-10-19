@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix2"
+  sequence 5
+  solution "Add a schema-validated bounded local concept catalog and definition-request recognizer with explicit attributes, source, provenance, match basis, and grounding steps; suppress advisor offers after a local concept resolution; sanitize control characters, strip thinking blocks, repair trailing commas, extract balanced JSON, unwrap common envelopes, then enforce the original strict schema; and locally assess each candidate for unique identity, balanced construction, operator disclosure, and a bounded verification plan without verifying or admitting it."
+}

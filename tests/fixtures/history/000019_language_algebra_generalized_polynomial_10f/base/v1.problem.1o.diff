@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "base"
+  sequence 3
+  problem "10E is restricted to exact quadratics. It cannot recursively factor degree-three/four structure or represent the semantic fact that clearing a rational denominator can create an algebraic root that is illegal in the original expression."
+}

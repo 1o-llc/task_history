@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_composition_9v"
+  revision "fix3"
+  sequence 2
+  intent "Preserve the Fix2 canonical leaf-equivalence repair unchanged, but advance the cross-task gate only after the new restart-safe 9U Fix6 parent proves its exact functional tree, 64 focused regressions, terminal typed history, and fresh-or-verified-durable live arena completion."
+}

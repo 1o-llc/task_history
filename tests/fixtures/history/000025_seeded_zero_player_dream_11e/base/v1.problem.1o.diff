@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 3
+  problem "Idle variation can become nondeterministic, unbounded, personality-mutating, or falsely authoritative unless automaton rules, scheduler admission, stimulus growth, checkpoint replay, and downstream promotion boundaries are explicit."
+}

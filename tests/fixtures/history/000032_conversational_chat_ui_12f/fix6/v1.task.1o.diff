@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "conversational_chat_ui_12f"
+  revision "fix6"
+  sequence 1
+  title "12F Fix6 strict advisor-envelope authority repair"
+  parent_milestone "12f_fix4_accepted_fix5_failed_test"
+  status "accepted"
+  tag "strict_top_level_schema"
+  tag "nested_salvage_prevention"
+  tag "noisy_output_recovery_preserved"
+  tag "candidate_only_authority"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "chemistry_formula_composition_phase_s3"
+  revision "base"
+  sequence 5
+  solution "Add an isolated S3 composition crate with nested parenthesis parsing, S2 validation receipts, exact byte ranges and SourceSpanId provenance, structure-preserving canonical rendering, bounded state/checkpoint replay, malformed-group rejection, and explicit S4-S6/T authority closure."
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_execution_verification_phase_f"
+  revision "fix2"
+  sequence 6
+  check "mac_context_execution_verification_phase_f_fix2_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-08: package SHA verified; typed-history preflight passed at 1375 tracked paths; focused Phase F test dependency --no-run preflight passed; accepted and Phase F isolated workspace compile proofs passed; all 10 Phase A tests passed; ordinary-pronoun analyzer proof passed; all 9 Phase B Fix3 tests passed; all 8 Phase C tests passed; all 8 Phase D Fix1 tests passed; all 8 Phase E tests passed; specialized compositional arithmetic, rate, unit-conversion, and chemistry raw-question regressions passed; all 8 of 8 focused Phase F execution/independent-verification tests passed including selected execution, type/unit rejection, capability-gap preservation, verifier-disagreement rejection, abstention authority rejection, exact checkpoint/replay, chemistry verification, and Phase E selection bridge; terminal typed-history Rust test passed; all final Phase F Fix2 PASS markers printed."
+}

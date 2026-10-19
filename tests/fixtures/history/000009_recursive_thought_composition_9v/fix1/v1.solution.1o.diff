@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_composition_9v"
+  revision "fix1"
+  sequence 5
+  solution "Resolve the winning evaluation into owned boolean values winner_is_replacement and exact_boundary_equivalence before constructing RecursiveSubtreeTournament, ending the borrow before evaluations is moved. Preserve the existing 50-test contract because those tests already execute both replacement-winning and original-fallback tournament paths."
+}

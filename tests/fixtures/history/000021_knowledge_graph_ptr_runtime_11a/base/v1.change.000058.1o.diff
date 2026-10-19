@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 65
+  path "tools/ecosystem/engines/recipe/crates/file_recipe_runtime/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "87af4e12c16aeadd546963abd8a315fc49fbfd2a22a8074ca8c19f229fb0e002"
+}

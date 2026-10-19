@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "integrated_cognitive_campaign_12a"
+  revision "base"
+  sequence 4
+  diagnosis "The next risk is integration rather than missing primitives. A safe campaign must reuse accepted implementations directly, bind to the durable 11F checkpoint, preserve the root workspace, exercise real multi-domain verifiers, record compact per-problem receipts, prevent repeated novelty attempts, preserve accepted behavior, and checkpoint the exact deterministic continuation."
+}

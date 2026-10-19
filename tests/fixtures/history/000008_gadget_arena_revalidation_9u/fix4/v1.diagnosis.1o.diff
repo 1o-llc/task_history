@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix4"
+  sequence 4
+  diagnosis "The shared tournament service is correct: a one-branch tournament is not a comparison. The scoped maintenance adapter must model the blocked state with at least two explicit safe scheduling alternatives while ensuring neither alternative can start revalidation."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix1"
+  sequence 8
+  path "DYNAMIC_COGNITIVE_ESCALATION_11C_11B_FUNCTIONAL_TREE_SHA256.txt"
+  operation "modify"
+  before_digest "801a8958d1d5886338f04d538410879eb293ce81d7be3ff7e2b7066c851982d2"
+  after_digest "eb44886c5bd9797be067d35a943593a271d970d8e1ea9b6641644a3b7016a79c"
+}

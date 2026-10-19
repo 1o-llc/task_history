@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_composition_9v"
+  revision "base"
+  sequence 1
+  title "9V recursive functional thought composition"
+  parent_milestone "9u_fix5"
+  status "failed_compile"
+  tag "recursive_thought"
+  tag "functional_units"
+  tag "fine_tuning"
+  tag "pruning"
+}

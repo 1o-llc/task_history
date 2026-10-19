@@ -1,0 +1,18 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 1
+  title "Phase H durable interpretation promotion study"
+  parent_milestone "context_resolution_learning_phase_g_v1_fix1_accepted"
+  status "accepted"
+  tag "heldout_interpretation_study"
+  tag "ten_required_context_failure_classes"
+  tag "eight_required_metrics"
+  tag "repeated_verified_cross_scope_evidence"
+  tag "explicit_promotion_gate"
+  tag "heldout_isolation"
+  tag "no_production_promotion"
+  tag "focused_tests_only"
+}

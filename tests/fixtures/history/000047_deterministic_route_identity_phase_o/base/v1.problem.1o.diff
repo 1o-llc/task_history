@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 3
+  problem "Phase N exposes reusable arenas and shape/operator references, but later planning and learning require deterministic route identity so semantically changed routes cannot inherit stale success or failure history."
+}

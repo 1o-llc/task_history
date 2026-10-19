@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 5
+  solution "Add a pluggable deterministic zero-player rule surface, derive the initial bounded cell state from the immutable identity seed, defer under foreground intent or scheduler pressure, map selected patterns to six temporary cognitive modes, emit bounded reference-only DreamStimulus records, and checkpoint the exact automaton and pattern history so restart reproduces the next generation."
+}

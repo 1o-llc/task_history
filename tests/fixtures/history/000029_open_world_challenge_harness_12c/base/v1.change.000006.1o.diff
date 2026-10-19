@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 13
+  path "OPEN_WORLD_CHALLENGE_HARNESS_12C_12B_CARGO_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "ec5f692e53ed3c6472181753c7e5c96b7a0f952d2f79853eaec09bc4938ec4d3"
+}

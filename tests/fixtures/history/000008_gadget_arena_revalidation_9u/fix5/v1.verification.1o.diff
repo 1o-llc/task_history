@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix5"
+  sequence 21
+  check "mac_acceptance"
+  outcome "fail"
+  note "2026-07-29 Mac acceptance passed all 62 focused 9U gadget-arena regressions and the terminal typed-history test, then the live parent lab failed with '9U expected unresolved gadget revalidation need from green 9T'. This exposed a durable-resume ambiguity in the live adapter: selected_need=None did not distinguish an already-completed verifier-backed durable revalidation from a genuinely blocked unresolved maintenance obligation."
+}

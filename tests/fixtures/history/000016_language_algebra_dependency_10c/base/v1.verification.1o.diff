@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_dependency_10c"
+  revision "base"
+  sequence 6
+  check "mac_10c_three_variable_dependency_acceptance"
+  outcome "pending"
+  note "Candidate requires accepted 10B parent gate, 68 focused 10C tests, typed terminal history, live six-family dependency campaign, all three first-elimination plans plus both 10B second-elimination plans, exact heldout triples, all three constraints rechecked, promoted-route use, overfit rejection, exact checkpoint/restart, and no authority leakage."
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 6
+  check "mac_12e_fix2_compositional_statement_prover_acceptance"
+  outcome "fail"
+  note "Mac compilation stopped before tests: semantic_language numeric phrase accumulators had ambiguous float types at max calls, and receipt digest construction used an 18-element tuple beyond serde tuple Serialize support. No Fix2 runtime receipt or checkpoint was accepted."
+}

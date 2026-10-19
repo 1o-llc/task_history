@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix1"
+  sequence 5
+  solution "Replace the obsolete 10E budget struct literals with the current shared API pattern already used by the accepted language-algebra stack, retain the existing 76 focused nonlinear tests and all exact factor/root/domain invariants, update the checker/history lineage, and rerun the full accepted 10D parent gate before 10E."
+}

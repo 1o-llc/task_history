@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 3
+  problem "Phase B can construct competing local context structures but intentionally has no factual-KG or operator references. The next bounded step needs relevant factual/operator grounding without copying facts into context, scanning unrelated results into the candidate graph, or creating any factual mutation path."
+}

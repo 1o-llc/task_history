@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix4"
+  sequence 6
+  check "mac_12f_fix4_prompt_contract_acceptance"
+  outcome "pass"
+  note "Mac runtime observed: the Fix4 native window opened with editable advisor constraints, local oxygen grounding, compositional arithmetic, explicit consent, and the configured Ollama call. The session exposed a remaining transport-envelope failure: provider output was not recoverable when valid candidate JSON was wrapped, streamed, or absent from byte zero."
+}

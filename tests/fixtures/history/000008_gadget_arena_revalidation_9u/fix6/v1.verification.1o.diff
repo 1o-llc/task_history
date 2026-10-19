@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix6"
+  sequence 22
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-29: source integrity passed, all 64 focused 9U regressions passed, terminal typed-history verification passed, then the live lab failed closed with pending_needs=1 admission=true active_intent=Some(ThoughtLibraryEntryId(7287390858868751720)) maintenance_winner=maintenance:idle. The unfinished maintenance intent survived durably, but the planner treated every active intent as foreign instead of resuming the same lifecycle target."
+}

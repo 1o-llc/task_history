@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix5"
+  sequence 2
+  intent "Recover strict advisor candidate data from realistic noisy Ollama output without weakening explicit consent, candidate-only authority, local assessment, or verification requirements."
+}

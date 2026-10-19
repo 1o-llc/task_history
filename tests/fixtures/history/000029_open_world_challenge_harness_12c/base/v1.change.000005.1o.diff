@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 12
+  path "BOUNDED_AUTONOMOUS_LEARNING_STUDY_12B_ACCEPTED_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "e98ff0c795800e63c157c0a4083f35aeb812b50d39c50984374bd879dc6b374f"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "chemistry_charge_inventory_phase_s5"
+  revision "base"
+  sequence 6
+  check "mac_chemistry_charge_inventory_phase_s5_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance passed package SHA, manifests, one live S5 candidate, typed-history preflight paths=1683, isolated S5 test dependency compile, cumulative workspace boundaries, accepted A-S4 regressions, four selected chemistry parser regressions, all 5 focused S5 charge-inventory tests, terminal task history, and final PASS world_model_chemistry_charge_inventory_phase_s5_v1."
+}

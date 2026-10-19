@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 5
+  solution "Annotate initial_heldout_success_count and final_heldout_success_count as usize at their iterator-sum bindings; retain heldout_improvement_count as the same saturating subtraction; freeze the failed base source manifest; record base as failed_compile; expose only Fix1 as candidate; and require the unchanged 148-test suite plus live 1,024-case checkpoint acceptance."
+}

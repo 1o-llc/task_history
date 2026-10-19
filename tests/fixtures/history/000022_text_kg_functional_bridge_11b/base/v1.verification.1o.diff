@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 6
+  check "mac_11b_visible_kg_functional_primitive_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-30 revalidated the accepted 10G parent at 81/81 tests and the accepted 11A Fix1 parent at 86/86 tests plus its live PTR graph laboratory. The new 11B crate then failed before any of its focused tests executed: ChemistryFunctionalFixture derived Debug while PtrKnowledgeGraphRuntime intentionally did not implement Debug, and BridgeValueType::accepts was declared const while using derived enum equality that stable Rust cannot call in a const function."
+}

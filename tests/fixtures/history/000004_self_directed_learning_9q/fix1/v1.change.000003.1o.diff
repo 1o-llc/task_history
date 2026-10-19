@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "self_directed_learning_9q"
+  revision "fix1"
+  sequence 8
+  path "SELF_DIRECTED_9Q_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "1579d1afdef07543a81e9626373cf3cf2c23bc48fcf5e4ebcaa35d6a6956abf5"
+  after_digest "28d6ea5c680ccee1578c2f57279b55c3718a3cbe829626eafbd30af9822cb0a5"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 13
+  path "NODEPLAN_WORLD_MODEL_RAW_QUESTION_INTERFACE_12E.md"
+  operation "add"
+  before_digest "none"
+  after_digest "696dca78ee5c8c5003a459db133a1a1f2f5311d4c8d03701212d263a0e213e47"
+}

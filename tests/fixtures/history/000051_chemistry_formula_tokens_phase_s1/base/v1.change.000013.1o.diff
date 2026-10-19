@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_formula_tokens_phase_s1"
+  revision "base"
+  sequence 113
+  path "history/v1.history_index.1o.diff"
+  operation "modify"
+  before_digest "4045460633fbc53412b230298ea16a979428a150bd9578b77523c0802eec9fac"
+  after_digest "a2fd7f0eb035f381fbc95993ed4159d23cb46eaf7e1cba25fbb7123c817c3e31"
+}

@@ -1,0 +1,13 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix1"
+  sequence 1
+  title "11C Fix1 canonical typed-history receipt layout"
+  parent_milestone "11c_base"
+  status "failed_parent_gate"
+  tag "typed_history"
+  tag "parent_manifest"
+  tag "functional_tree"
+}

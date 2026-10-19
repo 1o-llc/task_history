@@ -1,0 +1,13 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 1
+  title "9P typed 1o task history"
+  parent_milestone "9o"
+  status "accepted"
+  tag "one_o"
+  tag "task_history"
+  tag "diff"
+}

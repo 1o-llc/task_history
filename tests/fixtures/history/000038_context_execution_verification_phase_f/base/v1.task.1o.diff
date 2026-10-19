@@ -1,0 +1,19 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_execution_verification_phase_f"
+  revision "base"
+  sequence 1
+  title "Phase F resolved-context execution and independent proof"
+  parent_milestone "context_clarification_phase_e_v1_accepted"
+  status "failed_compile"
+  tag "selected_context_execution"
+  tag "existing_local_operator_kernel"
+  tag "fresh_state_independent_replay"
+  tag "type_unit_guard"
+  tag "capability_gap"
+  tag "verifier_disagreement_rejection"
+  tag "checkpoint_replay"
+  tag "no_learning_or_ui"
+  tag "focused_tests_only"
+}

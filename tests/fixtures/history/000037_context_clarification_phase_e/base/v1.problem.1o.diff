@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_clarification_phase_e"
+  revision "base"
+  sequence 3
+  problem "Accepted Phase D can rank contextual candidates and safely abstain, but an abstained task has no typed mechanism yet to select one discriminating missing slot, ask one bounded clarification, keep the original task suspended, reject unrelated replies, expire stale suspensions, or rerun the same tournament after explicit user clarification."
+}

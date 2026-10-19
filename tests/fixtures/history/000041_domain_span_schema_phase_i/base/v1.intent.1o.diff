@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 2
+  intent "Begin the post-context roadmap by adding an immutable typed observation layer that can identify exact token spans, retain overlapping domain hypotheses, deduplicate shared evidence lineage, reference accepted context/KG/operator authority without copying it, and represent cross-domain bridges without yet changing reasoning behavior."
+}

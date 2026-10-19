@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "fix1"
+  sequence 1
+  title "9Y checked regression-count evidence type repair"
+  parent_milestone "9y_base"
+  status "accepted"
+  tag "autonomy"
+  tag "rust_type"
+  tag "fail_closed"
+  tag "mac_retest"
+}

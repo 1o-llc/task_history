@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 13
+  path "TYPED_RESOLUTION_EXIT_PHASE_R_FIX1_IMMUTABLE_PARENT_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "a8d27dceda8f250d1d2a585534d339417ccc0b57b313cb4b4369ad8cb08d13d9"
+}

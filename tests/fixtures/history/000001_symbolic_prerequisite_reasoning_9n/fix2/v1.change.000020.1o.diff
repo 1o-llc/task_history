@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 25
+  path "WORLD_MODEL_CHEMICAL_EQUILIBRIUM_9I.md"
+  operation "remove"
+  before_digest "2fe5b27ad87c2117bd922e51df70ce715193150fbafe3ecfc744bd42c3bb0192"
+  after_digest "none"
+}

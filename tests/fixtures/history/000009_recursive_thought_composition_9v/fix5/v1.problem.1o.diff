@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_composition_9v"
+  revision "fix5"
+  sequence 3
+  problem "Fix4 finally proved 9U Fix7 end-to-end and passed all 50 9V regressions, but the 9V example moved bad into vec![fused.clone(),bad] and later borrowed bad.candidate_id for a diagnostic println, causing Rust E0382 before the live recursive-thought lab could execute."
+}

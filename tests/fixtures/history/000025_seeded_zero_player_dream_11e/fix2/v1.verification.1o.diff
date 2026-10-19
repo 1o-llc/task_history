@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix2"
+  sequence 6
+  check "mac_11e_fix2_seeded_zero_player_dream_acceptance"
+  outcome "fail"
+  note "Mac rerun 2026-07-30 passed the ZIP hash and Fix2 recursive preflight, then 10G and 11A, but stopped inside the inherited 11B source gate before any 11E Fix2 test. TEXT_KG_FUNCTIONAL_BRIDGE_11B_SOURCE_SHA256.txt pinned the intentionally mutable global history/v1.history_index.1o.diff at an older child boundary. This was a cumulative integrity design failure, not an 11E runtime or Rust failure."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 2
+  intent "Compile repeated verified thought constructions into small reusable route gadgets while preserving the user's central architecture: discrete atomic functional operators remain decomposable, KG facts/constants remain referenced rather than copied, tournaments contribute compact provenance rather than raw transcripts, heldout verification is required before promotion, and later regressions roll back to the canonical atomic route."
+}

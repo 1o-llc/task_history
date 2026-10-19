@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 3
+  problem "9R proves that a sourced relationship structurally agrees with its source, but provenance authority is still too coarse: it does not yet distinguish source roles by claim/domain, learn versus publication time, independent/circular corroboration, temporal supersession, or which downstream conclusions and pruning invariants become unsafe when a source changes."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_dependency_10c"
+  revision "fix1"
+  sequence 3
+  problem "10C base was still recorded as a candidate even though the Mac run proved 68 focused tests, all training and heldout dependency graphs, all three first-stage elimination plans, both 10B second-stage plans, exact reconstruction, durable restart, and final PASS. Its parent checker also needed to tolerate one explicitly additive downstream 10D workspace member."
+}

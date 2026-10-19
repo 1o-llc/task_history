@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 26
+  path "tools/ecosystem/scripts/run_world_model_domain_span_schema_phase_i_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "662ac967017090e236a7fef15db8bff70c9d04316c3afec22aa843c8f3f3e956"
+}

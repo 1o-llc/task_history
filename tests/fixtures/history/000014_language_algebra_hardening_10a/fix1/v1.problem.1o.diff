@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_hardening_10a"
+  revision "fix1"
+  sequence 3
+  problem "The heldout schema-validation match guard constructed AlgebraStatement::Equation(schema_eq), moving the non-Copy Equation binding from inside the guard. Rust forbids moving pattern-bound values before the guard completes, producing E0507 before any 10A test could execute."
+}

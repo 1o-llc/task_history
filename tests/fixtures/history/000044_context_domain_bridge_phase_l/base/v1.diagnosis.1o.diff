@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 4
+  diagnosis "Phase L must join the already-accepted layers without turning context into factual truth. Prior support should require an active Phase-B prior-turn reference plus a typed prior-turn Phase-J lattice; explicit context hints must reference active graph nodes; context adjustments must remain separate from Phase-J local scores; identical root lineages count once; and any Phase-L-generated context evidence must be barred from re-entering as a new independent vote."
+}

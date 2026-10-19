@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "fix1"
+  sequence 4
+  diagnosis "This is a representation-width integration defect, not a failure of the 9Y discovery algorithm or the accepted 9X parent. Preserve u64 as the durable evidence width and perform a checked conversion from the parent usize counter so any impossible overflow fails closed rather than truncating."
+}

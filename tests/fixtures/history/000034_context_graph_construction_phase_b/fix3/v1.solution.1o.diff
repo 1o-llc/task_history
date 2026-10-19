@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_graph_construction_phase_b"
+  revision "fix3"
+  sequence 5
+  solution "Keep continuation/correction intention hypotheses in signal evidence but stop marking them as direct context authority. For explicit questions, require a direct non-interrogative ReferenceLike or lexical context cue; keep broader incompleteness/discourse evidence available to non-question ellipsis. Extend the existing English seed POS provider with generic personal pronouns and ambiguous demonstrative pronoun/determiner candidates, then prove both contextual-question positive controls and unrelated-interrogative negative controls."
+}

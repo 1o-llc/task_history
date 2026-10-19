@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 4
+  diagnosis "Use six real linear word-problem families with independent expected answers: two-sided equations, grouped/distributive equations, consecutive integers, future-age totals, rectangle perimeter, and ticket mixtures. Keep language construction as candidate structure only; every answer must survive the existing algebra derivation proof and original compiled-equation check."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix5"
+  sequence 16
+  path "history/000008_gadget_arena_revalidation_9u/fix5/v1.problem.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "f885258ad7de690fbdce0aa1280e8396b8187405695c2b668d13fc907c3faf2a"
+}

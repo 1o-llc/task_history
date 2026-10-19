@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "source_investigation_9t"
+  revision "fix1"
+  sequence 19
+  check "mac_acceptance"
+  outcome "pass"
+  note "2026-07-29 Mac acceptance: 65 passed, 0 failed; task-history terminal-tree regression passed; hard-memory Idle fallback correctly did not commit research; live stale registry investigation selected the legitimate same-lineage TemporalSuccessor; authority round 23->34; investigation round 0->1; four downstream revalidation obligations remained blocked for active use/pruning; no network send; exact authority/investigation/self replay; both final PASS markers observed."
+}

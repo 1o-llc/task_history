@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 6
+  check "mac_chemistry_formula_roles_phase_s2_fix1_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance passed: package SHA OK; isolated S2 dependency compile and cumulative workspace boundaries passed; cumulative A-S1 regressions and four selected chemistry parser regressions stayed green; all 5 unchanged S2 tests passed; terminal task history passed; final PASS world_model_chemistry_formula_roles_phase_s2_v1_fix1 printed."
+}

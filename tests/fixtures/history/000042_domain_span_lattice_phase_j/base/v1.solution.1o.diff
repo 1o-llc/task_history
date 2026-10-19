@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "domain_span_lattice_phase_j"
+  revision "base"
+  sequence 5
+  solution "Add isolated world_model_domain_span_lattice_core using BoundaryPreservingOrganizer plus accepted Phase I types. Construct exact token spans, bounded overlapping phrase spans, clause spans, and locally recognized unit/entity/formula span kinds; score arithmetic, chemistry, units, language, and procedure hypotheses from typed lexical/structural evidence lineages; store deterministic per-span rankings and unresolved span digests without raw utterance persistence; add exact lattice/checkpoint validation; prove fixture plus novel held-out arithmetic wording, chemistry quantity/unit/entity/formula recognition, language/request preservation, unknown-token retention, deterministic overlapping competing hypotheses, and zero Phase J cross-domain bridges. Re-run accepted A-I regressions before acceptance."
+}

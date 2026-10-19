@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_resolution_learning_phase_g"
+  revision "fix1"
+  sequence 9
+  path "tools/ecosystem/world_model_context_resolution_learning_core/tests/context_resolution_learning.rs"
+  operation "modify"
+  before_digest "b4fe1a714270768d9f968c55986c72c0290786cc54c1824fdc1dadb5af71626a"
+  after_digest "125bb356b069d8a1bcc5246aa933539fc1efd8e04b592ba59ed62053d4b0d428"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 12
+  path "NODEPLAN_WORLD_MODEL_CONVERSATIONAL_CHAT_UI_12F_FIX10_RUNTIME_ACCEPTANCE.md"
+  operation "add"
+  before_digest "none"
+  after_digest "ea1618f6ddce416c2c081d866200903ed99c39454c6261b9a7f8da27828e7188"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 5
+  solution "Record U Fix1 as accepted from its SHA-verified 6/6 Mac run, add a milestone closeout report and structural checker, preserve every accepted Rust source file unchanged, and explicitly keep broad reasoning, automatic balancing, and future forensic replay outside the completed milestone."
+}

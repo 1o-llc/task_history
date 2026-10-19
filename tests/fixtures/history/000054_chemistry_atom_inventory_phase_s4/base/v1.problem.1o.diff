@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "chemistry_atom_inventory_phase_s4"
+  revision "base"
+  sequence 3
+  problem "S3 can represent nested formulas structurally but deliberately does not recursively multiply element subscripts and group multipliers into a canonical per-element inventory, which is required before later charge and reaction conservation proofs."
+}

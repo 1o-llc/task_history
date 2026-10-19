@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 17
+  path "SEEDED_ZERO_PLAYER_DREAM_11E_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "6e03b190da5a5e349ce22c7f54ebc83bc2c1ffc1de49b72985e9f3887c30fe96"
+}

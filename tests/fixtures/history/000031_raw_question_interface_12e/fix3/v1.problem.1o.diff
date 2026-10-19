@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "raw_question_interface_12e"
+  revision "fix3"
+  sequence 3
+  problem "Fix2 failed to compile because untyped floating accumulators became ambiguous at method resolution and serde does not implement Serialize for the 18-element tuple used as receipt digest material."
+}

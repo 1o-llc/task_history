@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_execution_verification_phase_f"
+  revision "base"
+  sequence 5
+  solution "Add a bounded context execution-verification crate with resolved selection adapters for Phase D and Phase E, stable operator capability validation, existing RawQuestion execution, fresh-state independent replay, type/unit guards, explicit capability-gap and rejection outcomes, local verification receipts only after agreement, deterministic receipts/checkpoints, and no raw-source persistence."
+}

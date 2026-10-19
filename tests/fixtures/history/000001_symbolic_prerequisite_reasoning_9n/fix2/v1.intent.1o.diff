@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 2
+  intent "Remove ceremonial inherited documentation and replace historical milestone replay with cryptographic functional-parent verification."
+}

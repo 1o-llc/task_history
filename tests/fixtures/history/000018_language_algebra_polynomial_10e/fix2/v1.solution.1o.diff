@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix2"
+  sequence 5
+  solution "Remove the downstream 10E status assertion from the accepted 10D checker, preserve all strict 10D integrity/runtime/tests/history checks, update the 10D source and 10E parent functional manifests, mark Fix1 failed_test from the Mac gate stop, expose Fix2 as the sole candidate, and rerun the unchanged 76-test nonlinear reasoning implementation."
+}

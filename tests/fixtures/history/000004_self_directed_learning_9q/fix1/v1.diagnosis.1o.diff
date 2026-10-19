@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "self_directed_learning_9q"
+  revision "fix1"
+  sequence 4
+  diagnosis "active_before is produced by fragments.active_lookup.clone(), so it is already an owned BTreeSet<String>; the unary dereference operator is invalid and unnecessary."
+}

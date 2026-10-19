@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_resolution_learning_phase_g"
+  revision "fix1"
+  sequence 6
+  check "mac_context_resolution_learning_phase_g_fix1_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-08: package SHA verified; typed-history preflight passed at 1407 tracked paths; repaired Phase G test dependency graph and isolated workspace compile proofs passed; all accepted Phase A-F regressions remained green, including the four specialized execution paths and all 8 Phase F execution/verification tests; all 9 of 9 focused Phase G Fix1 tests passed, including typed scoped-weight JSON persistence, all three scope variants roundtrip, positive verified evidence, negative rejection evidence, failed-execution no-positive-credit, conversation isolation, candidate verification preservation, exact episode replay, raw private-text exclusion, no global promotion authority, and external-reference preservation; terminal typed-history Rust test passed; all final Phase G Fix1 PASS markers printed."
+}

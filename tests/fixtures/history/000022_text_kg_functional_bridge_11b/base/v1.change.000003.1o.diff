@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 10
+  path "KNOWLEDGE_GRAPH_PTR_RUNTIME_11A_10G_FUNCTIONAL_TREE_SHA256.txt"
+  operation "modify"
+  before_digest "015e3da6520a7c8a26100c15f4ab36936acc9aaddb78e51d2a9473c67ae9befb"
+  after_digest "73da011de6f6fc5a04a4b397901cf8840509f41d56cb379624af4ce61d0e5d8e"
+}

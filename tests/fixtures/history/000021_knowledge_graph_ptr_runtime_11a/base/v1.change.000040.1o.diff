@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 47
+  path "tools/ecosystem/engines/one_db/source/crates/one_db_kernel/src/migration_plan.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "037543d042979bb82ab2fc2ca2d11d32c523d753b0f3376c4b95d05c6dba900d"
+}

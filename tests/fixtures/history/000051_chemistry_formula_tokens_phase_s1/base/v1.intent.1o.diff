@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "chemistry_formula_tokens_phase_s1"
+  revision "base"
+  sequence 2
+  intent "Begin the separately gated Phase S chemistry rulebook by adding strict canonical element-symbol and formula-token lexical observations with exact source-span provenance, while deferring subscript, coefficient, charge, grouping/composition, conservation, stoichiometry, execution, and answer authority to later accepted phases."
+}

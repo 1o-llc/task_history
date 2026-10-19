@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_composition_9v"
+  revision "fix2"
+  sequence 21
+  check "mac_acceptance"
+  outcome "fail"
+  note "2026-07-29 Mac acceptance proved the new parent gate works: the exact 9U parent passed 62/62 focused functional tests and 1/1 terminal typed-history verification, then the live 9U lab failed before any 9V test executed because it assumed every restart must still expose an unresolved 9T revalidation need. The child therefore remained unexecuted rather than advancing over an unfinished parent."
+}

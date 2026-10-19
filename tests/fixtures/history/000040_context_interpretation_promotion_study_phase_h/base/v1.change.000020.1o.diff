@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 27
+  path "tools/ecosystem/world_model_context_interpretation_promotion_study_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "2b7a3301735abec98aa6e6df654e85a73bee43f3a0b2dea37424fc0609f1d4a4"
+}

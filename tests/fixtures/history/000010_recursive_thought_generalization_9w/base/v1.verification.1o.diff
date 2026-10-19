@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_generalization_9w"
+  revision "base"
+  sequence 34
+  check "mac_acceptance"
+  outcome "pending"
+  note "Expected acceptance: the runner first re-proves accepted 9V Fix5 end-to-end, including its 9U Fix7 parent, 50 recursive tests, typed terminal history, live recursive checkpoint, and final PASS; it then creates a hash-bound 9v_fix5 parent receipt. 9W must pass exactly 24 focused tests and terminal typed history, then the live lab must show three distinct real prior source programs, exact one-to-one source coverage, exact heldout boundary equivalence in all domains, rejection of all overfit controls, lower optimized cost in all domains, pruning eligibility without active mutation, exact 9W checkpoint restoration, no raw-source persistence, no LLM/proof authority, unchanged prior durable state, and final PASS world_model_recursive_thought_generalization_v1 ok."
+}

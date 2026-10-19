@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 16
+  path "TYPED_RESOLUTION_EXIT_PHASE_R_FIX1_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "8746ad1fd9a4d2c76605859e080b19375735941fdc578bbdfa279ad764e0654d"
+}

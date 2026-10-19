@@ -1,0 +1,17 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_graph_construction_phase_b"
+  revision "fix3"
+  sequence 1
+  title "Phase B Fix3 evidence-versus-reference authority repair"
+  parent_milestone "context_graph_construction_phase_b_fix2_failed_test"
+  status "accepted"
+  tag "local_analysis_only"
+  tag "analyzer_evidence_preserved"
+  tag "direct_context_cue_boundary"
+  tag "ordinary_pronoun_pos_evidence"
+  tag "contextual_questions_preserved"
+  tag "no_phrase_handlers"
+  tag "focused_tests_only"
+}

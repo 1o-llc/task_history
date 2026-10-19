@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 5
+  solution "Add a compositional semantic-language module mapping words and symbols to typed lexical senses, associating them with arithmetic and comparison operators, using real linguistic statement, intention, and POS evidence to score request versus proposition shapes, assembling competing AST propositions, selecting a verified candidate, and proving it through independent recursive and postfix evaluators. Attempt this general path before specialized family solvers, expose evidence in receipts and human output, suppress unrelated compiler warnings in ASK.command, preserve checkpoints, and expand to 200 focused tests."
+}

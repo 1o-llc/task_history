@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix9"
+  sequence 4
+  diagnosis "Candidate-data isolation must apply to error objects as well as parsers. Stderr content may be emitted separately to the process diagnostic stream, but returned errors must contain only transport state and byte counts, never provider payload text."
+}

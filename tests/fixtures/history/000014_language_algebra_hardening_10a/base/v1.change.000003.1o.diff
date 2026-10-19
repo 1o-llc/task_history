@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 10
+  path "LANGUAGE_ALGEBRA_HARDENING_10A_9Z_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "15db6f9f8cef6ae29f41b1eda11d5d325539caf53fa4cc7bf739ee4facecafde"
+}

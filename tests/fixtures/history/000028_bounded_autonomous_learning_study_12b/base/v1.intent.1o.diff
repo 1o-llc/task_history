@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 2
+  intent "Convert the accepted one-shot integrated campaign into a sustained bounded autonomous process that repeatedly solves, verifies, dreams, learns, suppresses repeats, compacts history, and resumes exactly without changing accepted cognitive authority boundaries."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 9
+  path "tools/ecosystem/world_model_context_candidate_tournament_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "66328b8aec7829641c8a0534264dba1e6a9ebfd411ec59c9b4f9921bbe118b94"
+}

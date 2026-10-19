@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "relationship_acquisition_9r"
+  revision "base"
+  sequence 5
+  status "accepted"
+  resulting_tree_digest "3e69cd0e4ec8eebd642b49c9d9812affc80a100a99f2c42e820220bfd1547a25"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 27
+  path "infra/low_level/paged_storage_runtime/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "46931a1c9c71a080311d0f329683513dfb2cd0df02ea722c5b062323208a7d33"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix2"
+  sequence 6
+  check "mac_10e_fix2_end_to_end_acceptance"
+  outcome "pass"
+  note "Mac evidence: accepted 10D Fix1 parent re-proved 86/86; 10E Fix2 passed 76/76 focused tests; all 12 training and 12 heldout nonlinear problems solved; exact factorizations and original-polynomial substitutions passed; multiple algebraic roots observed; semantic domain filtering exercised including both-root preservation; both factorization plans executed; six schemas accepted and used; checkpoint/restart exact; no authority leakage; final runner PASS."
+}

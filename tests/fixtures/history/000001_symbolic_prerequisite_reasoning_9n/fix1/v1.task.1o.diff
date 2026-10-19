@@ -1,0 +1,12 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix1"
+  sequence 1
+  title "9N prerequisite isolation repair"
+  parent_milestone "9n_base"
+  status "superseded_unrun"
+  tag "prerequisite_isolation"
+  tag "durable_state_protection"
+}

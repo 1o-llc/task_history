@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix4"
+  sequence 11
+  path "tools/ecosystem/scripts/check_world_model_gadget_arena_revalidation_v1.sh"
+  operation "modify"
+  before_digest "28e0157984786c2c6d23c97bbafcadda1802352514b52533d8a6b21e202ba477"
+  after_digest "1701d56b2725434c86a0e85241ed4f948dbcd7d73dfb3fbd09a2c12e9a0ea36d"
+}

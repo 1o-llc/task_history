@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "4be1c700beedcb25727129fb517375e580cd40604584531c044573397bbb789c"
+}

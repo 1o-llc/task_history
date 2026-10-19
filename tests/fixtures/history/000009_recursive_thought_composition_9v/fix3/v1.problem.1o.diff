@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_composition_9v"
+  revision "fix3"
+  sequence 3
+  problem "Fix2 correctly stopped before child execution, but its parent milestone was still 9U Fix5, whose live adapter was not restart-safe. The resulting failure is parent work, not evidence that the 9V canonical-contract repair is wrong. Continuing 9V without a new parent revision would recreate the unfinished-parent error the gate was introduced to prevent."
+}

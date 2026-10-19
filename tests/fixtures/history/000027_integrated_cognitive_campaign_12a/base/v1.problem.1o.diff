@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "integrated_cognitive_campaign_12a"
+  revision "base"
+  sequence 3
+  problem "11B through 11F are individually accepted, but the system has not yet proved continuous end-to-end behavior: familiar local reuse must short-circuit KG and advisor work, unresolved transformations must use bounded KG supplementation, advisor recipes must remain uninvoked and verifier-controlled, dream candidates must preserve negative knowledge and deduplication, and the complete cross-domain campaign must restart at the exact next cognitive action."
+}

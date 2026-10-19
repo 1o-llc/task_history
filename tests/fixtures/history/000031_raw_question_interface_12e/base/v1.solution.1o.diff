@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 5
+  solution "Add a standalone 12E raw-question crate and ASK.command. The caller supplies only literal text. The bridge exposes real linguistic/POS and domain-word-list evidence, extracts quantities and units, ranks bounded interpretation families, delegates linear phrases to the existing algebra assembly tournament and proof kernel, uses real KG functional-route queries and substance-specific knowledge nodes for chemistry, independently verifies every answer through substitution, inverse transformation, dimensional recovery, or exact combinatorics, safely abstains on unsupported questions, and checkpoints only compact digests rather than raw source."
+}

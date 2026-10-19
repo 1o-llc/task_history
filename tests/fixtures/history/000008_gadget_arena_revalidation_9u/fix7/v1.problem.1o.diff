@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix7"
+  sequence 3
+  problem "Fix6 proved that the unresolved 9U obligation and its durable intent both survived correctly, but the planner collapsed all active intents into one boolean and forced maintenance:idle. That bypassed the already-present BeginIntent/Interrupt/ResumeIntent lifecycle and activity suspend/resume runtime, creating a restart deadlock for the exact same task."
+}

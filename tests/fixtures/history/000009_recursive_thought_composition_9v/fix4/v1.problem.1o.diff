@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_composition_9v"
+  revision "fix4"
+  sequence 3
+  problem "9V Fix3 was correctly blocked because the 9U Fix6 live parent still had unresolved maintenance. The child must not advance until the parent can resume the exact persisted intent/activity lifecycle."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 12
+  path "history/000045_typed_thought_construction_ir_phase_m/base/v1.verification.1o.diff"
+  operation "modify"
+  before_digest "a3d93a2776fc141ce9eace0823c0600a8d58ebb24e6df491c7de3168b3cb5a9f"
+  after_digest "e8f52f0b7fc917da3d11a6c6eeae274cc6dc131bafe2e657162fc14b48d1afb2"
+}

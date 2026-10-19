@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 3
+  problem "Phase J intentionally allows overlapping arithmetic, chemistry, units, language, and procedure hypotheses but creates zero bridges. The system therefore cannot yet distinguish coincidental weak multi-domain labels from spans that actually cooperate in a single task."
+}

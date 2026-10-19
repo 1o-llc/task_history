@@ -1,0 +1,17 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_clarification_phase_e"
+  revision "base"
+  sequence 1
+  title "Phase E minimal clarification and suspended-task continuity"
+  parent_milestone "context_candidate_tournament_phase_d_v1_fix1_accepted"
+  status "accepted"
+  tag "minimal_separating_question"
+  tag "suspended_task_continuity"
+  tag "user_clarification_evidence"
+  tag "tournament_rerun"
+  tag "unmatched_reply_no_guess"
+  tag "no_execution_or_learning"
+  tag "focused_tests_only"
+}

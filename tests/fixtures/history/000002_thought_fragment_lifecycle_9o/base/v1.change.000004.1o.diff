@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "thought_fragment_lifecycle_9o"
+  revision "base"
+  sequence 7
+  path "THOUGHT_FRAGMENT_9O_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "ef115bfee8f081b777ddde4fa7cfd6b63360c8cfa2d3734838f9944d430a8081"
+}

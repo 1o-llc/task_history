@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_execution_verification_phase_f"
+  revision "fix2"
+  sequence 4
+  diagnosis "The isolated workspace boundary is correct. Rust test targets may only import crates declared directly by their package; a transitive dependency through clarification or another Phase F dependency does not create an extern-prelude entry. The failure is therefore a missing direct dev-dependency, not a Phase F execution, verification, context, or tournament defect."
+}

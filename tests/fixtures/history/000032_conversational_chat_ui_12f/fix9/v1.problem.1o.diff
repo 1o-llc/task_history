@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix9"
+  sequence 3
+  problem "Fix8 correctly parsed stdout only, but parse_advisor_provider_output appended a bounded stderr preview to its returned error. Candidate-shaped spinner diagnostics therefore still crossed the user-visible error boundary and violated the stderr-isolation contract test."
+}

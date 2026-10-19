@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix1"
+  sequence 4
+  diagnosis "10E drifted from the shared curiosity budget API even though the accepted 10A-10D reasoning crates already demonstrate the correct integration pattern. Reuse ThoughtBudgetPolicy::default and ThoughtBudgetSnapshot::default, then construct ThoughtResourceDemand with estimated_memory_bytes, estimated_work_units, and needs_background_lease=true. Do not duplicate or fork the budget policy."
+}

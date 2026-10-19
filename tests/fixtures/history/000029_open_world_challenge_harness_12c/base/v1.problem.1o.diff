@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 3
+  problem "12B proved stable sustained autonomy but its repeated integrated curriculum saturated quickly. The project still needs evidence that autonomous learning transfers to genuinely unseen challenge instances across familiar, novel-composable, KG-assisted, missing-operator, false-analogy, ambiguous, distractor-heavy, contradictory, and cross-domain conditions while heldout examples remain unavailable to candidate construction and promotion evidence."
+}

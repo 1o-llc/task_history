@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "raw_question_interface_12e"
+  revision "fix1"
+  sequence 5
+  solution "Change only the thirteen affected unit-conversion expected literals from integer syntax such as 2500 to equivalent f64 syntax such as 2500.0. Preserve all 150 literal-question tests, all question text, tolerances, expected families, production source, policies, examples, accepted parent source, and root workspace. Record the base attempt as failed_compile and expose only Fix1 as candidate."
+}

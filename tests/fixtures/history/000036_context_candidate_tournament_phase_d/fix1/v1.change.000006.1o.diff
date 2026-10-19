@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_candidate_tournament_phase_d"
+  revision "fix1"
+  sequence 13
+  path "CONTEXT_CANDIDATE_TOURNAMENT_PHASE_D_FIX1_IMMUTABLE_PARENT_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "e6768de537fc0f659e8da0cfde452e1d65eae6b471646a21f7ca476dc4acd325"
+}

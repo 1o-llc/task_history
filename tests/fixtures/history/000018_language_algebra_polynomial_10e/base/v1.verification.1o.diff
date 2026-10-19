@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_polynomial_10e"
+  revision "base"
+  sequence 6
+  check "mac_10e_nonlinear_polynomial_acceptance"
+  outcome "fail"
+  note "Mac acceptance 2026-07-29 re-proved the accepted 10D Fix1 parent with 86/86 variable-size tests and terminal typed history, then 10E failed to compile before any focused 10E test executed: Rust E0560 reported stale ThoughtBudgetPolicy, ThoughtBudgetSnapshot, and ThoughtResourceDemand field names in src/lib.rs. The current shared curiosity API uses max_committed_memory_bytes/max_work_units_per_window and active_thought_leases/committed_memory_bytes/work_units_in_window snapshots, while resource demand uses estimated_memory_bytes/estimated_work_units/needs_background_lease."
+}

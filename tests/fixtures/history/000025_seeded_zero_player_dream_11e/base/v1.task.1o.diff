@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 1
+  title "11E personality-seeded zero-player dream runtime"
+  parent_milestone "11d_fix1"
+  status "failed_parent_gate"
+  tag "identity_seed"
+  tag "zero_player_automaton"
+  tag "dream_stimulus"
+  tag "scheduler_bounded"
+  tag "deterministic_restart"
+}

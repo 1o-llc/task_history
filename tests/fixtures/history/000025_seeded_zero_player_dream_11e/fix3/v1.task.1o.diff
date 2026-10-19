@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix3"
+  sequence 1
+  title "11E Fix3 single-artifact snapshot-aware cumulative integrity"
+  parent_milestone "11e_fix2"
+  status "accepted"
+  tag "single_artifact"
+  tag "snapshot_manifest"
+  tag "automatic_integrity"
+  tag "mutable_history_index"
+}

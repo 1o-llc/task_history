@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix1"
+  sequence 6
+  check "mac_11c_fix1_dynamic_escalation_and_canonical_history_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-30 passed the canonical direct-only history repair but stopped in the inherited 10G parent gate with '10G parent functional tree mismatch'. A global manifest refresh had rewritten the accepted 10F functional-parent manifest and its ancestor manifest closure. No 11C Rust test executed."
+}

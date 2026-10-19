@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix7"
+  sequence 23
+  status "accepted"
+  resulting_tree_digest "af21b8c1f55019630544ba2a96baa704483f210e2aee8ea3639ae8dfd8ffaa16"
+}

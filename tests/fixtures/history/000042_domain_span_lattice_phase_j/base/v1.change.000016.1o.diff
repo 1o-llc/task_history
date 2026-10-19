@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "domain_span_lattice_phase_j"
+  revision "base"
+  sequence 23
+  path "tools/ecosystem/world_model_domain_span_lattice_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "f5d75f7d3d6274e5f935cdf53be7f99380f04502314ff1cc1b62511c000eff43"
+}

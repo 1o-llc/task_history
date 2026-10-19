@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_graph_construction_phase_b"
+  revision "fix2"
+  sequence 4
+  diagnosis "ReferenceLike is intentionally broader than anaphora and cannot alone establish cross-turn reference. The local lexical Interrogative facet must qualify reference and temporal shapes before they are admitted as strong context signals. Non-interrogative deictic, discourse, continuation, correction, and contextual-action evidence remains valid."
+}

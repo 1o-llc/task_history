@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_execution_verification_phase_f"
+  revision "fix1"
+  sequence 5
+  solution "Remove only the new Phase F crate from root workspace membership, give it an isolated workspace with equivalent direct dependency versions, run the accepted raw-question regressions and Phase F suite through --manifest-path, and assert the Phase F implementation/tests plus raw-question source remain unchanged."
+}

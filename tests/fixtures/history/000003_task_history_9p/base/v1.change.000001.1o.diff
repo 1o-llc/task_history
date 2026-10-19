@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 4
+  path "tools/ecosystem/runtime_reuse/one_o_reference/fixtures/v1.history_fixture.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "80ffd2085984652258b5f9f845fa43a6ce961eb7468118100734e90579dcd2c9"
+}

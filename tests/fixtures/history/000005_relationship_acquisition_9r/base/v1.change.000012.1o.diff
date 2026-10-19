@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "relationship_acquisition_9r"
+  revision "base"
+  sequence 17
+  path "tools/ecosystem/world_model_relationship_acquisition_core/materials/ideal_gas_relationship_source_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "7c9a0ff5a7ecfa8471f546da095b9a81c0c4bd2489a1fa582264bfdd479a6714"
+}

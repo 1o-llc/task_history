@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 38
+  path "tools/ecosystem/world_model_quantized_route_gadget_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "7c29441b7198ac01e98f9d994dc7db7349e7d1a4530e7dafb4f6f8e358879e43"
+}

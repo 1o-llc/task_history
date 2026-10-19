@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 4
+  diagnosis "Canonical typed route ingredients plus an explicit schema version should derive identity. Same-family semantic drift under one version must fail closed; history and factual references must target exact IDs rather than copied route/fact payloads."
+}

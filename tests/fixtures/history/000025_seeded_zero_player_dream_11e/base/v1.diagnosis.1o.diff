@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 4
+  diagnosis "The existing identity seed and thought-budget scheduler already provide deterministic predisposition and execution authority, while 11D supplies compact verified route references. 11E needs only a read-only seed-derived automaton, bounded pattern-to-mode projection, nonauthoritative DreamStimulus receipts, and exact durable replay."
+}

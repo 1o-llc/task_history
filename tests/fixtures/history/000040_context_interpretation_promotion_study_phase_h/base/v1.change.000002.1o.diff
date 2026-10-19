@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 9
+  path "CONTEXT_INTERPRETATION_PROMOTION_STUDY_PHASE_H_IMMUTABLE_PARENT_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "e60fc89bae4b02b9d2e605cfe18ee23f4ea5f142fb5841f78a128607133be0f9"
+}

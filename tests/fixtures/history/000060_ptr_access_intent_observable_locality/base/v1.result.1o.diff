@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 7
+  status "candidate"
+  resulting_tree_digest "pending"
+  note "Additive infrastructure candidate on the accepted post-context I-U milestone closeout parent. Access intent is a performance/locality hint and never authority; observability and memory locality remain orthogonal composed dimensions; ARM64 hints are best-effort and correctness-independent; no never-cached memory claim is made."
+}

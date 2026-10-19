@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 147
+  path "docs/planning/PSYCHOLINGUISTIC_AND_KG_SALVAGE_MAP_V1.md"
+  operation "remove"
+  before_digest "55db383af28de2f9d8a000ef3d7797f2b631d85b520e2a790e45f5edd82b9fd5"
+  after_digest "none"
+}

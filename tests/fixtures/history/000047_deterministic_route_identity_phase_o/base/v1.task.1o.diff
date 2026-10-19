@@ -1,0 +1,17 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 1
+  title "Phase O Deterministic Shapes and Route Identities"
+  parent_milestone "query_classes_opportunity_buckets_phase_n_v1_accepted"
+  status "accepted"
+  tag "deterministic_shape_ids"
+  tag "deterministic_route_ids"
+  tag "versioned_route_semantics"
+  tag "exact_route_history"
+  tag "fact_reference_only"
+  tag "no_route_expansion"
+  tag "focused_tests_only"
+}

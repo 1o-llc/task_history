@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 30
+  path "tools/ecosystem/world_model_idle_novelty_learning_core/examples/idle_novelty_learning_lab.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "85f2043e57b6f4b889c6a3c0d2f5d84c460c811280d08d5d2ae69793076cbaea"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the Phase T adapter that resolves coefficient-free species identities against accepted S6 reaction terms, while preserving the exact S6 coefficient field for stoichiometric arithmetic and leaving all six T tests, route semantics, exact arithmetic, M/O/P/Q/R proof stack, policy, and Phase U/balancing authority boundaries unchanged."
+}

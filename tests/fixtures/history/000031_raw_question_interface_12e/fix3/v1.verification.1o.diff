@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "raw_question_interface_12e"
+  revision "fix3"
+  sequence 6
+  check "mac_12e_fix3_compositional_statement_prover_acceptance"
+  outcome "pass"
+  note "Mac accepted on 2026-07-30: immutable parent and 1,070-path history gates passed; all 200 tests passed; the public ASK interface compositionally answered what is four plus 2 as 6; proved does two plus two equal four; preserved proportional-rate and KG chemistry regressions; and restored the durable checkpoint exactly."
+}

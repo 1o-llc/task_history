@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 4
+  diagnosis "The correct Phase I boundary is an additive isolated schema crate: SourceSpanId retains utterance identity, exact token boundaries, and source digest; immutable source observations bound spans to token counts; DomainSpanHypothesis stores support/contradiction by root evidence lineage; propagated paths sharing one lineage merge instead of becoming independent votes; existing ResolutionReference values carry context/fact/operator anchors read-only; CrossDomainBridge records typed span relationships; deterministic state/checkpoint serialization is provided without classification, ranking, execution, LLM calls, or learning."
+}

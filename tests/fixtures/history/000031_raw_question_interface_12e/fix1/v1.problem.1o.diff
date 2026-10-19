@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "raw_question_interface_12e"
+  revision "fix1"
+  sequence 3
+  problem "Thirteen unit-conversion tests passed integer literals as the expected argument to assert_numeric, whose signature requires f64. Rust does not implicitly widen integer literals in this typed function-call position, so the test target failed to compile before any literal-question behavior executed."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_domain_bridge_phase_l"
+  revision "base"
+  sequence 10
+  path "history/000043_cross_domain_segmentation_phase_k/base/v1.result.1o.diff"
+  operation "modify"
+  before_digest "0e8b7edc4926ed5029c9981368b21fd71908fbaa92f03d9f41719d7aa0e35bc8"
+  after_digest "ae3c44475b2ada1eda90ed4f55fabccb501cd71a79012d05f989657bcbd85b9b"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_dependency_10c"
+  revision "base"
+  sequence 3
+  problem "10B proves two constraints over two unknowns but does not yet prove dependency planning across three related quantities, choice among three first-elimination targets, hierarchical reuse of the 10B solver, or exact verification of a three-constraint graph after reconstruction."
+}

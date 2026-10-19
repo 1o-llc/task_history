@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 237
+  path "tools/ecosystem/world_model_cross_domain_segmentation_core/tests/cross_domain_segmentation.rs"
+  operation "modify"
+  before_digest "0325085129c58e3eca97eced4138726a6fdaaf3f90344f0711f5d5ab4dbbb24f"
+  after_digest "38e726ffceedb82e3c700c3a3c4c20a19768fde2adb7aecb2ec0f75bc18a2ddc"
+}

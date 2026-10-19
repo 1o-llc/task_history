@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_execution_verification_phase_f"
+  revision "fix2"
+  sequence 5
+  solution "Add world_model_context_graph_construction_core as a path dev-dependency of the isolated Phase F crate. Add an early cargo test --no-run proof for the focused Phase F target before lengthy regressions. Keep Phase F src/lib.rs, tests/context_execution_verification.rs, the raw-question kernel, and all execution/verification authority rules byte-identical to Fix1."
+}

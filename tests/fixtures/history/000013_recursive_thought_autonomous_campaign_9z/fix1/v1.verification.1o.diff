@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "fix1"
+  sequence 6
+  check "mac_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-07-29: accepted 9Y Fix1 parent re-passed 32/32; 42/42 focused 9Z tests and terminal typed history passed; live 9Z autonomously selected dependent_api then algebra then proof from changing usage, promoted two safe rewrites, accepted then rolled back the algebra regression exactly, continued after rollback, selected idle when no worthwhile work remained, stopped with NoEligibleTarget, restored checkpoint and restart replay exactly, preserved canonical fallbacks/history, left prior durable state unchanged, claimed no LLM/proof authority, and emitted final PASS world_model_recursive_thought_autonomous_campaign_v1 ok."
+}

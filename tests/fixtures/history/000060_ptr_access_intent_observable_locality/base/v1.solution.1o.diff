@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 5
+  solution "Add tools/ecosystem/ptr_access_policy_runtime as a standalone nested workspace composing the frozen crates by path: AccessIntent {Auto,Hot,Stream,Cold} with stable u8 representation and the additive prophecy resolution rule; AccessKeyedArena and AccessPagedArena wrappers that keep frozen validation authority and treat intent as in-place cell data so set_access never forges identity; a non-authoritative sidecar page summary driving one-shot hot/stream/cold/generic kernel choice per validated page; ObservationMode plus ObservableAccessPolicy composing wake semantics with memory intent without an enum cross-product; a portable reference backend and an opt-in AArch64 PRFM/LDNP/STNP backend with functional-equivalence tests; criterion benchmarks, an access-policy lab example, source provenance material, manifests, acceptance scripts, and this typed history entry. Parent reasoning behavior, low tags, prophecy V1, EncodedArenaHandle V1, and graph observable publishing remain unchanged."
+}

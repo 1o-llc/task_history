@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "base"
+  sequence 16
+  path "tools/ecosystem/world_model_language_algebra_dynamic_dependency_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "8eb8453bdfa2aadb5bb105f43fa31e4fc966a4e0747021f5886efa1279fbf23f"
+}

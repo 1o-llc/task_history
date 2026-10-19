@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "base"
+  sequence 12
+  path "LANGUAGE_ALGEBRA_DYNAMIC_DEPENDENCY_10D_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "a77fe7f8cc62e99d107d6de02dc4b658ae1385dd21030cd3340a08d0f20d5460"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 4
+  diagnosis "The existing context graph already carries typed evidence polarity/weights and stable external-reference edges, while world_model_tournament_service already supplies deterministic reversible tournament lifecycle receipts. Phase D therefore needs an evidence-composition adapter plus an explicit conservative selection/abstention gate; it does not need new parsing, a second tournament framework, clarification, execution, or learning."
+}

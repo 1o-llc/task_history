@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_promotion_9x"
+  revision "base"
+  sequence 4
+  diagnosis "Promotion must be a durable lifecycle rather than a boolean. Activation must preserve the canonical implementation, monitor future cases against it, suspend on mismatch, rollback exactly, retain the failed candidate historically, and be idempotent across restart."
+}

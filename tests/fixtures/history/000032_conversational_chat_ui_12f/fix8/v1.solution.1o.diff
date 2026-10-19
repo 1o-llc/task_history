@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix8"
+  sequence 5
+  solution "Route the default ollama provider through localhost /api/generate using curl, stream=false, think=false, temperature=0, seed=0, and the complete advisor JSON Schema as format; unwrap the API response; parse stdout only; exclude stderr from retry material; retain one sanitized bounded recovery call; and render only a concise failure summary while sending full diagnostics to the terminal."
+}

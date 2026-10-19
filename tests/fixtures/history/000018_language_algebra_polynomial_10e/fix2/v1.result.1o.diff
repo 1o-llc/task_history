@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix2"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "e0f68b371a0a8e1eac63cba155c3ee8a484939d5b92b9d166184fed9c29a32c8"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix3"
+  sequence 5
+  solution "Add an additive 9U scoped maintenance tournament with an explicit Idle fallback. Admit only dirty-gadget candidates when the exact arena demand fits the existing thought budget and no other intent is active; commit the winning maintenance thought as a generic intent, recheck budget at arena start, retain the global curiosity decision only for diagnostics, and leave shared curiosity/9T/9S/9O code unchanged."
+}

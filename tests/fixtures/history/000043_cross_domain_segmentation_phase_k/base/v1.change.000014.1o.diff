@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 21
+  path "tools/ecosystem/scripts/check_world_model_cross_domain_segmentation_phase_k_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "77a6d9f6b17d9c0be5473e4a922b8d60c11c6738b4f728e3fa169c640ac8cfe6"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix1"
+  sequence 9
+  check "package_static"
+  outcome "pending"
+  note "Fix1 was packaged but superseded before a Mac acceptance run by the current-only acceptance cleanup."
+}

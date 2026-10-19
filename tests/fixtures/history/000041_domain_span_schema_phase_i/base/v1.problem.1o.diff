@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 3
+  problem "The accepted A-H context system can resolve and learn contextual interpretations, but the next architecture needs exact source-span identities and reusable domain evidence before it can safely build local span lattices or cross-domain routing. Using reconstructed strings, duplicate evidence paths, copied factual payloads, or behavior-changing classification in the schema phase would undermine later traceability and authority boundaries."
+}

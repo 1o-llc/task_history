@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "base"
+  sequence 3
+  problem "The accepted S1-S6 chemistry rulebook can parse formulas and verify reaction conservation, but the current post-context stack cannot yet execute typed moles/particles/mass/coefficient-ratio/limiting-reagent/density routes with unit, chemistry, and independent numeric proofs."
+}

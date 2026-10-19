@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "base"
+  sequence 5
+  solution "Add the isolated world_model_chemistry_formula_roles_core crate as an adapter over accepted S1. It records bounded positive coefficient/subscript roles, signed charge magnitude and syntax provenance, exact relative byte ranges, S1 token digest, deterministic immutable state/checkpoint replay, strict malformed/ambiguous charge rejection, five focused tests, policy/materials, cumulative runner/manifests, and typed history. Do not add formula canonicalization, composition aggregation, atom or charge inventory, conservation, stoichiometry, route execution, answer execution, provider, learning, or KG/context mutation."
+}

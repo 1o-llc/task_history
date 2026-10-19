@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "relationship_acquisition_9r"
+  revision "base"
+  sequence 2
+  intent "Allow unfamiliar sourced mathematical/domain relationships to be learned from language and structured reference material, reconciled to variable vocabulary and units, verified symbolically and dimensionally, admitted to durable world knowledge, reused from natural-language problems, and practiced through the existing bounded curiosity/self-state loop without granting LLM or graph proof authority."
+}

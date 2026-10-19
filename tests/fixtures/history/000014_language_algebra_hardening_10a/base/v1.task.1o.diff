@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 1
+  title "10A hard language algebra transfer and verified schema promotion"
+  parent_milestone "9z_fix1"
+  status "failed_compile"
+  tag "language"
+  tag "algebra"
+  tag "heldout"
+  tag "transfer"
+  tag "promotion"
+}

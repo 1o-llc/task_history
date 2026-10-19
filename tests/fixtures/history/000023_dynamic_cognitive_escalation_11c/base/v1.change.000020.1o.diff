@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "base"
+  sequence 27
+  path "history/000023_dynamic_cognitive_escalation_11c/base/v1.verification.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "94cde4bcdba119d34e2d8ad516f5e4c2d8b369e8483b90c5ddb7873b3e091384"
+}

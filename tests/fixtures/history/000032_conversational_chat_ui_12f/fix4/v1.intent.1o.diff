@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix4"
+  sequence 2
+  intent "Preserve the complete editable constraint-aware advisor prompt while restoring the exact verification-plan contract required by the public chat test and making that sentence a static package invariant."
+}

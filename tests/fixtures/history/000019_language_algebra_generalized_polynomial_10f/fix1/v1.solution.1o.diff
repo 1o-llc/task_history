@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "fix1"
+  sequence 5
+  solution "Change the three diagnostics to use "{}", p.problem_id; add checker guards that pin those corrected forms and reject the old malformed forms; retain exactly 77 focused tests and rerun the full accepted 10E parent gate before 10F."
+}

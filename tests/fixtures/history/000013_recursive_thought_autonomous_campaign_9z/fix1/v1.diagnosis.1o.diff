@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "fix1"
+  sequence 4
+  diagnosis "9Z functional behavior is accepted; only provenance closeout and child-aware normalization are required. The accepted parent checker must continue to re-run all 42 tests while stripping the 10A member only for normalized Cargo comparison."
+}

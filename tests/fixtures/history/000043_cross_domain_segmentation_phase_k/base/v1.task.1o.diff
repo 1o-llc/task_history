@@ -1,0 +1,17 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 1
+  title "Phase K cross-domain detection and segmentation"
+  parent_milestone "domain_span_lattice_phase_j_v1_accepted"
+  status "accepted"
+  tag "multiple_cooperating_domains"
+  tag "typed_cross_domain_bridges"
+  tag "false_split_threshold"
+  tag "exact_source_span_endpoints"
+  tag "no_context_feedback"
+  tag "no_llm_provider"
+  tag "focused_tests_only"
+}

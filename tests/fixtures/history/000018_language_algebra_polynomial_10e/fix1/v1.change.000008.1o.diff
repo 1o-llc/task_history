@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix1"
+  sequence 15
+  path "history/000018_language_algebra_polynomial_10e/fix1/v1.intent.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "36671edfdec32d8998c8a692ce7a3ca35917b973d94d7892dc81ee53dfc83ffd"
+}

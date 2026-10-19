@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "quantized_route_gadget_11d"
+  revision "fix1"
+  sequence 6
+  check "mac_11d_fix1_mechanical_decomposition_acceptance"
+  outcome "pass"
+  note "Mac acceptance on 2026-07-30: complete parent revalidation passed; all 89 focused 11D tests passed; callable-key-to-ID reconstruction, malformed identity rejection, forged decomposition rejection, nested checkpoint tamper rejection, unchanged two-training/two-heldout promotion, callable_identity_bound=true, compiled_program_exactly_decomposes=true, canonical fallback retention, exact checkpoint restoration, terminal typed-history PASS, and final runner PASS were observed."
+}

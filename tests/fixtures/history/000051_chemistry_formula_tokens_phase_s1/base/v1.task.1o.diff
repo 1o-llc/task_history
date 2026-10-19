@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "chemistry_formula_tokens_phase_s1"
+  revision "base"
+  sequence 1
+  title "Phase S1 element and formula tokens"
+  parent_milestone "typed_resolution_exit_phase_r_v1_fix1_mac_accepted"
+  status "accepted"
+  tag "strict_element_symbols"
+  tag "formula_token_lexing"
+  tag "exact_source_spans"
+  tag "later_chemistry_semantics_deferred"
+  tag "focused_tests_only"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "base"
+  sequence 194
+  path "tools/ecosystem/world_model_stoichiometric_construction_routes_core/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "d04aa3e0b458404b9be411937005d48c2147bb2576b801e3447bfadd2e343fc9"
+}

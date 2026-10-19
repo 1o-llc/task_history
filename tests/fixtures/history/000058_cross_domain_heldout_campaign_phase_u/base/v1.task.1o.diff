@@ -1,0 +1,17 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "base"
+  sequence 1
+  title "Phase U cross-domain held-out capability campaign"
+  parent_milestone "stoichiometric_construction_routes_phase_t_v1_fix1_mac_accepted"
+  status "failed_test"
+  tag "heldout_campaign"
+  tag "14_dataset_categories"
+  tag "11_required_metrics"
+  tag "real_component_receipts"
+  tag "paired_capability_comparison"
+  tag "no_broad_reasoning_claim"
+  tag "evaluation_only"
+}

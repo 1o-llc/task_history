@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "raw_question_interface_12e"
+  revision "fix3"
+  sequence 2
+  intent "Repair the two compiler boundaries found by the Mac without changing the general lexical, POS, thought-shape, proposition, tournament, proof, fallback, checkpoint, or public ASK semantics introduced in Fix2."
+}

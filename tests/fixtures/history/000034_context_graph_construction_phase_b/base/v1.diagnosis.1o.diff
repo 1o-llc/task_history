@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_graph_construction_phase_b"
+  revision "base"
+  sequence 4
+  diagnosis "The existing analyze_linguistic_problem pipeline already exposes deterministic local artifacts and retained alternatives. Phase B should project those artifacts rather than add phrase handlers or a second parser. Prior-turn linkage must remain candidate evidence based on general reference, continuation, action-intent, and incompleteness signals. Turn-scoped hypotheses should expire while conversation utterances remain referenceable."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 15
+  path "SEEDED_ZERO_PLAYER_DREAM_11E_11D_CARGO_NORMALIZED_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "c51b1c6152fbc33641b4978fc07da5d0666a05bfa89a2d4e27a70db98bc8a6eb"
+}

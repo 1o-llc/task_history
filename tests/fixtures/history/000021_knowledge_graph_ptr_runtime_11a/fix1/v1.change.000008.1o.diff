@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 15
+  path "tools/ecosystem/world_model_knowledge_graph_ptr_runtime_core/src/observables.rs"
+  operation "modify"
+  before_digest "38de54e17ae9683fec968e3baf23ab5438e4cd2cd1ac384f5cc6f4c4a341afa8"
+  after_digest "10966d97673e56e758f2016067eecb5cb6d95fe17e64f34111c518772c534c79"
+}

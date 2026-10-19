@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "conversational_chat_ui_12f"
+  revision "fix2"
+  sequence 1
+  title "12F Fix2 local concept grounding and robust advisor candidate assessment"
+  parent_milestone "12f_fix1_accepted"
+  status "superseded"
+  tag "local_concept_definition"
+  tag "explicit_provenance"
+  tag "ollama_json_repair"
+  tag "candidate_local_assessment"
+  tag "consent_preserved"
+}

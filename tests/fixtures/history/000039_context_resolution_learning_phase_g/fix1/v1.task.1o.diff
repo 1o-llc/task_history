@@ -1,0 +1,18 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_resolution_learning_phase_g"
+  revision "fix1"
+  sequence 1
+  title "Phase G Fix1 typed scoped-weight JSON persistence repair"
+  parent_milestone "context_resolution_learning_phase_g_base_failed_test"
+  status "accepted"
+  tag "typed_weight_map_json_adapter"
+  tag "typed_scope_identity_preserved"
+  tag "ordered_entry_persistence"
+  tag "duplicate_key_rejection"
+  tag "embedded_key_consistency_check"
+  tag "learning_policy_unchanged"
+  tag "no_global_promotion"
+  tag "focused_tests_only"
+}

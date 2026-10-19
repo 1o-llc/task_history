@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 15
+  path "TYPED_RESOLUTION_EXIT_PHASE_R_FIX1_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "20610df3b80190a141c6936015d66cde88167eacd26482aeef33a76e7bb3dae6"
+}

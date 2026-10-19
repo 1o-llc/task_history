@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_dependency_10c"
+  revision "fix1"
+  sequence 6
+  check "mac_10c_end_to_end_acceptance"
+  outcome "pass"
+  note "Mac evidence: 68/68 focused tests passed; 12/12 training and 12/12 heldout three-variable graphs solved; all expected triples matched; all original constraints rechecked; all three first elimination plans and both second plans observed; six schemas accepted and used; checkpoint/restart exact; no authority leakage; final runner PASS."
+}

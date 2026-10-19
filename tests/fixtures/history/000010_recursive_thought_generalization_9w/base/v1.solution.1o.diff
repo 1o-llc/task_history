@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_generalization_9w"
+  revision "base"
+  sequence 5
+  solution "Add world_model_recursive_thought_generalization_core. Build source programs by calling the real prior compilers compile_shape_to_functional_program, compile_proof_to_functional_program, and compile_dependent_workflow_functional_program. Lift each program one source node to one recursive leaf, preserve exact source fingerprints and proof identity in receipts, and form a bounded recursive target without mutating the source program. Run the existing 9V subtree tournament on three heldout cases per domain with one exact lower-cost candidate and one deliberately overfit control; require exact boundary equivalence, overfit rejection, cost reduction, pruning eligibility, historical retention, and zero active mutation for every domain. Persist only cross-domain receipts/digests in a new checkpoint. Gate all 9W verification behind a complete live rerun of accepted 9V Fix5, which itself re-proves 9U Fix7."
+}

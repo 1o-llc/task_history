@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 9
+  path "DOMAIN_SPAN_SCHEMA_PHASE_I_IMMUTABLE_PARENT_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "7d0e2aa0180232f654f5d58466ddc7ad857f251861e75d619ed6a508cdf86e0f"
+}

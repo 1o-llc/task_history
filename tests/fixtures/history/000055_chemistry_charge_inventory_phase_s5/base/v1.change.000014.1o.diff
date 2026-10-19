@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_charge_inventory_phase_s5"
+  revision "base"
+  sequence 152
+  path "tools/ecosystem/scripts/check_world_model_chemistry_charge_inventory_phase_s5_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "3552b3a3b73aeef0649467175ab6d77bccb6a61ec60b955404abd0847bbdbe18"
+}

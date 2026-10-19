@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_promotion_9x"
+  revision "fix1"
+  sequence 2
+  intent "Close the Mac-proven 9X promotion lifecycle as accepted without changing functional Rust semantics, then make its checker downstream-aware so 9Y cannot advance without re-proving the accepted parent."
+}

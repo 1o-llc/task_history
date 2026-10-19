@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix9"
+  sequence 2
+  intent "Guarantee that provider stderr can be logged for diagnosis but can never be interpreted as candidate data, copied into a recovery prompt, or surfaced inside a chat-visible parse error."
+}

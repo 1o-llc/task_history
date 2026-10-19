@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 7
+  path "SOURCE_AUTHORITY_9S_9R_CARGO_NORMALIZED_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "9263f8adbcc8fdd6e361f2f9c388a23ae21f0f74a32a000bc3be1b0bfc630357"
+}

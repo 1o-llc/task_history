@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix6"
+  sequence 3
+  problem "The Fix5 Mac run proved all 62 static gadget-arena behaviors and typed history, but the live lab unconditionally required plan.selected_need. Durable source-authority state can legitimately have no selected need after a prior verified revalidation, while selected_need can also be absent when unresolved maintenance is blocked. Collapsing those states into one error makes restart acceptance non-idempotent and hides the real blocker."
+}

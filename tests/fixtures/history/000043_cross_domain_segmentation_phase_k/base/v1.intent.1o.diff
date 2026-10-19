@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 2
+  intent "Consume the accepted Phase J overlapping domain-span lattice, identify when independently supported domain spans cooperate in one task, and materialize deterministic typed Phase I CrossDomainBridge observations without collapsing component domains or opening Phase L context feedback."
+}

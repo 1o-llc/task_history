@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 37
+  path "tools/ecosystem/world_model_seeded_zero_player_dream_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "0570dd98e6a23bff4a2da2728a554726f0bfd7121e3e9208c6853c809b04b23f"
+}

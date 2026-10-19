@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_polynomial_10e"
+  revision "base"
+  sequence 1
+  title "10E nonlinear polynomial language reasoning and semantic root verification"
+  parent_milestone "10d_fix1"
+  status "failed_compile"
+  tag "quadratic_reasoning"
+  tag "factorization"
+  tag "multiple_roots"
+  tag "domain_constraints"
+}

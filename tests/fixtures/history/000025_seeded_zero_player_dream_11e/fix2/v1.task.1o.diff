@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix2"
+  sequence 1
+  title "11E Fix2 resource-bound deferral receipt consistency"
+  parent_milestone "11e_fix1"
+  status "failed_parent_gate"
+  tag "dream_receipt"
+  tag "resource_bound"
+  tag "scheduler_deferral"
+  tag "deterministic_restart"
+}

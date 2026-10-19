@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 5
+  solution "Add world_model_context_candidate_tournament_core. Build candidate-local related evidence views from accepted context graph relationships; expose separate POS, lexical, statement-shape, context, KG, and route score components; preserve positive and negative evidence; give LLM provenance no intrinsic winning bonus; feed bounded scores through the existing pipeline tournament lifecycle for deterministic receipts; and apply a separate minimum-score plus dominance-margin gate that abstains on unresolved ambiguity."
+}

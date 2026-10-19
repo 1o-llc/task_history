@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 2
+  intent "Repair the real false-positive cross-domain bridge exposed by the Phase U irrelevant-text held-out case, while keeping the Phase U catalog, metrics, thresholds, tests, report authority, accepted chemistry/T behavior, and broad-general-reasoning prohibition unchanged."
+}

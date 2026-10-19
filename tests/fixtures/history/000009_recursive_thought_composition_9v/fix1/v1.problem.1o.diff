@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_composition_9v"
+  revision "fix1"
+  sequence 3
+  problem "The delivered 9V base failed to compile on Mac with E0505 because winner_eval held an immutable borrow into evaluations while the return struct attempted to move the evaluations vector."
+}

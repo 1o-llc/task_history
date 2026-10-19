@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "base"
+  sequence 7
+  status "failed_compile"
+  resulting_tree_digest "3e4305e370de4d7ecc013cea1815dfe2eb348d2cdfdd056f39112151e4ffb1b4"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix7"
+  sequence 2
+  intent "Route 9U through the existing lifecycle machinery instead of reducing persistent intent state to active_intent.is_some(): continue the exact same active maintenance intent, use ResumeIntent for a matching backlog target, preserve foreign-intent non-preemption, and drive the already-existing activity suspend/resume transitions for a running/suspended activity after process restart without modifying the frozen 9T parent runtime."
+}

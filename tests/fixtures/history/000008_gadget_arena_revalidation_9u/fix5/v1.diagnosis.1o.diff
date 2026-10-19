@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix5"
+  sequence 4
+  diagnosis "This is not a learning regression: the full 9U functional suite was green. It is a packaging/history validation gap. Earlier container-side terminal-digest checks verified change chains but did not mirror the Rust parser rule for result.resulting_tree_digest, allowing malformed historical metadata to survive until the Mac parser ran."
+}

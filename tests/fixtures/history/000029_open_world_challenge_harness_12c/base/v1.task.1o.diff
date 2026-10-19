@@ -1,0 +1,17 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 1
+  title "12C controlled open-world challenge and heldout-transfer harness"
+  parent_milestone "12b"
+  status "accepted"
+  tag "open_world_challenge"
+  tag "heldout_isolation"
+  tag "competence_transfer"
+  tag "false_analogy_rejection"
+  tag "contradiction_handling"
+  tag "cross_domain"
+  tag "exact_restart"
+}

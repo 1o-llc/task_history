@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 21
+  path "tools/ecosystem/world_model_language_algebra_inequality_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "02f55288b36e57526e9f427f8cd6f65218f6f906db8f81d33b96b26dc61f9e56"
+}

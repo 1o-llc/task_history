@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_graph_construction_phase_b"
+  revision "fix3"
+  sequence 6
+  check "mac_context_graph_construction_phase_b_fix3_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-07: package SHA verified; typed-history preflight passed at 1260 tracked paths; all 10 Phase A context tests passed; the focused ordinary-pronoun analyzer test passed; all 9 of 9 Phase B Fix3 tests passed including contextual explicit questions, unrelated interrogative rejection, required follow-up references, competing candidates, contradicting evidence, scope expiration, deterministic roundtrip, and no external-authority edges; terminal typed-history Rust test passed; final PASS markers included analyzer_evidence_preserved, ordinary_pronoun_pos_evidence, contextual_questions_preserved, unrelated_interrogatives_do_not_inherit, required_followups_attach, competing_candidates_coexist, contradicting_evidence_represented, temporary_scope_expiration, deterministic_roundtrip, no_external_authority_edges, no_phrase_specific_context_handlers, and world_model_context_graph_construction_phase_b_v1_fix3."
+}

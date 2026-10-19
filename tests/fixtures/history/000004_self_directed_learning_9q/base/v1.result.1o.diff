@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "self_directed_learning_9q"
+  revision "base"
+  sequence 23
+  status "failed_compile"
+  resulting_tree_digest "pending"
+}

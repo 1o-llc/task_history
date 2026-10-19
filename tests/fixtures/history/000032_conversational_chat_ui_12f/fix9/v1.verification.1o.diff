@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix9"
+  sequence 6
+  check "mac_12f_fix9_strict_stderr_isolation_acceptance"
+  outcome "pass"
+  note "Mac acceptance passed: 44 library tests, 2 UI interaction tests, 10 contract tests, terminal-history recheck, release build, and all self-tests passed. The later live advisor request correctly reported that the local Ollama API was stopped; automatic provider lifecycle handling is deferred to Fix10."
+}

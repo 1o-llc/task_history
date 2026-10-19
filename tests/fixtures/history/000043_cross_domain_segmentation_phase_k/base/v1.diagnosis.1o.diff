@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 4
+  diagnosis "Phase K should require distinct exact spans, minimum independent local evidence, and a bounded structural relation before creating a bridge. Request-to-goal/target, chemistry-to-math quantity goals, adjacent quantity-unit binding, procedure-to-later-task ordering, and local anaphoric cue-to-chemistry entity are sufficient K-level relations. Actual prior-context attachment and bidirectional evidence feedback remain Phase L."
+}

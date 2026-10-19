@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 6
+  check "structural_post_context_i_u_milestone_closeout"
+  outcome "pass"
+  note "Documentation-only closeout inherits the Mac-accepted Phase U Fix1 receipt for package SHA-256 cfb3b46acbfb97fb6ddaad2b3c7553bf33102269cb261e475505e401c7445eb4. Local closeout verification requires immutable accepted-parent hashes, frozen U core/tests/catalog/policy and thresholds, accepted latest revisions for tasks 41-59, no live candidate, claim-boundary text, shell syntax, and terminal typed-history reconstruction. No Rust implementation or behavior changes are introduced by this closeout."
+}

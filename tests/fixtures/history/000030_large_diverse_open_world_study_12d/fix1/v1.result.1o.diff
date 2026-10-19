@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "0b0ce7b9b0dad51ea2b8e02e5966c148a04c121d9dc78033f8a5ed8bcee12c9a"
+}

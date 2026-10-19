@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "base"
+  sequence 4
+  diagnosis "Autonomous optimization discovery should not be another optimizer or scheduler. It should be a bounded evidence-selection layer over accepted 9X routes: execute and observe those routes, derive hot/stable/high-savings candidates, reuse the existing thought-budget admission policy and reversible tournament service, retain idle/defer alternatives, and emit a typed work order for the existing recursive-localize -> rewrite-tournament -> verified-promotion pipeline without mutating the parent."
+}

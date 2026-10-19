@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "base"
+  sequence 6
+  check "mac_12f_conversational_chat_ui_acceptance"
+  outcome "fail"
+  note "Mac compile failed on 2026-07-30 before the focused tests: Cargo selected eframe/egui 0.35.0, which requires Rust 1.92, while the acceptance Mac has rustc 1.91.1."
+}

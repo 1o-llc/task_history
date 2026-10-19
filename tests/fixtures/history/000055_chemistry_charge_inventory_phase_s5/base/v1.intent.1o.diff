@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "chemistry_charge_inventory_phase_s5"
+  revision "base"
+  sequence 2
+  intent "Derive exact deterministic signed net-charge inventories from accepted S2/S3 charge roles while binding each result to the matching accepted S4 atom inventory, preserving separate formula-unit and coefficient-scaled charge and keeping S6/T authority closed."
+}

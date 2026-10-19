@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix3"
+  sequence 4
+  diagnosis "A source change that already blocks active reuse and pruning creates a correctness-maintenance obligation, not merely an optional curiosity candidate. Global curiosity should remain advisory and may choose unrelated study. The required repair therefore needs a scoped tournament among unresolved gadget needs, while resource admission and existing active intent remain authoritative blockers."
+}

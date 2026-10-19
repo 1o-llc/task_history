@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "index"
+  task_id "history_index"
+  revision "base"
+  sequence 1
+  task_count 60
+  revision_count 122
+}

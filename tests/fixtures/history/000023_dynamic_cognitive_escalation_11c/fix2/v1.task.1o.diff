@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix2"
+  sequence 1
+  title "11C Fix2 frozen 10F parent-manifest restoration"
+  parent_milestone "11c_fix1"
+  status "accepted"
+  tag "dynamic_escalation"
+  tag "kg_critic"
+  tag "parent_manifest"
+  tag "typed_history"
+}

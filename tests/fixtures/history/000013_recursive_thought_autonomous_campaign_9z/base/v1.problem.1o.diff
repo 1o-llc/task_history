@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "base"
+  sequence 3
+  problem "9Y can discover a hot stable target and emit a downstream work order, but no accepted layer yet executes that order as a bounded autonomous loop. A safe closeout must avoid unbounded self-rewrite, preserve the accepted 9X/9Y parents, suppress immediate retry after regression, retain canonical fallbacks/history, and prove restart-exact campaign state."
+}

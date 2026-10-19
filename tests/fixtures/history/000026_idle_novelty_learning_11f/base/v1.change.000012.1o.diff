@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 19
+  path "history/000026_idle_novelty_learning_11f/base/v1.diagnosis.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "41de7e857018bc87ffa3d2e67e5e2691f147b9d4ce69ceeb22b7415a2686dc88"
+}

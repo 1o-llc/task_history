@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_dependency_10c"
+  revision "fix1"
+  sequence 1
+  title "10C Mac acceptance closeout for three-variable dependency algebra"
+  parent_milestone "10c_base"
+  status "accepted"
+  tag "mac_acceptance"
+  tag "three_variables"
+  tag "hierarchical_elimination"
+  tag "downstream_safe"
+}

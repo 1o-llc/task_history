@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix1"
+  sequence 4
+  diagnosis "The temporary directory was empty, so the prerequisite lab failed before any 9N Rust regression executed."
+}

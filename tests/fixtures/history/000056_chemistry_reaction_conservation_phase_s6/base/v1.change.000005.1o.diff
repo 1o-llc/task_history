@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 162
+  path "history/000055_chemistry_charge_inventory_phase_s5/base/v1.verification.1o.diff"
+  operation "modify"
+  before_digest "57a748d8158012a4ddc6cccd4a04892b90a97f8e15deed704723ad459b545f7b"
+  after_digest "c32626f2d233dc26b544cc1a989638d05eb3cf2a71227ad06aa4d982e5c10120"
+}

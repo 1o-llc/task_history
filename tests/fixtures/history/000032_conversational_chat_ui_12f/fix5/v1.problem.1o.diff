@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix5"
+  sequence 3
+  problem "The Mac native UI invoked Ollama after consent, but the adapter assumed the provider stream itself was directly parseable JSON. Qwen and Ollama may emit prose, thinking blocks, ANSI controls, wrappers, Markdown fences, NDJSON chunks, or useful JSON after unrelated text, causing an unhelpful expected-value-at-line-one failure."
+}

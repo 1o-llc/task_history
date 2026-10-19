@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 18
+  path "tools/ecosystem/world_model_raw_question_interface_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "7b9af195f51309574a184f0d8f0516e57ee1e2e8ba459caa94a3271faff2f0af"
+}

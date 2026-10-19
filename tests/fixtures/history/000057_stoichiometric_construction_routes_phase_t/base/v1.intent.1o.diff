@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "base"
+  sequence 2
+  intent "Execute bounded stoichiometric quantity routes only after M/O/P/Q/R construction eligibility, and require exact unit cancellation, chemistry or S6 provenance, and independent exact numeric verification for every result."
+}

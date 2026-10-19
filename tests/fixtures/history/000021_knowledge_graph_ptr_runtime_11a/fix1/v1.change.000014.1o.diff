@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 21
+  path "history/000021_knowledge_graph_ptr_runtime_11a/fix1/v1.diagnosis.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "1a403b938b997471c804a4e90c1dee0368a5d5b9b0373fefab9d1ab739e7ec99"
+}

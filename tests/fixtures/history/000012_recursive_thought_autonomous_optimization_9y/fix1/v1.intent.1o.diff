@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "fix1"
+  sequence 2
+  intent "Repair the 9Y compile boundary without changing autonomous target-selection behavior by converting the accepted 9X promotion regression counter into the u64 evidence representation explicitly and fallibly."
+}

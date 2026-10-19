@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "fix1"
+  sequence 1
+  title "10D fine-grained elimination tournament cost resolution repair"
+  parent_milestone "10d_base"
+  status "accepted"
+  tag "recursive_elimination"
+  tag "tournament_resolution"
+  tag "cost_fidelity"
+  tag "mac_retest"
+}

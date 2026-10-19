@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_graph_construction_phase_b"
+  revision "base"
+  sequence 2
+  intent "Project the existing deterministic linguistic analysis into bounded utterance, entity-mention, property-request, candidate-interpretation, missing-slot, quantity/unit, domain, and prior-turn-reference context records without adding LLM dependence, factual-KG references, selection, clarification, execution, learning, or chat behavior."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 2
+  intent "Classify accepted typed constructions into a small reusable set of reasoning arenas and expose legal shapes/operators/constraints/verification/clarification/exits without treating classification as an answer."
+}

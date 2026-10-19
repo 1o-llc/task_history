@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "relationship_acquisition_9r"
+  revision "base"
+  sequence 3
+  solution "Add a generic equation parser into the existing 9I SymbolicExpr substrate; reconcile source symbol meanings through the full 8O linguistic stack; parse and compare SI dimensions; isolate any single-occurrence target variable with inverse algebraic transformations; require sourced provenance and repeated algebraic residual checks; persist only canonical relationship manifests, semantic/unit bindings, provenance digests, verification receipts, and sourced constants into 9K; reconstruct relationships after checkpoint restart; bind held-out problems using the acquired semantic vocabulary; project a newly acquired relationship ephemerally into 9Q as a weak-generalization practice target while leaving the durable 9O fragment archive unchanged."
+}

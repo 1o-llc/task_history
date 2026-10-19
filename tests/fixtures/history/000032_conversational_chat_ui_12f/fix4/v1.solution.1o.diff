@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "fix4"
+  sequence 5
+  solution "Replace only the combined hard-boundary bullet with two equivalent explicit bullets: Every proposal must include a local verification plan; and Every proposal must contain a non-empty operator chain. Preserve all constraint fields, prompt evidence, candidate schema, local assessment, concept grounding, consent boundaries, 40 tests, eframe pin, and accepted reasoning source. Record Fix3 as failed_test and expose Fix4 as the sole candidate."
+}

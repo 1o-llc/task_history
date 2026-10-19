@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix4"
+  sequence 3
+  problem "The Mac Fix3 run failed two blocked-maintenance tests before the live lab because run_scoped_maintenance_tournament omitted dirty-gadget candidates when maintenance was blocked, then supplied only maintenance:idle to the shared pipeline tournament, whose contract requires at least two candidates."
+}

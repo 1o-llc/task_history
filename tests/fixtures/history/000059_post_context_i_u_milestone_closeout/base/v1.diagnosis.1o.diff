@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "post_context_i_u_milestone_closeout"
+  revision "base"
+  sequence 4
+  diagnosis "A documentation-only closeout can consume the already-proven U Fix1 Mac receipt, mark U accepted, freeze the completed I-U chain, assert no live candidate, and document claim boundaries without creating a recursive Phase V acceptance dependency."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "self_directed_learning_9q"
+  revision "fix1"
+  sequence 7
+  path "tools/ecosystem/scripts/check_world_model_self_directed_learning_v1.sh"
+  operation "modify"
+  before_digest "c0af82c72474d39444975a84774dbd315d5add60cbc578478746f216caac253a"
+  after_digest "fa6f902af151a15f41eed143bfa76d10da67acbd28599497eee465f8c0a385b1"
+}

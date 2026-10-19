@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_systems_10b"
+  revision "base"
+  sequence 5
+  solution "Add a 10B coupled-language algebra crate with 24 train/heldout problems across six two-unknown families; typed LinearConstraint2 pairs; two reversible elimination candidates plus an overfit control; existing tournament and thought-budget admission; reduction into the already-mastered algebra proof kernel; exact second-variable reconstruction and dual-constraint recheck; inherited 9X promotion lifecycle for cheaper family schemas; durable idempotent checkpoints; and an accepted-10A parent gate."
+}

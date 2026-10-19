@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix3"
+  sequence 3
+  problem "The global typed-history index is intentionally updated by every downstream revision, but 11A through 11E source manifests were checked as immutable whole-file manifests. A legitimate child history update therefore invalidated inherited parent gates. The separate downloadable SHA text also duplicated information that the ZIP and internal manifests already verify."
+}

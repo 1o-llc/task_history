@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix5"
+  sequence 3
+  problem "The Mac Fix4 run passed all 62 gadget-arena regressions, then the independent task-history test failed because Fix2 and Fix3 result records stored human-readable failure labels in resulting_tree_digest even though the 9P result schema permits only a SHA-256 digest or pending. The live arena was therefore never reached."
+}

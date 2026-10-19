@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 6
+  check "mac_chemistry_reaction_conservation_phase_s6_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance passed package SHA, manifests, one live S6 candidate, typed-history preflight paths=1698, isolated S6 test dependency compile, cumulative workspace boundaries, accepted A-S5 regressions, four selected chemistry parser regressions, all 5 focused S6 conservation tests, terminal task history, and final PASS world_model_chemistry_reaction_conservation_phase_s6_v1."
+}

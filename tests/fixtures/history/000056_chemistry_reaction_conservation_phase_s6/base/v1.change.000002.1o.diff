@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 159
+  path "RUN_DOMAIN_SPAN_PHASE_S6.command"
+  operation "add"
+  before_digest "none"
+  after_digest "8646b6e70ad5826bfdadf05ec1d3d79ffb18066d1208980ec9bdd2a50745f89e"
+}

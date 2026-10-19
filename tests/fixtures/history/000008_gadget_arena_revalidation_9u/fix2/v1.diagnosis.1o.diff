@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix2"
+  sequence 4
+  diagnosis "The 1o history parser is correct and fail-closed: DiffRecordKind::Intent requires exactly one intent field. Fix1 accidentally emitted goal, so the history tree was syntactically well-formed but semantically invalid. The gadget-arena crate itself requires no repair."
+}

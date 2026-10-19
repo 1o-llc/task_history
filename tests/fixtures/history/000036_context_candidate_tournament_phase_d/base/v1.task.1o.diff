@@ -1,0 +1,19 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 1
+  title "Phase D deterministic context candidate tournament"
+  parent_milestone "context_kg_reference_phase_c_accepted"
+  status "failed_compile"
+  tag "pos_lexical_statement_context_kg_route_evidence"
+  tag "score_breakdown"
+  tag "deterministic_tournament"
+  tag "safe_abstention"
+  tag "llm_no_selection_authority"
+  tag "no_clarification"
+  tag "no_execution"
+  tag "no_learning"
+  tag "focused_tests_only"
+}

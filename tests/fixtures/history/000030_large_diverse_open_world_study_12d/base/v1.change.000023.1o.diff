@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 30
+  path "history/000030_large_diverse_open_world_study_12d/base/v1.verification.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "334b1eab1ae4cf55bce544b53e3769863436b162c523e6dd668a2636f08f2e04"
+}

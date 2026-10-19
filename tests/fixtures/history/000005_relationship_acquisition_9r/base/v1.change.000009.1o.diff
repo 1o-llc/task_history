@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "relationship_acquisition_9r"
+  revision "base"
+  sequence 14
+  path "tools/ecosystem/world_model_relationship_acquisition_core/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "b4a155377d2e8aa79f8e9e623917b7586587629f85262f4379220b22b1cd60c3"
+}

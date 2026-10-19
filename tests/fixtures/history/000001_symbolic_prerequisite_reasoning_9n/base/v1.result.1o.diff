@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "base"
+  sequence 19
+  status "superseded"
+  resulting_tree_digest "f078c10cf1e87eefd8437b978d8041f23bc1a498f39686d684082b93f349ad0f"
+}

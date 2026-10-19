@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_resolution_exit_phase_r"
+  revision "base"
+  sequence 16
+  path "history/000050_typed_resolution_exit_phase_r/base/v1.result.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "b960788b2b934664282ab581c9f0e8f06400a5c0add9c6852906a67e5d920dd4"
+}

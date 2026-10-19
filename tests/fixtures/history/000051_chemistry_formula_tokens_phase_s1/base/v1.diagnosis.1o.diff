@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "chemistry_formula_tokens_phase_s1"
+  revision "base"
+  sequence 4
+  diagnosis "Phase S1 should be a narrow lexical layer: validate the complete 118-symbol catalog, preserve exact capitalization and Phase-I source spans, decompose formula tokens into element-symbol and digit-run lexemes, reject malformed/unknown symbols, and explicitly defer leading coefficients, charges, and grouped composition so S2 and S3 retain their own authority boundaries."
+}

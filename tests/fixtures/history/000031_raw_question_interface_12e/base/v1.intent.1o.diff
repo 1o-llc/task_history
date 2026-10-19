@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 2
+  intent "Make literal user text the mandatory entrance to the accepted reasoning system: execute the existing linguistic/POS/domain stack, construct competing interpretations and equations or procedures, use visible KG ingredients where required, independently verify the result, and return a readable answer through ASK.command without caller-supplied normalized signatures."
+}

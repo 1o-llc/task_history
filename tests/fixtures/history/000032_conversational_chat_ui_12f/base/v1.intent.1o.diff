@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "base"
+  sequence 2
+  intent "Expose the accepted local linguistic and proof pipeline as a native chatbot-style application with visible reasoning receipts, in-memory conversation, fast direct-binary launches, and an explicit permission boundary before any configured LLM is asked for candidate construction recipes."
+}

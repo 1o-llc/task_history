@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "base"
+  sequence 2
+  intent "Let the world model discover for itself which already-running verified reasoning subtree deserves optimization effort by observing actual usage, expected savings, replay stability, regression history, and current background-resource availability, while preserving idle as a first-class choice and routing selected work back through the proven 9V/9W/9X pipeline."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 13
+  path "NODEPLAN_WORLD_MODEL_SEEDED_ZERO_PLAYER_DREAM_11E_FIX3.md"
+  operation "modify"
+  before_digest "1945ee1002dfef14076bb92ae973db681b323f933be743ffe986f0d92f3ff90d"
+  after_digest "53a79ca95c8703d04c5e890fea5c9da49e649e0779bb8402f8fe064bf004ed61"
+}

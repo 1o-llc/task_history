@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix7"
+  sequence 22
+  check "mac_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-07-29: all 68 focused 9U tests passed, including lifecycle-definition governance, same-intent continuation/resume, foreign-intent non-preemption, and restart reconciliation; terminal typed history passed; the live lab completed the persisted intent, preserved original immutability and hidden-unit boundaries, restored authority and gadget-arena checkpoints exactly, replayed self state exactly, claimed no LLM/proof authority, and emitted PASS world_model_gadget_arena_revalidation_v1 ok. The 9V parent gate then accepted the hash-bound 9u_fix7 runtime receipt."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 25
+  path "tools/ecosystem/world_model_route_identity_core/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "ecd714a487f7065ee5ebed55ceb48a245d355bbbb0a49f5fcd515be410135f95"
+}

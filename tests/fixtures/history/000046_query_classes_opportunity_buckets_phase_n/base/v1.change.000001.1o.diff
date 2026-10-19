@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 8
+  path "NODEPLAN_WORLD_MODEL_QUERY_CLASSES_OPPORTUNITY_BUCKETS_PHASE_N.md"
+  operation "add"
+  before_digest "none"
+  after_digest "c72aef850c85e94bb7793df51bf8413414b3299253af4f39da246ebd874d0b3a"
+}

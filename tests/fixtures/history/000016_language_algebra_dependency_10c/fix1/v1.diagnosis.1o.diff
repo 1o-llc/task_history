@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_dependency_10c"
+  revision "fix1"
+  sequence 4
+  diagnosis "The Mac evidence is acceptance-quality. Record it as a no-semantic-change acceptance revision and normalize Cargo by removing both the accepted 10C member and an optional additive 10D member when reconstructing the frozen 10B parent boundary."
+}

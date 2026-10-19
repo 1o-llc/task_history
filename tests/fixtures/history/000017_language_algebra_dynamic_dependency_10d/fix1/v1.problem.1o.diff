@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "fix1"
+  sequence 3
+  problem "The Mac 10D base run passed 84 of 85 focused tests. For coins4_hold_1 the structurally cheaper elimination was original variable 1 at cost 242 versus variable 0 at cost 246, but TournamentScore utility integer-divides cost_units by 10, collapsing both penalties to 24 and allowing lexical candidate ordering to select variable 0."
+}

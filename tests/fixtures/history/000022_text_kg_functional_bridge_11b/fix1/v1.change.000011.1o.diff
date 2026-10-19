@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "text_kg_functional_bridge_11b"
+  revision "fix1"
+  sequence 18
+  path "history/000022_text_kg_functional_bridge_11b/fix1/v1.task.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "bdfe5585c3365f985329c64258973c7b880b87462dc023eafe15115d08384681"
+}

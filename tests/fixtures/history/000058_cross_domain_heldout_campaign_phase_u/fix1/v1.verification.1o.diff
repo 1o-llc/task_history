@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 6
+  check "mac_cross_domain_heldout_campaign_phase_u_fix1_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-10 passed package SHA-256 cfb3b46acbfb97fb6ddaad2b3c7553bf33102269cb261e475505e401c7445eb4, Fix1 manifests, preserved U base 4/6 failed-test receipt, frozen U core/tests/catalog/policy with no threshold relaxation, Phase K request-intent guard and exact irrelevant-text false-split regression, typed-history preflight paths=1753, isolated U dependency compile, cumulative workspace boundaries, accepted A-T regressions, all 6/6 unchanged Phase U held-out tests, terminal task history, and final PASS world_model_cross_domain_heldout_campaign_phase_u_v1_fix1."
+}

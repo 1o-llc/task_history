@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 5
+  solution "Add a durable source-authority state with source-role/domain profiles, independent-origin discounting, source reliability evidence, claim-type admission rules, publication/learned/verified temporal records, explicit supersession, source-investigation needs, and a cycle-free provenance dependency graph. Material claim transitions compute a transitive blast radius; affected derivations/generalizations and invariant tests are blocked from clean active reuse/pruning until SHA-256 verifier-backed revalidation receipts pass. Authority never becomes proof authority and history is never deleted."
+}

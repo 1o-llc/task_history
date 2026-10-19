@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix4"
+  sequence 5
+  solution "Always include maintenance:idle and maintenance:defer no-work branches in the scoped maintenance tournament, score idle deterministically above defer, keep both branches non-committing, reserve two candidate slots for those safe fallbacks so the global candidate bound is still respected, retain real dirty-gadget candidates only when budget admission succeeds and no other intent is active, and add a regression proving the blocked tournament retains exactly two safe no-work alternatives."
+}

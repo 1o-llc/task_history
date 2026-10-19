@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_polynomial_10e"
+  revision "base"
+  sequence 15
+  path "LANGUAGE_ALGEBRA_POLYNOMIAL_10E_10D_CARGO_NORMALIZED_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "1d22d77124163d61dc5779ce03a68c3a6664291891220418840e499ae6030bdc"
+}

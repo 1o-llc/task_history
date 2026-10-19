@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_clarification_phase_e"
+  revision "base"
+  sequence 2
+  intent "Implement only Phase E from the authoritative context handoff: derive one useful clarification from existing missing-slot/candidate evidence, suspend the unresolved original task, attach an explicit clarification reply back to that task, rerun the accepted Phase D tournament, and preserve all factual-KG, execution, verification, LLM, learning, and UI authority boundaries."
+}

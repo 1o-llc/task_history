@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 20
+  path "tools/ecosystem/scripts/run_world_model_open_world_challenge_harness_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "a4dde719b9df2d7a4602c0ed729eb82525bc1994515cac173e36fdf81a8afb55"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 32
+  path "tools/ecosystem/scripts/check_world_model_dynamic_cognitive_escalation_v1.sh"
+  operation "modify"
+  before_digest "eec607564e43e300a71af7a688b611853d31c63205d36588dd75d43a42c96e90"
+  after_digest "1ec91dd69557223f068c606057d290c068ba5f67c43b4540fc3a3664c7044d31"
+}

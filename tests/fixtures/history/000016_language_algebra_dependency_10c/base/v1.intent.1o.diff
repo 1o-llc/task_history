@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_dependency_10c"
+  revision "base"
+  sequence 2
+  intent "Extend accepted 10B coupled algebra to three interdependent unknowns by composing three typed language constraints, autonomously choosing a first elimination variable, reducing into the existing 10B substrate, reusing the one-variable algebra proof kernel, reconstructing every unknown, and promoting only schemas that transfer to heldout problems."
+}

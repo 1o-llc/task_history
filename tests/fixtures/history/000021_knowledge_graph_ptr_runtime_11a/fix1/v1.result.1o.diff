@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "665b030a20c43409458a95af151f2cf7b7573986d3a0c18818b6061a88ad9ded"
+}

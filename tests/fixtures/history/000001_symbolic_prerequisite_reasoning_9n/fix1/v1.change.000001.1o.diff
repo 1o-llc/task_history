@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix1"
+  sequence 6
+  path "SYMBOLIC_PREREQ_9N_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "a543bd8af18d5244dc76932b6243557f5b84a85f482f6100fedd34d34e547303"
+  after_digest "7cf29fba6c54602ba1e1cea079b7d8d2504044c188b3f487e33a5670af22b34e"
+}

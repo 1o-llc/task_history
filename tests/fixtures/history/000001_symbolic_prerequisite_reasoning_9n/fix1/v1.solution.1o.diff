@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix1"
+  sequence 5
+  solution "Seed the isolated prerequisite directory from the verified durable checkpoint and compare the real checkpoint snapshot before and after replay."
+}

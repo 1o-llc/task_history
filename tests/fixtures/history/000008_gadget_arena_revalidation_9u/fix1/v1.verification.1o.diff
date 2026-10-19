@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix1"
+  sequence 22
+  check "mac_acceptance"
+  outcome "fail"
+  note "2026-07-29 Mac acceptance: all 59 focused 9U gadget-arena regressions passed. The subsequent task-history terminal-tree regression failed before the live lab because v1.intent.1o.diff used the non-schema field goal instead of required field intent. No live gadget-arena mutation occurred in this revision."
+}

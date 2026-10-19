@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 12
+  path "NODEPLAN_WORLD_MODEL_TYPED_RESOLUTION_EXIT_PHASE_R_FIX1.md"
+  operation "add"
+  before_digest "none"
+  after_digest "8fb859534ef7ceb95373030c0dd7f00cfa98cf0b62d6d7076820b1ecfffe61fb"
+}

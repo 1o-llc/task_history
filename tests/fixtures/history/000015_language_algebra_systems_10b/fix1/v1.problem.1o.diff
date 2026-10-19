@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_systems_10b"
+  revision "fix1"
+  sequence 3
+  problem "10B base was still recorded as a candidate even though the Mac run proved 60 focused tests, live two-constraint reasoning, heldout transfer, exact checkpoint restore, and final PASS. The parent checker also needed to tolerate one explicitly additive downstream 10C workspace member."
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 6
+  check "mac_12d_large_diverse_open_world_study_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-30 passed the single-artifact integrity preflight, 1,011-path terminal-history preflight, frozen 12C parent receipt materialization, and exact 12C runtime gate. The new 12D crate then stopped before any focused test executed with Rust E0282 at the aggregate heldout counters: iterator sum() had no explicit integer type before saturating_sub required one."
+}

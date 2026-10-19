@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_execution_verification_phase_f"
+  revision "base"
+  sequence 2
+  intent "Allow only a Phase D-selected candidate, directly or after a Phase E clarification rerun, to invoke existing local execution operators after its stable operator reference resolves, then require an independent fresh-state proof before recording local context verification authority."
+}

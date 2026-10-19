@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 19
+  path "tools/ecosystem/scripts/verify_current_typed_history_terminal_tree_v1.py"
+  operation "add"
+  before_digest "none"
+  after_digest "0a8b9382681767bc4dcb5e3d7a1efa782f4d6e56307c792ff7b3ad418893bd79"
+}

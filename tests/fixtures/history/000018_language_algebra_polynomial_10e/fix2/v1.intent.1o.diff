@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix2"
+  sequence 2
+  intent "Make the accepted 10D parent checker prove only the accepted 10D lineage and behavior, not freeze the status of its downstream 10E child; retain the 10E Fix1 polynomial and current thought-budget repair unchanged."
+}

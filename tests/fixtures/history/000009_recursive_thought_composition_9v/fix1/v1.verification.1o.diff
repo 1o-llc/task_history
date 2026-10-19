@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_composition_9v"
+  revision "fix1"
+  sequence 20
+  check "mac_acceptance"
+  outcome "fail"
+  note "2026-07-29 Mac acceptance compiled and entered all 50 focused recursive-thought regressions, but 44 failed and 6 passed because compile_recursive_thought rejected every canonical leaf with '9V recursive leaf contract drifted from canonical flat gadget'. The repeated failure occurred before the recursive behaviors under test could execute."
+}

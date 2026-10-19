@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "base"
+  sequence 1
+  title "Phase S2 subscripts coefficients and charges"
+  parent_milestone "chemistry_formula_tokens_phase_s1_v1_mac_accepted"
+  status "failed_compile"
+  tag "subscript_roles"
+  tag "coefficient_roles"
+  tag "charge_roles"
+  tag "ambiguity_rejected"
+  tag "s3_s6_semantics_closed"
+}

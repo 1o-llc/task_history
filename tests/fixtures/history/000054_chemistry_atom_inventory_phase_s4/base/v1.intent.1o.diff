@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "chemistry_atom_inventory_phase_s4"
+  revision "base"
+  sequence 2
+  intent "Derive exact deterministic per-element atom counts from the accepted S3 composition tree, preserving separate formula-unit and coefficient-scaled inventories while keeping charge inventory, reaction conservation/balancing, stoichiometry, and execution closed."
+}

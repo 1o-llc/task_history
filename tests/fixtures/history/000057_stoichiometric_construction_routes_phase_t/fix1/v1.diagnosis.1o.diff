@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 4
+  diagnosis "This is a localized representation-boundary mismatch, not a stoichiometric arithmetic or conservation defect. S6 already exposes the coefficient separately through ReactionTermContribution.coefficient(), and S3 guarantees canonical notation prefixes coefficient > 1 as its decimal string. T should compare the coefficient-free remainder as species identity, then continue using the separate S6 coefficient for ratio and reaction-extent arithmetic."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_resolution_learning_phase_g"
+  revision "base"
+  sequence 2
+  intent "Persist bounded positive and negative context-resolution episodes after Phase F verification or explicit user rejection, update only scope-keyed interpretation weights, retain failed execution without granting positive evidence, preserve exact replay/checkpoint behavior, and keep global/durable interpretation promotion closed until Phase H."
+}

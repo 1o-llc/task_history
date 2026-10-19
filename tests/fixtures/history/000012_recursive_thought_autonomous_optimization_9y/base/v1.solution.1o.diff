@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "base"
+  sequence 5
+  solution "Add a 9Y autonomous optimization core that runs actual accepted 9X routes to build usage observations, computes exact replay stability, cumulative saved cost, and remaining cumulative active-route cost exposure, filters candidates by evidence and recent-regression thresholds, gates voluntary work through world_model_identity_curiosity_core thought-budget admission, ranks eligible targets with world_model_tournament_service while preserving idle/defer, emits a source-bound OptimizationWorkOrder referencing the real 9W target range and the 9V->9W->9X downstream pipeline, persists idempotent discovery state, and proves emergency/active-intent blocking plus workload-sensitive target changes without mutating prior durable state."
+}

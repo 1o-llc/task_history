@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 20
+  path "tools/ecosystem/world_model_source_investigation_core/materials/source_catalog_fixture_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "f6b04b1b1aafdc125c136af9584118176d4957c2035f13e10a524df18ac7060a"
+}

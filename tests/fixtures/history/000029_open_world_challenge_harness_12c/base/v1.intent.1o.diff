@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 2
+  intent "Broaden the accepted bounded autonomous learner with a reproducible 256-problem controlled challenge frontier and prove that verified learning from training problems increases success on a strictly isolated heldout set without increasing false positives, authority violations, unnecessary escalation, state growth, or restart ambiguity."
+}

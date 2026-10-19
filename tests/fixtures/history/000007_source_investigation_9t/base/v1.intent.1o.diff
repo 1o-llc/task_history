@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 2
+  intent "Turn 9S stale, disputed, contradicted, single-source, and low-confidence claim assessments into bounded autonomous research intentions that can discover better evidence without granting curiosity, source prestige, or an LLM proof authority."
+}

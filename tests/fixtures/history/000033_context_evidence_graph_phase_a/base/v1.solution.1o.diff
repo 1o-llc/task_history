@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 5
+  solution "Add world_model_context_evidence_graph_core with bounded typed records, deterministic content-addressed IDs, dedicated FactReference and OperatorReference targets, KnowledgeGraphReadAuthority over &KnowledgeGraph, local independent-verification receipts, exact event replay, canonical serde checkpoints with atomic replacement, and stale fact/relation/operator digest checks; add focused runners and no chat integration."
+}

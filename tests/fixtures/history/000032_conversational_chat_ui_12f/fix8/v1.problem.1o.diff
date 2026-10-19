@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix8"
+  sequence 3
+  problem "The live Fix7 advisor used the interactive Ollama CLI. Spinner/control output on stderr and prose or thinking on stdout were folded into scanner and retry diagnostics; the retry could reason about terminal noise instead of returning candidates, and the combined error string rendered as an enormous chat message."
+}

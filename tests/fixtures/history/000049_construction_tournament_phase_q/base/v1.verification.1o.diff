@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "construction_tournament_phase_q"
+  revision "base"
+  sequence 6
+  check "mac_construction_tournament_phase_q_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance received for package SHA-256 82312882736ca769969090a85cb8eeacdd2509423883c766e14d6c291b9f4649: isolated Phase Q test target compiled; accepted workspace boundaries compiled; Context A-H, Phase I-P, all 16 proposition-structure tests and the algebra parser regression remained green; all 5/5 focused Phase Q tests passed (independent evidence beat duplicated lineage, fewer assumptions were preferred under equal verification evidence, weak/bad POS was outweighed by stronger lexical/domain evidence, LLM origin had zero intrinsic advantage, and score only granted plausible execution eligibility without proof/verification/answer authority); terminal typed-history Rust test passed; no route/answer execution authority was introduced; and final PASS world_model_construction_tournament_phase_q_v1 printed."
+}

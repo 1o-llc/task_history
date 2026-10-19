@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_hardening_10a"
+  revision "fix1"
+  sequence 8
+  path "tools/ecosystem/world_model_language_algebra_hardening_core/src/lib.rs"
+  operation "modify"
+  before_digest "152a09824aa2cfa98acbc697bbbba983cd86dc5a6f39caec440e62eec8ba3587"
+  after_digest "9ed0fc315a5f8873aeae7743acd81e65759e9f89aa42c332a0701b46c2ccddac"
+}

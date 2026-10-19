@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "chemistry_atom_inventory_phase_s4"
+  revision "base"
+  sequence 6
+  check "mac_chemistry_atom_inventory_phase_s4_focused_acceptance"
+  outcome "pass"
+  note "Mac accepted S4: package SHA verified; manifests and sole-candidate/history gates passed; isolated S4 dependency compile and cumulative workspace boundaries passed; Context/Domain/Construction/Exit, S1-S3, and four selected chemistry parser regressions passed; all 5 focused S4 atom-inventory tests passed; terminal task history passed; final PASS world_model_chemistry_atom_inventory_phase_s4_v1 printed."
+}

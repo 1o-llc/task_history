@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_composition_9v"
+  revision "fix1"
+  sequence 4
+  diagnosis "The borrow was only needed to derive two scalar result flags. Keeping a reference alive until the struct literal unnecessarily extended the borrow across the move; no recursive-thought algorithm or tournament result needed a borrowed evaluation after those booleans were computed."
+}

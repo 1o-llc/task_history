@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_resolution_exit_phase_r"
+  revision "base"
+  sequence 21
+  path "tools/ecosystem/scripts/check_world_model_typed_resolution_exit_phase_r_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "5e91b2423c512af18e68ad4e645813e8c377484842930e20ceb114db3185ef7e"
+}

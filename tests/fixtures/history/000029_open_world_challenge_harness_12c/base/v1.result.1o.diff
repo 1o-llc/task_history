@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "2c6feb8dae29a6cb8851e067ae191b57b4086c9dcf27255fe648b7fc96f13df6"
+}

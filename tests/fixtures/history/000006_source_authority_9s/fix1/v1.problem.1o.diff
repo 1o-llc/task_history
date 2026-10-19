@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "source_authority_9s"
+  revision "fix1"
+  sequence 3
+  problem "Mac 9S base compiled but failed one of 77 tests: after an empirical assertion was retracted, active selection correctly became empty and initial status became Stale, then the empirical minimum-independent-source rule overwrote Stale with Candidate."
+}

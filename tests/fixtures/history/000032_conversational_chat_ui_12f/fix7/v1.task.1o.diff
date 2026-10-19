@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "conversational_chat_ui_12f"
+  revision "fix7"
+  sequence 1
+  title "12F Fix7 interactive advisor-detail panel repair"
+  parent_milestone "12f_fix6_accepted_live_candidate_recovery"
+  status "superseded"
+  tag "full_width_detail_controls"
+  tag "persistent_expansion_state"
+  tag "candidate_evidence_inspection"
+  tag "quoted_argument_delimiters"
+}

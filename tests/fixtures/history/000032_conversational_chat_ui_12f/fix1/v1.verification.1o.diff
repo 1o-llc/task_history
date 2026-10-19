@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix1"
+  sequence 6
+  check "mac_12f_fix1_conversational_chat_ui_acceptance"
+  outcome "pass"
+  note "Mac rustc 1.91.1 compiled the pinned eframe 0.33.3 application, the release native window opened, local arithmetic answered through the accepted reasoning path, the reasoning receipt was visible, explicit consent preceded the Ollama call, and the first session exposed the bounded concept-definition and malformed-advisor-JSON gaps repaired by Fix2."
+}

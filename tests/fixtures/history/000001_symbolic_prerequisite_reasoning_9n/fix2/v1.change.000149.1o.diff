@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 154
+  path "docs/planning/RESOLVER_DISCOVERY_V1.md"
+  operation "remove"
+  before_digest "dc72ca872a39b4b366ea65f7145635568bf9962eec840c402b0b0c4ff6d233d0"
+  after_digest "none"
+}

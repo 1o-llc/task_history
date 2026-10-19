@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_graph_construction_phase_b"
+  revision "base"
+  sequence 6
+  check "mac_context_graph_construction_phase_b_focused_acceptance"
+  outcome "fail"
+  note "Mac run 2026-08-02 passed the ZIP checksum, accepted Phase A gate, one-candidate and 1,216-path typed-history preflights, all 10 Phase A tests, and 7 of 8 Phase B construction tests. required_followup_examples_attach_candidate_prior_turn_references then failed because at least one required follow-up produced no prior-turn-reference node. No Phase B acceptance or later-phase behavior was established."
+}

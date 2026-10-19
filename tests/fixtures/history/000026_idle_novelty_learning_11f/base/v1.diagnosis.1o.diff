@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 4
+  diagnosis "Dream stimuli must remain nonauthoritative triggers. Novelty requires canonical route keys and durable attempt history; compatibility requires exact typed chaining; usefulness requires heldout contracts and tournaments; failures should become classified negative knowledge; and direct gadget installation must remain forbidden."
+}

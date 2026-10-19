@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_graph_construction_phase_b"
+  revision "fix1"
+  sequence 3
+  problem "The Phase B base signal aggregator returned immediately for every broad question-like classification. This could erase stronger reference-shape, lexical-context, discourse-intent, pronoun, and incomplete-construction evidence before a candidate prior-turn reference was built."
+}

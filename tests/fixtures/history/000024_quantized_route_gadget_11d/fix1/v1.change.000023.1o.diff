@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "fix1"
+  sequence 30
+  path "tools/ecosystem/world_model_quantized_route_gadget_core/tests/quantized_route_gadget.rs"
+  operation "modify"
+  before_digest "1a9031f53b11e6f52dd6eb8b145bc0b33c167bb85acc53cd2d1038987bd86d1b"
+  after_digest "16652afc85b528b52bf6659e6bf335b6210848aefd2b529b38fa4d6d872b32ce"
+}

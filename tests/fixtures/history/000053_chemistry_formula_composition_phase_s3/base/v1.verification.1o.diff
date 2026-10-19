@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "chemistry_formula_composition_phase_s3"
+  revision "base"
+  sequence 6
+  check "mac_chemistry_formula_composition_phase_s3_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance passed: package SHA OK; manifests, sole-candidate and typed-history gates passed; isolated S3 test dependency and cumulative workspace boundaries compiled; cumulative Context/Domain/Construction/Exit plus S1/S2 regressions stayed green; four selected chemistry parser regressions stayed green; all 5 focused S3 composition/canonicalization tests passed; terminal task history passed; and final PASS world_model_chemistry_formula_composition_phase_s3_v1 printed."
+}

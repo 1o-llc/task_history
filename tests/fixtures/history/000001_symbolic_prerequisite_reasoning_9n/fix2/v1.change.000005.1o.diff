@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 10
+  path "QUERY_CLASSIFIER_EXISTING_SURFACE_MAP.md"
+  operation "remove"
+  before_digest "40293b07b2946e576f83650d8ba15ee17ffdb7cea14a7cd9a5c33383e5b71fcf"
+  after_digest "none"
+}

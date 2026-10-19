@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 4
+  diagnosis "This is a local E0282/E0283 inference defect, not a chemistry-grammar defect. The closure is intended to return Result<ChargeRole, ChemistryFormulaRoleError>; stating that type explicitly removes the ambiguity while preserving the exact control flow and error propagation."
+}

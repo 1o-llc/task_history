@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 15
+  path "SEEDED_ZERO_PLAYER_DREAM_11E_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "b42c1704c01fbbca8754b2eac535a6c7e8d0191c022ef7c2f1f4ce9b0c539024"
+  after_digest "a24f656e5fc6e61ca6fa057931d8b8f43f625d929bb94369caa0148db983408a"
+}

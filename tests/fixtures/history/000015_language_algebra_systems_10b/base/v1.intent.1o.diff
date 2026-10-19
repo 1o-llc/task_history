@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_systems_10b"
+  revision "base"
+  sequence 2
+  intent "Extend the Mac-accepted 10A language-to-algebra transfer into coupled two-unknown reasoning: derive two typed constraints from harder language, choose an elimination plan by tournament, reduce to the existing one-variable algebra proof kernel, reconstruct the second unknown, verify both original constraints, and promote only schemas that transfer to heldouts."
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 6
+  check "mac_11a_ptr_knowledge_graph_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-30 re-proved the accepted 10G parent with 81/81 inequality tests and terminal typed history, then 11A failed to compile before any focused 11A test executed. Rust E0599 reported that WakeKey64::raw_storage required bitpack_core::PackedWord in scope, and thiserror could not format UnknownExpertise(ExpertiseId) because ExpertiseId lacked std::fmt::Display."
+}

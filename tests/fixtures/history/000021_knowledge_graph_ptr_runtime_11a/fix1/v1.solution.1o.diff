@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 5
+  solution "Add bitpack_core as a direct 11A dependency, import PackedWord in observables.rs, implement stable decimal Display for ExpertiseId, add focused packed-wake-key and expertise-error-format regressions, retain all prior 84 tests plus the two new tests, and require the accepted 10G parent gate before the repaired 86-test 11A suite."
+}

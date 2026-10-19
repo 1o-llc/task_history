@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 2
+  intent "Preserve stable logical knowledge identity while rebuilding the hot graph runtime on the actual KeyedArena, tagged dispatch collections, function-bank affordances, memory prophecy, SmartPin residency, bounded producer-consumer scheduling, typed observables, and actual immutable_ledger_kit file objects mirrored through capability-gated one_db_kernel ObjectAppend streams."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 201
+  path "STOICHIOMETRIC_CONSTRUCTION_ROUTES_PHASE_T_FIX1_IMMUTABLE_PARENT_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "f2fc67d3caa6d33e2e86750abe140be53c77da0ca020ace606f27f47933fd98f"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "gadget_arena_revalidation_9u"
+  revision "base"
+  sequence 4
+  diagnosis "The existing functional-thought core already provides canonical FunctionalThoughtProgram graphs, small ThoughtNode units, reversible decomposition, and consolidation tournaments. The missing bridge is provenance-to-gadget identity plus a capability-bounded differential arena that can stop change propagation at an unchanged local boundary."
+}

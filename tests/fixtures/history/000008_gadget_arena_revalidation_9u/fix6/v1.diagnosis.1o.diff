@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix6"
+  sequence 4
+  diagnosis "derive_gadget_revalidation_needs is the authoritative unresolved-work signal. If it is nonempty, the scoped planner must still select a need or fail with its admission/active-intent blocker. If it is empty, acceptance is safe only when the latest material change has zero unresolved blast-radius artifacts and a durable untampered 9U arena journal points to verifier-backed authority receipts whose artifact set exactly equals that blast radius. A merely clean authority state without matching 9U arena evidence is insufficient."
+}

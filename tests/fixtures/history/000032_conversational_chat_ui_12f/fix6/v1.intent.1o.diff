@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "conversational_chat_ui_12f"
+  revision "fix6"
+  sequence 2
+  intent "Preserve robust recovery from noisy Ollama output while making each claimed advisor envelope an indivisible strict-schema authority boundary that cannot be bypassed through nested proposal salvage."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 284
+  path "tools/ecosystem/ptr_access_policy_runtime/materials/source_provenance_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "6277938ce947f2cfe73765a524fd6691ba063229df0e66c0acee48a0120c25e2"
+}

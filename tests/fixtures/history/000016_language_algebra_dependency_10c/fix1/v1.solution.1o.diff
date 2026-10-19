@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_dependency_10c"
+  revision "fix1"
+  sequence 5
+  solution "Mark 10C Fix1 accepted from the Mac-green run, preserve the exact 10C crate and material semantics, make the checker child-aware for 10D, and retain strict 68-test, typed-history, checkpoint, authority, 10B-substrate, and algebra-proof gates."
+}

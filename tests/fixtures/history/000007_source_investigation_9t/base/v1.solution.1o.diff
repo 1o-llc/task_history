@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 5
+  solution "Add a 9T source catalog/discovery engine, ephemeral curiosity projection, bounded ExploreCorpus activity, claim-specific authority/freshness/independence ranking, mirror/model/domain guards, explicit unsent external-source requests, 9S assertion admission, automatic material-change blast-radius handoff without auto-revalidation, and a digest-validated durable investigation journal."
+}

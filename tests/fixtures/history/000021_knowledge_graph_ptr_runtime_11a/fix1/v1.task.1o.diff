@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 1
+  title "11A observable packed-word and expertise diagnostic compile repair"
+  parent_milestone "11a_base"
+  status "accepted"
+  tag "knowledge_graph"
+  tag "observable"
+  tag "bitpack"
+  tag "diagnostic_display"
+  tag "compile_repair"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 13
+  path "tools/ecosystem/scripts/check_world_model_context_candidate_tournament_phase_d_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "5994f38398d6f7a8280941e8ef0195a605edfcdef6b486a0c58cc0ea8a2e7558"
+}

@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "base"
+  sequence 1
+  title "10F generalized polynomial and rational-expression transfer"
+  parent_milestone "10e_fix2"
+  status "failed_compile"
+  tag "higher_degree_polynomial"
+  tag "synthetic_division"
+  tag "rational_domain"
+  tag "heldout_transfer"
+}

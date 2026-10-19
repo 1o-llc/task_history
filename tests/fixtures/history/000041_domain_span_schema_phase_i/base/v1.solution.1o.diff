@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 5
+  solution "Add world_model_domain_span_schema_core as an isolated workspace with exact SourceObservation and SourceSpanId types; ConfidenceBand and reasoning-epoch schema; the handoff's minimum domain-evidence source kinds; root EvidenceLineage plus multi-path DomainEvidence deduplication; DomainSpanHypothesis support/contradiction canonicalization; typed CrossDomainBridge kinds and provenance; append-only/idempotent DomainSpanObservationState; existing read-only ResolutionReference anchors; deterministic canonical JSON and durable checkpoint validation; and five focused tests for exact boundaries, overlapping deterministic serialization, lineage deduplication, read-only context/KG references, and exact checkpoint replay. Re-run accepted A-H regressions before Phase I acceptance."
+}

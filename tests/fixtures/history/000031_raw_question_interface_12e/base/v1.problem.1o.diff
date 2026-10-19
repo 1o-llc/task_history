@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 3
+  problem "The accepted tree contained genuine linguistic and word-problem components, but the later 12C/12D studies bypassed the raw-language entrance by supplying normalized challenge records. Therefore those studies did not provide the usable ask-and-answer system or prove end-to-end text reasoning that the project intended."
+}

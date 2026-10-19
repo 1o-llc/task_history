@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix2"
+  sequence 5
+  solution "Make receipt validation disposition-aware: executed cycles reject all local resource overflow; foreground deferrals preserve foreground precedence; scheduler deferrals permit an over-bound estimate only with the matching canonical local-bound reason. Add adversarial tests for memory-bound deferral, work-bound state preservation, reason forgery after digest resealing, executed overflow after resealing, and foreground precedence under simultaneous local pressure."
+}

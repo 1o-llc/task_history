@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 4
+  diagnosis "The missing boundary is integration rather than absence of linguistic machinery. world_model_linguistic_problem_model_core already executes token, focal, psycholinguistic, statement-shape, semantic, proposition, discourse, query-analysis, semantic-signature, and problem-signature stages; world_model_proof_thought_learning_core already constructs and verifies linear word-problem equations; and the 11B KG bridge already derives text-based domain/type evidence and visible functional routes. A standalone public bridge can connect these accepted components without modifying them."
+}

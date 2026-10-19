@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "fix1"
+  sequence 5
+  solution "Mark 9Z accepted from Mac evidence, retain the exact 9Z runtime implementation, update the checker to accept the downstream 10A lineage and strip only its additive workspace member during parent normalization, and preserve the full 42-test/live-checkpoint gate."
+}

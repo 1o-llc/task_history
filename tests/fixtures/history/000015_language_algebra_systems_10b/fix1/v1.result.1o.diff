@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "language_algebra_systems_10b"
+  revision "fix1"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "1f8e0b4bc62b28bb94cafbfbf620fb3b3e8c8ef3ef21f87c9d7b115cc223b9a5"
+}

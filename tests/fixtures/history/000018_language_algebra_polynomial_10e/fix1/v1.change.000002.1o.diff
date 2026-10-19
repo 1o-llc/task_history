@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix1"
+  sequence 9
+  path "tools/ecosystem/world_model_language_algebra_polynomial_core/src/lib.rs"
+  operation "modify"
+  before_digest "40aac151a80b35cb55912fe854508ea810eeea2ac3cab1d251e401b0d2bb639a"
+  after_digest "6495d4e77c91658715bbe9b8b1bdee148fdcee4484d403e3bf397fff8eccbad4"
+}

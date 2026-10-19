@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 10
+  path "DYNAMIC_COGNITIVE_ESCALATION_11C_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "0fb11b5b57d6a23807a8ec35e02ee53af3b692df61e56d3ddefa7033ff3c3cba"
+  after_digest "1dc225e92845ebffb22f74a9e625d103b3877df25c65fe0b7cdfcf703366e323"
+}

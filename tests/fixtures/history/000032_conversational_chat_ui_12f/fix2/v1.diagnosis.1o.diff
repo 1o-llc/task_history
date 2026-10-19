@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix2"
+  sequence 4
+  diagnosis "The raw-question solver correctly abstains outside its verified families, but the chat layer needs a separate provenance-bearing concept lookup after that abstention. The advisor parser assumed already valid UTF-8 JSON boundaries and therefore rejected recoverable Qwen formatting defects before the strict schema could be applied."
+}

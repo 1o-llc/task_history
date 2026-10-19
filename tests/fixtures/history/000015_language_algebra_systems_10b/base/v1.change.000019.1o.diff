@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_systems_10b"
+  revision "base"
+  sequence 26
+  path "tools/ecosystem/world_model_language_algebra_systems_core/materials/coupled_language_algebra_suite_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "8a441f2e14d2da9ea75952ff7136d7bc007b963261a3d5771015dd7f5a103d40"
+}

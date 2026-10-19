@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 21
+  path "tools/ecosystem/scripts/check_world_model_knowledge_graph_ptr_runtime_v1.sh"
+  operation "modify"
+  before_digest "35aeccfa6a4b4c7e1b5d5c37e64ea95449eedcac86036293c4f37e7811f97119"
+  after_digest "ee38bcf0522c624a1e159d8086c56cd266353378d85006a5eacb08a31144439a"
+}

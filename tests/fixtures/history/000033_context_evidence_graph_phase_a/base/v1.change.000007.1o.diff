@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 14
+  path "NODEPLAN_WORLD_MODEL_CONTEXT_EVIDENCE_GRAPH_PHASE_A.md"
+  operation "add"
+  before_digest "none"
+  after_digest "d6807e5005b3af6c4d7df1228cbddb42101be71e849b05dd5c938523ad37696b"
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 9
+  path "RUN_DOMAIN_SPAN_PHASE_O.command"
+  operation "add"
+  before_digest "none"
+  after_digest "1fe304432b038aa5feffa1f1c0bf045d454092934e4db46364a41d594a6f3a25"
+}

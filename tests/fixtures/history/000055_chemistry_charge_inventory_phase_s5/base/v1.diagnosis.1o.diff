@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "chemistry_charge_inventory_phase_s5"
+  revision "base"
+  sequence 4
+  diagnosis "Charge inventory should be a checked signed projection of the accepted S3 CanonicalCharge, validated against the exact matching S4 atom inventory. Neutrality should be represented explicitly as zero, and formula-unit charge must remain separate from coefficient-scaled charge."
+}

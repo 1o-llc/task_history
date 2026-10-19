@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "base"
+  sequence 4
+  diagnosis "The correct Phase U boundary is measurement, not another solver. The campaign must bind observations to existing receipts, keep exact integer counters, expose failures, require deterministic replay, cover every roadmap dataset category, compare capability only on actually paired cases, and reject broad general-reasoning claims or hidden production/learning authority."
+}

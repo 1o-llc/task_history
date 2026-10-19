@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_graph_construction_phase_b"
+  revision "fix1"
+  sequence 2
+  intent "Repair the failed required-followup prior-turn-reference test by preserving strong local reference and discourse evidence while preventing weak explicit standalone questions from inheriting the previous turn."
+}

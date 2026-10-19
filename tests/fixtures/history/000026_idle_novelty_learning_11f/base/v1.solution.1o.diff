@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 5
+  solution "Add a standalone 11F crate that consumes executed 11E receipts, enumerates strictly bounded verified-operator paths, imports bounded KG node references, canonicalizes and deduplicates attempts, performs deterministic tournament ranking and mechanical heldout verification, stores negative composition knowledge, preserves accepted behavior, and checkpoints exact discovery history and the next campaign seed."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "functional_route_planner_phase_p"
+  revision "base"
+  sequence 3
+  problem "Phase O can identify and version routes but cannot yet construct the missing middle between a typed input and target. A planner is needed that can search legal operator contracts without cycles, unbounded work, hidden rejection reasons, or guessed capabilities."
+}

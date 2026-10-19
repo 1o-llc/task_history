@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 109
+  path "CHEMISTRY_FORMULA_ROLES_PHASE_S2_FIX1_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "86b710bd33d3d1c5759363376f1768ce33fdc3a1811c689104834a505afa7387"
+}

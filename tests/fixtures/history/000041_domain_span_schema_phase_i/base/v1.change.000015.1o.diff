@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 22
+  path "history/000041_domain_span_schema_phase_i/base/v1.task.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "1f1c0e93870aa5b3c5723aa74f2247fca0d3cdb3964cbf8d33c6c22ca179a701"
+}

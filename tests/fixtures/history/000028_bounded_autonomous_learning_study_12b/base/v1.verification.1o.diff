@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 6
+  check "mac_12b_bounded_autonomous_learning_study_acceptance"
+  outcome "pass"
+  note "Mac acceptance on 2026-07-30: the single-artifact integrity and 968-path typed-history preflights passed; the immutable 12A receipt and exact integrated checkpoint gate passed; all 92 focused sustained-autonomy, state-growth, fairness, replay, compaction, continuation, authority, and checkpoint regressions passed; the live study completed all sixteen cycles, retained six detailed cycles, compacted ten older cycles, processed 112 problems and 128 candidate attempts, suppressed 120 repeated attempts, retained 64 verified-route observations and 16 negative-knowledge observations, serviced every scheduler lane without starvation, kept integrated checkpoint growth at 7176 to 7177 bytes, preserved accepted behavior and all authority boundaries, restored the exact checkpoint and next autonomous action, and printed the final 12B PASS markers."
+}

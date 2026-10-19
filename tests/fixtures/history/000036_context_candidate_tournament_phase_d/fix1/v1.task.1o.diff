@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_candidate_tournament_phase_d"
+  revision "fix1"
+  sequence 1
+  title "Phase D Fix1 zune-jpeg logging-feature compile repair"
+  parent_milestone "context_candidate_tournament_phase_d_base_failed_compile"
+  status "accepted"
+  tag "dependency_compile_repair"
+  tag "zune_jpeg_0_5_15_exact"
+  tag "zune_log_feature_unification"
+  tag "phase_d_logic_unchanged"
+  tag "accepted_phase_a_c_regressions"
+  tag "focused_tests_only"
+}

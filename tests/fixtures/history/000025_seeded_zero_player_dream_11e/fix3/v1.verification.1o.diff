@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix3"
+  sequence 6
+  check "mac_11e_fix3_single_artifact_acceptance"
+  outcome "pass"
+  note "Mac acceptance on 2026-07-30: the single-artifact preflight and 906-path current typed-history preflight passed; accepted 10G through 11D Fix1 revalidated; all 55 focused 11E tests passed; the live dream runtime executed four bounded stimuli with immutable personality, no fact or gadget authority, scheduler and verification boundaries intact, deterministic replay, exact checkpoint restoration, exact next-generation restoration, and final Fix3 PASS markers."
+}

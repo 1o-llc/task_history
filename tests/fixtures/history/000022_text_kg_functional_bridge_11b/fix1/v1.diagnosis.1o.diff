@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "text_kg_functional_bridge_11b"
+  revision "fix1"
+  sequence 4
+  diagnosis "Neither compiler error affects the cognitive design. ChemistryFunctionalFixture is only an ownership carrier and requires no Debug representation. Functional type acceptance executes during graph route search, so making it an ordinary runtime predicate preserves all semantics and removes the unsupported const requirement."
+}

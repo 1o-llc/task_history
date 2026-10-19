@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_promotion_9x"
+  revision "fix1"
+  sequence 6
+  check "mac_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-07-29: accepted 9W Fix1 parent gate passed; all 32 focused 9X promotion/active-route/monitoring/rollback tests passed; terminal typed history passed; the live lab activated optimized routes for algebra, proof, and dependent API with costs 22->6, 16->5, and 41->9; all monitoring stayed exact; canonical fallbacks remained retained; a deliberately faulty algebra candidate was accepted before later unseen evidence exposed a regression; regression detection forced RolledBack/Canonical with rollback_exact=true and retained history; promotion checkpoint restore, restart promoted-route execution, and restart rollback execution were exact; no LLM/proof authority was claimed; prior durable cognition/provenance state remained unchanged; final PASS world_model_recursive_thought_promotion_v1 ok."
+}

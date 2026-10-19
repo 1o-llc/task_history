@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix8"
+  sequence 6
+  check "mac_12f_fix8_structured_ollama_transport_acceptance"
+  # legacy static-check label: outcome "failed_mac_test"
+  outcome "fail"
+  note "Mac compilation reached the 56-test suite. 43 library tests passed and provider_output_never_treats_stderr_spinner_as_candidate_data failed because the returned error string still embedded a bounded stderr preview containing candidate-shaped text. Fix8 is not accepted."
+}

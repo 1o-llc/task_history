@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "fix1"
+  sequence 3
+  problem "The Mac 10F base run passed the accepted 10E parent gate and reached the 77-test target, but generalized_reasoning.rs did not compile because two assert! calls and one assert_eq! call used p.problem_id as a formatting argument without a preceding string-literal format parameter."
+}

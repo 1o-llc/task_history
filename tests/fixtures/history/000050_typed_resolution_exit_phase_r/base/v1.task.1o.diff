@@ -1,0 +1,19 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "typed_resolution_exit_phase_r"
+  revision "base"
+  sequence 1
+  title "Phase R Typed Resolution Exits and Clarification Integration"
+  parent_milestone "construction_tournament_phase_q_v1_accepted"
+  status "failed_compile"
+  tag "typed_resolution_exits"
+  tag "phase_e_clarification_reuse"
+  tag "exact_task_route_resume"
+  tag "missing_fact"
+  tag "missing_operator"
+  tag "unit_mismatch"
+  tag "verification_disagreement"
+  tag "no_route_execution"
+  tag "focused_tests_only"
+}

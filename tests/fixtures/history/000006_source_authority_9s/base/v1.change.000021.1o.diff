@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 26
+  path "tools/ecosystem/world_model_source_authority_core/materials/provenance_blast_radius_policy_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "55738ee21681e397084964a046d42bda01378041c81de6c56894601fca45cb74"
+}

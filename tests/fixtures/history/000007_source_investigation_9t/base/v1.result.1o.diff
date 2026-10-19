@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 30
+  status "failed_test"
+  resulting_tree_digest "pending"
+}

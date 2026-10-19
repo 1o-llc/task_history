@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "relationship_acquisition_9r"
+  revision "base"
+  sequence 6
+  path "Cargo.toml"
+  operation "modify"
+  before_digest "951955256a7ff346e4101ecba7f58e006c0dde661c5bc0d74e7f161296594052"
+  after_digest "b52ec0ea954bef1dd3271e3b0d933b11371245a3de6ccb1cae6ae90e0c082ec5"
+}

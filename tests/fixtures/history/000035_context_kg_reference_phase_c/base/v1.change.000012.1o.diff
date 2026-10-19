@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 19
+  path "CONTEXT_KG_REFERENCE_PHASE_C_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "d06c504418182466886868afbb97d009edeab964afd092d4d86ecdc550d42e3c"
+}

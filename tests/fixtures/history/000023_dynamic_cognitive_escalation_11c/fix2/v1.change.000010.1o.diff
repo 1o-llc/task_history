@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix2"
+  sequence 17
+  path "LANGUAGE_ALGEBRA_POLYNOMIAL_10E_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "c41f04adc8a6797b7e02c13674fab01df84790725f3fa8e61f0c64576c1a80be"
+  after_digest "0d3f4789f0544ba8e1c1e717e4ee4274c8b283c335861c86c9bb72483db3cdf0"
+}

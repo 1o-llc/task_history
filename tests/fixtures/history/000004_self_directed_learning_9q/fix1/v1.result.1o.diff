@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "self_directed_learning_9q"
+  revision "fix1"
+  sequence 19
+  status "accepted"
+  resulting_tree_digest "0392127193df5a40e84b7b2317769897a94769b876d5d9fb29ef93af2547f5c8"
+}

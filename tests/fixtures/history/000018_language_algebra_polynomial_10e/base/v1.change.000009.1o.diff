@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_polynomial_10e"
+  revision "base"
+  sequence 16
+  path "LANGUAGE_ALGEBRA_POLYNOMIAL_10E_10D_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "fc59f15505db44b9258fd3cdc694e257fee40f8897d28af9a05c09eeef23c484"
+}

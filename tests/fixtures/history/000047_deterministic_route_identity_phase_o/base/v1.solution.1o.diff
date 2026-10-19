@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 5
+  solution "Add deterministic shape and route signatures, versioned stable IDs, same-version semantic-drift rejection, an exact-route history ledger with verification-plan references, reference-only factual anchors, and deterministic checkpoint/replay without route expansion or execution."
+}

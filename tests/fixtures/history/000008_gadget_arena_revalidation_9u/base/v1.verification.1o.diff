@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "gadget_arena_revalidation_9u"
+  revision "base"
+  sequence 30
+  check "mac_acceptance"
+  outcome "fail"
+  note "2026-07-29 Mac acceptance: 56 passed, 0 failed in focused static regressions and task-history terminal-tree regression passed; static durable state unchanged; live lab then failed closed with '9U claim snapshot has no value digest' before any gadget-arena state mutation. The 9T stale operational claim had no pre-change current winner even though its retained historical predecessor remained available through explicit supersession lineage."
+}

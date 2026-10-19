@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_graph_construction_phase_b"
+  revision "fix2"
+  sequence 5
+  solution "In the general prior-reference signal aggregator, detect the lexical Interrogative facet and prevent that token's broad ReferenceLike or context-like temporal facet from becoming an anaphoric signal. Strengthen the existing negative-control test across thing, agent, and temporal interrogatives while retaining the required follow-up sequence unchanged."
+}

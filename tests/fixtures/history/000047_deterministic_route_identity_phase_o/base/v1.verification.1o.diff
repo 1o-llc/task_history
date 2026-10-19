@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 6
+  check "mac_deterministic_route_identity_phase_o_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance received for package SHA-256 f92181f8bae97c08aabd156b694dfebd124520badeef91f4c7cdae9efce740f6: isolated Phase O test target compiled; accepted workspace boundaries compiled; Context A-H, Phase I-M, all 16 proposition-structure tests, the algebra parser regression and all 5/5 Phase N tests remained green; all 5/5 focused Phase O tests passed (same canonical shape/route stable IDs, semantic change requires version bump and yields a new route ID, prior failure and verification plan attach to exact route ID only, factual knowledge is referenced without copied payload, deterministic route identity/history/reference checkpoint replay); terminal typed-history Rust test passed; no Phase P/Q route-planning or construction-tournament authority was introduced; and final PASS world_model_deterministic_route_identity_phase_o_v1 printed."
+}

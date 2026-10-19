@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 6
+  check "mac_11e_seeded_zero_player_dream_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-30 stopped during the inherited 11A source-integrity gate before any 11E Rust test executed. The additive 11E Cargo member changed accepted-parent checker scripts, but four recursively referenced parent functional-tree manifests still contained the pre-11E script and source-manifest digests. The first visible mismatch was tools/ecosystem/scripts/check_world_model_knowledge_graph_ptr_runtime_v1.sh inside TEXT_KG_FUNCTIONAL_BRIDGE_11B_11A_FUNCTIONAL_TREE_SHA256.txt."
+}

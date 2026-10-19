@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "context_execution_verification_phase_f"
+  revision "fix1"
+  sequence 2
+  intent "Repair the Phase F Cargo workspace boundary without changing the accepted raw-question execution kernel or any Phase F execution, verification, selection, type/unit, capability-gap, checkpoint, authority, learning, or UI semantics."
+}

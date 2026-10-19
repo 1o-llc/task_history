@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "base"
+  sequence 6
+  check "mac_chemistry_formula_roles_phase_s2_focused_acceptance"
+  outcome "fail"
+  note "Mac run 2026-08-09 verified package SHA-256 b06f6d8ff4fde1ea4b4ee9ee5c6906270a78382bb9598ada68de7d72cdfc3ef1, S2 manifests, sole-candidate gate, and 1,624-path typed-history preflight. The isolated S2 dependency compile then failed in src/lib.rs at the charge_suffix map/transposition closure with Rust E0282/E0283: Ok(ChargeRole { ... }) could not infer Result error type E because ChemistryFormulaRoleError has both From<serde_json::Error> and the blanket From<T> for T path in scope. No S2 focused test executed. This is a localized compile-time type-inference defect; the S2 role semantics, tests, policy, S1 token stream, and later-phase authority boundary were not implicated."
+}

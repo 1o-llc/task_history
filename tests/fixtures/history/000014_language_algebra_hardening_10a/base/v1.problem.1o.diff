@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 3
+  problem "The accepted 9U-9Z stack proves safe local self-improvement, but the language-to-algebra capability remains narrow. The next useful test is whether existing linguistic evidence plus the frozen algebra proof kernel can handle multi-clause relational word problems and whether verified construction schemas transfer to unseen wording/values while overfit surface memorization is rejected."
+}

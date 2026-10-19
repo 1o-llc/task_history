@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 32
+  path "tools/ecosystem/scripts/check_world_model_text_kg_functional_bridge_v1.sh"
+  operation "modify"
+  before_digest "c70a001969819eabe60061a9e3bf60eb44d54ba57edff482e0930bd8e73dd95e"
+  after_digest "c0d66c4884a6d48db5ea9ac99a1612af143768ac7352a6da732e16d984c52e50"
+}

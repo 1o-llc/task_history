@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 5
+  solution "Add an isolated S6 conservation crate that validates each S3 composition plus matching S4 atom and S5 charge inventory, records exact term provenance, aggregates reactant/product atom totals and net charge with checked arithmetic, emits per-element signed deltas plus independent atom/charge conservation booleans and typed outcomes, supports deterministic state/checkpoint replay, and hard-codes that balancing, coefficient rewriting, stoichiometry, route execution, and answer execution did not occur."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "base"
+  sequence 5
+  solution "Add six language families spanning 4, 5, and 6 unknowns; a generic nonsingular LinearConstraintN graph; bounded recursive elimination tournaments with exact reconstruction receipts; structural adapters into 10C and 10B; mechanical terminal algebra proof; full original-constraint verification; heldout schema tournaments and 9X lifecycle promotion; durable idempotent state; strict accepted-parent and authority gates."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_execution_verification_phase_f"
+  revision "fix1"
+  sequence 3
+  problem "The Phase F base package made the new execution-verification crate a member of the repository root Cargo workspace while that crate directly depended on world_model_raw_question_interface_core, which is intentionally its own nested workspace. Cargo therefore rejected the graph with multiple workspace roots before Phase F tests could execute."
+}

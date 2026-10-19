@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_candidate_tournament_phase_d"
+  revision "fix1"
+  sequence 3
+  problem "The Phase D Mac run stopped before Phase B-C-D tests because image 0.25 selected zune-jpeg 0.5.15 without its optional log feature. In zune-jpeg's progressive decoder, a tail-position warn! invocation can expand as a statement on the no-log path, producing rustc's incomplete-expression error."
+}

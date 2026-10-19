@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_hardening_10a"
+  revision "fix1"
+  sequence 6
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac rerun 2026-07-29 stopped before any 10A Rust test: the accepted 9Z source manifest pinned history/v1.history_index.1o.diff at the older 9Z snapshot digest, while the legitimate downstream 10A Fix1 lineage had advanced that global index. This is a parent-gate packaging/integrity design failure, not a 10A reasoning or Rust failure."
+}

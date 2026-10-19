@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "base"
+  sequence 4
+  path "SYMBOLIC_PREREQ_9N_9M_CARGO_NORMALIZED_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "9650b497c9c90398589fec6e85689e74d317cb118b450a791590ede274297b20"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 2
+  intent "Scale the accepted 12C challenge boundary to 1,024 deterministic diverse cases while requiring every cohort to preserve genuine heldout transfer, zero false positives, authority boundaries, collision-free identities, and exact continuation."
+}

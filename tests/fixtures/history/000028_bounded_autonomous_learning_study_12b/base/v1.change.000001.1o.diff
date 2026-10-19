@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 8
+  path "NODEPLAN_WORLD_MODEL_INTEGRATED_COGNITIVE_CAMPAIGN_12A.md"
+  operation "modify"
+  before_digest "c0f3b13437ce514c68062f67172b3d2de55ed26bbd6dde99943ef3b3d1385325"
+  after_digest "726c6f8eaa4a5a36777edadf2405bf08309576a65fb403f4abd42a58e15f646b"
+}

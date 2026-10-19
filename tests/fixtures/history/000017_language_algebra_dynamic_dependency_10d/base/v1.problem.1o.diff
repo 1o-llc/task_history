@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "base"
+  sequence 3
+  problem "10C proves a fixed three-variable hierarchy but still bakes the graph arity into its representation and first-stage planner. The next capability must choose elimination recursively for variable-size 4-6 unknown graphs without bypassing the already-proven 10C, 10B, and one-variable proof kernels."
+}

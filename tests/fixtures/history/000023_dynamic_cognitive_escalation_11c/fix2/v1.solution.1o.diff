@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix2"
+  sequence 5
+  solution "Restore the recursively referenced accepted 10F parent closure byte-for-byte from the Mac-green 11B Fix1 checkpoint, regenerate only downstream manifests, add an explicit frozen-parent digest preflight before the parent runner, record Fix1 as failed_parent_gate, and keep the 11C implementation and 74 focused tests unchanged."
+}

@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_composition_9v"
+  revision "fix5"
+  sequence 1
+  title "9V live example ownership repair after lifecycle-green parent"
+  parent_milestone "9v_fix4"
+  status "accepted"
+  tag "recursive_thought"
+  tag "rust_ownership"
+  tag "mac_acceptance"
+  tag "parent_green"
+}

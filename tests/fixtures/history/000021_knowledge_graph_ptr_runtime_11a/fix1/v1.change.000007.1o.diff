@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 14
+  path "tools/ecosystem/world_model_knowledge_graph_ptr_runtime_core/Cargo.toml"
+  operation "modify"
+  before_digest "e871c1d8a6f295efd7c2b28f6b13acea4a8984c9d3b34e3638685358b5586e72"
+  after_digest "32f2dcba057b13f77121df867f9beef217aad30b9100d31891554c90ea4e5026"
+}

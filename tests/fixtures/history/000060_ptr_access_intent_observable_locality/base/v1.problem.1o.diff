@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 3
+  problem "NodePlan's PTR/arena layer knows how a value is expected to be accessed, but that knowledge is only partially expressible: ProphecyBits.hot is a single legacy bit whose false state means not-explicitly-hot rather than cold, observable hot/cold flags describe wake routing rather than memory locality, and no execution path can select a retention/streaming/cold strategy per page or buffer without inventing per-element branches or conflating the two semantic dimensions."
+}

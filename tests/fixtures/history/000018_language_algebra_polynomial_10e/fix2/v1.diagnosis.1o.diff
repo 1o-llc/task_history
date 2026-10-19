@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix2"
+  sequence 4
+  diagnosis "Accepted-parent verification must be monotonic under downstream repair history. 10D may require its own accepted task/result/verification, frozen functional tree, runtime receipt, and 86-test behavior, but it must not require any particular current status for 10E. The child checker owns 10E base/Fix1/Fix2 lineage validation."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 245
+  path "tools/ecosystem/scripts/run_world_model_cross_domain_heldout_campaign_phase_u_v1_fix1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "2c38c0ffe63af2b43d401ba4c9c6107b8a7a45bef3b48ef4bf10a1df68e793e5"
+}

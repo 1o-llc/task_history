@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 6
+  check "mac_11a_fix1_end_to_end_acceptance"
+  outcome "pass"
+  note "Mac acceptance on 2026-07-30: accepted 10G parent revalidated 81/81; all 86 focused 11A tests passed; terminal typed history passed; live PTR graph laboratory passed with SmartPin memory resolved, stale handle rejected, observable scheduling respected, 40 immutable-ledger entries exactly matching 40 actual immutable-ledger entries and 40 One_DB deltas, checkpoint restoration exact, no runtime handles persisted, no graph truth authority, no proof authority, and final runner PASS."
+}

@@ -1,0 +1,16 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 1
+  title "11F bounded idle novelty search and verified dream learning"
+  parent_milestone "11e_fix3"
+  status "accepted"
+  tag "dream_learning"
+  tag "novelty_deduplication"
+  tag "knowledge_graph"
+  tag "heldout_verification"
+  tag "negative_knowledge"
+  tag "route_gadget_eligibility"
+}

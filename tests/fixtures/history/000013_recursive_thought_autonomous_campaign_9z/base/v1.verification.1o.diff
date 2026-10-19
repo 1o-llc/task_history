@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_autonomous_campaign_9z"
+  revision "base"
+  sequence 6
+  check "mac_acceptance"
+  outcome "pending"
+  note "Expected acceptance: Mac-accepted 9Y Fix1 parent gate must re-pass; exactly 42 focused 9Z tests and terminal typed history must pass; live bounded campaign must select targets from usage without a named target, execute recursive rewrite tournaments, safely promote and actually use at least two memoized routes, accept then detect a forced late regression, roll back exactly, continue to a different target after suppression, stop finitely when no worthwhile target remains, restore campaign checkpoint and deterministic replay exactly, leave all prior durable cognition/provenance/promotion/discovery state unchanged, claim no LLM/proof authority, and emit final PASS world_model_recursive_thought_autonomous_campaign_v1 ok."
+}

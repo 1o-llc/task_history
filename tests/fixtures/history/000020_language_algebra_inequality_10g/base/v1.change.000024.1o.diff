@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 31
+  path "history/000020_language_algebra_inequality_10g/base/v1.solution.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "37a25dc64403e62b9a7665fc5ca0fde2cadc0b1311e01f2ea1dd66ac58756b6e"
+}

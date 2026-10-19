@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_composition_9v"
+  revision "base"
+  sequence 3
+  problem "9U proves that flat thoughts contain small functional gadgets and can isolate changed units, but the semantic composition is still one flat graph. The system cannot yet open a higher-level operation such as derive moles into recursively named sub-composites, tune only one nested subtree, reconstruct the exact parent composition, or use proven recursive equivalence as a principled consolidation boundary."
+}

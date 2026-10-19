@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_composition_9v"
+  revision "fix5"
+  sequence 4
+  diagnosis "This is a single example-binary ownership error, not a lifecycle, recursive-decomposition, tournament, condensation, persistence, or verifier failure. The candidate is intentionally inspected after tournament construction, so the example must retain its local value by cloning it into the owned candidate vector (or equivalently retain its id before the move)."
+}

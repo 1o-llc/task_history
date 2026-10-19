@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "quantized_route_gadget_11d"
+  revision "fix1"
+  sequence 4
+  diagnosis "Exact decomposition is not metadata; it is a derived invariant. Quantized callable keys must recreate their stored IDs through ThoughtNode::pure, the compiled Apply chain must preserve order, arity, and dependencies, and the final Verify edge must be explicit. Promotion must execute this derivation before changing phase, while validation and checkpoint restoration must recompute it rather than accepting a resealed claim."
+}

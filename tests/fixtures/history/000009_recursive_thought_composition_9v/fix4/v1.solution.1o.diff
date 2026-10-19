@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_composition_9v"
+  revision "fix4"
+  sequence 5
+  solution "Rebind the 9V parent gate to the exact 9U Fix7 functional tree, require 68 focused 9U tests plus typed history plus live/durable completion, and issue a hash-bound 9u_fix7 acceptance receipt before any 9V static or live execution."
+}

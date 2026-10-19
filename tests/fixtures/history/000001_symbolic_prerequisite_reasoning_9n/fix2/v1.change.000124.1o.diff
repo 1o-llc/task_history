@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 129
+  path "docs/planning/FUNCTIONAL_THOUGHT_OPAQUE_DECOMPOSITION_V1_ACCEPTANCE_EXPECTATIONS.md"
+  operation "remove"
+  before_digest "40c8b3e7569fe9e6b56486d0ead21c552c72858670cb687ff450b602e1004e45"
+  after_digest "none"
+}

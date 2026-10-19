@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "fix1"
+  sequence 3
+  problem "The first Mac 11A build stopped before focused tests because observables.rs invoked the PackedWord-provided WakeKey64::raw_storage method without importing the trait or declaring bitpack_core directly, and PtrGraphError used ExpertiseId in a thiserror display placeholder even though ExpertiseId did not implement Display."
+}

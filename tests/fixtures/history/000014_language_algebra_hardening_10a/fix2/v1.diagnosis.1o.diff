@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_hardening_10a"
+  revision "fix2"
+  sequence 4
+  diagnosis "Refreshing the frozen 9Z history-index checksum would only postpone the defect until the next child. The correct boundary is to freeze and verify every immutable parent file while excluding exactly the one global mutable history index from parent snapshot verification; the current global index remains independently governed by typed-history schema validation and terminal-tree digest verification."
+}

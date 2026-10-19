@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 10
+  path "CONTEXT_INTERPRETATION_PROMOTION_STUDY_PHASE_H_MATERIALS_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "7a9c4b3dc69993858d7225dac3a4cb4936ad32c3a84bb6f0133b3cc1ee5cf270"
+}

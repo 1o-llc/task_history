@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "fix1"
+  sequence 4
+  diagnosis "The defect is in Phase K bridge authorization, not in the Phase U threshold. Phase J intentionally preserves grammatical language evidence, but Phase K LanguageToMath and LanguageToChemistry bridges semantically mean a language request supplies a domain goal/target. Those bridge kinds therefore require a language hypothesis whose accepted Phase-I/Phase-J statement_role is request; generic language-structure evidence may remain observable but cannot authorize the bridge."
+}

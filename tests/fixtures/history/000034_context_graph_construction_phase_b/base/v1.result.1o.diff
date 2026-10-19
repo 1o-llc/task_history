@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "context_graph_construction_phase_b"
+  revision "base"
+  sequence 7
+  status "failed_test"
+  resulting_tree_digest "pending"
+}

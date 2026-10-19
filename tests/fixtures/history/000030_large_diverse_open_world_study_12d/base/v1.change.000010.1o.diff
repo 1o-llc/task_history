@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 17
+  path "tools/ecosystem/world_model_large_diverse_open_world_study_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "5dab5966e83911a10709875370d624531f52e45c2302944d4b441e8da545d88e"
+}

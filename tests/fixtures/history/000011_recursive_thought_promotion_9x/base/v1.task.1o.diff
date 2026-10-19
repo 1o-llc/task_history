@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_promotion_9x"
+  revision "base"
+  sequence 1
+  title "9X verified promotion active use monitoring and rollback"
+  parent_milestone "9w_fix1"
+  status "candidate"
+  tag "promotion"
+  tag "lifecycle"
+  tag "rollback"
+  tag "monitoring"
+}

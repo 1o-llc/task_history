@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_composition_9v"
+  revision "base"
+  sequence 5
+  solution "Add a recursive thought hierarchy compiler with cycle/shared-child/unreachable detection, exact flat-leaf coverage, deterministic construction receipts, one-layer-at-a-time deconstruction, root-to-subtree activity chains, smallest recursive cover selection, held-out subtree rewrite tournaments, and non-destructive condensation receipts. A chemistry-shaped fixture recursively decomposes derive moles into molar-mass acquisition and mass-to-amount sublayers, each of which decomposes again into leaf gadgets."
+}

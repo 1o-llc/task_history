@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix1"
+  sequence 6
+  check "mac_10e_fix1_end_to_end_acceptance"
+  outcome "fail"
+  note "Mac Fix1 rerun 2026-07-29 stopped before any 10E focused Rust test because the accepted 10D parent checker incorrectly required downstream 10E base to remain status=candidate. The base is correctly failed_compile after the prior E0560 run and Fix1 is the repaired child, so this was a parent/child lineage-gate failure rather than a polynomial reasoning failure."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 3
+  problem "The first 12D Mac build reached the new crate after every package, history, and parent gate passed, but stable Rust could not infer the type of two iterator sum() locals before saturating_sub was called, even though the source receipt fields and destination study fields are usize."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix1"
+  sequence 3
+  problem "The 9T registry claim was already stale before registry_v2 arrived, so the 9S pre-change assessment correctly had no winning value digest. The 9U live adapter incorrectly treated absence of a current winner as absence of a historical boundary value."
+}

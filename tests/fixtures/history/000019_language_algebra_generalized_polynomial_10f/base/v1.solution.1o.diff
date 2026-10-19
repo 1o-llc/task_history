@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "base"
+  sequence 5
+  solution "Add six training/heldout families spanning cubic, quartic, and rational equations; tournament direct, expansion, and denominator-clearing plans; recursively recover integer linear factors by exact synthetic division; reuse 10E for every quadratic residual and the existing algebra kernel for every linear factor; substitute every candidate into the cleared polynomial and then recheck the original domain/denominator semantics before promotion."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 5
+  solution "Retire inherited narrative/planning Markdown, verify the functional 9M parent by hashes, run only current 9N tests, and permit only the live lab to advance durable state."
+}

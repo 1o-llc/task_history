@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_kg_reference_phase_c"
+  revision "base"
+  sequence 5
+  solution "Add world_model_context_kg_reference_core. Build deterministic query terms from active Phase B entity, property, domain, quantity, and unit records; select bounded matching factual seed nodes plus matching one-hop relation paths; select bounded matching FunctionalThoughtProgram nodes; mint stable FactReference and OperatorReference targets through read-only authorities; attach them to active context candidates; retain only IDs, query terms, scores, and expected digests; and prove stale rejection, unrelated-node exclusion, multi-path references, bounded fanout, exact replay serialization, and unchanged factual-KG digest."
+}

@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 130
+  path "docs/planning/FUNCTIONAL_THOUGHT_OPAQUE_DECOMPOSITION_V1_BUILD_MANIFEST.json"
+  operation "remove"
+  before_digest "77d00d3840e2cfc17947515ca0021d17d815bc4bd5f7e1d9a882a1b340a4b6af"
+  after_digest "none"
+}

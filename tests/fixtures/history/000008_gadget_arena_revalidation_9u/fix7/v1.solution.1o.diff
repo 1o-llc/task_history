@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix7"
+  sequence 5
+  solution "Make lifecycle_algebra an explicit 9U dependency; define the gadget-revalidation lifecycle; route tournament eligibility by exact active/backlogged intent ownership; reuse the active intent without a duplicate BeginIntent; emit the existing ResumeIntent transition for matching backlog work; retain foreign-intent fail-closed behavior; add a 9U-local restart adapter that reconstructs the persisted activity projection and invokes the existing suspend/resume runtime transitions without changing the frozen 9T parent; and make activity attempts deterministic per sealed resource."
+}

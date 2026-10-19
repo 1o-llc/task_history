@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 5
+  solution "Add a standalone 12B crate and one-command runner that formally closes 12A from its Mac checkpoint, executes sixteen integrated cognitive cycles, performs deterministic replay probes every four cycles, deduplicates persistent candidate, route, and negative-knowledge keys across cycles, measures work and checkpoint growth, proves all scheduler lanes receive service, retains six full cycle receipts while condensing older receipts into a rolling digest, preserves all accepted authority invariants, writes a bounded durable checkpoint, and proves direct execution, replay, pause/restart continuation, and restored next autonomous action are exact."
+}

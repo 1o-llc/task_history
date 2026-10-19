@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix1"
+  sequence 18
+  path "TEXT_KG_FUNCTIONAL_BRIDGE_11B_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "ba38a252b11b69cead9ce2a925949cf603b2c2cc65ed8d5712beaa5a71d37752"
+  after_digest "0a9987905b697836e530d399fcc947e30eafb1fe11b97ad293658ec37cf59b8d"
+}

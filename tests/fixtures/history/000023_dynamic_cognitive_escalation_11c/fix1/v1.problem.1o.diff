@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix1"
+  sequence 3
+  problem "The base package nested change receipts under a changes directory. Static recursive validation accepted them, but the Rust loader ignores nested revision directories, so terminal Cargo.toml history remained at the 11B digest and the accepted 10G parent gate failed before child tests."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the Phase S2 Rust type-inference ambiguity in charge construction so the already-designed S2 subscripts, coefficients, and charges implementation can compile, while keeping all S2 semantics, tests, policy, S1 provenance, and S3-S6/T authority boundaries unchanged."
+}

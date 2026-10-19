@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_polynomial_10e"
+  revision "base"
+  sequence 3
+  problem "10D generalizes linear dependency graphs to 4-6 variables, but the reasoning substrate still assumes linear constraints. Nonlinear language introduces products and powers, can yield multiple mathematically valid roots, and requires a principled distinction between algebraic root validity and semantic/domain admissibility."
+}

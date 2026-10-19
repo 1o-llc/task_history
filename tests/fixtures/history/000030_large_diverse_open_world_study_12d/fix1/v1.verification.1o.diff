@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "large_diverse_open_world_study_12d"
+  revision "fix1"
+  sequence 6
+  check "mac_12d_fix1_large_diverse_open_world_study_acceptance"
+  outcome "pass"
+  note "Mac accepted on 2026-07-30: one-ZIP integrity and 1,020-path typed-history preflights passed; frozen 12C runtime gate passed; all 148 tests passed; the live 1,024-challenge study completed with 224/256 verified heldout solves, 32/256 correct adversarial abstentions, zero false positives and collisions, exact serialized continuation, checkpoint restoration, and next-study-seed restoration."
+}

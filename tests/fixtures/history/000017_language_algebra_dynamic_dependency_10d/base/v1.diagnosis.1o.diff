@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "base"
+  sequence 4
+  diagnosis "Represent constraints as variable-length coefficient vectors, tournament every eliminable variable using coefficient/fill cost, retain a reconstruction equation at each elimination layer, recurse until exactly three unknowns remain, then structurally delegate to the accepted 10C -> 10B -> algebra proof hierarchy and recheck the complete original graph."
+}

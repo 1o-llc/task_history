@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_composition_9v"
+  revision "fix3"
+  sequence 5
+  solution "Update the exact 9U functional-tree manifest to Fix6; run its manifest check, 64-test focused suite, terminal task-history regression, and live/resume lab before child verification; emit a hash-bound 9u_fix6 acceptance receipt only after all four gates pass; require that receipt in the 9V checker; and retain the Fix2 field-by-field recursive leaf contract equivalence implementation unchanged for the subsequent 50-test 9V suite."
+}

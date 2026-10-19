@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_graph_construction_phase_b"
+  revision "fix1"
+  sequence 4
+  diagnosis "The unconditional question_like veto is a structural evidence-ordering defect consistent with the Mac failure. Explicit punctuation-marked standalone questions need a negative boundary, but the broader requested-output classification must not suppress non-question elliptical followups or strong context cues."
+}

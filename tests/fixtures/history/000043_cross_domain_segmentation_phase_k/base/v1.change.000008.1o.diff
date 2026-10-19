@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 15
+  path "history/000043_cross_domain_segmentation_phase_k/base/v1.problem.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "d5736577ce9835a62748430b387e661ed7df4797acd3ad4adca31f9275cff0fc"
+}

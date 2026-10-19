@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_composition_9v"
+  revision "fix4"
+  sequence 21
+  check "mac_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-29: 9U Fix7 passed its live lifecycle acceptance and the hash-bound parent gate passed; all 50 focused 9V recursive-thought tests passed and terminal typed history passed; then the live recursive_thought_composition_lab failed to compile with E0382 because candidate bad was moved into the tournament Vec and later borrowed only to print whether it was rejected. No 9V algorithm/test failure occurred."
+}

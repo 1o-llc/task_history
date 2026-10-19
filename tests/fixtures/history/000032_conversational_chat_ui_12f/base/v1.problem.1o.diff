@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "base"
+  sequence 3
+  problem "The command-line ASK interface is slow to relaunch through cargo, presents one turn at a time, floods the terminal with unrelated build diagnostics, and has no user-controlled surface for deciding whether an unresolved question may be sent to a local LLM advisor."
+}

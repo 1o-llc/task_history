@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_generalization_9w"
+  revision "fix1"
+  sequence 5
+  solution "Record the actual Mac acceptance, retain the immutable base candidate record, scope the 9W source manifest away from globally mutable Cargo/index files, and allow only the explicit 9X additive workspace/history child."
+}

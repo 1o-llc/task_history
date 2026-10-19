@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 4
+  diagnosis "A safe facelift must change physical organization without changing logical graph semantics: durable IDs cannot become arena indexes, tags cannot become truth authority, observables cannot become a second scheduler, One_DB cannot weaken append-only ordering, and graph expansion must remain bounded by existing thought-budget and memory controls."
+}

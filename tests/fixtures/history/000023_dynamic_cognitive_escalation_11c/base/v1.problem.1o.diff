@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "base"
+  sequence 3
+  problem "11B can build additive KG-assisted functional candidates, but it does not yet own the complete escalation decision or an independent checker. Without 11C, the system cannot prove that it suppresses KG/LLM work when existing operators already solve a problem, asks KG before the LLM when they do not, deterministically samples optional memory checks from the existing identity seed and event state, routes critic work through the scheduler, or prevents a critic from replacing a verified solution."
+}

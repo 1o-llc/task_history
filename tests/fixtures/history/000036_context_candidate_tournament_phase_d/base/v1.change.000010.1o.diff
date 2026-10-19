@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 17
+  path "CONTEXT_CANDIDATE_TOURNAMENT_PHASE_D_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "ed8924835a75d14e7a27fb966a610f528f4ae196b859cecedb8d2f774c8250e0"
+}

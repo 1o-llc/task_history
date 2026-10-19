@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "text_kg_functional_bridge_11b"
+  revision "fix1"
+  sequence 1
+  title "11B stable-Rust compatibility and fixture Debug-bound compile repair"
+  parent_milestone "11b_base"
+  status "accepted"
+  tag "functional_thought"
+  tag "knowledge_graph"
+  tag "compile_repair"
+  tag "stable_rust"
+  tag "type_compatibility"
+}

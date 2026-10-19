@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "chemistry_formula_tokens_phase_s1"
+  revision "base"
+  sequence 3
+  problem "The accepted I-R construction stack can identify chemistry spans and reason about typed routes/exits, but the new shared chemistry rulebook does not yet provide a strict lexical contract for canonical element symbols and formula tokens. Reusing the older chemistry solver directly would collapse the required S1-S6 gates and import later chemical semantics too early."
+}

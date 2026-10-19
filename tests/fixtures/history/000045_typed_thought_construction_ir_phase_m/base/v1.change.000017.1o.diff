@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_thought_construction_ir_phase_m"
+  revision "base"
+  sequence 24
+  path "tools/ecosystem/world_model_typed_thought_construction_ir_core/materials/typed_thought_construction_ir_policy_v1.json"
+  operation "add"
+  before_digest "none"
+  after_digest "3308f042a3c33d76054f22eb83d8cdc1215b555d5f58c40b34a4e41fca137eea"
+}

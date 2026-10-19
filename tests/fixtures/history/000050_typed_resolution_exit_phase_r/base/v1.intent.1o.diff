@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "typed_resolution_exit_phase_r"
+  revision "base"
+  sequence 2
+  intent "Map failed or incomplete typed constructions into explicit resolution exits and reuse the accepted Phase E clarification machinery so a reply resumes the exact suspended task/candidate/route without granting execution or answer authority."
+}

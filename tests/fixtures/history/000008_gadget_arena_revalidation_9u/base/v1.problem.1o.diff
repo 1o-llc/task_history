@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "gadget_arena_revalidation_9u"
+  revision "base"
+  sequence 3
+  problem "9S and 9T correctly discover a material source change and its transitive blast radius, but the unresolved obligations are artifact-level. Revalidating an entire composite thought would expose unrelated thought-library content, waste work, and make pruning too coarse. The green 9T registry change intentionally leaves four downstream artifacts blocked pending finer revalidation."
+}

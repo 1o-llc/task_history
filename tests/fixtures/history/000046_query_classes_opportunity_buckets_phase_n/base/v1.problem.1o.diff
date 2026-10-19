@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 3
+  problem "The accepted IR can represent constructions, but later route construction needs a bounded arena catalog rather than unconstrained search or one bucket per sentence wording."
+}

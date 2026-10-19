@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 4
+  diagnosis "The correct next authority layer is an evaluation harness above Phase G, not a change to the contextual solver. Training evidence must be digest-backed Phase G episodes aggregated across independent Conversation, Task, and PrincipalSpecific scopes. Held-out examples must never feed learning. A candidate may receive a bounded study bonus only after repeated positive evidence survives cross-scope requirements and negative evidence, and a separate gate must inspect all required held-out metrics."
+}

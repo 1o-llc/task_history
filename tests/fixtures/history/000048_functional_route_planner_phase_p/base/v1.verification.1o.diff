@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "functional_route_planner_phase_p"
+  revision "base"
+  sequence 6
+  check "mac_functional_route_planner_phase_p_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance received for package SHA-256 067a80e5b9e9e55773a1f3399877f6b8eefb8b6b901a7bdd04dd4ee32efd2277: isolated Phase P test target compiled; accepted workspace boundaries compiled; Context A-H, Phase I-O, all 16 proposition-structure tests, the algebra parser regression and all 5/5 Phase O tests remained green; all 6/6 focused Phase P tests passed (compatible typed intermediate expansion, invalid adjacent-type rejection with inspectable attempt log, finite cycle termination, safe depth/work budget exhaustion, explicit typed MissingOperator gap, accepted arithmetic route reconstruction without a new solver); terminal typed-history Rust test passed; no Phase Q construction-tournament or route/answer execution authority was introduced; and final PASS world_model_functional_route_planner_phase_p_v1 printed."
+}

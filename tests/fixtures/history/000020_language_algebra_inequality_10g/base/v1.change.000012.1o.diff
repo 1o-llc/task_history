@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 19
+  path "tools/ecosystem/scripts/check_world_model_language_algebra_inequality_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "b955a85627d8045f5edcb720199560d190119ce5955b8071b7a0ba9c330fbf82"
+}

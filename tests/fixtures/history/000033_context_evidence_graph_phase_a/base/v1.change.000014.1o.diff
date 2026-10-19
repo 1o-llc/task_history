@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_evidence_graph_phase_a"
+  revision "base"
+  sequence 21
+  path "CONTEXT_EVIDENCE_GRAPH_PHASE_A_IMMUTABLE_PARENT_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "8c7a336c49b27a67a554d5bfb8e5ec9d2fe2f3b35b7af569a7bf0f2bf23a80a6"
+}

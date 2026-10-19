@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 171
+  path "tools/ecosystem/scripts/check_world_model_chemistry_reaction_conservation_phase_s6_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "baeaacd123ac0bd749a5b9bda7821d2461ae2ca336eca3542c4c43f6af20706a"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix6"
+  sequence 3
+  problem "Fix5 scanned balanced JSON regions independently. After an outer advisor object failed because of a forbidden final_answer field or wrong schema, its nested proposals array was scanned later and reconstructed into a default-schema response, defeating strict top-level validation."
+}

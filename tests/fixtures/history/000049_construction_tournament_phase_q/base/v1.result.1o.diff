@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "construction_tournament_phase_q"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "82312882736ca769969090a85cb8eeacdd2509423883c766e14d6c291b9f4649"
+}

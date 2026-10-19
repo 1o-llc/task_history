@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "stoichiometric_construction_routes_phase_t"
+  revision "fix1"
+  sequence 3
+  problem "S6 ReactionTermContribution.canonical_formula stores canonical term notation including a leading coefficient when coefficient > 1, such as 2H2 and 2H2O. Phase T reaction_coefficient compared that full notation directly with coefficient-free species keys such as H2 and H2O, causing both reaction-backed focused tests to fail with ReactionSpecies even though the S6 receipt was conserved and valid."
+}

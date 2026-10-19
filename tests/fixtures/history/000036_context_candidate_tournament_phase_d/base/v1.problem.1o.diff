@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 3
+  problem "Phase C can attach bounded stable factual and operator references, but the system still needs a deterministic way to compare competing context candidates across POS, lexical, statement-shape, prior-context, KG, and route evidence without treating one weak signal, an LLM proposal, or the generic tournament winner as final answer authority."
+}

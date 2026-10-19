@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "fix1"
+  sequence 104
+  path "RUN_DOMAIN_SPAN_PHASE_S2.command"
+  operation "modify"
+  before_digest "428c3a5ac181130b979e5d3cc3a707bfa07216b1d39fd4652f84ae9f4c6668be"
+  after_digest "f3391fddaaea64d32434ed1b47e8693440a1ab7b012d3a088e993d920fe7e260"
+}

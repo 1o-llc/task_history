@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "thought_fragment_lifecycle_9o"
+  revision "base"
+  sequence 8
+  path "materials/thought_fragment_lifecycle_v1/thought_fragment_contract.tsv"
+  operation "add"
+  before_digest "none"
+  after_digest "690007df8b3179e396749fc23510a2adc5d4e7d5d21428a9cf6cbb8b5f4d8771"
+}

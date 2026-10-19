@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix5"
+  sequence 6
+  check "mac_12f_fix5_noisy_advisor_output_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-31: 36 of 38 library tests passed, but final_answer_authority_field_is_rejected and wrong_schema_is_rejected failed. The noisy-region scanner rejected each invalid outer envelope, then incorrectly salvaged its nested proposals array as a new response with the default schema. The run stopped before contract tests, terminal-history recheck, release build, self-tests, or native launch."
+}

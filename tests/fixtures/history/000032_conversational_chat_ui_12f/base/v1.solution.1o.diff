@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "conversational_chat_ui_12f"
+  revision "base"
+  sequence 5
+  solution "Add a standalone eframe application that runs local questions on a worker thread, renders chat responses and detailed linguistic/proposition/KG receipts, offers LLM escalation only after safe abstention, previews the exact advisor prompt, invokes an explicitly configured ollama-style command only after a button press, strictly validates candidate-only JSON, stores no transcript automatically, and builds a reusable release binary for CHAT.command."
+}

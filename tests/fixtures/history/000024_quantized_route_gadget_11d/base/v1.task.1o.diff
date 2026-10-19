@@ -1,0 +1,15 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 1
+  title "11D quantized tournament routes and decomposable gadget promotion"
+  parent_milestone "11c_fix2"
+  status "accepted"
+  tag "functional_thought"
+  tag "route_gadget"
+  tag "tournament_consolidation"
+  tag "heldout_promotion"
+  tag "rollback"
+}

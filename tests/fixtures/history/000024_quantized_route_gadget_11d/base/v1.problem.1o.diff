@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "quantized_route_gadget_11d"
+  revision "base"
+  sequence 3
+  problem "11C can dynamically construct, tournament, verify, and critique functional routes, but it does not yet convert repeated successful constructions into a compact learned primitive. Re-running the same KG search and tournament wastes work, while storing whole traces would be bloated and would obscure which atomic operators, typed boundaries, shared knowledge, conditions, and verification obligations actually mattered."
+}

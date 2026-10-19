@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "base"
+  sequence 3
+  solution "Initial implementation added symbolic relationship catalog, recursive search, verifier agreement, and 52-test contract."
+}

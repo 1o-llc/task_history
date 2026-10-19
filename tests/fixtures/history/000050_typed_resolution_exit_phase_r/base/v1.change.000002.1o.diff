@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "typed_resolution_exit_phase_r"
+  revision "base"
+  sequence 9
+  path "RUN_DOMAIN_SPAN_PHASE_R.command"
+  operation "add"
+  before_digest "none"
+  after_digest "23174f71b07818919bafbb9119a63c8d06ef97b8b4fb28b4f6b71c50c629b1bc"
+}

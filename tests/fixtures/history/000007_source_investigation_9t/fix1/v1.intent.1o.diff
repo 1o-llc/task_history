@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "source_investigation_9t"
+  revision "fix1"
+  sequence 2
+  intent "Ensure a budget-blocked autonomous source investigation cannot persist the curiosity engine's Idle fallback as though a concrete research obligation committed."
+}

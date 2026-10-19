@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 4
+  diagnosis "The failure is an integration error in the 12E decision core, not an absence of linguistic infrastructure. POS and word-list outputs were metadata, family dispatch preceded general semantic construction, number words were not canonicalized into quantity senses, relation words did not produce typed operators, and proof only verified procedures supplied by specialized parsers."
+}

@@ -1,0 +1,17 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "context_execution_verification_phase_f"
+  revision "fix1"
+  sequence 1
+  title "Phase F Fix1 isolated-workspace compile repair"
+  parent_milestone "context_execution_verification_phase_f_base_failed_compile"
+  status "failed_compile"
+  tag "workspace_boundary_repair"
+  tag "phase_f_logic_unchanged"
+  tag "phase_f_tests_unchanged"
+  tag "raw_question_kernel_unchanged"
+  tag "manifest_path_execution"
+  tag "accepted_phase_a_e_regressions"
+  tag "focused_tests_only"
+}

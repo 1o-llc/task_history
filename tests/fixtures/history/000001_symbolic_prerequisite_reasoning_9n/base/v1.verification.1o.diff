@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "base"
+  sequence 18
+  check "mac_run"
+  outcome "fail"
+  note "Prerequisite replay stopped before 9N tests because temporary knowledge lacked required green 9L state."
+}

@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "conversational_chat_ui_12f"
+  revision "fix8"
+  sequence 1
+  title "12F Fix8 structured Ollama transport and bounded diagnostic repair"
+  parent_milestone "12f_fix7_superseded_live_provider_failure"
+  status "superseded"
+  tag "ollama_structured_api"
+  tag "stderr_isolation"
+  tag "bounded_ui_diagnostics"
+  tag "schema_enforced_transport"
+}

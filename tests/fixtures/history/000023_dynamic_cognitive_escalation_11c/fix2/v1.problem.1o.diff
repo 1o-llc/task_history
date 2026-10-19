@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "fix2"
+  sequence 3
+  problem "The Fix1 packaging cascade refreshed accepted ancestor manifests. The inherited 10G checker compares the current 10F functional-tree manifest digest with the durable Mac acceptance receipt, so the rewritten manifest was rejected before 11A, 11B, or 11C execution."
+}

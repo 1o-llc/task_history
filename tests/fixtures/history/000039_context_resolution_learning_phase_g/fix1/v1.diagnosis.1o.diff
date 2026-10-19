@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_resolution_learning_phase_g"
+  revision "fix1"
+  sequence 4
+  diagnosis "The defect is representation-only: the strongly typed map key is correct for in-memory ordering/lookups but is not a legal serde_json object key. Converting scope identity to an ad-hoc string would weaken typing and create parsing/collision concerns. The bounded repair is a field-level serde adapter that preserves the BTreeMap in memory while encoding its deterministic order as an array of typed key/value pairs."
+}

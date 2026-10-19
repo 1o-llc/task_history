@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "functional_route_planner_phase_p"
+  revision "base"
+  sequence 2
+  intent "Expand exact Phase O route identities through legal typed operator chains while exposing every insertion and rejection and staying inside deterministic work and depth budgets."
+}

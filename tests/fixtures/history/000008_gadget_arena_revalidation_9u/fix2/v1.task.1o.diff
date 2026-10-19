@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix2"
+  sequence 1
+  title "9U task-history intent schema repair"
+  parent_milestone "9u_fix1"
+  status "failed_test"
+  tag "task_history"
+  tag "one_o_diff"
+  tag "schema_validation"
+  tag "gadget_arena_unchanged"
+}

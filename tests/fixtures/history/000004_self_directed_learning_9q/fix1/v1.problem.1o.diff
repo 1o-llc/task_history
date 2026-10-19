@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "self_directed_learning_9q"
+  revision "fix1"
+  sequence 3
+  problem "Mac rustc E0614 reported that BTreeSet<String> cannot be dereferenced in fragment_active_lookup_unchanged comparison."
+}

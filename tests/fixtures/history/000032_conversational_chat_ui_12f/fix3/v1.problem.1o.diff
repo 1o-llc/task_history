@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "conversational_chat_ui_12f"
+  revision "fix3"
+  sequence 3
+  problem "The previous advisor prompt exposed only a small receipt summary and a fixed schema. It did not communicate the available thought shapes, operator and gadget inventory, full token and semantic evidence, rejected candidates, KG/procedure context, or operator-supplied constraints, so the model lacked enough structure to return useful recipes."
+}

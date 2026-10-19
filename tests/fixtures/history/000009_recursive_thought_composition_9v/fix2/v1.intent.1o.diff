@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "recursive_thought_composition_9v"
+  revision "fix2"
+  sequence 2
+  intent "Repair the 9V leaf-equivalence bug without weakening contract drift rejection, and close the sequencing hole by requiring the exact 9U Fix5 functional parent to pass its focused tests, typed-history terminal check, and live gadget-arena lab before any 9V verification executes."
+}

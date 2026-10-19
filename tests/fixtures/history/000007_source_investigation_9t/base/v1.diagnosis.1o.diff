@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "source_investigation_9t"
+  revision "base"
+  sequence 4
+  diagnosis "Source investigation must be a separate epistemic activity: local authorized catalog search is allowed under a typed Corpus capability; mirrored/circular evidence remains visible but is not corroboration-eligible; same-origin temporal successors remain eligible; public network send is absent and external source requests require explicit capability."
+}

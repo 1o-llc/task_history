@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "idle_novelty_learning_11f"
+  revision "base"
+  sequence 3
+  problem "11E can produce deterministic bounded cognitive variation, but variation alone does not identify truly untried functional compositions, exclude known routes, preserve failed attempts, verify heldout utility, or safely hand reusable discoveries to route-gadget promotion."
+}

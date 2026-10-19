@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 21
+  path "tools/ecosystem/world_model_open_world_challenge_harness_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "e062c81c76ecf852b19b6536c5eef6815070b380135f3529b09c7768fd40ff7e"
+}

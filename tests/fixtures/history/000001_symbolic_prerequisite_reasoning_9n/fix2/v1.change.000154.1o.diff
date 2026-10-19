@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "fix2"
+  sequence 159
+  path "docs/planning/SEMANTIC_SIGNATURE_V1_FIX1.md"
+  operation "remove"
+  before_digest "8cde2f9086eaa229b9da744424d8976bfa75eabfb402c94f123eda1d3b2a1551"
+  after_digest "none"
+}

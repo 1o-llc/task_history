@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "query_classes_opportunity_buckets_phase_n"
+  revision "base"
+  sequence 6
+  check "mac_query_classes_opportunity_buckets_phase_n_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance received for package SHA-256 8a077238cbe10182b99d9ff9e9b89888b4c8095804af2925f87dd23f5de909e0: isolated Phase N test target compiled; accepted workspace boundaries compiled; Context A-H, Phase I-L, all 16 proposition-structure tests, the algebra parser regression and Phase M 5/5 remained green; all 5/5 focused Phase N tests passed (wording-compatible arena selection, multiple construction shapes per arena, no phrase-specific bucket creation, wrong-arena evidence rejection, no stored final answer with deterministic receipt roundtrip); terminal typed-history Rust test passed; no Phase O/P/Q authority was introduced; and final PASS world_model_query_classes_opportunity_buckets_phase_n_v1 printed."
+}

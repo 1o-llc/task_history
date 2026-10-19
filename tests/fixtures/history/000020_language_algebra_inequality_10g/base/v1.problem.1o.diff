@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 3
+  problem "Through 10F the system can verify discrete algebraic roots, including higher-degree and rational-domain cases, but it cannot yet represent or mechanically verify continuum solution sets such as x greater than 5, bounded compound intervals, polynomial sign regions, or rational inequality regions split by undefined denominator points."
+}

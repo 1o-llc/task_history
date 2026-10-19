@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "typed_thought_construction_ir_phase_m"
+  revision "base"
+  sequence 3
+  problem "Accepted arithmetic, proposition, context, and domain-span layers currently expose successful but separate structural vocabularies. The post-context architecture needs one inspectable typed construction protocol before query arenas and route expansion can be introduced, without weakening existing PEMDAS/proposition behavior or erasing source-span/domain meaning."
+}

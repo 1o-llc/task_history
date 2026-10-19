@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix3"
+  sequence 22
+  check "mac_acceptance"
+  outcome "fail"
+  note "2026-07-29 Mac acceptance reached the 61-test scoped-maintenance contract but two blocked-maintenance regressions failed because the shared pipeline tournament correctly rejects a one-candidate tournament; when budget or an existing intent blocked real maintenance, 9U supplied only maintenance:idle."
+}

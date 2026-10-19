@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_clarification_phase_e"
+  revision "base"
+  sequence 26
+  path "history/000037_context_clarification_phase_e/base/v1.diagnosis.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "d251eda75f486a50edb8361018b9d81b9bbeaaef1a1eacc10fc0faad6be2881d"
+}

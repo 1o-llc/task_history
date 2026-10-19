@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "context_graph_construction_phase_b"
+  revision "fix3"
+  sequence 3
+  problem "Fix2 filtered interrogative lexical shapes but still promoted broad analyzer intention candidates to strong cross-turn authority. An unrelated explicit question could therefore inherit the preceding turn. Separately, the English seed POS provider recognized interrogative pronouns but omitted ordinary personal and demonstrative pronoun evidence, which would tempt phrase-specific context handling for ordinary anaphora."
+}

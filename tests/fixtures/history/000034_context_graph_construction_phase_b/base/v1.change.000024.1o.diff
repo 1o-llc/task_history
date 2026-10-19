@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_graph_construction_phase_b"
+  revision "base"
+  sequence 31
+  path "history/v1.history_index.1o.diff"
+  operation "modify"
+  before_digest "f5aa1aac20cc22e974aab9c16877288efb22a00de8cd49653696434aad178b45"
+  after_digest "9581f49abe1bf2afb79509498192f76077eb9b5d975ff852ab4b00554b498531"
+}

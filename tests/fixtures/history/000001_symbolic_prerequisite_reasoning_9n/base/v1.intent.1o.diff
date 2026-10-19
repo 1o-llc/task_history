@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "base"
+  sequence 2
+  intent "Add relationship-driven backward reasoning from requested unknowns through recursively satisfied prerequisites."
+}

@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "recursive_thought_composition_9v"
+  revision "fix2"
+  sequence 22
+  status "failed_test"
+  resulting_tree_digest "pending"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "fix1"
+  sequence 2
+  intent "Repair only the 10D adapter between raw recursive-elimination structural cost and the generic tournament utility so small but real cost differences remain rank-visible, while preserving the accepted 10C/10B/algebra hierarchy and all 10D reasoning semantics."
+}

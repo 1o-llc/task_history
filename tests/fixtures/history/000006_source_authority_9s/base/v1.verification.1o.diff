@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 31
+  check "mac_acceptance"
+  outcome "fail"
+  note "2026-07-29 Mac acceptance reached the 9S Rust suite: 76 passed and 1 failed. retraction_removes_assertion_from_current_view expected Stale after retraction, but the claim-type admission fallback overwrote the already-correct temporal Stale state with Candidate. Static durable-state mutation gates were not reached because the focused suite failed first."
+}

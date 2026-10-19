@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "gadget_arena_revalidation_9u"
+  revision "fix2"
+  sequence 3
+  problem "The Mac run passed all 59 9U gadget-arena regressions, then world_model_task_history_core rejected history/000008_gadget_arena_revalidation_9u/fix1/v1.intent.1o.diff with missing field intent because that record used goal instead of the required intent field."
+}

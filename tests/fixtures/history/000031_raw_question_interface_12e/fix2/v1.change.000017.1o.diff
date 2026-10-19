@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 24
+  path "tools/ecosystem/world_model_raw_question_interface_core/tests/raw_question_interface.rs"
+  operation "modify"
+  before_digest "238c4a96da88cdec6a927c26acf4605f8d70d004ec392deb4f7a991240d139e0"
+  after_digest "aee286d43419316e0113763a76432f58347c85c2739b4faa1c7a3e321eb30aab"
+}

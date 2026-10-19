@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 29
+  path "tools/ecosystem/world_model_context_interpretation_promotion_study_core/src/lib.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "6ae3540ff434d747b5b77abe1d76b30cd66e278ca1197dff1f16755f0d3500ea"
+}

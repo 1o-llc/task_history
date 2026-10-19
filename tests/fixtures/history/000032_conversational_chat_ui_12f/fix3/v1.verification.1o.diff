@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix3"
+  sequence 6
+  check "mac_12f_fix3_constraint_prompt_acceptance"
+  outcome "fail"
+  note "Mac run 2026-07-31: all 30 library tests passed and 9 of 10 chat-contract tests passed, but advisor_prompt_contains_no_answer_authority required the exact sentence Every proposal must include a local verification plan. The prompt retained the same non-empty verification-plan requirement under different wording, so the run stopped at a contract-string mismatch before terminal-history recheck, release build, self-tests, or native launch."
+}

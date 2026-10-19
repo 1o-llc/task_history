@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "fix1"
+  sequence 6
+  check "mac_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-07-29: accepted 9X Fix1 parent gate re-passed; 32/32 focused 9Y tests passed; terminal typed history passed; live 9Y observed three real optimized routes, selected dependent_api from default usage without a named target, switched to algebra when only workload changed, yielded to idle under emergency pressure, restored discovery checkpoint exactly, preserved prior durable cognition/provenance/promotion state, claimed no LLM/proof authority, and emitted final PASS world_model_recursive_thought_autonomous_optimization_v1 ok."
+}

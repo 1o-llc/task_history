@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_generalized_polynomial_10f"
+  revision "base"
+  sequence 22
+  path "tools/ecosystem/world_model_language_algebra_generalized_core/examples/generalized_reasoning_lab.rs"
+  operation "add"
+  before_digest "none"
+  after_digest "802d95b8891de593a56b0c1e4004243239734b8d1049710418f3098fb8dc3c72"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "source_authority_9s"
+  revision "base"
+  sequence 2
+  intent "Represent source authority as claim/domain-specific evidence with publication, learner-acquisition, verification, supersession, independent-origin, contradiction, and downstream dependency semantics; material source changes must trigger transitive revalidation before affected reasoning is actively reused or pruned."
+}

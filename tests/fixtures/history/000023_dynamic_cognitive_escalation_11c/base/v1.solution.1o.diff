@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "dynamic_cognitive_escalation_11c"
+  revision "base"
+  sequence 5
+  solution "Add world_model_dynamic_cognitive_escalation_core with explicit ExistingFunctionalUnits, KnowledgeGraphSupplementation, KnowledgeGraphCritic, and LlmAdvisor stages; passed/failed/unresolved verification evidence; scheduler receipts; planning, verified-solution, and critic tournaments; deterministic identity-seeded critic decisions; visible critic functional programs containing Guard, QueryKG, ImportContext, discrete Apply, Branch, and Verify nodes; recipe-only advisor requests; compact durable construction receipts; exact checkpoint/restart; and 74 focused regressions."
+}

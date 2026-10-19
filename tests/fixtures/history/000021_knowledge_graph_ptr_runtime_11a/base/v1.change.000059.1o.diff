@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 66
+  path "tools/ecosystem/ledger/immutable_ledger_kit/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "9bbba3c2e95e3fda4b9b63d55a33d1f9c07f9a8e9519f18146e03268c37115ba"
+}

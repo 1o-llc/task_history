@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 27
+  path "tools/ecosystem/world_model_domain_span_schema_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "7de6f2c7ebb5195d6fc2d62f0ced60d5e8063502481c23367b6f5ff0b06271c5"
+}

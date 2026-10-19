@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_systems_10b"
+  revision "base"
+  sequence 18
+  path "LANGUAGE_ALGEBRA_SYSTEMS_10B_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "44c7321c3ef5cc67c45a3f285d61007cbf517cb1f42ea0968ea3f5e91af50f45"
+}

@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "context_execution_verification_phase_f"
+  revision "fix1"
+  sequence 6
+  check "mac_context_execution_verification_phase_f_fix1_focused_acceptance"
+  outcome "fail"
+  note "Mac run 2026-08-08 verified the package SHA, the Fix1 sole-candidate gate, the 1,361-path typed-history preflight, both isolated workspace compile checks including PASS context_phase_f_fix1_workspace_boundary_compile, all accepted Phase A-E regressions, and all four existing raw-question arithmetic/rate/unit/chemistry regressions. Compilation of the unchanged Phase F test target then failed with E0432 because tests/context_execution_verification.rs directly imports world_model_context_graph_construction_core::ContextConstructionSession but the isolated Phase F Cargo.toml did not declare world_model_context_graph_construction_core as a direct dependency or dev-dependency. No Phase F focused test executed, so no Phase F behavioral acceptance was established by this run."
+}

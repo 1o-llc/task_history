@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "fix1"
+  sequence 3
+  problem "The accepted 9X PromotionRecord stores regression_count as usize, while 9Y UsageObservation intentionally serializes recent_regressions as u64. Direct assignment caused Rust E0308 before the 32 focused 9Y tests could execute."
+}

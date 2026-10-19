@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_promotion_9x"
+  revision "fix1"
+  sequence 5
+  solution "Record the successful 2026-07-29 Mac evidence as accepted, preserve the exact 9X promotion implementation, update only downstream-safe verification/history surfaces, and require 9Y to bind to a hash-checked 9X Fix1 checkpoint receipt before any autonomous-discovery test executes."
+}

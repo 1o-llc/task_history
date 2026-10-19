@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "chemistry_charge_inventory_phase_s5"
+  revision "base"
+  sequence 3
+  problem "S4 can count atoms but deliberately ignores ionic charge. S6 needs a deterministic signed charge input per formula term, including coefficient scaling, without yet comparing reaction sides or balancing equations."
+}

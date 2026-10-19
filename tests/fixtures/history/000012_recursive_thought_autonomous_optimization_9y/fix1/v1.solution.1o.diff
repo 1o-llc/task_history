@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "recursive_thought_autonomous_optimization_9y"
+  revision "fix1"
+  sequence 5
+  solution "Compute recent_regressions with u64::try_from(record.regression_count), propagate an explicit error if the value cannot be represented, and assign the checked u64 into UsageObservation. Keep the existing 32-test behavioral suite, usage heuristic, parent gate, durable-state rules, and live acceptance criteria unchanged."
+}

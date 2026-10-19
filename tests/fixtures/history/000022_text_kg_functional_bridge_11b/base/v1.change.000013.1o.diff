@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "text_kg_functional_bridge_11b"
+  revision "base"
+  sequence 20
+  path "tools/ecosystem/scripts/check_world_model_language_algebra_inequality_v1.sh"
+  operation "modify"
+  before_digest "692ccbb2d434bccfd5eeb0f326a2274045ded7f50e58d3d42cc5506a3fac87e0"
+  after_digest "3d09c309e976e943c2e1bcecae1e219729bec6038b95142ce4a890db16a4892d"
+}

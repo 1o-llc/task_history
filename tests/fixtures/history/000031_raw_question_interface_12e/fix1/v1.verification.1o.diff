@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "raw_question_interface_12e"
+  revision "fix1"
+  sequence 6
+  check "mac_12e_fix1_literal_raw_question_interface_acceptance"
+  outcome "pass"
+  note "Mac acceptance passed: package and typed-history preflights; immutable 12D Fix1 parent gate; compilation; 150 of 150 literal-question tests; public proportional-rate and KG-assisted chemistry ASK paths; verified answer or safe abstention receipts; exact checkpoint restoration; and canonical PASS markers."
+}

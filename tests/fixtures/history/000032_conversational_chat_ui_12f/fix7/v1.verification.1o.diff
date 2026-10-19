@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "conversational_chat_ui_12f"
+  revision "fix7"
+  sequence 6
+  check "mac_12f_fix7_interactive_advisor_detail_acceptance"
+  outcome "fail"
+  note "Mac native window launched, but the unresolved-question Ollama path failed live: CLI terminal/control diagnostics and free-form output contaminated recovery and produced an unbounded chat error card. Candidate-detail interaction could not be accepted as the end-to-end provider path was unusable."
+}

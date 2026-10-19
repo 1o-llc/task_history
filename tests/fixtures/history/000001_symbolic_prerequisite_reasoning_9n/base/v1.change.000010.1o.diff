@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "symbolic_prerequisite_reasoning_9n"
+  revision "base"
+  sequence 13
+  path "tools/ecosystem/world_model_symbolic_prerequisite_reasoning_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "f368eb0499b0e1a2aaf096df9901b4711841a852aca9bb8c1df1b41ae798ce32"
+}

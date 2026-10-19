@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "ptr_access_intent_observable_locality"
+  revision "base"
+  sequence 2
+  intent "Preserve NodePlan's semantic access knowledge as an explicit Hot/Stream/Cold access-intent axis composed orthogonally with observable hot/cold wake semantics, built strictly additively on the frozen accepted post-context I-U PTR, keyed/paged arena, dispatch, prophecy, and observable infrastructure, with page-level coarse kernel dispatch, a portable reference backend, and a benchmark-gated opt-in ARM64 prefetch/non-temporal specialization."
+}

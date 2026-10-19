@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 2
+  intent "Teach the language algebra stack to return exact real-number solution regions rather than only finite roots: prove linear boundaries, preserve negative-division direction changes, intersect compound bounds, factor expanded quadratic/cubic inequalities through accepted 10F, and keep rational denominator holes during sign-chart reasoning."
+}

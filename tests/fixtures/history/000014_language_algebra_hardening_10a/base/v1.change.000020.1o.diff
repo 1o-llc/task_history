@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 27
+  path "history/000014_language_algebra_hardening_10a/base/v1.result.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "7a6623090cda850046fc42f85c6e619e09107053e705f511fcbb96cfe93f26b3"
+}

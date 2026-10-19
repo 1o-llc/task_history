@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "knowledge_graph_ptr_runtime_11a"
+  revision "base"
+  sequence 5
+  solution "Add an additive PTR runtime over the existing logical graph using real KeyedArena and KeyedDispatchVec collections; compact eight-bank by 64-bit function scaffolds with typed arrow descriptors; exact, bounded, and estimated memory prophecy; SmartPin active-subgraph materialization; existing thought-budget producer-consumer admission; typed observable wakes; hash-linked immutable occurrence entries stored through the actual immutable_ledger_kit and mirrored through capability-gated one_db_kernel ObjectAppend deltas; reference-versus-PTR equivalence; stale-handle rejection; and exact durable reconstruction without persisting runtime handles."
+}

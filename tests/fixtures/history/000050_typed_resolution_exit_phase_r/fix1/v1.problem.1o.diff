@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "typed_resolution_exit_phase_r"
+  revision "fix1"
+  sequence 3
+  problem "The Phase R base crate was created under the repository root Cargo workspace tree but omitted the empty [workspace] table used by the accepted post-context integration crates. Cargo therefore treated it as an unlisted child of the root workspace and rejected the package before the focused test target could compile."
+}

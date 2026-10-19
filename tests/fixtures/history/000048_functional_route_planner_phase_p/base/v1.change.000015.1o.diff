@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "functional_route_planner_phase_p"
+  revision "base"
+  sequence 22
+  path "tools/ecosystem/scripts/run_world_model_functional_route_planner_phase_p_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "25efac1e857182ac45e4f5579ab832fa9e212936351b1c17d871623d715643ec"
+}

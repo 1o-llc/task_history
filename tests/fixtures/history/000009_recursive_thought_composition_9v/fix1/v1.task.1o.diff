@@ -1,0 +1,13 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "recursive_thought_composition_9v"
+  revision "fix1"
+  sequence 1
+  title "9V Fix1 tournament borrow lifetime repair"
+  parent_milestone "9v_base"
+  status "failed_test"
+  tag "rust_ownership"
+  tag "recursive_tournament"
+  tag "leaf_contract"
+}

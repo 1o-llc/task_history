@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "large_diverse_open_world_study_12d"
+  revision "base"
+  sequence 8
+  path "OPEN_WORLD_CHALLENGE_HARNESS_12C_ACCEPTED_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "135f8b6eafd6d47633d3690222ea4e6e6226efc9f848ceab23b4c61b0f6ad956"
+}

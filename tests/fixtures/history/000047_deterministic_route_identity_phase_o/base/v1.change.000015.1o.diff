@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "deterministic_route_identity_phase_o"
+  revision "base"
+  sequence 22
+  path "tools/ecosystem/scripts/run_world_model_deterministic_route_identity_phase_o_v1.sh"
+  operation "add"
+  before_digest "none"
+  after_digest "c0d664be4cc38cbac53a51f1df1981f160d6d2b1535ece584a6b59f1f9318be8"
+}

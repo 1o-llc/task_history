@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_dependency_10c"
+  revision "base"
+  sequence 4
+  diagnosis "The next reasoning step should increase compositional depth rather than add meta-autonomy: language builds a 3x3 linear dependency graph; a reversible tournament chooses x, y, or z for first elimination; the exact reduced graph is handed to 10B for its second elimination tournament; the existing algebra kernel proves the terminal equation; then all values are reconstructed and all three source constraints are mechanically rechecked."
+}

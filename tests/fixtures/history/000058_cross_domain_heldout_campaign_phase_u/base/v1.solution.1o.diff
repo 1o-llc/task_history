@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "cross_domain_heldout_campaign_phase_u"
+  revision "base"
+  sequence 5
+  solution "Add an isolated evaluation-only Phase U crate with a 28-case held-out catalog spanning all 14 roadmap categories, exact metric counter/report/checkpoint types for all 11 required metrics, a bounded paired baseline/current capability comparison, six focused integration tests that call real accepted components from raw arithmetic through T stoichiometry and context/LLM/stale traps, explicit zero false-confidence and stale-failure gates, exact replay, and immutable authority flags forbidding production changes, learning, KG/context mutation, provider dependency, and broad general-reasoning claims."
+}

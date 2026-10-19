@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "text_kg_functional_bridge_11b"
+  revision "fix1"
+  sequence 5
+  solution "Remove only the unnecessary Debug derive from ChemistryFunctionalFixture, change BridgeValueType::accepts from const fn to fn, add exact runtime type-compatibility and fixture-construction regressions, retain the original 64 tests plus two new tests, and require the full accepted 11A parent before the repaired 66-test 11B suite."
+}

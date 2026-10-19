@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 10
+  path "RAW_QUESTION_INTERFACE_12E_FUNCTIONAL_TREE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "beabc116b9c1b7867acf082a5c404185a51daaf35a0df87a1b0693770c545c2d"
+}

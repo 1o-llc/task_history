@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "self_directed_learning_9q"
+  revision "base"
+  sequence 2
+  intent "Connect indexed weakness signals to bounded autonomous curiosity and internal verifier-backed practice without promoting historical fragments into active thought."
+}

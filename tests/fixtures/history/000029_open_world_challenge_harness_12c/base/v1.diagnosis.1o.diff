@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 4
+  diagnosis "The next proof should expand the environment rather than add another cognitive primitive. A deterministic manifest must separate 192 learning/frontier challenges from 64 heldout-only challenges, give the learner only the training slice, measure initial and final heldout competence with a read-only evaluator, require typed mechanical chains plus internal probes for every retained capability, reject false analogies and contradictions into non-authoritative negative knowledge, and preserve the accepted 12B behavior, scheduler, verifier, KG, advisor, storage, replay, and restart boundaries."
+}

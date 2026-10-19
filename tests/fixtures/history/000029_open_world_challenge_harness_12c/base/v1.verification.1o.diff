@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "open_world_challenge_harness_12c"
+  revision "base"
+  sequence 6
+  check "mac_12c_open_world_challenge_harness_acceptance"
+  outcome "pass"
+  note "Mac acceptance on 2026-07-30: the single-artifact integrity and 990-path typed-history preflights passed; the immutable 12B receipt and exact bounded-autonomy checkpoint gate passed; all 108 focused controlled-open-world, deterministic-generation, heldout-isolation, transfer, rejection, authority, replay, continuation, and checkpoint regressions passed; the live 256-challenge campaign kept 192 learning/frontier cases separate from 64 heldouts, improved heldout success from 24 to 56, retained four mechanically verified discoveries and seven active capabilities, recorded five negative-knowledge entries, rejected twenty false analogies and sixteen contradictions, used nineteen necessary KG queries and one recipe-only advisor request with zero invocation, preserved zero false positives and all authority boundaries, restored the exact checkpoint and next challenge seed, and printed the final 12C PASS markers."
+}

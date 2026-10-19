@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "recursive_thought_generalization_9w"
+  revision "fix1"
+  sequence 4
+  diagnosis "Acceptance evidence is complete. Only typed-history closeout and downstream-aware Cargo/history verification are required; the 9W functional core and live behavior remain unchanged."
+}

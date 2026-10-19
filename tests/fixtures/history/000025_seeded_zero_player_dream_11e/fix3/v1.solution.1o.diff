@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "seeded_zero_player_dream_11e"
+  revision "fix3"
+  sequence 5
+  solution "Apply the already proven 9Z/10A snapshot-manifest rule consistently to 11A, 11B, 11C, 11D, and future 11E parent checks; add a complete single-artifact preflight that validates all parent source snapshots, all materials, all functional trees, the exact current 11E source and current history index before parent tests; and add RUN_11E.command as the sole extracted entry point. Do not require a second downloaded checksum file."
+}

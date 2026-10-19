@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "context_candidate_tournament_phase_d"
+  revision "base"
+  sequence 25
+  path "history/000036_context_candidate_tournament_phase_d/base/v1.problem.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "62469a7de5f86dd003296a8e17bc81212f507d810fe9455c8c662f03c20a7a5f"
+}

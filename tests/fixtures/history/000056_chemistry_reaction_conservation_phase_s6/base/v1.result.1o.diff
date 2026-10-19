@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "chemistry_reaction_conservation_phase_s6"
+  revision "base"
+  sequence 7
+  status "accepted"
+  resulting_tree_digest "5d22fbaca72e5cf47fbb08233ca8db4f7431e485ca19979b40fd34c14767e4b3"
+}

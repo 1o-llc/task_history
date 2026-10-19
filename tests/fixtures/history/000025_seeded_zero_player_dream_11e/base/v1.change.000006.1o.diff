@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 13
+  path "QUANTIZED_ROUTE_GADGET_11D_SOURCE_SHA256.txt"
+  operation "modify"
+  before_digest "8994d22e47258d62f88923cba2efb56b539ae3caa392da576f59a51a466d180f"
+  after_digest "b8e87e5c2037200b5f30741b2a022488f90211073f40788296f62b5575d5e58d"
+}

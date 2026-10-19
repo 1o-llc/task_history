@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "raw_question_interface_12e"
+  revision "base"
+  sequence 8
+  path "LARGE_DIVERSE_OPEN_WORLD_STUDY_12D_FIX1_ACCEPTED_SOURCE_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "1e20542e615cb90f65559cc1de400cc13151aaf57019276c24d2f0b9a01db679"
+}

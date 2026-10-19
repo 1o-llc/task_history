@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "chemistry_formula_roles_phase_s2"
+  revision "base"
+  sequence 3
+  problem "Phase S1 can identify canonical element symbols and digit runs but deliberately refuses to decide whether digits represent coefficients, subscripts, or charge magnitudes. Without a separately gated S2 role layer, later chemistry composition would either guess these meanings or bypass the accepted S1 lexical provenance."
+}

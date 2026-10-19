@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 8
+  path "tools/ecosystem/world_model_task_history_core/Cargo.toml"
+  operation "add"
+  before_digest "none"
+  after_digest "67c1032e2eda0f7b7b328298e15617d1e87e317e1dcf3f4a5635f7fef29d35f3"
+}

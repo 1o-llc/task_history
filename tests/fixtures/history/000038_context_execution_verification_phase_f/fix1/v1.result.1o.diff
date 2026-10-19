@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "context_execution_verification_phase_f"
+  revision "fix1"
+  sequence 7
+  status "failed_compile"
+  resulting_tree_digest "pending"
+}

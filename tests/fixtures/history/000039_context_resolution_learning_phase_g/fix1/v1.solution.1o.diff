@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_resolution_learning_phase_g"
+  revision "fix1"
+  sequence 5
+  solution "Add a scoped_weight_map_serde adapter to ContextResolutionLearningState.weights. Serialization emits ordered typed key/value pairs; deserialization reconstructs the BTreeMap while rejecting duplicate typed keys and any weight whose embedded key disagrees with the persistence key. Add a focused JSON roundtrip regression spanning Conversation, Task, and PrincipalSpecific scopes. Preserve all Phase G learning deltas, authority boundaries, Phase F execution semantics, and Phase H closure."
+}

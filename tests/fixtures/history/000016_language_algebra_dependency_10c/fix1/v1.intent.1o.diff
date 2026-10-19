@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_dependency_10c"
+  revision "fix1"
+  sequence 2
+  intent "Close the Mac-green 10C three-variable dependency milestone as accepted and make its checker safe for an additive 10D child without changing accepted 10C reasoning semantics."
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "domain_span_lattice_phase_j"
+  revision "base"
+  sequence 4
+  diagnosis "The correct Phase J boundary is a deterministic local constructor over the accepted boundary-preserving tokenizer and Phase I observations. Every token is retained; bounded overlapping phrase windows and clause spans are added; unit/entity/formula recognizers add typed span roles; domain evidence is accumulated by independent Phase I lineage; hypotheses are ranked per exact span; unknown spans remain in an unresolved set. Cross-domain bridges, context feedback, query classes, routes, execution, LLM calls, and learning remain later-phase authority."
+}

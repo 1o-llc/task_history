@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "language_algebra_polynomial_10e"
+  revision "base"
+  sequence 5
+  solution "Implement six nonlinear language families with 24 training/heldout problems; direct-factor and expand-normalize-factor tournament candidates plus an overfit control; exact integer-root factorization reconstruction; two inherited algebra factor proofs per problem; original-polynomial substitution; typed domain filtering; heldout family-schema promotion; durable idempotent state; and 76 focused regressions."
+}

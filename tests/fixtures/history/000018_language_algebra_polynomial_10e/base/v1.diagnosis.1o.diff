@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_polynomial_10e"
+  revision "base"
+  sequence 4
+  diagnosis "Add a quadratic construction layer and exact coefficient-level factorization verifier, tournament multiple normalization/factorization routes, reduce each factor to the accepted one-variable algebra kernel, substitute every candidate root into the original polynomial, and only then apply typed semantic domains such as positive length, nonnegative time, bounded demand adjustment, or unrestricted integer coordinate."
+}

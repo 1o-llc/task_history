@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "relationship_acquisition_9r"
+  revision "base"
+  sequence 8
+  path "RELATIONSHIP_ACQUISITION_9R_9Q_CARGO_NORMALIZED_SHA256.txt"
+  operation "add"
+  before_digest "none"
+  after_digest "d0e8053e1172b90deb6fa8d62efde476bb298c8abbbf22085de3d1825059710a"
+}

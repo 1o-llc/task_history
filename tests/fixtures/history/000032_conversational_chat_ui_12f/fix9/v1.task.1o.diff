@@ -1,0 +1,14 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "task"
+  task_id "conversational_chat_ui_12f"
+  revision "fix9"
+  sequence 1
+  title "12F Fix9 strict stderr diagnostic isolation"
+  parent_milestone "12f_fix8_superseded_mac_test_failure"
+  status "accepted"
+  tag "stderr_diagnostic_only"
+  tag "candidate_data_isolation"
+  tag "bounded_ui_errors"
+  tag "structured_ollama_transport"
+}

@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "language_algebra_polynomial_10e"
+  revision "base"
+  sequence 2
+  intent "Extend the accepted language-to-algebra stack beyond linear systems into exact factorable quadratics while preserving the existing algebra proof kernel as terminal proof authority, retaining all algebraic roots until direct substitution and semantic domain constraints determine which roots answer the word problem."
+}

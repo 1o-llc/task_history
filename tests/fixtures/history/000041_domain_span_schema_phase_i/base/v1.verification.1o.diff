@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "domain_span_schema_phase_i"
+  revision "base"
+  sequence 6
+  check "mac_domain_span_schema_phase_i_focused_acceptance"
+  outcome "pass"
+  note "Mac acceptance 2026-08-09: package SHA verified; typed-history preflight passed at 1445 tracked paths; Phase I isolated test dependency graph and workspace-boundary compile proofs passed; all accepted Context Phase A-H regressions remained green, including 10 Phase A, the ordinary-pronoun analyzer proof, 9 Phase B, 8 Phase C, 8 Phase D, 8 Phase E, four specialized arithmetic/rate/unit/chemistry executions, 8 Phase F, 9 Phase G, and 8 Phase H tests; all 5 of 5 focused Phase I schema tests passed for exact token boundaries/source digest, deterministic overlapping spans/hypotheses/bridge serialization, evidence-lineage deduplication, read-only context/KG references, and exact checkpoint replay; terminal typed-history Rust test passed; all final Phase I PASS markers printed, including no reasoning behavior change."
+}

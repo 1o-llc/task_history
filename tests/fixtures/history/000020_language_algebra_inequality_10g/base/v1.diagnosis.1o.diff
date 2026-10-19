@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "language_algebra_inequality_10g"
+  revision "base"
+  sequence 4
+  diagnosis "Inequalities require a different answer object and proof obligation than equations. Exact boundary roots are necessary but insufficient: the solver must track open/closed endpoints, sign direction on each interval, reversal under negative linear slope, intersections of simultaneous bounds, and denominator exclusions where the original rational expression is undefined."
+}

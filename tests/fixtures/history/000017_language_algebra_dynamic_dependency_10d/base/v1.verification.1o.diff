@@ -1,0 +1,10 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "verification"
+  task_id "language_algebra_dynamic_dependency_10d"
+  revision "base"
+  sequence 6
+  check "mac_10d_variable_size_dependency_acceptance"
+  outcome "fail"
+  note "Mac acceptance 2026-07-29 re-proved the accepted 10C Fix1 parent with 68/68 tests and terminal history, then 10D ran 85 focused tests: 84 passed and only coin_structure_selects_second_original_variable_first failed. The coin graph raw structural costs were eliminate v1=242 and v0=246, but the generic tournament utility integer-divided cost_units by 10, quantizing both to the same 24-point penalty and resolving the tie lexically to v0. This is a planner score-resolution bug, not an algebra/reconstruction failure."
+}

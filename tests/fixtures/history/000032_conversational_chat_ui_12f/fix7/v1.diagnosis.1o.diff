@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "conversational_chat_ui_12f"
+  revision "fix7"
+  sequence 4
+  diagnosis "Candidate evidence was present in memory and rendered, but interaction depended on narrow default collapsing headers with implicit widget state. The repair must provide explicit per-message and per-candidate state, a full-width hit target, default visibility for critical evidence, and bulk expand/collapse controls."
+}

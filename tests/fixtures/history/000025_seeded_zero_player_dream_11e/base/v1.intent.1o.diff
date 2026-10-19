@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "seeded_zero_player_dream_11e"
+  revision "base"
+  sequence 2
+  intent "Reuse the immutable personality seed as a deterministic zero-player variation source that selects temporary bounded cognitive modes without changing personality or bypassing ordinary scheduling and verification."
+}

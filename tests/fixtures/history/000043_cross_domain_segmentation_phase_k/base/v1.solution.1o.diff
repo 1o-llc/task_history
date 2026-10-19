@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "cross_domain_segmentation_phase_k"
+  revision "base"
+  sequence 5
+  solution "Add isolated world_model_cross_domain_segmentation_core over the accepted Phase J lattice. Reuse exact SourceSpanId and CrossDomainBridge types; require score thresholds plus overlap/adjacency/request/procedure/reference-cue structure; preserve component-domain hypotheses and unresolved spans; store bridge lineage digests, deterministic bridge decisions and cooperating domain components; keep raw source ephemeral; add exact checkpoint replay. Prove language+math, language+chemistry, chemistry+math+units, procedure+chemistry+math, local context-reference+chemistry, and a zero-false-split negative set. Re-run accepted A-J regressions before acceptance."
+}

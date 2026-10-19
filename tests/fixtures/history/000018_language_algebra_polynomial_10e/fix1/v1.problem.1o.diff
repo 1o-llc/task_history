@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "problem"
+  task_id "language_algebra_polynomial_10e"
+  revision "fix1"
+  sequence 3
+  problem "The Mac 10E base run re-proved the accepted 10D Fix1 parent and then failed at compile time with ten Rust E0560 errors because 10E instantiated ThoughtBudgetPolicy, ThoughtBudgetSnapshot, and ThoughtResourceDemand using obsolete field names that no longer exist in world_model_identity_curiosity_core."
+}

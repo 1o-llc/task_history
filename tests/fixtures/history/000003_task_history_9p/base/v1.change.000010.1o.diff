@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "task_history_9p"
+  revision "base"
+  sequence 13
+  path "tools/ecosystem/runtime_reuse/one_o_reference/lsp_validation_reference/validator.rs"
+  operation "modify"
+  before_digest "79ce60ef12540bc09c541c51fc784ea2381414cdd11ba523780647d9d1228f07"
+  after_digest "986e93d0169cf9b20b49f7dc0768ca44c1efe87d9dac7328897e04d17d386bfc"
+}

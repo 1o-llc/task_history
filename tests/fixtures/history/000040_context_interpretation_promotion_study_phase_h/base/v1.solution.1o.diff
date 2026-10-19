@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "solution"
+  task_id "context_interpretation_promotion_study_phase_h"
+  revision "base"
+  sequence 5
+  solution "Add an isolated Phase H study crate with the ten required held-out case kinds; eight required metrics; Phase G evidence snapshot aggregation; minimum repeated verified episodes, distinct scopes, and distinct scope kinds; negative-evidence cancellation; deterministic held-out evaluation; explicit eligible/rejected promotion gate; exact durable checkpoint roundtrip; held-out no-learning boundary; raw-text exclusion; and production_promotion_performed=false even when the gate passes. Re-run accepted Phase A-G and specialized execution regressions before Phase H acceptance."
+}

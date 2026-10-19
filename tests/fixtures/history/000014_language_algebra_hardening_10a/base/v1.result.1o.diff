@@ -1,0 +1,9 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "result"
+  task_id "language_algebra_hardening_10a"
+  revision "base"
+  sequence 7
+  status "failed_compile"
+  resulting_tree_digest "pending"
+}

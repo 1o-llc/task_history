@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "context_execution_verification_phase_f"
+  revision "base"
+  sequence 4
+  diagnosis "Reuse the accepted raw-question/local-operator kernel as execution authority, gate it with the selected candidate's stable operator reference, run a second fresh RawQuestionState as the independent verifier, compare typed family/value/unit/symbolic digests exactly, and only then record a LocalVerificationReceipt on the context candidate."
+}

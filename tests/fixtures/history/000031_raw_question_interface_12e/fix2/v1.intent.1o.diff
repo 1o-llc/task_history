@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "intent"
+  task_id "raw_question_interface_12e"
+  revision "fix2"
+  sequence 2
+  intent "Make the existing token, POS, word-association, statement-shape, semantic-composition, proposition, and proof machinery control the public raw-question construction path. Preserve every Mac-accepted 12E Fix1 specialized capability as fallback and prove direct ordinary arithmetic and proposition questions through the same ASK.command used by the person."
+}

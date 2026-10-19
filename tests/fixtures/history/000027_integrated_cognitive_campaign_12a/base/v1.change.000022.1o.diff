@@ -1,0 +1,11 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "change"
+  task_id "integrated_cognitive_campaign_12a"
+  revision "base"
+  sequence 29
+  path "history/000027_integrated_cognitive_campaign_12a/base/v1.diagnosis.1o.diff"
+  operation "add"
+  before_digest "none"
+  after_digest "1d5f99b6f7dd9ec70831f917eb6114070d4aaf12b97f50c75cbee57501a60c3a"
+}

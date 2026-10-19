@@ -1,0 +1,8 @@
+diff {
+  schema "nodeplan.1o.diff.v1"
+  record_kind "diagnosis"
+  task_id "bounded_autonomous_learning_study_12b"
+  revision "base"
+  sequence 4
+  diagnosis "Sustained autonomy should be tested by a standalone child harness over the accepted 12A campaign. The harness needs deterministic changing cycle seeds, periodic exact replay probes, cross-cycle canonical deduplication, bounded candidate and route registries, negative-knowledge accumulation, service accounting for all scheduler lanes, a rolling retained-cycle window with cryptographic condensation, bounded checkpoints, no stalled continuation seeds, and a split-run continuation proof equal to uninterrupted execution."
+}
