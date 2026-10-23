@@ -156,7 +156,19 @@ fn a_record_is_read_by_core_1o() {
     assert_eq!(parse_one_o_diff_text(name, &format!("{{\n{plain}}}\n")).unwrap().fields, doc.fields);
     let twice = plain.replace("  sequence 2\n", "  sequence 2\n  sequence 3\n");
     let e = parse_one_o_diff_text(name, &twice).unwrap_err();
-    assert!(e.contains("Key 'sequence' is written 2 times"), "{e}");
+    assert!(e.contains("field sequence must appear exactly once"), "{e}");
+}
+
+/// What 0.1.0 read, 0.1.2 reads: a diagnosis naming a change spec's operation (custodian_kit's exercise writes
+/// one), which the schema's `operation` enum (the change record's) would refuse. 0.1.1 checked the schema on read
+/// and refused it.
+#[test]
+fn a_record_the_schema_is_stricter_about_still_reads() {
+    let rec = DiffDocument::record(DiffRecordKind::Diagnosis).with("diagnosis", "d").with("code", "F1").with("operation", "add_field").with("unit", "item");
+    let dir = tempfile::tempdir().unwrap();
+    task(dir.path());
+    let written = write_record(dir.path(), "demo_task", "base", rec).unwrap();
+    assert_eq!(written.one("operation").unwrap(), "add_field");
 }
 
 /// Every record under `TASK_HISTORY_GOLDEN_CORPUS` (a copy of a project's `.custodian`) reads, and its fields,

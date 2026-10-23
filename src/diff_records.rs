@@ -285,14 +285,16 @@ fn legacy_fields(text: &str) -> Result<BTreeMap<String, Vec<String>>, String> {
 }
 
 /// A record's text read by core-1o (`diff { ... }`, the record at the top level, or
-/// wrapped as `{ diff { ... } }`) and checked against the shipped schema
-/// ([`crate::DIFF_SCHEMA_JSON`]: each kind's keys by `x-1o-required-when`, a key
-/// that is not `tag` written once); then the record's own rules
-/// ([`validate_diff_document`]). A record written before strings were escaped
+/// wrapped as `{ diff { ... } }`), then checked by the record's own rules
+/// ([`validate_diff_document`]), as 0.1.0 checked it. The shipped schema
+/// ([`crate::DIFF_SCHEMA_JSON`]) is the language server's: the loader does not
+/// check it, because its `operation` enum is the change record's and a writer may
+/// name another operation in another kind (custodian_kit's exercise writes a
+/// diagnosis with the change spec's operation). A record written before strings were escaped
 /// ([`written_before_escapes`]) is read as 0.1.0 read it. A value is kept as its text: a string as
 /// written, an unsigned integer in decimal, a bool as `true`/`false`.
 pub fn parse_one_o_diff_text(filename: &str, text: &str) -> Result<DiffDocument, String> {
-    use core_1o::engine::{validate_ast, EngineDiagnostic, Lexer, NodeValue, Parser};
+    use core_1o::engine::{EngineDiagnostic, Lexer, NodeValue, Parser};
     let parsed_name = parse_one_o_diff_filename(filename)?;
     if written_before_escapes(text) {
         let doc = DiffDocument { filename: parsed_name, fields: legacy_fields(text)?, document_digest: digest_hex(text.as_bytes()) };
@@ -304,12 +306,6 @@ pub fn parse_one_o_diff_text(filename: &str, text: &str) -> Result<DiffDocument,
         let d = EngineDiagnostic::from(&e);
         format!("line {}: {}", at(d.span.start), d.message)
     })?;
-    let schema: serde_json::Value = serde_json::from_str(crate::DIFF_SCHEMA_JSON).map_err(|e| e.to_string())?;
-    let mut diags = Vec::new();
-    validate_ast(&nodes, &schema, &mut diags);
-    if let Some(d) = diags.first() {
-        return Err(format!("line {}: {}", at(d.span.start), d.message));
-    }
     let [record] = nodes.as_slice() else { return Err("diff document must contain one diff { ... }".into()) };
     let NodeValue::Block(entries) = &record.value else { return Err("diff document must contain one diff { ... }".into()) };
     let mut fields: BTreeMap<String, Vec<String>> = BTreeMap::new();
