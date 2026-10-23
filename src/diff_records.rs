@@ -191,6 +191,8 @@ impl DiffDocument {
     }
 }
 
+/// A string value as task_history 0.1.0 read it: the line's text from its first
+/// quote to its last, the escapes `\\ \" \n \t \r` read, any other quote kept.
 fn parse_quoted(input: &str) -> Result<String, String> {
     if !input.starts_with('"') || !input.ends_with('"') || input.len() < 2 {
         return Err("string value must be quoted".into());
@@ -216,8 +218,29 @@ fn parse_quoted(input: &str) -> Result<String, String> {
     Ok(out)
 }
 
-pub fn parse_one_o_diff_text(filename: &str, text: &str) -> Result<DiffDocument, String> {
-    let parsed_name = parse_one_o_diff_filename(filename)?;
+/// Whether a record is in a form only 0.1.0's line reading takes: a line's string
+/// value holds a double quote with no backslash before it (written before strings
+/// were escaped; core-1o ends the string at that quote), or a `#` line (0.1.0 skipped
+/// it; 1o's comments are `//` and `/* */`). Such a record is read as 0.1.0 read it,
+/// line by line ([`legacy_fields`]); every other record is core-1o's.
+fn written_before_escapes(text: &str) -> bool {
+    text.lines().any(|l| l.trim_start().starts_with('#')) || text.lines().filter_map(|l| l.trim().split_once(char::is_whitespace)).any(|(_, v)| {
+        let v = v.trim();
+        let Some(inner) = v.strip_prefix('"').and_then(|v| v.strip_suffix('"')) else { return false };
+        let mut backslashes = 0;
+        for c in inner.chars() {
+            match c {
+                '"' if backslashes % 2 == 0 => return true,
+                '\\' => backslashes += 1,
+                _ => backslashes = 0,
+            }
+        }
+        false
+    })
+}
+
+/// A record's fields read line by line, as task_history 0.1.0 read every record.
+fn legacy_fields(text: &str) -> Result<BTreeMap<String, Vec<String>>, String> {
     let mut fields: BTreeMap<String, Vec<String>> = BTreeMap::new();
     let mut opened = false;
     let mut closed = false;
@@ -257,6 +280,47 @@ pub fn parse_one_o_diff_text(filename: &str, text: &str) -> Result<DiffDocument,
     }
     if !opened || !closed {
         return Err("diff document must contain balanced diff { ... }".into());
+    }
+    Ok(fields)
+}
+
+/// A record's text read by core-1o (`diff { ... }`, the record at the top level, or
+/// wrapped as `{ diff { ... } }`) and checked against the shipped schema
+/// ([`crate::DIFF_SCHEMA_JSON`]: each kind's keys by `x-1o-required-when`, a key
+/// that is not `tag` written once); then the record's own rules
+/// ([`validate_diff_document`]). A record written before strings were escaped
+/// ([`written_before_escapes`]) is read as 0.1.0 read it. A value is kept as its text: a string as
+/// written, an unsigned integer in decimal, a bool as `true`/`false`.
+pub fn parse_one_o_diff_text(filename: &str, text: &str) -> Result<DiffDocument, String> {
+    use core_1o::engine::{validate_ast, EngineDiagnostic, Lexer, NodeValue, Parser};
+    let parsed_name = parse_one_o_diff_filename(filename)?;
+    if written_before_escapes(text) {
+        let doc = DiffDocument { filename: parsed_name, fields: legacy_fields(text)?, document_digest: digest_hex(text.as_bytes()) };
+        validate_diff_document(&doc)?;
+        return Ok(doc);
+    }
+    let at = |offset: usize| text.chars().take(offset).filter(|c| *c == '\n').count() + 1;
+    let nodes = Parser::new(Lexer::new(text).tokenize()).parse().map_err(|e| {
+        let d = EngineDiagnostic::from(&e);
+        format!("line {}: {}", at(d.span.start), d.message)
+    })?;
+    let schema: serde_json::Value = serde_json::from_str(crate::DIFF_SCHEMA_JSON).map_err(|e| e.to_string())?;
+    let mut diags = Vec::new();
+    validate_ast(&nodes, &schema, &mut diags);
+    if let Some(d) = diags.first() {
+        return Err(format!("line {}: {}", at(d.span.start), d.message));
+    }
+    let [record] = nodes.as_slice() else { return Err("diff document must contain one diff { ... }".into()) };
+    let NodeValue::Block(entries) = &record.value else { return Err("diff document must contain one diff { ... }".into()) };
+    let mut fields: BTreeMap<String, Vec<String>> = BTreeMap::new();
+    for e in entries {
+        let value = match &e.value {
+            NodeValue::String(s) => s.clone(),
+            NodeValue::Number(n) => n.to_string(),
+            NodeValue::Bool(b) => b.to_string(),
+            _ => return Err(format!("line {}: value must be quoted string, bool, or unsigned integer", at(e.span.start))),
+        };
+        fields.entry(e.key.clone()).or_default().push(value);
     }
     let doc = DiffDocument { filename: parsed_name, fields, document_digest: digest_hex(text.as_bytes()) };
     validate_diff_document(&doc)?;

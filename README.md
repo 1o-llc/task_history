@@ -61,12 +61,15 @@ write_index("history")?;
 ## The schema
 
 `schema/diff/v1.schema.json` (`DIFF_SCHEMA_JSON`) declares the `diff`
-modifier for core-1o, so language-server-1o can check a record. Two things it
-cannot say: which keys each kind needs (core-1o's schemas have no
-conditionals; the loader checks them), and the file's own shape. A record is
-`diff { ... }` with escapes and `#` comments, and core-1o's parser reads only a
-top-level `{ ... }` block with no escapes, so a record file is checked once it
-is wrapped as `{ diff { ... } }`.
+modifier for core-1o 0.2, and the loader reads every record through it: core-1o
+parses the file as it is written (`diff { ... }`, the record at the top level)
+and checks it against the schema, then `validate_diff_document` checks what the
+schema cannot (the schema name, digests, revision names). The schema says which
+keys each kind needs (`x-1o-required-when`, from `DiffRecordKind::required`),
+what each kind is (`enumDescriptions`), that `tag` repeats and every other key is
+written once (`x-1o-single-keys`). A record written before strings were escaped
+(a bare double quote inside a string) or with a `#` line is not 1o; it is read
+line by line as 0.1.0 read it, so every history already written loads the same.
 
 ## The fixture
 

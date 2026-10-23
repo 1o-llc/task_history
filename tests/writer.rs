@@ -110,23 +110,93 @@ fn the_diff_schema_as_core_1o_reads_it() {
             assert!(props.get(*f).is_some(), "{f} of {} is declared", k.as_str());
         }
     }
-    // a record wrapped as core-1o reads a document ({ diff { ... } }) validates against it
+    // the file as it is written (diff { ... }, the record at the top level) is a document core-1o 0.2 reads and
+    // validates; the older wrapped form ({ diff { ... } }) reads the same
     let rec = DiffDocument::record(DiffRecordKind::Verification).with("check", "tests").with("outcome", "pass");
     let dir = tempfile::tempdir().unwrap();
     task(dir.path());
     let written = write_record(dir.path(), "demo_task", "base", rec).unwrap();
     let text = written.render();
-    let wrapped = format!("{{\n{text}}}\n");
-    let nodes = core_1o::engine::Parser::new(core_1o::engine::Lexer::new(&wrapped).tokenize()).parse().unwrap();
-    let mut diags = Vec::new();
-    core_1o::engine::validate_ast(&nodes, &schema, &mut diags);
-    assert!(diags.is_empty(), "{diags:?}");
-    let bad = wrapped.replace("\"pass\"", "\"maybe\"");
-    let nodes = core_1o::engine::Parser::new(core_1o::engine::Lexer::new(&bad).tokenize()).parse().unwrap();
-    let mut diags = Vec::new();
-    core_1o::engine::validate_ast(&nodes, &schema, &mut diags);
-    assert!(diags.iter().any(|d| d.message.contains("allowed enum values")), "{diags:?}");
-    // the file as it is written (diff { ... }, no outer block) is not a document core-1o's parser reads
-    let nodes = core_1o::engine::Parser::new(core_1o::engine::Lexer::new(&text).tokenize()).parse().unwrap();
-    assert!(nodes.is_empty(), "core-1o reads a top-level block only");
+    let validate = |t: &str| {
+        let nodes = core_1o::engine::Parser::new(core_1o::engine::Lexer::new(t).tokenize()).parse().unwrap();
+        let mut diags = Vec::new();
+        core_1o::engine::validate_ast(&nodes, &schema, &mut diags);
+        (nodes, diags.into_iter().map(|d| d.message).collect::<Vec<_>>())
+    };
+    let (bare, found) = validate(&text);
+    assert!(found.is_empty(), "{found:?}");
+    let (wrapped, found) = validate(&format!("{{\n{text}}}\n"));
+    assert!(found.is_empty(), "{found:?}");
+    assert_eq!(bare.len(), 1);
+    assert_eq!(bare[0].key, wrapped[0].key);
+    let (_, found) = validate(&text.replace("\"pass\"", "\"maybe\""));
+    assert!(found.iter().any(|m| m.contains("allowed enum values")), "{found:?}");
+    // each kind's keys are the schema's to say (x-1o-required-when), as DiffRecordKind::required says them
+    let when = &schema["properties"]["diff"]["x-1o-required-when"]["record_kind"];
+    for k in DiffRecordKind::ALL {
+        let said: Vec<&str> = when[k.as_str()].as_array().unwrap().iter().map(|v| v.as_str().unwrap()).collect();
+        assert_eq!(said, k.required(), "{}", k.as_str());
+    }
+    let (_, found) = validate(&text.replace("  outcome \"pass\"\n", ""));
+    assert_eq!(found, vec!["Missing required key 'outcome' for record_kind 'verification'".to_string()]);
+}
+
+/// The loader reads a record through core-1o: escapes, comments and the wrapped form read as the hand parser
+/// read the plain form, and a key written twice that takes one value is refused by the schema.
+#[test]
+fn a_record_is_read_by_core_1o() {
+    let name = "v1.intent.1o.diff";
+    let plain = "diff {\n  schema \"nodeplan.1o.diff.v1\"\n  record_kind \"intent\"\n  task_id \"t\"\n  revision \"base\"\n  sequence 2\n  intent \"Who reads \\\"NODEPLAN_*\\\"?\\nA second line.\"\n}\n";
+    let doc = parse_one_o_diff_text(name, plain).unwrap();
+    assert_eq!(doc.one("intent").unwrap(), "Who reads \"NODEPLAN_*\"?\nA second line.");
+    assert_eq!(doc.one("sequence").unwrap(), "2");
+    assert_eq!(parse_one_o_diff_text(name, &doc.render()).unwrap().fields, doc.fields);
+    let commented = plain.replace("  sequence 2\n", "  // the second record\n  sequence 2 /* of two */\n");
+    assert_eq!(parse_one_o_diff_text(name, &commented).unwrap().fields, doc.fields);
+    assert_eq!(parse_one_o_diff_text(name, &format!("{{\n{plain}}}\n")).unwrap().fields, doc.fields);
+    let twice = plain.replace("  sequence 2\n", "  sequence 2\n  sequence 3\n");
+    let e = parse_one_o_diff_text(name, &twice).unwrap_err();
+    assert!(e.contains("Key 'sequence' is written 2 times"), "{e}");
+}
+
+/// Every record under `TASK_HISTORY_GOLDEN_CORPUS` (a copy of a project's `.custodian`) reads, and its fields,
+/// rendered and read again, are the same.
+#[test]
+fn every_record_of_a_corpus_reads() {
+    let Ok(root) = std::env::var("TASK_HISTORY_GOLDEN_CORPUS") else { return };
+    let mut n = 0;
+    let mut stack = vec![std::path::PathBuf::from(root)];
+    while let Some(d) = stack.pop() {
+        for e in fs::read_dir(&d).unwrap().flatten() {
+            let p = e.path();
+            if p.is_dir() {
+                stack.push(p);
+            } else if p.to_string_lossy().ends_with(".1o.diff") {
+                let text = fs::read_to_string(&p).unwrap();
+                let name = p.file_name().unwrap().to_str().unwrap();
+                let doc = parse_one_o_diff_text(name, &text).unwrap_or_else(|e| panic!("{}: {e}", p.display()));
+                assert_eq!(parse_one_o_diff_text(name, &doc.render()).unwrap().fields, doc.fields, "{}", p.display());
+                n += 1;
+            }
+        }
+    }
+    eprintln!("{n} records read");
+    assert!(n > 0);
+}
+
+/// A record 0.1.0 read that 1o cannot carry (a string holding a bare double quote, written before strings were
+/// escaped; a `#` line) is read as 0.1.0 read it, so every history already written still loads the same.
+#[test]
+fn a_record_written_before_escapes_reads_as_it_did() {
+    let name = "v1.solution.1o.diff";
+    let head = "diff {\n  schema \"nodeplan.1o.diff.v1\"\n  record_kind \"solution\"\n  task_id \"t\"\n  revision \"base\"\n  sequence 3\n";
+    let bare = format!("{head}  solution \"use \"{{}}\", p.problem_id\"\n}}\n");
+    assert_eq!(parse_one_o_diff_text(name, &bare).unwrap().one("solution").unwrap(), "use \"{}\", p.problem_id");
+    let hashed = format!("{head}  # an old label\n  solution \"s\"\n}}\n");
+    assert_eq!(parse_one_o_diff_text(name, &hashed).unwrap().one("solution").unwrap(), "s");
+    // written again, the record is 1o core-1o reads
+    let doc = parse_one_o_diff_text(name, &bare).unwrap();
+    let nodes = core_1o::engine::Parser::new(core_1o::engine::Lexer::new(&doc.render()).tokenize()).parse().unwrap();
+    assert_eq!(nodes.len(), 1);
+    assert_eq!(parse_one_o_diff_text(name, &doc.render()).unwrap().fields, doc.fields);
 }
