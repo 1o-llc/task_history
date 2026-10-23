@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.1.2 (2026-10-23)
+
+0.1.1 checked each record against the shipped schema as it read it, and that
+refused a record 0.1.0 read: custodian_kit's exercise writes a diagnosis naming
+the change spec's operation (`operation "add_field"`), and the schema's
+`operation` enum is the change record's (`add`, `modify`, `remove`, `rename`).
+The loader is back to its own rules. Nothing is added to or removed from the API.
+Links are pinned to 272c12f; the line it replaces to 59022f9 (0.1.1).
+
+- **The loader checks a record as 0.1.0 did.** `parse_one_o_diff_text`
+  ([diff_records.rs L296](https://github.com/1o-llc/task_history/blob/272c12fe40ca6ec8ec503af90ede206acfce279c/src/diff_records.rs#L296)) parses with core-1o,
+  then `validate_diff_document`; it no longer runs the schema's validator
+  ([diff_records.rs L309](https://github.com/1o-llc/task_history/blob/59022f93c50d81544608c35d8f7da956f0bdfcdb/src/diff_records.rs#L309)). The schema stays the
+  language server's. A single key written twice is still refused, by
+  `DiffDocument::one`. Test: `a_record_the_schema_is_stricter_about_still_reads`
+  (tests/writer.rs). The two corpora read the same under 0.1.0 and 0.1.2 (3,492
+  and 11,061 records, every field and digest).
+
+Proof: `cargo test` (49 kept tests, 9 writer tests).
+
 ## 0.1.1 (2026-10-23)
 
 core-1o 0.2 reads what this crate writes: a record at the top level, strings with
